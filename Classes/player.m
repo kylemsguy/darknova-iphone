@@ -6876,23 +6876,18 @@ sellCargoViewController * opponentViewControllerInstance;
 	
 	for (i=0; i<MAXSHIELDTYPE+EXTRASHIELDS; ++i)
 	{
-		j = 0;
+		int shieldQty = 0;
 		for (k=0; k<MAXSHIELD; ++k)
 		{
 			if (ship.Shield[k] == i)
-				++j;
+				++shieldQty;
 		}
-		if (j > 0)
+		if (shieldQty > 0)
 		{ 
 			[header appendString:[NSString stringWithCString:Shieldtype[i].Name]];
+			[header appendString:[NSString stringWithFormat:@" (%i)", shieldQty]];
 			[header appendString:@"\n"];
 		}
-		
-		//			SBuf[0] = '\0';
-		//			SBufMultiples( j, Shieldtype[i].Name );
-		//			StrToLower( SBuf2, SBuf );
-		//			DrawChars( SBuf2, 60, Line );		
-		//			Line += 14;
 	}
 	
 	for (i=0; i<MAXGADGETTYPE+EXTRAGADGETS; ++i)
