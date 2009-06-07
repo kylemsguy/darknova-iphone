@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface helpViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface helpViewController : UIViewController {
 	IBOutlet UIWebView*		webView;
 }
 

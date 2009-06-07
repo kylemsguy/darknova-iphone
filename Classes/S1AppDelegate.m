@@ -222,6 +222,7 @@ bool bStartNewGame;
 
 -(void)dealloc {
 	[window release];
+	[gamePlayer release];
 	[super dealloc];
 }
 
