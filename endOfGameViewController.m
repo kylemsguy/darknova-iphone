@@ -53,6 +53,7 @@
 
 	if (highScore) {
 		UIViewController* highScores = [[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil];;
+		[highScores autorelease];
 		[app.navigationController pushViewController:highScores animated:TRUE];
 		
 	}
