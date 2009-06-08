@@ -22,8 +22,11 @@
 @synthesize mainToolbar;
 @synthesize gameView;
 @synthesize mainBankViewController;
-@synthesize gamePlayer, isGameLoaded, gameOptionsButton;
-@synthesize shipInfoController, buyShipController;
+@synthesize gamePlayer;
+@synthesize isGameLoaded;
+@synthesize gameOptionsButton;
+@synthesize shipInfoController;
+@synthesize buyShipController;
 
 bool bStartNewGame;
 - (void)applicationDidFinishLaunching:(UIApplication *)application {	
@@ -221,8 +224,16 @@ bool bStartNewGame;
 }
 
 -(void)dealloc {
-	[window release];
+	[shipInfoController release];
+	[buyShipController release];
+	[gameOptionsButton release];
 	[gamePlayer release];
+	[mainBankViewController release];
+	[gameView release];
+	[mainToolbar release];
+	[navigationController release];
+	[commandView release];
+	[window release];
 	[super dealloc];
 }
 

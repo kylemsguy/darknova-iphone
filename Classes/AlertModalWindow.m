@@ -1,17 +1,10 @@
-//
-//  AlertModalWindow.m
-//  S1
-//
-//  Created by Alexey Medvedev on 08.10.08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-
 #import "AlertModalWindow.h"
 
 
 @implementation AlertModalWindow
 
-@synthesize myTextField, pressedButton;
+@synthesize myTextField;
+@synthesize pressedButton;
 
 +(void)initialize
 {
@@ -31,13 +24,11 @@
 	CGAffineTransform myTransform = CGAffineTransformMakeTranslation(0.0, 60.0);
 	[self setTransform:myTransform];	
 	
-	//[myAlertView show];
-	//[myAlertView release];
 	return self;
 }
 
 -(void)dealloc {
-	//[myTextField dealloc];
+	[myTextField release];
 	[super dealloc];
 }
 

@@ -1,11 +1,3 @@
-//
-//  OptionsCell.m
-//  S1
-//
-//  Created by Alexey Medvedev on 15.12.08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-
 #import "OptionsCell.h"
 #import "OptionsProtocol.h"
 #define kCellHeight	25.0
@@ -16,7 +8,8 @@ NSString *oDisplayCell_ID = @"oDisplayCell_ID";
 
 @implementation OptionsCell
 
-@synthesize comment, isEnabled;
+@synthesize comment;
+@synthesize isEnabled;
 
 #define kSwitchButtonWidth		94.0
 #define kSwitchButtonHeight		27.0
@@ -108,8 +101,8 @@ NSString *oDisplayCell_ID = @"oDisplayCell_ID";
 
 
 - (void)dealloc {
-	[comment dealloc];
-	[isEnabled dealloc];
+	[comment release];
+	[isEnabled release];
 	[textField dealloc];
     [super dealloc];
 }
