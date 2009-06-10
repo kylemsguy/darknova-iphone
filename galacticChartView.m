@@ -296,9 +296,10 @@
 	// Check to see which view, or views,  the point is in and then move to that position.
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	
-	int i, index;
+	int i/*, index*/;
 	
-	index = [app.gamePlayer getCurrentSystemIndex ];//COMMANDER.CurSystem;
+	//Changed
+	//index = [app.gamePlayer getCurrentSystemIndex ];//COMMANDER.CurSystem;
 
 	{
 		i = 0;

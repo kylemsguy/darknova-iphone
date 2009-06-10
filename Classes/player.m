@@ -2562,7 +2562,7 @@ bool bDummyAlert;
 	countDown = STARTCOUNTDOWN;
 	if ([self wormholeExists:currentSystem b:warpSystem]  || viaSingularity)
 	{
-		Distance = 0;
+		//Distance = 0;
 		arrivedViaWormhole = true;
 	}
 	else
@@ -4094,7 +4094,7 @@ typedef enum {
 		autoFlee = false;
 	}
 	
-	NSString * str;
+	NSString * str = @"";
 	if (ENCOUNTERPOLICE( PrevencounterType ))
 	 	str =@"police ship";
 	else if (ENCOUNTERPIRATE( PrevencounterType ))
@@ -4991,7 +4991,8 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 -(NSString*)getShipImageName:(Byte)index {
-	return [[NSString stringWithCString:ShipImages[index]] retain];		
+//	return [[NSString stringWithCString:ShipImages[index]] retain];		
+	return [NSString stringWithCString:ShipImages[index]];		
 }
 
 -(NSString*)getShipImageNameBg:(Byte)index {
@@ -4999,11 +5000,13 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 -(NSString*)getShipDamagedImageName:(Byte)index;{
-	return [[NSString stringWithCString:ShipImagesDamaged[index]] retain];			
+//	return [[NSString stringWithCString:ShipImagesDamaged[index]] retain];			
+	return [NSString stringWithCString:ShipImagesDamaged[index]];			
 }
 
 -(NSString*)getShipShieldImageName:(Byte)index {
-	return [[NSString stringWithCString:ShipImagesShield[index]] retain];			
+//	return [[NSString stringWithCString:ShipImagesShield[index]] retain];			
+	return [NSString stringWithCString:ShipImagesShield[index]];			
 }
 
 -(NSString*)getShipSize:(Byte)index {
@@ -5884,7 +5887,8 @@ sellCargoViewController * opponentViewControllerInstance;
 		
 		[self Travel];
 		[encounterViewControllerInstance showEncounterWindow];
-		button = -1;
+		// DUKE Says:  Not used and making clang complain.
+		//button = -1;
 		return;
 	}
 	
@@ -6433,7 +6437,11 @@ sellCargoViewController * opponentViewControllerInstance;
 		{
 			str=@"illegal goods";
 		}
-		
+		// DUKE Says:  Since this is not being used maybe should take out all the stuff
+		// setting it.  Don't know if there are plans for future use of the above stuff
+		// so I just do a reassign to clear some warnings from clang.
+		str = str;
+		str2 = str2;
 		currentState = eSubmit;			
 		// take the cargo of the Marie Celeste?
 		UIAlertView * myAlertView = [[UIAlertView alloc] initWithTitle:@"Encounter" message:
@@ -8191,6 +8199,8 @@ NSString * SoundsList[] = {
 		id sndpath = [[NSBundle mainBundle] pathForResource:SoundsList[i] ofType:@"caf" inDirectory:@"/"];
 		CFURLRef baseURL = (CFURLRef)[[NSURL alloc] initFileURLWithPath:sndpath];
 		AudioServicesCreateSystemSoundID (baseURL, &sound[i]);				
+
+		[(NSURL*)baseURL release];
 	}
 	sound[19] = kSystemSoundID_Vibrate;
 
@@ -8655,7 +8665,8 @@ NSString * SoundsList[] = {
 	if ([self toSpend] < SpecialEvent[CURSYSTEM.Special].Price)
 	{
 		[self FrmAlert:@"NotEnoughForEventAlert"];
-		handled = true;
+		//Changed
+		//handled = true;
 		[systemInfoController UpdateView];
 		return;
 	}

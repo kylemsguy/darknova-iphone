@@ -138,8 +138,9 @@ bool bStartNewGame;
 	
 	helloWindowViewController * helloWindow = [[helloWindowViewController alloc] initWithNibName:@"helloWindow" bundle:nil];
 	NSArray* arr = [NSArray arrayWithObjects:helloWindow, nil];
-//	[helloWindow release];
-	self.navigationController.viewControllers = arr;
+	//self.navigationController.viewControllers = arr;
+	[self.navigationController setViewControllers:arr];
+	[helloWindow release];
 }
 
 -(void)switchBarToGame

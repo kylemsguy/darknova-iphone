@@ -53,20 +53,20 @@
 		{
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getCurrentShipType]];
 			fullDamage = [UIImage imageNamed: tmp];
-			[tmp release];
+			//[tmp release];
 			tmp = [app.gamePlayer getShipShieldImageName:[app.gamePlayer getCurrentShipType]];
 			fullHull = [UIImage imageNamed:tmp];
-			[tmp release];
+			//[tmp release];
 			
 		}
 		else
 		{
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getShipOpponentType]];
 			fullDamage = [UIImage imageNamed:tmp];
-			[tmp release];
+			//[tmp release];
 			tmp = [app.gamePlayer getShipShieldImageName:[app.gamePlayer getShipOpponentType]];
 			fullHull = [UIImage imageNamed:tmp];
-			[tmp release];
+			//[tmp release];
 		}
 		
 	}
@@ -77,19 +77,19 @@
 		{
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getCurrentShipType]];
 			fullHull = [UIImage imageNamed:tmp];
-			[tmp release];			
+			//[tmp release];			
 			tmp = [app.gamePlayer getShipDamagedImageName:[app.gamePlayer getCurrentShipType]];
 			fullDamage = [UIImage imageNamed:tmp];
-			[tmp release];			
+			//[tmp release];			
 		}
 		else
 		{
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getShipOpponentType]];
 			fullHull = [UIImage imageNamed:tmp];
-			[tmp release];			
+			//[tmp release];			
 			tmp = [app.gamePlayer getShipDamagedImageName:[app.gamePlayer getShipOpponentType]];
 			fullDamage = [UIImage imageNamed:tmp];
-			[tmp release];	
+			//[tmp release];	
 		}
 		
 	}
