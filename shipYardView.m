@@ -132,11 +132,10 @@
 -(IBAction) buyFuel {
 	mode = 1;
 	NSString * message = [NSString stringWithFormat:@"How much do you want to spend on fuel?"];	
-	AlertModalWindow * myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Buy Fuel" yoffset:90 message:message  
-																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"];
+	AlertModalWindow * myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Buy Fuel" yoffset:90 message:message  
+																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"] autorelease];
 	
 	[myAlertView show];
-	[myAlertView release];
 }
 
 -(IBAction) buyFullFuel {
@@ -148,14 +147,10 @@
 -(IBAction) buyRepair {
 	mode = 2;
 	NSString * message = [NSString stringWithFormat:@"How much do you want to spend on repairs?"];	
-	AlertModalWindow * myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Repairs" yoffset:90 message:message  
-																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"];
+	AlertModalWindow * myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Repairs" yoffset:90 message:message  
+																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"] autorelease];
 	
 	[myAlertView show];
-	[myAlertView release];
-	
-	
-	//[self UpdateView];
 }
 
 -(IBAction) buyFullRepair {
@@ -167,11 +162,9 @@
 -(IBAction) buyNewShip {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (app.buyShipController == 0)
-	app.buyShipController = [[buyShipViewController alloc] initWithNibName:@"buyShip" bundle:nil];
+	app.buyShipController = [[[buyShipViewController alloc] initWithNibName:@"buyShip" bundle:nil] autorelease];
 
 	[app.navigationController pushViewController:app.buyShipController animated:YES];
-	
-	
 }
 
 -(IBAction) buyEscapePod {
