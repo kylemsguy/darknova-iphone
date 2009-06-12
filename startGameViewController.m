@@ -21,10 +21,9 @@
 	}
 	else {
 		// open an alert with just an OK button
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"More Skill Points" message:@"You haven't awarded all 20 skill points yet."
-													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"More Skill Points" message:@"You haven't awarded all 20 skill points yet."
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil] autorelease];
 		[alert show];	
-		[alert release];		
 	}
 	
 }
