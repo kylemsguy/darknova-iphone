@@ -91,8 +91,9 @@
 -(void)ShowShipInfo:(int)ship
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	if (app.shipInfoController == 0)
-		app.shipInfoController = [[shipInfoViewController alloc] initWithNibName:@"shipInfo" bundle:nil];
+	if (app.shipInfoController == 0) {
+		app.shipInfoController = [[[shipInfoViewController alloc] initWithNibName:@"shipInfo" bundle:nil] autorelease];
+	}
 	
 	[app.shipInfoController setShip:ship];
 	[app.navigationController pushViewController:app.shipInfoController animated:YES];	
