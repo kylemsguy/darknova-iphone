@@ -108,9 +108,8 @@
 {
 	numSellItem = index;
 
-	UIAlertView * view = [[UIAlertView alloc] initWithTitle:@"Sell Equipment" message:@"Are you sure you want to sell this item?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+	UIAlertView * view = [[[UIAlertView alloc] initWithTitle:@"Sell Equipment" message:@"Are you sure you want to sell this item?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil] autorelease];
 	[view show];	
-	[view  release];
 }
 
 -(IBAction) sellWeapon0
