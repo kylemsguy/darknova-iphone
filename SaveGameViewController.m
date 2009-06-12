@@ -125,11 +125,9 @@
 {
 	self.title =@"Save Game";
 	loadMode = false;	
-	UIBarButtonItem *systemItem = [[UIBarButtonItem alloc]
+	UIBarButtonItem *systemItem = [[[UIBarButtonItem alloc]
 								   initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-								   target:self action:@selector(action:)];
-//	NSArray * arr = [NSArray arrayWithObjects:systemItem, nil];
-//	[self.navigationController.tabBarController setItems:arr];
+								   target:self action:@selector(action:)] autorelease];
 	self.navigationItem.rightBarButtonItem = systemItem;
 	[self UpdateTable];
 }
