@@ -165,14 +165,10 @@
 
 -(IBAction)findSystem
 {
-	AlertModalWindow * myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Find System" yoffset:90 message:@"Which system are you looking for?\n\n\n\n"  
-																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"Tracking"];
+	AlertModalWindow * myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Find System" yoffset:90 message:@"Which system are you looking for?\n\n\n\n"  
+																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"Tracking"] autorelease];
 	
 	[myAlertView show];
-	
-	
-	[myAlertView release];
-	
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex  // after animation
