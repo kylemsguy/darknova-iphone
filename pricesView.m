@@ -102,14 +102,10 @@
 	activeTradeItem = num;	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	NSString * message = [NSString stringWithFormat:@"At %i cr. each, you can afford %i. \nHow many do you want to buy?\n\n",[app.gamePlayer getBuyPrice:activeTradeItem],  itemsMax[activeTradeItem]];
-	AlertModalWindow * myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Buy Items" yoffset:90 message:message  
-																	delegate:self cancelButtonTitle:@"None" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"];
+	AlertModalWindow * myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Buy Items" yoffset:90 message:message  
+																	delegate:self cancelButtonTitle:@"None" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"] autorelease];
 	
 	[myAlertView show];
-	
-	
-	[myAlertView release];
-	
 }
 
 
