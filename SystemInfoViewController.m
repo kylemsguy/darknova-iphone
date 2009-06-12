@@ -92,14 +92,11 @@
 		[app.gamePlayer FrmAlert:@"CantAffordPaperAlert"];
 		else {
 			if (!app.gamePlayer.newsAutoPay && !app.gamePlayer.alreadyPaidForNewspaper) {
-				UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Buy newspaper?" message:[NSString stringWithFormat:@"The local newspaper costs %i credits. Do you wish to buy a copy?", 
-																									app.gamePlayer.gameDifficulty + 1] delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Buy", nil];
+				UIAlertView * alert = [[[UIAlertView alloc] initWithTitle:@"Buy newspaper?" message:[NSString stringWithFormat:@"The local newspaper costs %i credits. Do you wish to buy a copy?", 
+																									 app.gamePlayer.gameDifficulty + 1] delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Buy", nil] autorelease];
 				[alert show];
-				[alert release];
 			} else 
-//				if (app.gamePlayer.newsAutoPay)
-					[self showNewsView];
-			
+				[self showNewsView];
 	}
 }
 

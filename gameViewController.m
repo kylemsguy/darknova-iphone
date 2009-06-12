@@ -21,10 +21,10 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 	//
 	menuList = [[NSMutableArray alloc] init];
 
-	optionsViewController *optionsViewControllerInst = [[optionsViewController alloc] initWithNibName:@"options1" bundle:nil];;
-	UIViewController *saveGameViewController = [[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil];;
-	UIViewController* helpViewControllerInst = [[helpViewController alloc] initWithNibName:@"help" bundle:nil];;
-	UIViewController* highScores = [[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil];;
+	optionsViewController *optionsViewControllerInst = [[[optionsViewController alloc] initWithNibName:@"options1" bundle:nil] autorelease];
+	UIViewController *saveGameViewController = [[[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil] autorelease];
+	UIViewController *helpViewControllerInst = [[[helpViewController alloc] initWithNibName:@"help" bundle:nil] autorelease];
+	UIViewController *highScores = [[[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
 	
 	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
 						 NSLocalizedString(@"Options", @""), @"title",
@@ -61,9 +61,6 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 						 nil, @"viewController",
 						 nil]];	
 
-	
-//	[optionsViewController release];
-	
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -130,9 +127,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 		case 1:{
 					SaveGameViewController *targetViewController = (SaveGameViewController *)[[menuList objectAtIndex: indexPath.row] objectForKey:@"viewController"];
 					[[self navigationController] pushViewController:targetViewController animated:YES];		
-					//		[app.window addSubview:targetViewController.view];
 					[targetViewController setSaveGameMode];
-					//		[targetViewController release];
 				}
 			break;
 		case 2:
@@ -152,10 +147,8 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 		case 4:
 		{	
 
-			UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Retire" message:@"Are you really want to retire?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+			UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Retire" message:@"Are you really want to retire?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil] autorelease];
 			[alert show];	
-			[alert release];
-
 		}
 			break;
 		case 5: 

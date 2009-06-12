@@ -64,13 +64,9 @@
 
 	NSString * message = [NSString stringWithFormat:@"Mercenaries: %i cr.\nInsurance: %i cr.\nInterest: %i cr.\nWormhole Tax: %i cr.\n\nTotal: %i cr.",
 						  [app.gamePlayer mercenaryMoney], [app.gamePlayer insuranceMoney], IncDebt,  [app.gamePlayer WormholeTax:app.gamePlayer.currentSystem  b:app.gamePlayer.warpSystem], cost];
-	UIAlertView * myAlertView = [[UIAlertView alloc] initWithTitle:@"Specification" message:message  
-														  delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil ];
+	UIAlertView * myAlertView = [[[UIAlertView alloc] initWithTitle:@"Specification" message:message delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] autorelease];
 	
 	[myAlertView show];
-	
-	
-	[myAlertView release];	
 }
 
 @end
