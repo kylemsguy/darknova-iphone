@@ -73,17 +73,10 @@
 	activeTradeItem = num;	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	NSString * message = [NSString stringWithFormat:@"At %i cr. each, you can afford %i. \nHow many do you want to buy?\n\n\n\n",[app.gamePlayer getBuyPrice:activeTradeItem],  buyCargoViewValue[activeTradeItem]];
-	AlertModalWindow * myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Buy Items" yoffset:90 message:message  
-																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"Max"];
+	AlertModalWindow * myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Buy Items" yoffset:90 message:message  
+																	delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"Max"] autorelease];
 	
 	[myAlertView show];
-
-	
-	[myAlertView release];
-	
-//	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-//	[app.gamePlayer buyCargo:num Amount:buyCargoViewValue[num]];
-//	[self UpdateView];
 }
 
 -(void) pressedCargoMax:(unsigned int) num {
