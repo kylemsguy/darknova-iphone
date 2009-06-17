@@ -54,7 +54,7 @@
 	if (highScore) {
 		UIViewController* highScores = [[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil];;
 		[app.navigationController pushViewController:highScores animated:TRUE];
-		
+		[highScores release];
 	}
 }
 

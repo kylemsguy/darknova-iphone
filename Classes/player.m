@@ -1007,6 +1007,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 	}
 }
 
+
 // *************************************************************************
 // Maximum loan
 // *************************************************************************
@@ -1022,6 +1023,9 @@ const char* TechLevel[MAXTECHLEVEL] =
 	[endGame showShipDestroyedImage];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.window addSubview:[endGame view]];	
+
+	
+//	[endGame release];
 //	[endGame release];
 }
 
@@ -1200,34 +1204,41 @@ inline long BaseSellPrice(int Index, int Price)
 }
 
 -(NSString*)getCurrentSystemSize {
-	return [[[self systemSize] objectAtIndex:CURSYSTEM.Size] retain];
+//	return [[[self systemSize] objectAtIndex:CURSYSTEM.Size] retain];
+	return [[self systemSize] objectAtIndex:CURSYSTEM.Size];
 }
 
 -(NSString*)getCurrentSystemTechLevel {
-	return [[[self techLevel] objectAtIndex:CURSYSTEM.TechLevel] retain];
+//	return [[[self techLevel] objectAtIndex:CURSYSTEM.TechLevel] retain];
+	return [[self techLevel] objectAtIndex:CURSYSTEM.TechLevel];
 }
 
 -(NSString*)getSystemTechLevel:(int)index
 {
-	return [[[self techLevel] objectAtIndex:solarSystem[index].TechLevel] retain];	
+	return [[self techLevel] objectAtIndex:solarSystem[index].TechLevel];	
+//	return [[[self techLevel] objectAtIndex:solarSystem[index].TechLevel] retain];	
 }
 
 -(NSString*)getCurrentSystemPolitics {
-	return [[NSString stringWithCString:Politics[CURSYSTEM.Politics].Name] retain];
+	return [NSString stringWithCString:Politics[CURSYSTEM.Politics].Name];
+//	return [[NSString stringWithCString:Politics[CURSYSTEM.Politics].Name] retain];
 }
 
 -(NSString*)getCurrentSystemPolice {
-	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPolice]] retain];
+	return [NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPolice]];
+//	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPolice]] retain];
 	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getCurrentSystemPirates {
-	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPirates]] retain];
+	return [NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPirates]];
+//	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPirates]] retain];
 	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getCurrentSystemSpecalResources {
-	return [[NSString stringWithCString:SpecialResources[CURSYSTEM.SpecialResources]] retain];
+	return [NSString stringWithCString:SpecialResources[CURSYSTEM.SpecialResources]];
+//	return [[NSString stringWithCString:SpecialResources[CURSYSTEM.SpecialResources]] retain];
 }
 
 
@@ -1239,7 +1250,8 @@ inline long BaseSellPrice(int Index, int Price)
 	 } 
 	 */
 	
-	return [[[self solarSystemName] objectAtIndex:solarSystem[warpSystem].NameIndex] retain];
+	return [[self solarSystemName] objectAtIndex:solarSystem[warpSystem].NameIndex];
+//	return [[[self solarSystemName] objectAtIndex:solarSystem[warpSystem].NameIndex] retain];
 	
 }
 
@@ -1252,21 +1264,25 @@ inline long BaseSellPrice(int Index, int Price)
 }
 
 -(NSString*)getWarpSystemPolitics {
-	return [[NSString stringWithCString:Politics[solarSystem[warpSystem].Politics].Name] retain];
+	return [NSString stringWithCString:Politics[solarSystem[warpSystem].Politics].Name];
+//	return [[NSString stringWithCString:Politics[solarSystem[warpSystem].Politics].Name] retain];
 }
 
 -(NSString*)getWarpSystemPolice {
-	return [[NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPolice]] retain];
+	return [NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPolice]];
+//	return [[NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPolice]] retain];
 	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getWarpSystemPirates {
-	return [[NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPirates]] retain];
+	return [NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPirates]];
+//	return [[NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPirates]] retain];
 	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getWarpSystemSpecalResources {
-	return [[NSString stringWithCString:SpecialResources[solarSystem[warpSystem].SpecialResources]] retain];
+	return [NSString stringWithCString:SpecialResources[solarSystem[warpSystem].SpecialResources]];
+//	return [[NSString stringWithCString:SpecialResources[solarSystem[warpSystem].SpecialResources]] retain];
 }
 
 
@@ -1276,7 +1292,8 @@ inline long BaseSellPrice(int Index, int Price)
 
 -(NSString*)getSolarSystemSpecalResources:(int)index {
 	if (solarSystem[warpSystem].Visited)
-		return [[NSString stringWithCString:SpecialResources[solarSystem[index].SpecialResources]] retain];
+		return [NSString stringWithCString:SpecialResources[solarSystem[index].SpecialResources]];
+//		return [[NSString stringWithCString:SpecialResources[solarSystem[index].SpecialResources]] retain];
 	else
 		return @"Special resources unknown";
 }
@@ -1288,7 +1305,8 @@ inline long BaseSellPrice(int Index, int Price)
 	--i;
 	if (i < 0)
 		i = 0;
-	return [[NSString stringWithCString:PoliceRecord[i].Name] retain];	
+	return [NSString stringWithCString:PoliceRecord[i].Name];	
+//	return [[NSString stringWithCString:PoliceRecord[i].Name] retain];	
 }
 
 -(NSString*)currentReputation;
@@ -1300,7 +1318,8 @@ inline long BaseSellPrice(int Index, int Price)
 	if (i < 0)
 		i = 0;
 	
-	return [[NSString stringWithCString:Reputation[i].Name] retain];	
+	return [NSString stringWithCString:Reputation[i].Name];	
+//	return [[NSString stringWithCString:Reputation[i].Name] retain];	
 	
 }
 
@@ -2455,7 +2474,8 @@ bool bDummyAlert;
 }
 
 -(NSString*)getSolarSystemName:(int)Index {
-	return [[[self solarSystemName] objectAtIndex:Index/*solarSystem[Index].NameIndex*/] retain];	
+	return [[self solarSystemName] objectAtIndex:Index/*solarSystem[Index].NameIndex*/];	
+//	return [[[self solarSystemName] objectAtIndex:Index/*solarSystem[Index].NameIndex*/] retain];	
 }
 -(int)getCurrentSystemIndex {
 	return currentSystem;
@@ -4933,6 +4953,9 @@ sellCargoViewController * opponentViewControllerInstance;
 	//[encounterViewControllerInstance release];
 	[[app navigationController] pushViewController:targetViewController animated:NO];	
 	
+	// ADDED
+	[targetViewController release];
+	
 	[self SaveGame:@"Autosave"];
 	
 	
@@ -4987,7 +5010,8 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 -(NSString*)getShipName:(Byte)index {
-	return [[NSString stringWithCString:Shiptype[index].Name] retain];	
+	return [NSString stringWithCString:Shiptype[index].Name];	
+//	return [[NSString stringWithCString:Shiptype[index].Name] retain];	
 }
 
 -(NSString*)getShipImageName:(Byte)index {
@@ -4996,7 +5020,8 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 -(NSString*)getShipImageNameBg:(Byte)index {
-	return [[NSString stringWithCString:ShipImagesBg[index]] retain];			
+	return [NSString stringWithCString:ShipImagesBg[index]];			
+//	return [[NSString stringWithCString:ShipImagesBg[index]] retain];			
 }
 
 -(NSString*)getShipDamagedImageName:(Byte)index;{
@@ -5010,7 +5035,8 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 -(NSString*)getShipSize:(Byte)index {
-	return [[NSString stringWithCString:SystemSize[Shiptype[index].Size]] retain];	
+	return [NSString stringWithCString:SystemSize[Shiptype[index].Size]];	
+//	return [[NSString stringWithCString:SystemSize[Shiptype[index].Size]] retain];	
 }
 
 -(int)getShipCargoBays:(Byte)index {
@@ -5091,13 +5117,16 @@ sellCargoViewController * opponentViewControllerInstance;
 
 -(NSString*)getShipPriceStr:(int)index{
 	if (ShipPrice[index] == 0 )
-		return  [[NSString stringWithCString:"not sold"] retain];
+		return  [NSString stringWithCString:"not sold"];
+//		return  [[NSString stringWithCString:"not sold"] retain];
 	
 	if (index == ship.Type )
-		return  [[NSString stringWithCString:"got one"] retain];
+		return  [NSString stringWithCString:"got one"];
+//		return  [[NSString stringWithCString:"got one"] retain];
 	
-	return 	[[NSString stringWithFormat:@"%i cr.", ShipPrice[index]] retain];
-	;//ShipPrice[index];
+	return 	[NSString stringWithFormat:@"%i cr.", ShipPrice[index]];
+	//return 	[[NSString stringWithFormat:@"%i cr.", ShipPrice[index]] retain];
+	//ShipPrice[index];
 }
 
 -(int)getShipPriceInt:(int)index{
@@ -6687,7 +6716,9 @@ sellCargoViewController * opponentViewControllerInstance;
 -(NSString*) drawQuestsForm
 {
 
-	NSMutableString *header = [[[NSMutableString alloc] init] retain];
+//	NSMutableString *header = [[[NSMutableString alloc] init] retain];
+	NSMutableString *header = [[NSMutableString alloc] init];
+
 	if([self OpenQuests])
 		[header appendString:@"Quests:"]     ;
 	else
@@ -7354,9 +7385,11 @@ sellCargoViewController * opponentViewControllerInstance;
 	if (price <= 0 || (difference && BuyPrice[itemIndex] <= 0))
 		return @"---";// [[NSString stringWithFormat:@""] retain];
 	if (difference) 
-		return [[NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]] retain];
+		return [NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]];
+//		return [[NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]] retain];
 	else
-		return [[NSString stringWithFormat:@"%i cr.", price] retain];
+		return [NSString stringWithFormat:@"%i cr.", price];
+//		return [[NSString stringWithFormat:@"%i cr.", price] retain];
 }
 		
 

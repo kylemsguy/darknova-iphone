@@ -5,6 +5,15 @@
 #import "newsViewController.h"
 @implementation SystemInfoViewController
 
+/*@synthesize	systemName;
+@synthesize	systemSize;
+@synthesize	systemTechLevel;
+@synthesize	systemGoverment;
+@synthesize	systemResources;
+@synthesize	systemPolice;	
+@synthesize	systemPirates;
+@synthesize	systemMessage;	*/
+
 
 -(IBAction)testClick {
 //	UIViewController * targetViewController = [[UIViewController alloc] initWithNibName:@"startView" bundle:nil];
@@ -81,6 +90,7 @@
 	newsViewController * targetViewController = [[newsViewController alloc] initWithNibName:@"news"  bundle:nil];
 	[self.navigationController pushViewController:targetViewController animated:YES];
 	targetViewController.text.text = [app.gamePlayer drawNewspaperForm];
+	[targetViewController release];
 }
 
 
@@ -101,7 +111,18 @@
 }
 
 
-
+/*-(void)dealloc
+{
+	self.systemName = nil;
+	self.systemSize = nil;
+	self.systemTechLevel = nil;
+	self.systemGoverment = nil;
+	self.systemResources = nil;
+	self.systemPolice = nil;	
+	self.systemPirates = nil;
+	self.systemMessage = nil;	
+	[super dealloc];
+}*/
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex  // after animation
 {

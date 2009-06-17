@@ -54,7 +54,7 @@ warpViewController * targetViewController = 0;
 	//[self.window.navigationController pushViewController:targetViewController animated:YES];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.navigationController  pushViewController:targetViewController animated:YES];
-//	[targetViewController release];
+	//[targetViewController release];
 	//[targetViewController Update
 	//[app.gamePlayer doWarp:false];
 }

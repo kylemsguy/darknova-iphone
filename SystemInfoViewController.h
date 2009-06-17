@@ -15,6 +15,18 @@
 	IBOutlet	UIButton*	systemHire;
 	IBOutlet	UIButton*	systemSpecial;	
 }
+
+/*@property (nonatomic, retain)	UILabel*	systemName;
+@property (nonatomic, retain)	UILabel*	systemSize;
+@property (nonatomic, retain)	UILabel*	systemTechLevel;
+@property (nonatomic, retain)	UILabel*	systemGoverment;
+@property (nonatomic, retain)	UILabel*	systemResources;
+@property (nonatomic, retain)	UILabel*	systemPolice;	
+@property (nonatomic, retain)	UILabel*	systemPirates;
+@property (nonatomic, retain)	UILabel*	systemMessage;	*/
+
+
+
 -(IBAction)testClick;
 -(IBAction)doQuests;
 -(IBAction)showNews;

@@ -8,22 +8,22 @@
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	NSString * tmp = [app.gamePlayer getWarpSystemName];
 	systemName.text = tmp;
-	[tmp release];
+	//[tmp release];
     tmp = [app.gamePlayer getWarpSystemSize];
 	systemSize.text = tmp;
-	[tmp release];	
+	//[tmp release];	
 	tmp= [app.gamePlayer getWarpSystemTechLevel];	
 	systemTechLevel.text = tmp;
-	[tmp release];	
+	//[tmp release];	
 	tmp = [app.gamePlayer getWarpSystemPolitics];	
 	systemGoverment.text = tmp;
-	[tmp release];	
+	//[tmp release];	
 	tmp = [app.gamePlayer getWarpSystemPirates];
 	systemPirates.text = tmp;
-	[tmp release];		
+	//[tmp release];		
 	tmp = [app.gamePlayer getWarpSystemPolice];
 	systemPolice.text = tmp;
-	[tmp release];	
+	//[tmp release];	
 	systemDistance.text = [NSString stringWithFormat:@"%i parsecs", [app.gamePlayer realDistance: [app.gamePlayer getCurrentSystemIndex] b:app.gamePlayer.warpSystem]];
 
 	int cost = [app.gamePlayer mercenaryMoney] + [app.gamePlayer insuranceMoney] + [app.gamePlayer WormholeTax:app.gamePlayer.currentSystem  b:app.gamePlayer.warpSystem];

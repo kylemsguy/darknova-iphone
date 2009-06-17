@@ -1371,8 +1371,6 @@
 				GCC_PREFIX_HEADER = S1_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = S1;
-				PROVISIONING_PROFILE = DefaultProfileUuid;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "82655864-AC37-41E9-80E0-4CA780D056D3";
 				"PROVISIONING_PROFILE[sdk=iphonesimulator*]" = DefaultProfileUuid;
 			};
 			name = Debug;
@@ -1400,8 +1398,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = S1;
-				PROVISIONING_PROFILE = "67927D33-CA6F-4BF6-B3CF-2298936D327C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "67927D33-CA6F-4BF6-B3CF-2298936D327C";
 				SDKROOT = iphoneos2.1;
 			};
 			name = Debug;
