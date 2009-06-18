@@ -6840,8 +6840,8 @@ sellCargoViewController * opponentViewControllerInstance;
 	{ 
 		[header appendString:@"Claim your moon at Utopia."];			
 	}
-	
-	return header;
+
+	return [header autorelease];
 	
 }
 
