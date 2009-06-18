@@ -56,11 +56,11 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 						 highScores, @"viewController",
 						 nil]];	
 	
-	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
+/*	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
 						 NSLocalizedString(@"Clear High Scores", @""), @"title",
 						 nil, @"viewController",
 						 nil]];	
-
+*/
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -158,11 +158,13 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 			
 		}
 			break;
-		case 6:
+/*  commented this out until issue 18 can properly be addressed
+ case 6:
 		{
 			
 		}
 			break;
+ */
 	}
 }
  
