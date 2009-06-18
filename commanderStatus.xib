@@ -8,10 +8,10 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="4"/>
+			<integer value="96"/>
 			<integer value="1"/>
-			<integer value="5"/>
 			<integer value="3"/>
+			<integer value="5"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -526,7 +526,7 @@
 					<object class="IBUIButton" id="642787632">
 						<reference key="NSNextResponder" ref="137525708"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 320}, {72, 37}}</string>
+						<string key="NSFrame">{{4, 320}, {112, 37}}</string>
 						<reference key="NSSuperview" ref="137525708"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -535,10 +535,10 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="913223834"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUIHighlightedTitle">Status</string>
-						<string key="IBUIDisabledTitle">Status</string>
-						<string key="IBUISelectedTitle">Status</string>
-						<string key="IBUINormalTitle">Status</string>
+						<string key="IBUIHighlightedTitle">Commander</string>
+						<string key="IBUIDisabledTitle">Commander</string>
+						<string key="IBUISelectedTitle">Commander</string>
+						<string key="IBUINormalTitle">Commander</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1005821244"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -548,7 +548,7 @@
 					<object class="IBUIButton" id="134034436">
 						<reference key="NSNextResponder" ref="137525708"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{102, 320}, {72, 37}}</string>
+						<string key="NSFrame">{{124, 320}, {68, 37}}</string>
 						<reference key="NSSuperview" ref="137525708"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -570,7 +570,7 @@
 					<object class="IBUIButton" id="524296967">
 						<reference key="NSNextResponder" ref="137525708"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{188, 320}, {112, 37}}</string>
+						<string key="NSFrame">{{200, 320}, {112, 37}}</string>
 						<reference key="NSSuperview" ref="137525708"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -634,7 +634,7 @@
 					<object class="IBUIButton" id="301533871">
 						<reference key="NSNextResponder" ref="393429272"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 320}, {72, 37}}</string>
+						<string key="NSFrame">{{2, 320}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="393429272"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -656,7 +656,7 @@
 					<object class="IBUIButton" id="365472552">
 						<reference key="NSNextResponder" ref="393429272"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{102, 320}, {72, 37}}</string>
+						<string key="NSFrame">{{82, 320}, {112, 37}}</string>
 						<reference key="NSSuperview" ref="393429272"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -665,10 +665,10 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="913223834"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUIHighlightedTitle">Status</string>
-						<string key="IBUIDisabledTitle">Status</string>
-						<string key="IBUISelectedTitle">Status</string>
-						<string key="IBUINormalTitle">Status</string>
+						<string key="IBUIHighlightedTitle">Commander</string>
+						<string key="IBUIDisabledTitle">Commander</string>
+						<string key="IBUISelectedTitle">Commander</string>
+						<string key="IBUINormalTitle">Commander</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1005821244"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -678,7 +678,7 @@
 					<object class="IBUIButton" id="1017430654">
 						<reference key="NSNextResponder" ref="393429272"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{188, 320}, {112, 37}}</string>
+						<string key="NSFrame">{{202, 320}, {112, 37}}</string>
 						<reference key="NSSuperview" ref="393429272"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -816,7 +816,7 @@
 					<object class="IBUIButton" id="935160224">
 						<reference key="NSNextResponder" ref="545091719"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{102, 320}, {72, 37}}</string>
+						<string key="NSFrame">{{102, 320}, {78, 37}}</string>
 						<reference key="NSSuperview" ref="545091719"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -847,10 +847,10 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="913223834"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUIHighlightedTitle">Status</string>
-						<string key="IBUIDisabledTitle">Status</string>
-						<string key="IBUISelectedTitle">Status</string>
-						<string key="IBUINormalTitle">Status</string>
+						<string key="IBUIHighlightedTitle">Commander</string>
+						<string key="IBUIDisabledTitle">Commander</string>
+						<string key="IBUISelectedTitle">Commander</string>
+						<string key="IBUINormalTitle">Commander</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1005821244"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -1245,11 +1245,11 @@
 						<reference key="object" ref="137525708"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="419158810"/>
+							<reference ref="524296967"/>
 							<reference ref="642787632"/>
 							<reference ref="134034436"/>
-							<reference ref="524296967"/>
 							<reference ref="424421767"/>
-							<reference ref="419158810"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -1258,15 +1258,15 @@
 						<reference key="object" ref="393429272"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="301533871"/>
-							<reference ref="365472552"/>
-							<reference ref="1017430654"/>
 							<reference ref="816441156"/>
-							<reference ref="53579659"/>
 							<reference ref="990448730"/>
-							<reference ref="615817677"/>
 							<reference ref="405601841"/>
 							<reference ref="615947344"/>
+							<reference ref="1017430654"/>
+							<reference ref="365472552"/>
+							<reference ref="301533871"/>
+							<reference ref="615817677"/>
+							<reference ref="53579659"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -1603,7 +1603,7 @@
 					<string>commanderStatusViewController</string>
 					<string>UIResponder</string>
 					<string>statusView</string>
-					<string>{{601, 279}, {320, 480}}</string>
+					<string>{{1000, 38}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1627,7 +1627,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>questView</string>
-					<string>{{625, 445}, {320, 460}}</string>
+					<string>{{346, 42}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1638,7 +1638,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>shipView</string>
-					<string>{{593, 350}, {320, 460}}</string>
+					<string>{{681, 53}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1650,7 +1650,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>specialCargoView</string>
-					<string>{{338, 310}, {320, 460}}</string>
+					<string>{{9, 31}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

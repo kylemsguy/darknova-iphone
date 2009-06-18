@@ -41,7 +41,7 @@
 }
 
 -(IBAction) status {
-	self.title = @"Commander Status";
+	self.title = @"Commander";
 	self.view = statusViewInst;
 	[statusViewInst UpdateView];
 }
