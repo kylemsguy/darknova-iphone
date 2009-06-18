@@ -6920,7 +6920,7 @@ sellCargoViewController * opponentViewControllerInstance;
 	int i, j, k, FirstEmptySlot;
 	
 	
-	NSMutableString *header = [[[NSMutableString alloc] init] retain];		
+	NSMutableString *header = [[NSMutableString alloc] init];		
 	
 	
 	
@@ -7023,7 +7023,7 @@ sellCargoViewController * opponentViewControllerInstance;
 		}
 	}
 	
-	return header;
+	return [header autorelease];
 	
 }
 
