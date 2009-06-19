@@ -8249,7 +8249,7 @@ NSString * SoundsList[] = {
 {
     //Boolean shown[MAXSTORIES];
     Boolean realNews = false;
-	NSMutableString* headLine = [[[NSMutableString alloc] init] retain];
+	NSMutableString* headLine = [[NSMutableString alloc] init];
 	/*
 	i = warpSystem % MAXMASTHEADS;
 	SysStringByIndex(AnarchyMastheadsStringList + CURSYSTEM.Politics * 100,i,SBuf2,50);
@@ -8588,7 +8588,7 @@ NSString * SoundsList[] = {
 	}
 	*/
 	
-	return headLine;
+	return [headLine autorelease];
 }
 
 
