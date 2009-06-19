@@ -7922,15 +7922,15 @@ typedef struct
 		else
 		{
 			if ([[pname pathExtension] isEqualToString:@"save"]) {
-				NSString * nameFile = [[pname stringByDeletingPathExtension] retain]; 
+				NSString * nameFile = [pname stringByDeletingPathExtension]; 
 				[array addObject:nameFile];
 				SAVEGAMETYPE save;
 				NSString * time;
 				[self LoadBinaryData:nameFile time:&time data:&save ];
 
-				[name addObject:[[NSString stringWithFormat:@"%@ (%@)", [NSString stringWithCString:save.NameCommander], nameFile] retain]];
-				[nameFile release];
-				[additional addObject:[[NSString stringWithFormat:@"Time:%@\n System:%@ Credits:%i", time, [self getSolarSystemName:save.CurrentSystem], save.Credits] retain ]];				
+				[name addObject:[NSString stringWithFormat:@"%@ (%@)", [NSString stringWithCString:save.NameCommander], nameFile]];
+//				[nameFile release];
+				[additional addObject:[NSString stringWithFormat:@"Time:%@\n System:%@ Credits:%i", time, [self getSolarSystemName:save.CurrentSystem], save.Credits]];				
 			}
 			/* ...process file here... */
 		}
