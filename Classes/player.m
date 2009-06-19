@@ -7030,12 +7030,12 @@ sellCargoViewController * opponentViewControllerInstance;
 -(NSString*)getEquipmentName:(int)index {
 	
 	if (index < MAXWEAPONTYPE)
-		return [[NSString stringWithCString:Weapontype[index].Name] retain];	
+		return [NSString stringWithCString:Weapontype[index].Name];	
 	else
 		if (index < MAXWEAPONTYPE + MAXSHIELDTYPE) {
-			return [[NSString stringWithCString:Shieldtype[index - MAXWEAPONTYPE].Name] retain];				
+			return [NSString stringWithCString:Shieldtype[index - MAXWEAPONTYPE].Name];				
 		} else {
-			return [[NSString stringWithCString:Gadgettype[index - MAXWEAPONTYPE - MAXSHIELDTYPE].Name] retain];							
+			return [NSString stringWithCString:Gadgettype[index - MAXWEAPONTYPE - MAXSHIELDTYPE].Name];							
 		}
 }
 
@@ -7043,13 +7043,13 @@ sellCargoViewController * opponentViewControllerInstance;
 -(NSString*)getShipEquipmentName:(int)index {
 	
 	if (index < MAXWEAPON && ship.Weapon[index] >= 0)
-		return [[NSString stringWithCString:Weapontype[ship.Weapon[index]].Name] retain];	
+		return [NSString stringWithCString:Weapontype[ship.Weapon[index]].Name];	
 	else
 		if (index < MAXWEAPON + MAXSHIELD && ship.Shield[index - MAXWEAPON] >=0 ) {
-			return [[NSString stringWithCString:Shieldtype[ship.Shield[index - MAXWEAPON]].Name] retain];				
+			return [NSString stringWithCString:Shieldtype[ship.Shield[index - MAXWEAPON]].Name];				
 		} else {
 			if (ship.Gadget[index - MAXWEAPON - MAXSHIELD] >= 0)
-			return [[NSString stringWithCString:Gadgettype[ship.Gadget[index - MAXWEAPON - MAXSHIELD]].Name] retain];							
+			return [NSString stringWithCString:Gadgettype[ship.Gadget[index - MAXWEAPON - MAXSHIELD]].Name];							
 		}
 	return @"";
 }
