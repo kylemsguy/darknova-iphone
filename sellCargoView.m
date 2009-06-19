@@ -217,23 +217,20 @@
 		
 		message = [NSString stringWithFormat:@"You can jettison up to %i at cr. each. \nYou paid about %i cr. per unit.\nHow many will you dump\n\n\n",
 				   sellCargoViewValue[activeTradeItem], [app.gamePlayer getBuyPrice:activeTradeItem]];
-		myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Discard Items" 
+		myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Discard Items" 
 													  yoffset:130 
 													  message:message  
 													  delegate:self 
 											          cancelButtonTitle:@"Cancel"
 												      okButtonTitle:@"Ok"
-											          thirdButtonTitle:@"All"];
-		[myAlertView autorelease];
+											          thirdButtonTitle:@"All"] autorelease];
 	}
 	if (bOpponent)
 	{
 		message = [NSString stringWithFormat:@"You can sell up to %i at cr. each. \nHow many do you want to plunder?\n\n\n",
 				   sellCargoViewValue[activeTradeItem]];
-		myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Plunder Items" yoffset:130 message:message  
-													 delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"];
-		[myAlertView autorelease];
-		
+		myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Plunder Items" yoffset:130 message:message  
+													 delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"] autorelease];
 	}
 	else {
 				
@@ -241,9 +238,8 @@
 				   sellCargoViewValue[activeTradeItem], [app.gamePlayer getBuyPrice:activeTradeItem], 
 				   [app.gamePlayer getBuyingPrice:activeTradeItem] / sellCargoViewValue[activeTradeItem] > [app.gamePlayer getSellPrice:activeTradeItem] ? 
 				   @"loss" : @"profit", ABS([app.gamePlayer getBuyingPrice:activeTradeItem] / sellCargoViewValue[activeTradeItem] - [app.gamePlayer getSellPrice:activeTradeItem])];
-		myAlertView = [[AlertModalWindow alloc] initWithTitle:@"Sell Items" yoffset:130 message:message  
-													 delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"];
-		[myAlertView autorelease];
+		myAlertView = [[[AlertModalWindow alloc] initWithTitle:@"Sell Items" yoffset:130 message:message  
+													 delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Ok"  thirdButtonTitle:@"All"] autorelease];
 	}
 	
 	[myAlertView show];

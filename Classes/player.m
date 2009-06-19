@@ -7738,7 +7738,7 @@ typedef struct
 	
 	data = [[NSData alloc] initWithBytes:&saveGame length:(NSUInteger)sizeof(saveGame) ];
 	[data writeToFile:fileName atomically:FALSE];		
-	[data dealloc];	
+	[data release];	
 }
 
 - (NSString*) convertDateLocaleString:(NSDate*) theDate
@@ -7769,7 +7769,7 @@ typedef struct
 	data =[[NSData alloc] initWithContentsOfFile:fileName];
 
 	memcpy(sg, [data bytes], [data length]);
-	[data dealloc];
+	[data release];
 	
 	if (time != nil) {
 		NSFileManager *fileManager = [NSFileManager defaultManager];		
