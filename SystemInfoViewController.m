@@ -70,7 +70,7 @@
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	if (self)
 	{
-		self.title = @"System Information";				
+		self.title = @"System Info";				
 	}
 
 	
