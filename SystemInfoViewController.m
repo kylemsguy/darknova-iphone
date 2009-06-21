@@ -5,14 +5,6 @@
 #import "newsViewController.h"
 @implementation SystemInfoViewController
 
-/*@synthesize	systemName;
-@synthesize	systemSize;
-@synthesize	systemTechLevel;
-@synthesize	systemGoverment;
-@synthesize	systemResources;
-@synthesize	systemPolice;	
-@synthesize	systemPirates;
-@synthesize	systemMessage;	*/
 
 
 -(IBAction)testClick {
@@ -22,34 +14,39 @@
 
 -(void) UpdateView {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
-	systemName.text = [app.gamePlayer getCurrentSystemName];
-	systemSize.text = [app.gamePlayer getCurrentSystemSize];
-	systemTechLevel.text = [app.gamePlayer getCurrentSystemTechLevel];	
-	systemGoverment.text = [app.gamePlayer getCurrentSystemPolitics];	
-	systemPirates.text = [app.gamePlayer getCurrentSystemPirates];
-	systemPolice.text = [app.gamePlayer getCurrentSystemPolice];
-	systemResources.text = [app.gamePlayer getCurrentSystemSpecalResources];
-	
-	if ([app.gamePlayer IsNewsExist])
-	{
-		[self.view addSubview:systemNews];
-	}
-	else
-		[ systemNews removeFromSuperview];
-		
-	if ([app.gamePlayer IsHireExist])
-	{
-		[self.view addSubview:systemHire];
-	}
-	else
-		[ systemHire removeFromSuperview];
 
-	if ([app.gamePlayer IsSpecialExist])
-	{
-		[self.view addSubview:systemSpecial];
+	NSString *systemInfoTemplatePath = [[NSBundle mainBundle] pathForResource:@"SystemInfoTemplate" ofType:@"txt"];  
+	NSString *systemInfoTemplateText = [NSString stringWithContentsOfFile:systemInfoTemplatePath];  
+	NSString* htmlContent = [NSString stringWithFormat:systemInfoTemplateText,	[app.gamePlayer getCurrentSystemName],
+																				[app.gamePlayer getCurrentSystemSize],
+																				[app.gamePlayer getCurrentSystemTechLevel],
+																				[app.gamePlayer getCurrentSystemPolitics],
+																				[app.gamePlayer getCurrentSystemSpecalResources],
+																				[app.gamePlayer getCurrentSystemPolice],
+																				[app.gamePlayer getCurrentSystemPirates]];
+//	[app.gamePlayer getCurrentSystem
+
+    [systemInfoContent setBackgroundColor: [UIColor clearColor]];
+    [systemInfoContent loadHTMLString:htmlContent baseURL:nil];
+	
+	if ([app.gamePlayer IsNewsExist]) {
+		[self.view addSubview:systemNews];
+	} else {
+		[ systemNews removeFromSuperview];
 	}
-	else
+		
+	if ([app.gamePlayer IsHireExist]) {
+		[self.view addSubview:systemHire];
+	} else {
+		[ systemHire removeFromSuperview];
+	}
+		
+	if ([app.gamePlayer IsSpecialExist]) {
+		[self.view addSubview:systemSpecial];
+	} else {
 		[ systemSpecial removeFromSuperview];
+	}
+		
 	
 	
 }

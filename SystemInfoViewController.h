@@ -2,14 +2,16 @@
 #import <Foundation/Foundation.h>
 
 @interface SystemInfoViewController : UIViewController<UINavigationBarDelegate>/* Specify a superclass (eg: NSObject or NSView) */ {
-	IBOutlet	UILabel*	systemName;
+/*	IBOutlet	UILabel*	systemName;
 	IBOutlet	UILabel*	systemSize;
 	IBOutlet	UILabel*	systemTechLevel;
 	IBOutlet	UILabel*	systemGoverment;
 	IBOutlet	UILabel*	systemResources;
 	IBOutlet	UILabel*	systemPolice;	
 	IBOutlet	UILabel*	systemPirates;
+ */
 	IBOutlet	UILabel*	systemMessage;	
+	IBOutlet    UIWebView*  systemInfoContent;
 	
 	IBOutlet	UIButton*	systemNews;
 	IBOutlet	UIButton*	systemHire;
@@ -24,7 +26,7 @@
 @property (nonatomic, retain)	UILabel*	systemPolice;	
 @property (nonatomic, retain)	UILabel*	systemPirates;
 @property (nonatomic, retain)	UILabel*	systemMessage;	*/
-
+@property (nonatomic, retain)	UILabel*	systemMessage;	
 
 
 -(IBAction)testClick;
