@@ -1204,41 +1204,32 @@ inline long BaseSellPrice(int Index, int Price)
 }
 
 -(NSString*)getCurrentSystemSize {
-//	return [[[self systemSize] objectAtIndex:CURSYSTEM.Size] retain];
 	return [[self systemSize] objectAtIndex:CURSYSTEM.Size];
 }
 
 -(NSString*)getCurrentSystemTechLevel {
-//	return [[[self techLevel] objectAtIndex:CURSYSTEM.TechLevel] retain];
 	return [[self techLevel] objectAtIndex:CURSYSTEM.TechLevel];
 }
 
 -(NSString*)getSystemTechLevel:(int)index
 {
 	return [[self techLevel] objectAtIndex:solarSystem[index].TechLevel];	
-//	return [[[self techLevel] objectAtIndex:solarSystem[index].TechLevel] retain];	
 }
 
 -(NSString*)getCurrentSystemPolitics {
 	return [NSString stringWithCString:Politics[CURSYSTEM.Politics].Name];
-//	return [[NSString stringWithCString:Politics[CURSYSTEM.Politics].Name] retain];
 }
 
 -(NSString*)getCurrentSystemPolice {
 	return [NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPolice]];
-//	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPolice]] retain];
-	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getCurrentSystemPirates {
 	return [NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPirates]];
-//	return [[NSString stringWithCString:Activity[Politics[CURSYSTEM.Politics].StrengthPirates]] retain];
-	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getCurrentSystemSpecalResources {
 	return [NSString stringWithCString:SpecialResources[CURSYSTEM.SpecialResources]];
-//	return [[NSString stringWithCString:SpecialResources[CURSYSTEM.SpecialResources]] retain];
 }
 
 
@@ -1251,7 +1242,6 @@ inline long BaseSellPrice(int Index, int Price)
 	 */
 	
 	return [[self solarSystemName] objectAtIndex:solarSystem[warpSystem].NameIndex];
-//	return [[[self solarSystemName] objectAtIndex:solarSystem[warpSystem].NameIndex] retain];
 	
 }
 
@@ -1265,13 +1255,10 @@ inline long BaseSellPrice(int Index, int Price)
 
 -(NSString*)getWarpSystemPolitics {
 	return [NSString stringWithCString:Politics[solarSystem[warpSystem].Politics].Name];
-//	return [[NSString stringWithCString:Politics[solarSystem[warpSystem].Politics].Name] retain];
 }
 
 -(NSString*)getWarpSystemPolice {
 	return [NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPolice]];
-//	return [[NSString stringWithCString:Activity[Politics[solarSystem[warpSystem].Politics].StrengthPolice]] retain];
-	//		 Politics[currentSystemInfo.Police].Name] retain];
 }
 
 -(NSString*)getWarpSystemPirates {
@@ -1282,18 +1269,11 @@ inline long BaseSellPrice(int Index, int Price)
 
 -(NSString*)getWarpSystemSpecalResources {
 	return [NSString stringWithCString:SpecialResources[solarSystem[warpSystem].SpecialResources]];
-//	return [[NSString stringWithCString:SpecialResources[solarSystem[warpSystem].SpecialResources]] retain];
 }
-
-
-
-
-
 
 -(NSString*)getSolarSystemSpecalResources:(int)index {
 	if (solarSystem[warpSystem].Visited)
 		return [NSString stringWithCString:SpecialResources[solarSystem[index].SpecialResources]];
-//		return [[NSString stringWithCString:SpecialResources[solarSystem[index].SpecialResources]] retain];
 	else
 		return @"Special resources unknown";
 }
@@ -1306,7 +1286,6 @@ inline long BaseSellPrice(int Index, int Price)
 	if (i < 0)
 		i = 0;
 	return [NSString stringWithCString:PoliceRecord[i].Name];	
-//	return [[NSString stringWithCString:PoliceRecord[i].Name] retain];	
 }
 
 -(NSString*)currentReputation;
@@ -1319,10 +1298,7 @@ inline long BaseSellPrice(int Index, int Price)
 		i = 0;
 	
 	return [NSString stringWithCString:Reputation[i].Name];	
-//	return [[NSString stringWithCString:Reputation[i].Name] retain];	
-	
 }
-
 
 // *************************************************************************
 // Adapt a skill to the difficulty level
@@ -1336,6 +1312,9 @@ inline long BaseSellPrice(int Index, int Price)
 	else
 		return Level;
 }
+
+
+
 // *************************************************************************
 // Trader skill
 // *************************************************************************
@@ -2475,7 +2454,6 @@ bool bDummyAlert;
 
 -(NSString*)getSolarSystemName:(int)Index {
 	return [[self solarSystemName] objectAtIndex:Index/*solarSystem[Index].NameIndex*/];	
-//	return [[[self solarSystemName] objectAtIndex:Index/*solarSystem[Index].NameIndex*/] retain];	
 }
 -(int)getCurrentSystemIndex {
 	return currentSystem;
@@ -5011,32 +4989,26 @@ sellCargoViewController * opponentViewControllerInstance;
 
 -(NSString*)getShipName:(Byte)index {
 	return [NSString stringWithCString:Shiptype[index].Name];	
-//	return [[NSString stringWithCString:Shiptype[index].Name] retain];	
 }
 
 -(NSString*)getShipImageName:(Byte)index {
-//	return [[NSString stringWithCString:ShipImages[index]] retain];		
 	return [NSString stringWithCString:ShipImages[index]];		
 }
 
 -(NSString*)getShipImageNameBg:(Byte)index {
 	return [NSString stringWithCString:ShipImagesBg[index]];			
-//	return [[NSString stringWithCString:ShipImagesBg[index]] retain];			
 }
 
 -(NSString*)getShipDamagedImageName:(Byte)index;{
-//	return [[NSString stringWithCString:ShipImagesDamaged[index]] retain];			
 	return [NSString stringWithCString:ShipImagesDamaged[index]];			
 }
 
 -(NSString*)getShipShieldImageName:(Byte)index {
-//	return [[NSString stringWithCString:ShipImagesShield[index]] retain];			
 	return [NSString stringWithCString:ShipImagesShield[index]];			
 }
 
 -(NSString*)getShipSize:(Byte)index {
 	return [NSString stringWithCString:SystemSize[Shiptype[index].Size]];	
-//	return [[NSString stringWithCString:SystemSize[Shiptype[index].Size]] retain];	
 }
 
 -(int)getShipCargoBays:(Byte)index {
@@ -5118,15 +5090,11 @@ sellCargoViewController * opponentViewControllerInstance;
 -(NSString*)getShipPriceStr:(int)index{
 	if (ShipPrice[index] == 0 )
 		return  [NSString stringWithCString:"not sold"];
-//		return  [[NSString stringWithCString:"not sold"] retain];
 	
 	if (index == ship.Type )
 		return  [NSString stringWithCString:"got one"];
-//		return  [[NSString stringWithCString:"got one"] retain];
 	
 	return 	[NSString stringWithFormat:@"%i cr.", ShipPrice[index]];
-	//return 	[[NSString stringWithFormat:@"%i cr.", ShipPrice[index]] retain];
-	//ShipPrice[index];
 }
 
 -(int)getShipPriceInt:(int)index{
@@ -6713,10 +6681,8 @@ sellCargoViewController * opponentViewControllerInstance;
 
 
 
--(NSString*) drawQuestsForm
-{
+-(NSString*) drawQuestsForm {
 
-//	NSMutableString *header = [[[NSMutableString alloc] init] retain];
 	NSMutableString *header = [[NSMutableString alloc] init];
 
 	if([self OpenQuests])
@@ -6724,16 +6690,13 @@ sellCargoViewController * opponentViewControllerInstance;
 	else
 		[header appendString:@"There are no open quests."];
 	
-	
-	
 	if (monsterStatus == 1)
 	{
 		[header appendString:@"Kill the space monster at Acamar.\n"];
 		
 	}
 	
-	if (dragonflyStatus >= 1 && dragonflyStatus <= 4)
-	{
+	if (dragonflyStatus >= 1 && dragonflyStatus <= 4) {
 		[header appendString:@"Follow the Dragonfly to "];
 		if (dragonflyStatus == 1)
 			[header appendString:@ "Baratas.\n"];
@@ -6744,95 +6707,73 @@ sellCargoViewController * opponentViewControllerInstance;
 		else if (dragonflyStatus == 4)
 			[header appendString:@"Zalkon.\n"];
 		
-	}
-	else if (solarSystem[ZALKONSYSTEM].Special == INSTALLLIGHTNINGSHIELD)
-	{
-		[header appendString:@"Get your lightning shield at Zalkon.\n"];
-		
+	} else if (solarSystem[ZALKONSYSTEM].Special == INSTALLLIGHTNINGSHIELD) {
+		[header appendString:@"Get your lightning shield at Zalkon.\n"];		
 	}
 	
-	if (japoriDiseaseStatus == 1)
-	{
+	if (japoriDiseaseStatus == 1) {
 		[header appendString:@"Deliver antidote to Japori."];
 	}
 	
-	if (artifactOnBoard)
-	{
+	if (artifactOnBoard) {
 		[header appendString:@"Deliver the alien artifact to professor Berger at some hi-tech system.\n"];			
 	}
-	if (wildStatus == 1)
-	{
+	
+	if (wildStatus == 1) {
 		[header appendString:@"Smuggle Jonathan Wild to Kravat.\n"];
 	}
 	
-	if (jarekStatus == 1)
-	{
+	if (jarekStatus == 1) {
 		[header appendString:@"Bring ambassador Jarek to Devidia."];
 	}
 	
 	// I changed this, and the reused the code in the Experiment quest.
 	// I think it makes more sense to display the time remaining in
 	// this fashion. SjG 10 July 2002
-	if (invasionStatus >= 1 && invasionStatus < 7)
-	{
+	if (invasionStatus >= 1 && invasionStatus < 7) {
 		[header appendString:@"Inform Gemulon about alien invasion"];
-		if (invasionStatus == 6)
-		    [header appendString:@" by tomorrow\n"];
-		else
-		{
+		if (invasionStatus == 6) {
+		    [header appendString:@" by tomorrow\n"];			
+		} else {
 		    [header appendString:@" within "];
 			NSString * t = [NSString stringWithFormat:@"%i days.\n", 7 - invasionStatus];
 			[header appendString:t];
 		}
-	}
-	else if (solarSystem[GEMULONSYSTEM].Special == GETFUELCOMPACTOR)
-	{
+	} else if (solarSystem[GEMULONSYSTEM].Special == GETFUELCOMPACTOR) {
 		[header appendString:@"Get your fuel compactor at Gemulon."];
-		
 	}
 	
-	if (experimentStatus >= 1 && experimentStatus < 11)
-	{
+	if (experimentStatus >= 1 && experimentStatus < 11) {
 		[header appendString:@"Stop Dr. Fehler's experiment at Daled"];
-		if (experimentStatus == 10)
+		if (experimentStatus == 10) {
 		    [header appendString:@"by tomorrow\n"];
-		else
-		{
+			
+		} else {
 		    [header appendString:@"within "];
 			NSString * t = [NSString stringWithFormat:@"%i day.\n", 11 - experimentStatus];
 			[header appendString:t];
-			
-			
 		}
 	}
 	
-	if (reactorStatus >= 1 && reactorStatus < 21)
-	{
+	if (reactorStatus >= 1 && reactorStatus < 21) {
 		[header appendString:@"Deliver the unstable reactor to Nix"];
 		
-		if (reactorStatus < 2)
-		{
+		if (reactorStatus < 2) {
 			[header appendString:@"for Henry Morgan.\n"];
-		}
-		else
-		{
+		} else {
 			[header appendString:@"before it consumes all its fuel.\n"];
 		}
 	}
 	
-	if (solarSystem[NIXSYSTEM].Special == GETSPECIALLASER)
-	{
+	if (solarSystem[NIXSYSTEM].Special == GETSPECIALLASER) {
 		[header appendString:@"Get your special laser at Nix.\n"];
-		
 	}
 	
-	if (scarabStatus == 1)
-	{
+	if (scarabStatus == 1) {
 		[header appendString:@"Find and destroy the Scarab (which is hiding at the exit to a wormhole).\n"];
 	}
 	
-	if (ship.Tribbles > 0)
-	{
+	if (ship.Tribbles > 0) {
 		[header appendString:@"Get rid of those pesky tribbles.\n"];
 	}
 	
@@ -6845,68 +6786,60 @@ sellCargoViewController * opponentViewControllerInstance;
 	
 }
 
--(NSString*) drawQuestsForm:(SystemInfoViewController*)controller
-{
+-(NSString*) drawQuestsForm:(SystemInfoViewController*)controller {
 	systemInfoController = controller;
 	return [self drawQuestsForm];
 }
 
--(void) setInfoViewController:(SystemInfoViewController*)controller
-{
+-(void) setInfoViewController:(SystemInfoViewController*)controller {
 	systemInfoController = controller;
 }
 
--(NSString*) drawSpecialCargoForm
-{
+-(NSString*) drawSpecialCargoForm {
 	
 	//	NSMutableString * header=[NSString alloc];
 	NSMutableString *header = [[[NSMutableString alloc] init] retain];
 	bool bSpecialItem = false;
 	
-	if (ship.Tribbles > 0)
-	{
-		if (ship.Tribbles >= MAXTRIBBLES)
+	if (ship.Tribbles > 0) {
+		if (ship.Tribbles >= MAXTRIBBLES) {
 			[header appendString:@"An infestation of tribbles.\n"];
-		else
-		{
+		} else {
 			NSString * t = [NSString stringWithFormat:@"%i cute, furry tribble.\n", ship.Tribbles];
 			[header appendString:t];		
 		}
 		bSpecialItem = true;
 	}
 	
-	if (japoriDiseaseStatus == 1)
-	{
+	if (japoriDiseaseStatus == 1) {
 		bSpecialItem = true;	
 		[header appendString:@"10 bays of antidote.\n"];
 	}
-	if (artifactOnBoard)
-	{
+	
+	if (artifactOnBoard) {
 		bSpecialItem = true;		
 		[header appendString:@"An alien artifact.\n"];
 	}
-	if (jarekStatus == 2)
-	{
+	
+	if (jarekStatus == 2) {
 		bSpecialItem = true;		
 		[header appendString:@"A haggling computer.\n"];
 	}
-	if (reactorStatus > 0 && reactorStatus < 21)
-	{
+	
+	if (reactorStatus > 0 && reactorStatus < 21) {
 		bSpecialItem = true;		
 		[header appendString:@"An unstable reactor taking up 5 bays."];
 		NSString * t = [NSString stringWithFormat:@"%i bay of enriched fuel.\n", 10 - ((reactorStatus - 1) / 2)];
 		[header appendString:t];
 	}
 	
-	if (canSuperWarp)
-	{
+	if (canSuperWarp) {
 		bSpecialItem = true;
 		[header appendString:@"A Portable Singularity.\n"];
 	}
 	
 	
-	if (!bSpecialItem)
-	{
+	if (!bSpecialItem) {
 		[header appendString:@"No special items."];
 	}
 	
@@ -6914,111 +6847,83 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 
--(NSString*) drawCurrentShipForm
-{
+-(NSString*) drawCurrentShipForm {
 	
 	int i, j, k, FirstEmptySlot;
-	
-	
+		
 	NSMutableString *header = [[NSMutableString alloc] init];		
-	
-	
-	
-	for (i=0; i<MAXWEAPONTYPE+EXTRAWEAPONS; ++i)
-	{
+		
+	for (i=0; i<MAXWEAPONTYPE+EXTRAWEAPONS; ++i) {
 		j = 0;
-		for (k=0; k<MAXWEAPON; ++k)
-		{
-			if (ship.Weapon[k] == i)
-				++j;
+		for (k=0; k<MAXWEAPON; ++k) {
+			if (ship.Weapon[k] == i) {
+			  ++j;				
+			}
 		}
-		if (j > 0)
-		{
-			//SBuf[0] = '\0';
+		if (j > 0) {
 			for (; j >0; --j) {
-				
-				
 				[header appendString:[NSString stringWithCString:Weapontype[i].Name]];
 				[header appendString:@"\n"];
 			}
 		}
 	}
 	
-	for (i=0; i<MAXSHIELDTYPE+EXTRASHIELDS; ++i)
-	{
+	for (i=0; i<MAXSHIELDTYPE+EXTRASHIELDS; ++i) {
 		j = 0;
-		for (k=0; k<MAXSHIELD; ++k)
-		{
-			if (ship.Shield[k] == i)
-				++j;
+    
+		for (k=0; k<MAXSHIELD; ++k) {
+			if (ship.Shield[k] == i) {
+				++j;        
+      }
 		}
-		if (j > 0)
-		{ 
+    
+		if (j > 0) { 
 			for (; j >0; --j) {
 				[header appendString:[NSString stringWithCString:Shieldtype[i].Name]];
 				[header appendString:@"\n"];
 			}
 		}
-		
-		//			SBuf[0] = '\0';
-		//			SBufMultiples( j, Shieldtype[i].Name );
-		//			StrToLower( SBuf2, SBuf );
-		//			DrawChars( SBuf2, 60, Line );		
-		//			Line += 14;
-	}
+  }
 	
-	for (i=0; i<MAXGADGETTYPE+EXTRAGADGETS; ++i)
-	{
+	for (i=0; i<MAXGADGETTYPE+EXTRAGADGETS; ++i) {
 		j = 0;
-		for (k=0; k<MAXGADGET; ++k)
-		{
-			if (ship.Gadget[k] == i)
-				++j;
+    
+		for (k=0; k<MAXGADGET; ++k) {
+			if (ship.Gadget[k] == i) {
+				++j;        
+      }
 		}
-		if (j > 0)
-		{
-			if (i == EXTRABAYS)
-			{
+    
+		if (j > 0) {
+			if (i == EXTRABAYS) {
 				j = j*5;
 				[header appendString:[NSString stringWithFormat:@"%i extra cargo bays\n", j]];
-				
-			}
-			else
-			{
+			} else {
 				[header appendString:[NSString stringWithCString:Gadgettype[i].Name]];
 				[header appendString:@"\n"];			
 			}
 		}
 	}
 	
-	if (escapePod)
-	{
+	if (escapePod) {
 		[header appendString:@"an escape pod\n"];			
 	}
 	
-	if ([self AnyEmptySlots:&ship])
-	{			
+	if ([self AnyEmptySlots:&ship]) {			
 		[header appendString:@"Unfilled:\n"];			
 		
-		
 		FirstEmptySlot = [self GetFirstEmptySlot:Shiptype[ship.Type].WeaponSlots Item: ship.Weapon];
-		if (FirstEmptySlot >= 0)
-		{
+		if (FirstEmptySlot >= 0) {
 			[header appendString:[NSString stringWithFormat:@"%i weapon slot(s)\n",Shiptype[ship.Type].WeaponSlots - FirstEmptySlot]];
-			
-			
-		}
+    }
 		
 		FirstEmptySlot = [self GetFirstEmptySlot:Shiptype[ship.Type].ShieldSlots Item:ship.Shield];
-		if (FirstEmptySlot >= 0)
-		{
+		if (FirstEmptySlot >= 0) {
 			[header appendString:[NSString stringWithFormat:@"%i shield slot(s)\n",Shiptype[ship.Type].ShieldSlots - FirstEmptySlot]];
-			
-		}
+    }
 		
 		FirstEmptySlot = [self  GetFirstEmptySlot:Shiptype[ship.Type].GadgetSlots Item:ship.Gadget];
-		if (FirstEmptySlot >= 0)
-		{
+		if (FirstEmptySlot >= 0){
 			[header appendString:[NSString stringWithFormat:@"%i gadget slot(s)\n",Shiptype[ship.Type].GadgetSlots - FirstEmptySlot]];
 		}
 	}
@@ -7029,28 +6934,33 @@ sellCargoViewController * opponentViewControllerInstance;
 
 -(NSString*)getEquipmentName:(int)index {
 	
-	if (index < MAXWEAPONTYPE)
-		return [NSString stringWithCString:Weapontype[index].Name];	
-	else
+	if (index < MAXWEAPONTYPE) {
+		return [NSString stringWithCString:Weapontype[index].Name];	    
+  } else {    
 		if (index < MAXWEAPONTYPE + MAXSHIELDTYPE) {
 			return [NSString stringWithCString:Shieldtype[index - MAXWEAPONTYPE].Name];				
 		} else {
 			return [NSString stringWithCString:Gadgettype[index - MAXWEAPONTYPE - MAXSHIELDTYPE].Name];							
 		}
+  }
 }
 
 
 -(NSString*)getShipEquipmentName:(int)index {
 	
-	if (index < MAXWEAPON && ship.Weapon[index] >= 0)
+	if (index < MAXWEAPON && ship.Weapon[index] >= 0) {
 		return [NSString stringWithCString:Weapontype[ship.Weapon[index]].Name];	
-	else
+    
+  } else {    
 		if (index < MAXWEAPON + MAXSHIELD && ship.Shield[index - MAXWEAPON] >=0 ) {
 			return [NSString stringWithCString:Shieldtype[ship.Shield[index - MAXWEAPON]].Name];				
 		} else {
-			if (ship.Gadget[index - MAXWEAPON - MAXSHIELD] >= 0)
-			return [NSString stringWithCString:Gadgettype[ship.Gadget[index - MAXWEAPON - MAXSHIELD]].Name];							
+			if (ship.Gadget[index - MAXWEAPON - MAXSHIELD] >= 0) {
+        return [NSString stringWithCString:Gadgettype[ship.Gadget[index - MAXWEAPON - MAXSHIELD]].Name];							
+      }
 		}
+  }
+
 	return @"";
 }
 
@@ -7059,37 +6969,35 @@ sellCargoViewController * opponentViewControllerInstance;
 // *************************************************************************
 // Determine base price of item
 // *************************************************************************
--(long) BasePrice:(char) ItemTechLevel Price:( long) Price
-{
-	return ((ItemTechLevel > CURSYSTEM.TechLevel) ? 0 : 
-			((Price * (100 - [self TraderSkill:&ship])) / 100));
+-(long) BasePrice:(char) ItemTechLevel Price:( long) Price {
+	return ((ItemTechLevel > CURSYSTEM.TechLevel) ? 0 : ((Price * (100 - [self TraderSkill:&ship])) / 100));
 }
 
--(int)getEquipmentPrice:(int)index
-{
-	if (index < MAXWEAPONTYPE)
-		return BASEWEAPONPRICE(index);	
-	else
+-(int)getEquipmentPrice:(int)index {
+	if (index < MAXWEAPONTYPE) {
+		return BASEWEAPONPRICE(index);	    
+  } else {
 		if (index < MAXWEAPONTYPE + MAXSHIELDTYPE) {
 			return BASESHIELDPRICE(index - MAXWEAPONTYPE);				
 		} else {
 			return BASEGADGETPRICE(index - MAXWEAPONTYPE - MAXSHIELDTYPE);							
 		}	
+  }
 }
 
 
 -(int)getSellEquipmentPrice:(int)index
 {
-	if (index < MAXWEAPON)
+	if (index < MAXWEAPON) {
 		return WEAPONSELLPRICE(index);	
-	else
+  } else {
 		if (index < MAXWEAPON + MAXSHIELD) {
 			return SHIELDSELLPRICE(index - MAXWEAPON);				
 		} else {
 			return GADGETSELLPRICE(index - MAXWEAPON - MAXSHIELD);							
 		}	
+  }
 }
-
 
 
 // *************************************************************************
@@ -7097,29 +7005,26 @@ sellCargoViewController * opponentViewControllerInstance;
 // Ship record which contains the item type, Price is the costs,
 // Name is the name of the item and ItemIndex is the item type number
 // *************************************************************************
--(void) BuyItem:(Byte) Slots  Item:(int*) Item  Price:(long) Price  Name:(char*) Name ItemIndex:(int) ItemIndex
-{
+-(void) BuyItem:(Byte) Slots  Item:(int*) Item  Price:(long) Price  Name:(char*) Name ItemIndex:(int) ItemIndex {
 	int FirstEmptySlot;
 	
 	FirstEmptySlot = [self GetFirstEmptySlot:Slots Item:Item];
 	
-	if (Price <= 0)
+	if (Price <= 0) {
 		[self FrmAlert:@"ItemNotSoldAlert"];
-	else if (debt > 0)
+  } else if (debt > 0) {
 		[self FrmAlert:@"YoureInDebtAlert"];
-	else if (Price > [self toSpend])
-		[self FrmAlert:@"CantBuyItemAlert"];
-	else if (FirstEmptySlot < 0)
-		[self FrmAlert:@"NotEnoughSlotsAlert"];
-	else
-	{
+  } else if (Price > [self toSpend]) {
+		[self FrmAlert:@"CantBuyItemAlert"];    
+  } else if (FirstEmptySlot < 0) {
+		[self FrmAlert:@"NotEnoughSlotsAlert"];    
+  } else {
 		currentState = eBuyEquipment;
 		
-		NSString* str = [NSString stringWithFormat:@"Do you wish to buy this item for %i credits?", Price];
-		//[self FrmAlert:str];
-		NSString* name = [NSString stringWithFormat:@"Buy %@", [NSString stringWithCString:Name]];
+		NSString *str = [NSString stringWithFormat:@"Do you wish to buy this item for %i credits?", Price];
+    NSString *name = [NSString stringWithFormat:@"Buy %@", [NSString stringWithCString:Name]];
 		
-		UIAlertView * myAlertView = [[UIAlertView alloc] initWithTitle:name message:str delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ok",nil];	
+		UIAlertView *myAlertView = [[UIAlertView alloc] initWithTitle:name message:str delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ok",nil];	
 		[myAlertView show];
 		[myAlertView release];		
 		bLastMessage = false;
@@ -7128,39 +7033,33 @@ sellCargoViewController * opponentViewControllerInstance;
 		saveItemIndex= ItemIndex;
 		savePrice = Price;
 		saveSlot = FirstEmptySlot;
-		
-		
-		
-	}
+  }
 }
 
 
 
--(void)buyItem:(int)index controller:(buyEquipmentViewController*)controller
-{
-	if (index < MAXWEAPONTYPE)
+-(void)buyItem:(int)index controller:(buyEquipmentViewController *)controller {
+	if (index < MAXWEAPONTYPE) {
 		[self BuyItem:Shiptype[ship.Type].WeaponSlots Item:ship.Weapon Price:BASEWEAPONPRICE(index) Name:Weapontype[index].Name ItemIndex:index];	
-	else
+  } else {
 		if (index < MAXWEAPONTYPE + MAXSHIELDTYPE) {
 			[self BuyItem:Shiptype[ship.Type].ShieldSlots Item:ship.Shield Price:BASESHIELDPRICE(index - MAXWEAPONTYPE) Name:Shieldtype[index- MAXWEAPONTYPE].Name ItemIndex:(index- MAXWEAPONTYPE)];				
 		} else {
 			[self BuyItem:Shiptype[ship.Type].GadgetSlots Item:ship.Gadget Price:BASEGADGETPRICE(index - MAXWEAPONTYPE - MAXSHIELDTYPE) Name:Gadgettype[index - MAXWEAPONTYPE - MAXSHIELDTYPE].Name ItemIndex:(index - MAXWEAPONTYPE - MAXSHIELDTYPE)];						
 		}		
-	buyController = controller;
+  }
 
+	buyController = controller;
 }
 
--(void)sellEquipment:(int)index
-{
-	if (index < MAXWEAPON)
-	{
+-(void)sellEquipment:(int)index {
+	if (index < MAXWEAPON) {
 		credits += WEAPONSELLPRICE(index);
-		for (int i = index + 1; i < MAXWEAPON; ++i)
-			ship.Weapon[i-1] = ship.Weapon[i];
+		for (int i = index + 1; i < MAXWEAPON; ++i) {
+			ship.Weapon[i-1] = ship.Weapon[i];      
+    }
 		ship.Weapon[MAXWEAPON - 1] = -1;
-	} else 
-	if (index < MAXWEAPON + MAXSHIELD) 
-	{
+	} else if (index < MAXWEAPON + MAXSHIELD) {
 		index =index - MAXWEAPON;
 		credits += WEAPONSELLPRICE(index);
 		for (int i = index + 1; i < MAXSHIELD; ++i) {
@@ -7169,26 +7068,22 @@ sellCargoViewController * opponentViewControllerInstance;
 		}
 		ship.Shield[MAXSHIELD - 1] = -1;
 		ship.ShieldStrength[MAXSHIELD - 1] = -1;		
-	}
-	else
-	{
+	} else {
 		index = index - MAXWEAPON - MAXSHIELD;
 		
-		if ([self filledCargoBays] > [self totalCargoBays] - 5)
-			[self FrmAlert:@"CargoBaysFullAlert"];
-			else
-		{
+		if ([self filledCargoBays] > [self totalCargoBays] - 5) {
+			[self FrmAlert:@"CargoBaysFullAlert"];      
+    } else {
 			credits += GADGETSELLPRICE(index);
-			for (int i = index + 1; i < MAXGADGET; ++i)
+			for (int i = index + 1; i < MAXGADGET; ++i) {
 				ship.Gadget[i-1] = ship.Gadget[i];
+      }
 			ship.Gadget[MAXGADGET - 1] = -1;		
 		}
 	}	
 }
 
--(void) DrawMercenary:(int)index controller:(personellRosterViewController*)controller  name:(UILabel*)name cost:(UILabel*)cost pilot:(UILabel*)pilot trader:(UILabel*)trader
-			  fighter:(UILabel*)fighter engineer:(UILabel*)engineer
-{
+-(void) DrawMercenary:(int)index controller:(personellRosterViewController *)controller  name:(UILabel *)name cost:(UILabel *)cost pilot:(UILabel *)pilot trader:(UILabel *)trader fighter:(UILabel*)fighter engineer:(UILabel*)engineer {
 	[controller.view addSubview:name];
 	[controller.view addSubview:cost];
 	[controller.view addSubview:pilot];
@@ -7208,17 +7103,16 @@ sellCargoViewController * opponentViewControllerInstance;
 // *************************************************************************
 // Determine which mercenary is for hire in the current system
 // *************************************************************************
--(int) GetForHire
-{
+-(int) GetForHire {
 	int ForHire = -1;
 	int i;
 	
-	for (i=1; i<MAXCREWMEMBER; ++i)
-	{
-		if (i == ship.Crew[1] || i == ship.Crew[2])
+	for (i=1; i<MAXCREWMEMBER; ++i) {
+		if (i == ship.Crew[1] || i == ship.Crew[2]) {
 			continue;
-		if (Mercenary[i].CurSystem ==currentSystem)
-		{
+    }
+
+		if (Mercenary[i].CurSystem ==currentSystem) {
 			ForHire = i;
 			break;
 		}
@@ -7228,126 +7122,83 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 
--(void) updateRosterWindow:(personellRosterViewController*)controller 
-{
+-(void) updateRosterWindow:(personellRosterViewController *)controller {
 	int i = 0;
 	//for (i=0; i<2; ++i)
 	{
-		if (i == Shiptype[ship.Type].CrewQuarters-2 && (jarekStatus == 1 || wildStatus == 1))
-		{
+		if (i == Shiptype[ship.Type].CrewQuarters-2 && (jarekStatus == 1 || wildStatus == 1)) {
 			if (jarekStatus == 1) {
 				controller.Vacancy0.text = @"Jarek's quarters.";
 				[controller.view addSubview:controller.Vacancy0];
-			}
-				//;DrawChars( "Jarek's quarters", 30, 30 + i*45 );
-			else {
+			} else {
 				controller.Vacancy0.text = @"Wild's quarters.";
 				[controller.view addSubview:controller.Vacancy0];
 
 			}
-	//		continue;
-		} else
-		
-		if (Shiptype[ship.Type].CrewQuarters <= i+1)
-		{
+		} else if (Shiptype[ship.Type].CrewQuarters <= i+1) {
 			controller.Vacancy0.text = @"No quarters available.";
 			[controller.view addSubview:controller.Vacancy0];
 
-		} else
-		
-		if (ship.Crew[i+1] < 0)
-		{
+		} else if (ship.Crew[i+1] < 0) {
 			controller.Vacancy0.text = @"Vacancy";
 			[controller.view addSubview:controller.Vacancy0];
-
-		}
-		else {
-			[self DrawMercenary:ship.Crew[i+1] controller:controller name:controller.PilotName0 cost:controller.Price0 pilot:controller.Pilot0 trader:controller.Trader0 fighter:controller.Fighter0
-					   engineer:controller.Engineer0];
+		} else {
+			[self DrawMercenary:ship.Crew[i+1] controller:controller name:controller.PilotName0 cost:controller.Price0 pilot:controller.Pilot0 trader:controller.Trader0 fighter:controller.Fighter0 engineer:controller.Engineer0];
 			[controller.view addSubview:controller.fire0];	
 		}	
 	}
 
 	{
 		int i = 1;
-		if (i == Shiptype[ship.Type].CrewQuarters-2 && (jarekStatus == 1 || wildStatus == 1))
-		{
+		if (i == Shiptype[ship.Type].CrewQuarters-2 && (jarekStatus == 1 || wildStatus == 1)) {
 			if (jarekStatus == 1) {
 				controller.Vacancy0.text = @"Jarek's quarters.";
 				[controller.view addSubview:controller.Vacancy0];
-			}
-			//;DrawChars( "Jarek's quarters", 30, 30 + i*45 );
-			else {
+			} else {
 				controller.Vacancy1.text = @"Wild's quarters.";
-				[controller.view addSubview:controller.Vacancy0];
-				
-			}
-			//		continue;
-		} else
-			
-			if (Shiptype[ship.Type].CrewQuarters <= i+1)
-			{
-				controller.Vacancy1.text = @"No quarters available.";
-				[controller.view addSubview:controller.Vacancy1];
-				
-			} else
-				
-				if (ship.Crew[i+1] < 0)
-				{
-					controller.Vacancy1.text = @"Vacancy";
-					[controller.view addSubview:controller.Vacancy1];
-					
-				}
-				else {
-					[self DrawMercenary:ship.Crew[i+1] controller:controller name:controller.PilotName1 cost:controller.Price1 pilot:controller.Pilot1 trader:controller.Trader0 
-								fighter:controller.Fighter1   engineer:controller.Engineer1];
-					[controller.view addSubview:controller.fire1];	
-				}	
-	}
+        [controller.view addSubview:controller.Vacancy0];
+      }
+		} else if (Shiptype[ship.Type].CrewQuarters <= i+1) {
+      controller.Vacancy1.text = @"No quarters available.";
+      [controller.view addSubview:controller.Vacancy1];
+    } else if (ship.Crew[i+1] < 0) {
+      controller.Vacancy1.text = @"Vacancy";
+      [controller.view addSubview:controller.Vacancy1];
+    } else {
+      [self DrawMercenary:ship.Crew[i+1] controller:controller name:controller.PilotName1 cost:controller.Price1 pilot:controller.Pilot1 trader:controller.Trader0 fighter:controller.Fighter1   engineer:controller.Engineer1];
+      [controller.view addSubview:controller.fire1];	
+    }	
+  }
 
-	
-	
-	
-	int ForHire = [self GetForHire];
-	if (ForHire < 0)
-	{
+  int ForHire = [self GetForHire];
+	if (ForHire < 0) {
 		controller.Vacancy2.text = @"No one for hire";
 		[controller.view addSubview:controller.Vacancy2];	
 
-	}
-	else
-	{	
-		[self DrawMercenary:ForHire controller:controller name:controller.PilotName2 cost:controller.Price2 pilot:controller.Pilot2 trader:controller.Trader2 fighter:controller.Fighter2
-				   engineer:controller.Engineer2];
+	} else {	
+		[self DrawMercenary:ForHire controller:controller name:controller.PilotName2 cost:controller.Price2 pilot:controller.Pilot2 trader:controller.Trader2 fighter:controller.Fighter2 engineer:controller.Engineer2];
 		[controller.view addSubview:controller.fire2];	
-		
-//		FrmShowObject( frmP, FrmGetObjectIndex( frmP, PersonnelRosterHire0Button ) );
-//		DrawMercenary( ForHire, 107 );		
 	}
 	
 }
 
 -(void) fireMercenary:(int)index {
 	int oldTraderSkill = [self TraderSkill:&ship];
-	if (index == 1)
-	{
+	if (index == 1) {
 		ship.Crew[1] = ship.Crew[2];
 	}
-//	else 
-//		ship.Crew[1] = -1;
 	
 	ship.Crew[2] = -1;
 	
-	if (oldTraderSkill != [self TraderSkill:&ship])
+	if (oldTraderSkill != [self TraderSkill:&ship]) {
 		[self RecalculateBuyPrices:currentSystem];
+  }
 	
 	[self playSound:eFireMercenary];
 }
 
--(int)AvailableQuarters
-{
-	return Shiptype[ship.Type].CrewQuarters - (jarekStatus == 1 ? 1 : 0) -
-	(wildStatus == 1 ? 1 : 0);
+-(int)AvailableQuarters {
+	return Shiptype[ship.Type].CrewQuarters - (jarekStatus == 1 ? 1 : 0) - (wildStatus == 1 ? 1 : 0);
 }
 
 -(void) hireMercenaryFromRoster {
@@ -7355,67 +7206,75 @@ sellCargoViewController * opponentViewControllerInstance;
 	int ForHire = [self GetForHire];
 	
 	int FirstFree = -1;
-	if (ship.Crew[1] == -1)
+	if (ship.Crew[1] == -1) {
 		FirstFree = 1;
-	else if (ship.Crew[2] == -1)
+  } else if (ship.Crew[2] == -1) {
 		FirstFree = 2;
-	if (FirstFree < 0 || [self AvailableQuarters] <= FirstFree) {
+  }
+	
+  if (FirstFree < 0 || [self AvailableQuarters] <= FirstFree) {
 		[self FrmAlert:@"NoFreeQuartersAlert"];
 	} else {
 		ship.Crew[FirstFree] = ForHire;
-		if (oldTraderSkill != [self TraderSkill:&ship])
-			[self RecalculateBuyPrices:currentSystem];
-		
+		if (oldTraderSkill != [self TraderSkill:&ship]) {
+			[self RecalculateBuyPrices:currentSystem];		
+    }
 	}
 
 }
 
--(NSString*)getPriceDifference:(int)itemIndex difference:(bool)difference realPrice:(int*)realPrice maxCount:(int*)maxCount isSmart:(int*)isSmart
-{
+-(NSString*)getPriceDifference:(int)itemIndex difference:(bool)difference realPrice:(int *)realPrice maxCount:(int *)maxCount isSmart:(int *)isSmart {
 	int price = [self StandardPrice:itemIndex size:solarSystem[warpSystem].Size tech:solarSystem[warpSystem].TechLevel goverment:solarSystem[warpSystem].Politics resources:solarSystem[warpSystem].Visited ? solarSystem[warpSystem].SpecialResources : -1];
-	if (price > BuyPrice[itemIndex] && BuyPrice[itemIndex] > 0 && CURSYSTEM.Qty[itemIndex] > 0)
+
+	if (price > BuyPrice[itemIndex] && BuyPrice[itemIndex] > 0 && CURSYSTEM.Qty[itemIndex] > 0) {
 		*isSmart = 1;
-	else
-		*isSmart = 0;
+  } else {
+		*isSmart = 0;    
+  }
+  
 	*realPrice = price;
-	if (BuyPrice[itemIndex] > 0)
+	if (BuyPrice[itemIndex] > 0) {
 		*maxCount = credits / BuyPrice[itemIndex];
-	else
+  } else {
 		*maxCount = 0;
-	if (price <= 0 || (difference && BuyPrice[itemIndex] <= 0))
+  }
+
+	if (price <= 0 || (difference && BuyPrice[itemIndex] <= 0)) {
 		return @"---";// [[NSString stringWithFormat:@""] retain];
-	if (difference) 
-		return [NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]];
-//		return [[NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]] retain];
-	else
+  }
+
+	if (difference)  {
+		return [NSString stringWithFormat:@"%@%i cr.", price > BuyPrice[itemIndex] ? @"+" : @"", price - BuyPrice[itemIndex]];    
+  } else {
 		return [NSString stringWithFormat:@"%i cr.", price];
-//		return [[NSString stringWithFormat:@"%i cr.", price] retain];
+  }
 }
 		
 
 // *************************************************************************
 // Determine next system withing range
 // *************************************************************************
--(int) nextSystemWithinRange:(int) Current Back:(Boolean) Back 
-{
+-(int) nextSystemWithinRange:(int) Current Back:(Boolean) Back {
 	int i = Current;
 	
 	(Back ? --i : ++i);
 	
-	while (true)
-	{
-		if (i < 0)
+	while (true) {
+		if (i < 0) {
 			i = MAXSOLARSYSTEM - 1;
-		else if (i >= MAXSOLARSYSTEM)
+    } else if (i >= MAXSOLARSYSTEM) {
 			i = 0;
-		if (i == Current)
+    }
+
+		if (i == Current) {
 			break;
+    }
 		
-		if ([self wormholeExists:currentSystem b:i])
+		if ([self wormholeExists:currentSystem b:i]) {
+			return i;      
+    } else if ([self realDistance:currentSystem b:i]  <= [self getFuel] && [self realDistance:currentSystem b:i]  > 0) {
 			return i;
-		else if ([self realDistance:currentSystem b:i]  <= [self getFuel] &&
-			[self realDistance:currentSystem b:i]  > 0)
-			return i;
+    }
 		
 		(Back ? --i : ++i);
 	}
@@ -7520,16 +7379,11 @@ typedef struct
 
 
 
--(void)LoadBinaryOptions:(NSString*)name 
-{
+-(void)LoadBinaryOptions:(NSString *)name {
 	options.musicEnabled = 0;
 	options.soundEnabled = 1;
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7545,12 +7399,7 @@ typedef struct
 -(void)SaveOptions:(NSString*)name{
 	NSData* data;
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
-																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7561,14 +7410,9 @@ typedef struct
 	
 }
 
--(void)LoadBinaryHighScore:(NSString*)name data:(HIGHSCORE*)sg
-{
+-(void)LoadBinaryHighScore:(NSString*)name data:(HIGHSCORE *)sg {
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7583,12 +7427,7 @@ typedef struct
 
 -(void)eraseAutoSave {
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
-																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask,YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7598,15 +7437,10 @@ typedef struct
 }
 
 
--(void)SaveHighScore:(NSString*)name{
+-(void)SaveHighScore:(NSString *)name {
 	NSData* data;
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
-																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7620,12 +7454,7 @@ typedef struct
 -(void)SaveGame:(NSString*)name{
 	NSData* data;
 
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
-																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7645,15 +7474,17 @@ typedef struct
 	sg->Days = days;
 	sg->WarpSystem = warpSystem;
 //	sg->SelectedShipType = selectedShipType;
-	for (i=0; i<MAXTRADEITEM; ++i)
-	{
+	for (i=0; i<MAXTRADEITEM; ++i) {
 		sg->BuyPrice[i] = BuyPrice[i];
 		sg->SellPrice[i] = SellPrice[i];
 	}
-	for (i=0; i<MAXSHIPTYPE; ++i)
+  
+	for (i=0; i<MAXSHIPTYPE; ++i) {
 		sg->ShipPrice[i] = ShipPrice[i];
+  }
+
 	//sg->musicEnabled = musicEnabled;
-   	sg->GalacticChartSystem = galacticChartSystem;
+  sg->GalacticChartSystem = galacticChartSystem;
 	sg->PoliceKills = policeKills;
 	sg->TraderKills = traderKills;
 	sg->PirateKills = pirateKills;
@@ -7672,15 +7503,20 @@ typedef struct
 	[pilotName getCString:sg->NameCommander maxLength:(NAMELEN+1) encoding:NSUTF8StringEncoding];
 //	sg->CurForm = CurForm;
 	memmove( &(sg->Ship), &ship, sizeof( sg->Ship ) );
-	
-	
 	memmove( &(sg->Opponent), &Opponent, sizeof( sg->Opponent ) );
-	for (i=0; i<MAXCREWMEMBER+1; ++i)
+
+	for (i=0; i<MAXCREWMEMBER+1; ++i) {
 		memmove( &(sg->Mercenary[i]), &Mercenary[i], sizeof( sg->Mercenary[i] ) );
-	for (i=0; i<MAXSOLARSYSTEM; ++i)
+  }
+
+	for (i=0; i<MAXSOLARSYSTEM; ++i) {
 		memmove( &(sg->SolarSystem[i]), &solarSystem[i], sizeof( sg->SolarSystem[i] ) );
-	for (i=0; i<MAXFORFUTUREUSE; ++i)
+  }
+
+	for (i=0; i<MAXFORFUTUREUSE; ++i) {
 		sg->ForFutureUse[i] = 0;
+  }
+
 	sg->EscapePod = escapePod;
 	sg->Insurance = insurance;
 	sg->NoClaim = noClaim;
@@ -7693,10 +7529,15 @@ typedef struct
 	sg->VersionMajor = 1;
 	// changed from 3 to 4. SjG
 	sg->VersionMinor = 4;
-	for (i=0; i<MAXWORMHOLE; ++i)
+
+	for (i=0; i<MAXWORMHOLE; ++i) {
 		sg->Wormhole[i] = Wormhole[i];
-	for (i=0; i<MAXTRADEITEM; ++i)
-		sg->BuyingPrice[i] = BuyingPrice[i];
+  }
+
+	for (i=0; i<MAXTRADEITEM; ++i) {
+		sg->BuyingPrice[i] = BuyingPrice[i];    
+  }
+  
 	sg->ArtifactOnBoard = artifactOnBoard;
 	sg->ReserveMoney = reserveMoney;
 //	sg->PriceDifferences = priceDifferences;
@@ -7720,9 +7561,9 @@ typedef struct
 	sg->trackAutoOff = trackAutoOff;
 	sg->remindLoans = remindLoans;
 	sg->canSuperWarp = canSuperWarp;
-    sg->ReactorStatus = reactorStatus;
-    sg->TrackedSystem = trackedSystem;
-    sg->ScarabStatus = scarabStatus;
+  sg->ReactorStatus = reactorStatus;
+  sg->TrackedSystem = trackedSystem;
+  sg->ScarabStatus = scarabStatus;
  	sg->AlwaysIgnoreTradeInOrbit = alwaysIgnoreTradeInOrbit;
 	sg->AlreadyPaidForNewspaper = alreadyPaidForNewspaper;
 	sg->GameLoaded = gameLoaded;
@@ -7733,16 +7574,12 @@ typedef struct
 //	sg->Shortcut3 = Shortcut3;
 //	sg->Shortcut4 = Shortcut4;
 	
-	
-	
-	
-	data = [[NSData alloc] initWithBytes:&saveGame length:(NSUInteger)sizeof(saveGame) ];
+  data = [[NSData alloc] initWithBytes:&saveGame length:(NSUInteger)sizeof(saveGame) ];
 	[data writeToFile:fileName atomically:FALSE];		
 	[data release];	
 }
 
-- (NSString*) convertDateLocaleString:(NSDate*) theDate
-{
+- (NSString*) convertDateLocaleString:(NSDate *)theDate {
 	[NSDateFormatter setDefaultFormatterBehavior:NSDateFormatterBehavior10_4];
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateStyle:NSDateFormatterShortStyle];
@@ -7752,14 +7589,9 @@ typedef struct
 	return dateStr;
 }
 
--(void)LoadBinaryData:(NSString*)name  time:(NSString**)time data:(SAVEGAMETYPE*)sg
-{
+-(void)LoadBinaryData:(NSString*)name  time:(NSString**)time data:(SAVEGAMETYPE *)sg {
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
@@ -7775,17 +7607,13 @@ typedef struct
 		NSFileManager *fileManager = [NSFileManager defaultManager];		
 		NSDictionary *fsAttributes =
         [fileManager fileAttributesAtPath:fileName traverseLink:NO];
-		//*time = [[fsAttributes objectForKey:NSFileModificationDate] retain];
 		*time = [self convertDateLocaleString:[fsAttributes objectForKey:NSFileModificationDate]];
-		
-		
 	}
 	
 }
 
 
--(void)LoadGame:(NSString*)name
-{
+-(void)LoadGame:(NSString *)name {
 	
 	SAVEGAMETYPE   saveGame, * sg = &saveGame;
 	[self LoadBinaryData:name time:nil data:&saveGame];
@@ -7807,8 +7635,11 @@ typedef struct
 		BuyPrice[i] = sg->BuyPrice[i];
 		SellPrice[i] = sg->SellPrice[i];
 	}
-	for (i=0; i<MAXSHIPTYPE; ++i)
+
+	for (i=0; i<MAXSHIPTYPE; ++i) {
 		ShipPrice[i] = sg->ShipPrice[i];
+  }
+
 	//musicEnabled = sg->musicEnabled;
 	galacticChartSystem= sg->GalacticChartSystem ;
 	policeKills = sg->PoliceKills;
@@ -7828,13 +7659,13 @@ typedef struct
 	monsterHull= sg->MonsterHull ;
 	pilotName = [[NSString stringWithCString:sg->NameCommander length:strlen(sg->NameCommander)] retain];	//	sg->CurForm = CurForm;
 	memmove(&ship, &(sg->Ship),  sizeof( sg->Ship ) );
-	
-	
 	memmove( &Opponent,&(sg->Opponent),  sizeof( sg->Opponent ) );
-	for (i=0; i<MAXCREWMEMBER+1; ++i)
-		memmove(&Mercenary[i], &(sg->Mercenary[i]),  sizeof( sg->Mercenary[i] ) );
-	for (i=0; i<MAXSOLARSYSTEM; ++i)
+	for (i=0; i<MAXCREWMEMBER+1; ++i) {
+		memmove(&Mercenary[i], &(sg->Mercenary[i]),  sizeof( sg->Mercenary[i] ) );    
+  }
+	for (i=0; i<MAXSOLARSYSTEM; ++i) {
 		memmove(&solarSystem[i], &(sg->SolarSystem[i]),  sizeof( sg->SolarSystem[i] ) );
+  }
 	
 //	for (i=0; i<MAXFORFUTUREUSE; ++i)
 //		sg->ForFutureUse[i] = 0;
@@ -7850,10 +7681,15 @@ typedef struct
 //	sg->VersionMajor = 1;
 	// changed from 3 to 4. SjG
 //	sg->VersionMinor = 4;
-	for (i=0; i<MAXWORMHOLE; ++i)
+
+	for (i=0; i<MAXWORMHOLE; ++i) {
 		Wormhole[i] = sg->Wormhole[i];
-	for (i=0; i<MAXTRADEITEM; ++i)
+  }
+
+	for (i=0; i<MAXTRADEITEM; ++i) {
 		BuyingPrice[i] = sg->BuyingPrice[i];
+  }
+
 	artifactOnBoard = sg->ArtifactOnBoard;
 	reserveMoney = sg->ReserveMoney;
 	//	sg->PriceDifferences = priceDifferences;
@@ -7877,50 +7713,34 @@ typedef struct
 	trackAutoOff = sg->trackAutoOff;
 	remindLoans = sg->remindLoans;
 	canSuperWarp = sg->canSuperWarp;
-    reactorStatus = sg->ReactorStatus;
-    trackedSystem = sg->TrackedSystem;
-    scarabStatus = sg->ScarabStatus;
+  reactorStatus = sg->ReactorStatus;
+  trackedSystem = sg->TrackedSystem;
+  scarabStatus = sg->ScarabStatus;
  	alwaysIgnoreTradeInOrbit = sg->AlwaysIgnoreTradeInOrbit;
 	alreadyPaidForNewspaper = sg->AlreadyPaidForNewspaper;
 	gameLoaded = sg->GameLoaded ;	
 	
-	
-	
-	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
+  S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app switchBarToGame];
 	[app commandCommand];
 	[self updateMercenary0Data];
-//	if (musicEnabled)
-//		[self playMusic];
-	
-	//[self showJettisonForm];
 }
 		
 
--(void)ShowSaveGames:(NSMutableArray*)array name:(NSMutableArray*)name additional:(NSMutableArray*)additional
-{
+-(void)ShowSaveGames:(NSMutableArray *)array name:(NSMutableArray *)name additional:(NSMutableArray *)additional {
 	
-	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
-																 
-																 NSDocumentDirectory, 
-																 NSUserDomainMask,
-																 YES
-																 ); 
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES); 
 	
 	NSString* recordingDirectory = [filePaths objectAtIndex: 0];
 	
-	NSDirectoryEnumerator *direnum = [[NSFileManager defaultManager]
-									  enumeratorAtPath:recordingDirectory];
+	NSDirectoryEnumerator *direnum = [[NSFileManager defaultManager]enumeratorAtPath:recordingDirectory];
 	NSString *pname;
 	while (pname = [direnum nextObject])
 	{
-		if ([[pname pathExtension] isEqualToString:@"rtfd"])
-		{
+		if ([[pname pathExtension] isEqualToString:@"rtfd"]){
 			/* don’t enumerate this directory */
 			[direnum skipDescendents];
-		}
-		else
-		{
+		} else {
 			if ([[pname pathExtension] isEqualToString:@"save"]) {
 				NSString * nameFile = [pname stringByDeletingPathExtension]; 
 				[array addObject:nameFile];
@@ -7937,102 +7757,88 @@ typedef struct
 	}	
 }
 
--(long)getShipShield
-{
+-(long)getShipShield {
 	return [self TotalShieldStrength:&ship];
 }
 
--(long)getShipOpponentShield
-{
+-(long)getShipOpponentShield {
 	return [self TotalShieldStrength:&Opponent];
 }
 
--(long)getShipShieldMax
-{
+-(long)getShipShieldMax {
 	return [self TotalShields:&ship];
 }
 
--(long)getShipOpponentShieldMax
-{
+-(long)getShipOpponentShieldMax {
 	return [self TotalShields:&Opponent];
 }
 
--(long)getShipHullMax
-{
+-(long)getShipHullMax {
 	return [self GetHullStrength];
 }
 
--(long)getShipOpponentHullMax
-{
+-(long)getShipOpponentHullMax {
 	return Shiptype[Opponent.Type].HullStrength;
 }
 
--(bool)IsNewsExist
-{
+-(bool)IsNewsExist {
 	alreadyPaidForNewspaper = false;
 	if (CURSYSTEM.Special > -1)
 	{
-		if (CURSYSTEM.Special == MONSTERKILLED && monsterStatus == 2)
+		if (CURSYSTEM.Special == MONSTERKILLED && monsterStatus == 2) {
 			[self addNewsEvent:MONSTERKILLED];
-		else if (CURSYSTEM.Special == DRAGONFLY)
-			[self addNewsEvent:DRAGONFLY];
-		else if (CURSYSTEM.Special == SCARAB)
-			 [self addNewsEvent:SCARAB];
-		else if (CURSYSTEM.Special == SCARABDESTROYED && scarabStatus == 2)
-			 [self addNewsEvent:SCARABDESTROYED];
-		else if (CURSYSTEM.Special == FLYBARATAS && dragonflyStatus == 1)
-			 [self addNewsEvent:FLYBARATAS];
-		else if (CURSYSTEM.Special == FLYMELINA && dragonflyStatus == 2)
-			 [self addNewsEvent:FLYMELINA];
-		else if (CURSYSTEM.Special == FLYREGULAS && dragonflyStatus == 3)
-			 [self addNewsEvent:FLYREGULAS];
-		else if (CURSYSTEM.Special == DRAGONFLYDESTROYED && dragonflyStatus == 5)
-			 [self addNewsEvent:DRAGONFLYDESTROYED];
-		else if (CURSYSTEM.Special == MEDICINEDELIVERY && japoriDiseaseStatus == 1)
-			 [self addNewsEvent:MEDICINEDELIVERY];
-		else if (CURSYSTEM.Special == ARTIFACTDELIVERY && artifactOnBoard)
-			 [self addNewsEvent:ARTIFACTDELIVERY];
-		else if (CURSYSTEM.Special == JAPORIDISEASE && japoriDiseaseStatus == 0)
+    } else if (CURSYSTEM.Special == DRAGONFLY) {
+			[self addNewsEvent:DRAGONFLY];      
+    } else if (CURSYSTEM.Special == SCARAB) {
+      [self addNewsEvent:SCARAB];
+    } else if (CURSYSTEM.Special == SCARABDESTROYED && scarabStatus == 2) {
+      [self addNewsEvent:SCARABDESTROYED];
+    } else if (CURSYSTEM.Special == FLYBARATAS && dragonflyStatus == 1) {
+      [self addNewsEvent:FLYBARATAS];
+    } else if (CURSYSTEM.Special == FLYMELINA && dragonflyStatus == 2) {
+      [self addNewsEvent:FLYMELINA];
+    } else if (CURSYSTEM.Special == FLYREGULAS && dragonflyStatus == 3) {
+      [self addNewsEvent:FLYREGULAS];
+    } else if (CURSYSTEM.Special == DRAGONFLYDESTROYED && dragonflyStatus == 5) {
+      [self addNewsEvent:DRAGONFLYDESTROYED];      
+    } else if (CURSYSTEM.Special == MEDICINEDELIVERY && japoriDiseaseStatus == 1) {
+      [self addNewsEvent:MEDICINEDELIVERY];
+    } else if (CURSYSTEM.Special == ARTIFACTDELIVERY && artifactOnBoard) {
+      [self addNewsEvent:ARTIFACTDELIVERY];
+    } else if (CURSYSTEM.Special == JAPORIDISEASE && japoriDiseaseStatus == 0) {
 			[self addNewsEvent:JAPORIDISEASE];
-		else if (CURSYSTEM.Special == JAREKGETSOUT && jarekStatus == 1)
-			 [self addNewsEvent:JAREKGETSOUT];
-		else if (CURSYSTEM.Special == WILDGETSOUT && wildStatus == 1)
-			 [self addNewsEvent:WILDGETSOUT];
-		else if (CURSYSTEM.Special == GEMULONRESCUED && invasionStatus > 0 && invasionStatus < 8)
-			 [self addNewsEvent:GEMULONRESCUED];
-		else if (CURSYSTEM.Special == ALIENINVASION)
-			 [self addNewsEvent:ALIENINVASION];
-		else if (CURSYSTEM.Special == EXPERIMENTSTOPPED && experimentStatus > 0 && experimentStatus < 12) {
+    } else if (CURSYSTEM.Special == JAREKGETSOUT && jarekStatus == 1) {
+      [self addNewsEvent:JAREKGETSOUT];
+    } else if (CURSYSTEM.Special == WILDGETSOUT && wildStatus == 1) {
+      [self addNewsEvent:WILDGETSOUT];
+    } else if (CURSYSTEM.Special == GEMULONRESCUED && invasionStatus > 0 && invasionStatus < 8) {
+      [self addNewsEvent:GEMULONRESCUED];      
+    } else if (CURSYSTEM.Special == ALIENINVASION) {
+      [self addNewsEvent:ALIENINVASION];
+    } else if (CURSYSTEM.Special == EXPERIMENTSTOPPED && experimentStatus > 0 && experimentStatus < 12) {
 			experimentStatus = 13;
-		
-			 [self addNewsEvent:EXPERIMENTSTOPPED];
-		}
-		else if (CURSYSTEM.Special == EXPERIMENTNOTSTOPPED)
-			 [self addNewsEvent:EXPERIMENTNOTSTOPPED];
+		  [self addNewsEvent:EXPERIMENTSTOPPED];
+		} else if (CURSYSTEM.Special == EXPERIMENTNOTSTOPPED) {
+      [self addNewsEvent:EXPERIMENTNOTSTOPPED];
+    }
 		
 	}
 
 	return true;
 }
 			
--(void)payForNewsPaper:(int)sum
-{
+-(void)payForNewsPaper:(int)sum {
 	sum = gameDifficulty + 1;
 	credits -= sum;
 	alreadyPaidForNewspaper = true;
 }
 
 			
--(bool)IsHireExist
-{
-		
-	
-	
+-(bool)IsHireExist {
 	return [self GetForHire] >= 0;
 }
 
--(bool)IsSpecialExist
-{
+-(bool)IsSpecialExist {
 	int OpenQ = [self OpenQuests];
 
 	if  ((CURSYSTEM.Special < 0) || 
@@ -8081,16 +7887,10 @@ typedef struct
 }
 
 
--(void)playMusic
-{
-	
-	[self LoadBinaryOptions:@"options"];
-	
-//	options.musicEnabled = 0;
-	
+-(void)playMusic {
+  [self LoadBinaryOptions:@"options"];
+		
 	NSString* songFile1 = [[NSBundle mainBundle] pathForResource:[NSString stringWithCString:"Resonance"] ofType:@"m4a"];
-	
-	//audioPlayer = nil;
 	
 	if (audioPlayerReleased && options.musicEnabled == 1) {
 		
@@ -8118,13 +7918,11 @@ typedef struct
 	
 }
 
--(void)stopMusic
-{
+-(void)stopMusic {
 	if (!audioPlayerReleased) {
 		[audioPlayer stop];
 		[audioPlayer release];	
 		audioPlayerReleased = true;
-		//audioPlayer = 0;
 	}
 }
 
@@ -8145,34 +7943,30 @@ typedef struct
 //	[timer release];
 }
 
--(void)disableMusic
-{
+-(void)disableMusic {
 	options.musicEnabled = 0;
 	[self SaveOptions:@"options"];
 	[self stopMusic];
 }
 
--(void)enableMusic
-{
+-(void)enableMusic {
 	options.musicEnabled = 1;
 	[self SaveOptions:@"options"];
 	[self playMusic];
 }
+
 -(void)disableSound {
 	options.soundEnabled = 0;
 	[self SaveOptions:@"options"];
 
 }
 
--(void)enableSound
-{
+-(void)enableSound {
 	options.soundEnabled = 1;
 	[self SaveOptions:@"options"];
-
 }
 
--(bool)isSoundEnabled
-{
+-(bool)isSoundEnabled {
 	return options.soundEnabled  == 1;
 }
 
@@ -8225,10 +8019,8 @@ NSString * SoundsList[] = {
 @"you_retire_poorly"
 };
 
--(void) initSounds
-{
-	for (int i =0; i < 19; ++i)
-	{
+-(void) initSounds {
+	for (int i =0; i < 19; ++i) {
 		id sndpath = [[NSBundle mainBundle] pathForResource:SoundsList[i] ofType:@"caf" inDirectory:@"/"];
 		CFURLRef baseURL = (CFURLRef)[[NSURL alloc] initFileURLWithPath:sndpath];
 		AudioServicesCreateSystemSoundID (baseURL, &sound[i]);				
@@ -8236,19 +8028,16 @@ NSString * SoundsList[] = {
 		[(NSURL*)baseURL release];
 	}
 	sound[19] = kSystemSoundID_Vibrate;
-
 }
 
--(void)playSound:(enum eSystemSound)soundType
-{
-	if (options.soundEnabled)
-	AudioServicesPlaySystemSound (sound[(int)soundType]);
+-(void)playSound:(enum eSystemSound)soundType {
+	if (options.soundEnabled) {
+    AudioServicesPlaySystemSound (sound[(int)soundType]);    
+  }
 }
 
--(NSString*)drawNewspaperForm
-{
-    //Boolean shown[MAXSTORIES];
-    Boolean realNews = false;
+-(NSString*)drawNewspaperForm {
+  Boolean realNews = false;
 	NSMutableString* headLine = [[NSMutableString alloc] init];
 	/*
 	i = warpSystem % MAXMASTHEADS;
@@ -8280,134 +8069,129 @@ NSString * SoundsList[] = {
 	RandSeed( warpSystem, days );
 	
 	// Special Events get to go first, crowding out other news
-	if  ([self isNewsEvent:CAPTAINHUIEATTACKED])
-	{
+	if  ([self isNewsEvent:CAPTAINHUIEATTACKED]) {
 		[headLine appendString:@"Famed Captain Huie Attacked by Brigand!\n"];
 	}
-	if  ([self isNewsEvent:EXPERIMENTPERFORMED])
-	{
+  
+	if  ([self isNewsEvent:EXPERIMENTPERFORMED]){
 		[headLine appendString:@"Travelers Report Timespace Damage, Warp Problems!\n"];
 	}
-	if  ([self isNewsEvent:CAPTAINHUIEDESTROYED])
-	{
+  
+	if  ([self isNewsEvent:CAPTAINHUIEDESTROYED]) {
 		[headLine appendString:@"Citizens Mourn Destruction of Captain Huie's Ship!\n"];
 	}
-	if  ([self isNewsEvent:CAPTAINAHABATTACKED])
-	{
+  
+	if  ([self isNewsEvent:CAPTAINAHABATTACKED]) {
 		[headLine appendString:@"Thug Assaults Captain Ahab!\n"];
 	}
-	if  ([self isNewsEvent:CAPTAINAHABDESTROYED])
-	{
+  
+	if  ([self isNewsEvent:CAPTAINAHABDESTROYED]) {
 		[headLine appendString:@"Destruction of Captain Ahab's Ship Causes Anger!\n"];
 	}
-	if  ([self isNewsEvent:CAPTAINCONRADATTACKED])
-	{
+  
+	if  ([self isNewsEvent:CAPTAINCONRADATTACKED]) {
 		[headLine appendString:@"Captain Conrad Comes Under Attack By Criminal!\n"];
 	}
-	if  ([self isNewsEvent:CAPTAINCONRADDESTROYED])
-	{
+  
+	if  ([self isNewsEvent:CAPTAINCONRADDESTROYED]) {
 		[headLine appendString:@"Captain Conrad's Ship Destroyed by Villain!\n"];
 	}
-	if  ([self isNewsEvent:MONSTERKILLED])
-	{
+  
+	if  ([self isNewsEvent:MONSTERKILLED]) {
 		[headLine appendString:@"Hero Slays Space Monster! Parade, Honors Planned for Today.\n"];
 	}
-	if  ([self isNewsEvent:WILDARRESTED])
-	{
+  
+	if  ([self isNewsEvent:WILDARRESTED]) {
 		[headLine appendString:@"Notorious Criminal Jonathan Wild Arrested!\n"];
 	}
-	if  (CURSYSTEM.Special == MONSTERKILLED &&  monsterStatus == 1)
-	{
+  
+	if  (CURSYSTEM.Special == MONSTERKILLED &&  monsterStatus == 1) {
 		[headLine appendString:@"Space Monster Threatens Homeworld!\n"];
 	}
-	if  (CURSYSTEM.Special == SCARABDESTROYED &&  scarabStatus == 1)
-	{
+  
+	if  (CURSYSTEM.Special == SCARABDESTROYED &&  scarabStatus == 1) {
 		[headLine appendString:@"Wormhole Travelers Harassed by Unusual Ship!\n"];
 	}
-	if ([self isNewsEvent:EXPERIMENTSTOPPED])
-	{
+  
+	if ([self isNewsEvent:EXPERIMENTSTOPPED]) {
 		[headLine appendString:@"Scientists Cancel High-profile Test! Committee to Investigate Design.\n"];
 	}
-	if ([self isNewsEvent:EXPERIMENTNOTSTOPPED])
-	{
+  
+	if ([self isNewsEvent:EXPERIMENTNOTSTOPPED]) {
 		[headLine appendString:@"Huge Explosion Reported at Research Facility.\n"];
 	}
-	if ([self isNewsEvent:DRAGONFLY])
-	{
+  
+	if ([self isNewsEvent:DRAGONFLY]) {
 		[headLine appendString:@"Experimental Craft Stolen! Critics Demand Security Review.\n"];
 	}
-	if ([self isNewsEvent:SCARAB])
-	{
+  
+	if ([self isNewsEvent:SCARAB]) {
 		[headLine appendString:@"Security Scandal: Test Craft Confirmed Stolen.\n"];
 	}
-	if ([self isNewsEvent:FLYBARATAS])
-	{
+  
+	if ([self isNewsEvent:FLYBARATAS]) {
 		[headLine appendString:@"Investigators Report Strange Craft.\n"];
 	}
-	if ([self isNewsEvent:FLYMELINA])
-	{
+  
+	if ([self isNewsEvent:FLYMELINA]) {
 		[headLine appendString:@"Rumors Continue: Melina Orbitted by Odd Starcraft.\n"];
 	}
-	if ([self isNewsEvent:FLYREGULAS])
-	{
+  
+	if ([self isNewsEvent:FLYREGULAS]) {
 		[headLine appendString:@"Strange Ship Observed in Regulas Orbit.\n"];
 	}
-	if (CURSYSTEM.Special == DRAGONFLYDESTROYED && dragonflyStatus == 4 &&
-	    ![self isNewsEvent:DRAGONFLYDESTROYED])
-	{
+  
+	if (CURSYSTEM.Special == DRAGONFLYDESTROYED && dragonflyStatus == 4 && ![self isNewsEvent:DRAGONFLYDESTROYED]) {
 		[headLine appendString:@"Unidentified Ship: A Threat to Zalkon?\n"];
 	}
-	if ([self isNewsEvent:DRAGONFLYDESTROYED])
-	{
+  
+	if ([self isNewsEvent:DRAGONFLYDESTROYED]) {
 		[headLine appendString:@"Spectacular Display as Stolen Ship Destroyed in Fierce Space Battle.\n"];
 	}
-	if ([self isNewsEvent:SCARABDESTROYED])
-	{
+  
+	if ([self isNewsEvent:SCARABDESTROYED]) {
 		[headLine appendString:@"Wormhole Traffic Delayed as Stolen Craft Destroyed.\n"];
 	}
-	if ([self isNewsEvent:MEDICINEDELIVERY])
-	{
+  
+	if ([self isNewsEvent:MEDICINEDELIVERY]) {
 		[headLine appendString:@"Disease Antidotes Arrive! Health Officials Optimistic.\n"];
 	}
-	if ([self isNewsEvent:JAPORIDISEASE])
-	{
+  
+	if ([self isNewsEvent:JAPORIDISEASE]) {
 		[headLine appendString:@"Editorial: We Must Help Japori!\n"];
 	}
-	if ([self isNewsEvent:ARTIFACTDELIVERY])
-	{
+  
+	if ([self isNewsEvent:ARTIFACTDELIVERY]) {
 		[headLine appendString:@"Scientist Adds Alien Artifact to Museum Collection.\n"];
 	}
-	if ([self isNewsEvent:JAREKGETSOUT])
-	{
+  
+	if ([self isNewsEvent:JAREKGETSOUT]) {
 		[headLine appendString:@"Ambassador Jarek Returns from Crisis.\n"];
 	} 
-	if ([self isNewsEvent:WILDGETSOUT])
-	{
+  
+	if ([self isNewsEvent:WILDGETSOUT]) {
 		[headLine appendString:@"Rumors Suggest Known Criminal J. Wild May Come to Kravat!\n"];
 	} 
-	if ([self isNewsEvent:GEMULONRESCUED])
-	{
+  
+	if ([self isNewsEvent:GEMULONRESCUED]) {
 		[headLine appendString:@"Invasion Imminent! Plans in Place to Repel Hostile Invaders.\n"];
 	}
-	if (CURSYSTEM.Special == GEMULONRESCUED && ![self isNewsEvent:GEMULONRESCUED])
-	{
+  
+	if (CURSYSTEM.Special == GEMULONRESCUED && ![self isNewsEvent:GEMULONRESCUED]) {
 		[headLine appendString:@"Alien Invasion Devastates Planet!\n"];
 	}
-	if ([self isNewsEvent:ALIENINVASION])
-	{
+  
+	if ([self isNewsEvent:ALIENINVASION]) {
 		[headLine appendString:@"Editorial: Who Will Warn Gemulon?\n"];
 	}
-	if ([self isNewsEvent:ARRIVALVIASINGULARITY])
-	{
+  
+	if ([self isNewsEvent:ARRIVALVIASINGULARITY]) {
 		[headLine appendString:@"Travelers Claim Sighting of Ship Materializing in Orbit!\n"];
 	}
-	
-	
+		
 	// local system status information
-	if (CURSYSTEM.Status > 0)
-	{
-		switch (CURSYSTEM.Status)
-		{
+	if (CURSYSTEM.Status > 0) {
+		switch (CURSYSTEM.Status) {
 			case WAR:
 				[headLine appendString:@"War News: Offensives Continue!\n"];
 				break;
@@ -8433,11 +8217,9 @@ NSString * SoundsList[] = {
 	}
 	
 	// character-specific news.
-	if (policeRecordScore <= VILLAINSCORE)
-	{
+	if (policeRecordScore <= VILLAINSCORE) {
 		int j = GetRandom2(4);
-		switch (j)
-		{
+		switch (j) {
 			case 0:
 				[headLine appendString:[NSString stringWithFormat:@"Police Warning: %@ Will Dock At %@!\n", pilotName, [self getSolarSystemName:CURSYSTEM.NameIndex]]];
 				break;
@@ -8446,21 +8228,16 @@ NSString * SoundsList[] = {
 					break;
 			case 2:
 				[headLine appendString:[NSString stringWithFormat:@"Locals Rally to Deny Spaceport Access to %@!\n", pilotName]];
-
-
 				break;
 			case 3:
 				[headLine appendString:[NSString stringWithFormat:@"Terror Strikes Locals on Arrival of %@!\n", pilotName]];
-
 				break;
 		}
 	}
 	
-	if (policeRecordScore == HEROSCORE)
-	{
+	if (policeRecordScore == HEROSCORE) {
 		int j = GetRandom2(3);
-		switch (j)
-		{
+		switch (j) {
 			case 0:
 				[headLine appendString:[NSString stringWithFormat:@"Locals Welcome Visiting Hero %@!\n", pilotName]];
 				break;
@@ -8475,18 +8252,15 @@ NSString * SoundsList[] = {
 	}
 	
 	// caught littering?
-	if  ([self isNewsEvent:CAUGHTLITTERING])
-	{
+	if  ([self isNewsEvent:CAUGHTLITTERING]) {
 		[headLine appendString:[NSString stringWithFormat:@"Police Trace Orbiting Space Litter to %@!\n", pilotName]];		
-
 	}
 	
 	
 	// and now, finally, useful news (if any)
 	// base probability of a story showing up is (50 / MAXTECHLEVEL) * Current Tech Level
 	// This is then modified by adding 10% for every level of play less than Impossible
-	for (int i=0; i < MAXSOLARSYSTEM; i++)
-	{
+	for (int i=0; i < MAXSOLARSYSTEM; i++) {
 		if (i != currentSystem &&
 		    (([self realDistance:currentSystem b:i] <= Shiptype[ship.Type].FuelTanks)
 			 ||
@@ -8496,22 +8270,18 @@ NSString * SoundsList[] = {
 		    
 		{
 			// Special stories that always get shown: moon, millionaire
-			if (solarSystem[i].Special == MOONFORSALE)
-			{
+			if (solarSystem[i].Special == MOONFORSALE) {
 				[headLine appendString:[NSString stringWithFormat:@"Seller in %@ System has Utopian Moon available.\n", [self getSolarSystemName:i]]];				
-
 			}
-			if (solarSystem[i].Special == BUYTRIBBLE)
-			{
+      
+			if (solarSystem[i].Special == BUYTRIBBLE) {
 				[headLine appendString:[NSString stringWithFormat:@"Collector in %@ System seeks to purchase Tribbles.\n", [self getSolarSystemName:i]]];						
 			}
 			
 			// And not-always-shown stories
-			if (GetRandom2(100) <= STORYPROBABILITY * CURSYSTEM.TechLevel + 10 * (5 - gameDifficulty))
-			{
+			if (GetRandom2(100) <= STORYPROBABILITY * CURSYSTEM.TechLevel + 10 * (5 - gameDifficulty)) {
 				int j = GetRandom2(6);
-				switch (j)
-				{
+				switch (j) {
 					case 0:
 						[headLine appendString:@"Reports of "];
 						break; 
@@ -8532,8 +8302,7 @@ NSString * SoundsList[] = {
 						break;
 				}
 
-				switch (solarSystem[i].Status)
-				{
+				switch (solarSystem[i].Status) {
 					case WAR:
 						[headLine appendString:@"Strife and War"];
 						break;
@@ -8565,10 +8334,8 @@ NSString * SoundsList[] = {
 	// if there's no useful news, we throw up at least one
 	// headline from our canned news list.
 	//int count = 0 ;
-	if (! realNews)
-	{
+	if (! realNews) {
 		[headLine appendString:[NSString stringWithFormat:@"No news in the %@ System.\n ", [self getSolarSystemName:currentSystem]]];
-		
 	}
 	/*
 		for (int i=0; i< MAXSTORIES; i++)
@@ -8599,34 +8366,27 @@ NSString * SoundsList[] = {
 	NSString * text = NSLocalizedString([NSString stringWithCString:SpecialEvent[CURSYSTEM.Special].QuestStringID], @"")	;
 
 	AlertModalWindow * myAlertView;
-	if (SpecialEvent[CURSYSTEM.Special].JustAMessage)
-	{
-		myAlertView = [[UIAlertView alloc] initWithTitle:title message:
-										  text delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok",nil];	
-		
-	} else 
-	{
-		myAlertView = [[UIAlertView alloc] initWithTitle:title  message:
-					   text delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes",nil];	
-				
+	if (SpecialEvent[CURSYSTEM.Special].JustAMessage) {
+		myAlertView = [[UIAlertView alloc] initWithTitle:title message:text delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok",nil];	
+	} else {
+		myAlertView = [[UIAlertView alloc] initWithTitle:title  message:text delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes",nil];	
 	}
 	
 	bLastMessage = false;
 	[myAlertView show];
 	[myAlertView release];		
 	currentState = eSpecialEvent;
-	
 }
 
 // *************************************************************************
 // After erasure of police record, selling prices must be recalculated
 // *************************************************************************
--(void) RecalculateSellPrices
-{
+-(void) RecalculateSellPrices {
 	int i;
 	
-	for (i=0; i<MAXTRADEITEM; ++i)
+	for (i=0; i<MAXTRADEITEM; ++i) {
 		SellPrice[i] = (SellPrice[i] * 100) / 90;
+  }
 }
 
 // *************************************************************************
@@ -8635,47 +8395,40 @@ NSString * SoundsList[] = {
 // in the order of Pilot, Fighter, Trader, Engineer.
 // *************************************************************************
 
--(Byte) NthLowestSkill:(struct SHIP*)Sh  n:(Byte)n 
-{
+-(Byte) NthLowestSkill:(struct SHIP*)Sh  n:(Byte)n {
 	Byte i = 0, lower = 1, retVal;
 	Boolean looping = true;
-	while (looping)
-	{
+	while (looping) {
 		retVal = 0;
-		if (Mercenary[Sh->Crew[0]].Pilot == i)
-		{
-			if (lower == n)
-			{
+		if (Mercenary[Sh->Crew[0]].Pilot == i) {
+			if (lower == n) {
 				looping = false;
 				retVal = PILOTSKILL;
 			}
 			
 			lower++;
 		}
-		if (Mercenary[Sh->Crew[0]].Fighter == i)
-		{
-			if (lower == n)
-			{
+    
+		if (Mercenary[Sh->Crew[0]].Fighter == i) {
+			if (lower == n) {
 				looping = false;
 				retVal = FIGHTERSKILL;
 			}
 			
 			lower++;
 		}
-		if (Mercenary[Sh->Crew[0]].Trader == i)
-		{
-			if (lower == n)
-			{
+    
+		if (Mercenary[Sh->Crew[0]].Trader == i) {
+			if (lower == n) {
 				looping = false;
 				retVal = TRADERSKILL;
 			}
 			
 			lower++;
 		}
-		if (Mercenary[Sh->Crew[0]].Engineer == i)
-		{
-			if (lower == n)
-			{
+    
+		if (Mercenary[Sh->Crew[0]].Engineer == i) {
+			if (lower == n) {
 				looping = false;
 				retVal = ENGINEERSKILL;
 			}
@@ -8688,15 +8441,13 @@ NSString * SoundsList[] = {
 }
 
 
--(void) specialEventFormHandleEvent
-{
+-(void) specialEventFormHandleEvent {
 	
 	Boolean handled = false;
 	int i, FirstEmptySlot;
 	
 	
-	if ([self toSpend] < SpecialEvent[CURSYSTEM.Special].Price)
-	{
+	if ([self toSpend] < SpecialEvent[CURSYSTEM.Special].Price) {
 		[self FrmAlert:@"NotEnoughForEventAlert"];
 		//Changed
 		//handled = true;
@@ -8706,19 +8457,15 @@ NSString * SoundsList[] = {
 	
 	credits -= SpecialEvent[CURSYSTEM.Special].Price;
 	
-	switch (CURSYSTEM.Special)
-	{
+	switch (CURSYSTEM.Special) {
 			
 		case GETREACTOR:
 			currentState = eUpdateSpecial;
-			if ([self filledCargoBays] > [self totalCargoBays] - 15)
-			{
+			if ([self filledCargoBays] > [self totalCargoBays] - 15) {
 				[self FrmAlert:@"NotEnoughBaysAlert"];
 				handled = true;
 				break;
-			}
-			else if (wildStatus == 1)
-			{
+			} else if (wildStatus == 1) {
 	//			if (FrmCustomAlert(WildWontStayOnboardAlert, SolarSystemName[CURSYSTEM.NameIndex],
 	//							   NULL, NULL) == WildWontStayOnboardSayGoodbyetoWild)
 	//			{
@@ -8876,8 +8623,7 @@ NSString * SoundsList[] = {
 			break;
 			
 		case AMBASSADORJAREK:
-			if (ship.Crew[Shiptype[ship.Type].CrewQuarters-1] >= 0)
-			{
+			if (ship.Crew[Shiptype[ship.Type].CrewQuarters-1] >= 0) {
 				//FrmCustomAlert( NoQuartersAvailableAlert, "Ambassador Jarek", NULL, NULL );
 				[self FrmAlert:@"NoQuartersAvailableAlert"];
 				currentState = eUpdateSpecial;				
@@ -8892,23 +8638,22 @@ NSString * SoundsList[] = {
 			
 		case TRANSPORTWILD:
 			
-			if (ship.Crew[Shiptype[ship.Type].CrewQuarters-1] >= 0)
-			{
+			if (ship.Crew[Shiptype[ship.Type].CrewQuarters-1] >= 0) {
 				//FrmCustomAlert( NoQuartersAvailableAlert, "Jonathan Wild", NULL, NULL );
 				[self FrmAlert:@"NoQuartersAvailableAlert"];
 				currentState = eUpdateSpecial;
 				handled = true;
 				break;
 			}
-			if (![self HasWeapon:&ship Cg:BEAMLASERWEAPON exactCompare:false])
-			{
+        
+			if (![self HasWeapon:&ship Cg:BEAMLASERWEAPON exactCompare:false]) {
 				[self FrmAlert:@"WildWontGetAboardAlert"];
 				currentState = eUpdateSpecial;
 				handled = true;
 				break;
 			}
-			if (reactorStatus > 0 && reactorStatus < 21)
-			{
+        
+			if (reactorStatus > 0 && reactorStatus < 21) {
 				[self FrmAlert:@"WildAfraidOfReactorAlert"];
 				currentState = eUpdateSpecial;
 				handled = true;
@@ -8986,13 +8731,10 @@ NSString * SoundsList[] = {
 		case INSTALLLIGHTNINGSHIELD:
 			FirstEmptySlot = [self GetFirstEmptySlot:Shiptype[ship.Type].ShieldSlots Item:ship.Shield];
 			currentState = eUpdateSpecial;
-			if (FirstEmptySlot < 0)
-			{
+			if (FirstEmptySlot < 0) {
 				[self FrmAlert:@"NotEnoughSlotsAlert"];
 				handled = true;
-			}
-			else
-			{
+			} else {
 				[self FrmAlert:@"LightningShieldAlert"];
 				ship.Shield[FirstEmptySlot] = LIGHTNINGSHIELD;
 				ship.ShieldStrength[FirstEmptySlot] = Shieldtype[LIGHTNINGSHIELD].Power;
@@ -9001,13 +8743,10 @@ NSString * SoundsList[] = {
 			
 		case GETSPECIALLASER:
 			FirstEmptySlot =[self  GetFirstEmptySlot:Shiptype[ship.Type].WeaponSlots Item:ship.Weapon ];
-			if (FirstEmptySlot < 0)
-			{
+			if (FirstEmptySlot < 0) {
 				[self FrmAlert:@"NotEnoughSlotsAlert"];
 				handled = true;
-			}
-			else
-			{
+			} else {
 				[self FrmAlert:@"MorganLaserAlert"];
 				ship.Weapon[FirstEmptySlot] = MORGANLASERWEAPON;
 			}
@@ -9017,13 +8756,10 @@ NSString * SoundsList[] = {
 		case GETFUELCOMPACTOR:
 			currentState = eUpdateSpecial;
 			FirstEmptySlot = [self GetFirstEmptySlot:Shiptype[ship.Type].GadgetSlots Item:ship.Gadget];
-			if (FirstEmptySlot < 0)
-			{
-			[self FrmAlert:@"NotEnoughSlotsAlert"];
+			if (FirstEmptySlot < 0) {
+			  [self FrmAlert:@"NotEnoughSlotsAlert"];
 				handled = true;
-			}
-			else
-			{
+			} else {
 				[self FrmAlert:@"FuelCompactorAlert"];
 				ship.Gadget[FirstEmptySlot] = FUELCOMPACTOR;
 				ship.Fuel = [self GetFuelTanks];
@@ -9032,21 +8768,19 @@ NSString * SoundsList[] = {
 			
 		case JAPORIDISEASE:
 			currentState = eUpdateSpecial;
-			if ([self filledCargoBays] > [self totalCargoBays] - 10)
-			{
+			if ([self filledCargoBays] > [self totalCargoBays] - 10) {
 				[self FrmAlert:@"NotEnoughBaysAlert"];
 				handled = true;
-			}
-			else
-			{
+			} else {
 				[self FrmAlert:@"AntidoteAlert"];
 				japoriDiseaseStatus = 1;
 			}
 			break;
-			
 	}
-	if (!handled)				
+  
+	if (!handled) {
 		CURSYSTEM.Special = -1;
+  }
 	
 	[systemInfoController UpdateView];	
 //	return handled;
@@ -9055,8 +8789,7 @@ NSString * SoundsList[] = {
 // *************************************************************************
 // Calculate the score
 // *************************************************************************
-long GetScore( char EndStatus, int Days, long Worth, char Level )
-{
+long GetScore( char EndStatus, int Days, long Worth, char Level ) {
 	long d;
 	
 	Worth = (Worth < 1000000 ? Worth : 1000000 + ((Worth - 1000000) / 10) );
