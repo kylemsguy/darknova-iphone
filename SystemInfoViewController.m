@@ -7,11 +7,6 @@
 
 
 
--(IBAction)testClick {
-//	UIViewController * targetViewController = [[UIViewController alloc] initWithNibName:@"startView" bundle:nil];
-//	[[self navigationController] presentModalViewController:targetViewController animated:YES];		
-}
-
 -(void) UpdateView {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 
