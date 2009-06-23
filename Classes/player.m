@@ -1,31 +1,71 @@
-//
-//  player.m
-//  S1
-//
-//  Created by Alexey M on 9/26/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-
 #import "player.h"
 #include "spacetrader.h"
 #include "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
 #import "endOfGameViewController.h"
 
-
 @implementation player
-@synthesize pilotName, pilotSkill, fighterSkill, traderSkill, engineerSkill, gameDifficulty, totalSkillPoints,
-credits, debt, reputationScore, policeKills, traderKills, pirateKills, policeRecordScore, insurance, noClaim, escapePod, newsSpecialEventCount, solarSystemName,
-currentSystem, techLevel, systemSize, days, monsterStatus, dragonflyStatus,japoriDiseaseStatus, jarekStatus, invasionStatus, experimentStatus, fabricRipProbability,
-veryRareEncounter, wildStatus, reactorStatus, scarabStatus, warpSystem, trackedSystem, showTrackedRange, alwaysInfo, countDown, autoAttack, autoFlee, attackIconStatus,
-encounterType, textualEncounters, clicks, alreadyPaidForNewspaper, newsAutoPay, alwaysIgnorePolice, alwaysIgnorePirates, currentGalaxySystem;
-@synthesize alwaysIgnoreTraders;
-@synthesize	alwaysIgnoreTradeInOrbit;
-@synthesize	autoFuel;
-@synthesize	autoRepair, reserveMoney, trackAutoOff, remindLoans, leaveEmpty, canSuperWarp;
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@synthesize pilotName, 
+  pilotSkill, 
+  fighterSkill, 
+  traderSkill, 
+  engineerSkill, 
+  gameDifficulty, 
+  totalSkillPoints,
+  credits, 
+  debt, 
+  reputationScore, 
+  policeKills, 
+  traderKills, 
+  pirateKills, 
+  policeRecordScore, 
+  insurance, 
+  noClaim, 
+  escapePod, 
+  newsSpecialEventCount, 
+  solarSystemName,
+  currentSystem, 
+  techLevel, 
+  systemSize, 
+  days, 
+  monsterStatus, 
+  dragonflyStatus,
+  japoriDiseaseStatus, 
+  jarekStatus, 
+  invasionStatus, 
+  experimentStatus, 
+  fabricRipProbability,
+  veryRareEncounter, 
+  wildStatus, 
+  reactorStatus, 
+  scarabStatus, 
+  warpSystem, 
+  trackedSystem, 
+  showTrackedRange, 
+  alwaysInfo, 
+  countDown, 
+  autoAttack, 
+  autoFlee, 
+  attackIconStatus,
+  encounterType, 
+  textualEncounters, 
+  clicks, 
+  alreadyPaidForNewspaper, 
+  newsAutoPay, 
+  alwaysIgnorePolice, 
+  alwaysIgnorePirates, 
+  currentGalaxySystem,
+  alwaysIgnoreTraders,
+  alwaysIgnoreTradeInOrbit,
+  autoFuel,
+  autoRepair, 
+  reserveMoney, 
+  trackAutoOff, 
+  remindLoans, 
+  leaveEmpty, 
+  canSuperWarp;
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 bool bWaitFinishPlunder = false;
@@ -918,28 +958,23 @@ const char* TechLevel[MAXTECHLEVEL] =
 // *************************************************************************
 // Determine if there are any empty slots.
 // *************************************************************************
--(bool) AnyEmptySlots:(struct SHIP *)Ship 
-{
+-(bool) AnyEmptySlots:(struct SHIP *)Ship {
 	int j;
 	
-	for (j=0; j<Shiptype[Ship->Type].WeaponSlots; ++j)
-	{
-		if (Ship->Weapon[j] < 0)
-		{
+	for (j=0; j<Shiptype[Ship->Type].WeaponSlots; ++j) {
+		if (Ship->Weapon[j] < 0) {
 			return true;
 		}							
 	}
-	for (j=0; j<Shiptype[Ship->Type].ShieldSlots; ++j)
-	{
-		if (Ship->Shield[j] < 0)
-		{
+  
+	for (j=0; j<Shiptype[Ship->Type].ShieldSlots; ++j) {
+		if (Ship->Shield[j] < 0) {
 			return true;
 		}							
 	}
-	for (j=0; j<Shiptype[Ship->Type].GadgetSlots; ++j)
-	{
-		if (Ship->Gadget[j] < 0)
-		{
+  
+	for (j=0; j<Shiptype[Ship->Type].GadgetSlots; ++j) {
+		if (Ship->Gadget[j] < 0) {
 			return true;
 		}							
 	}
@@ -956,11 +991,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 
 -(id)initEmpty {
 	[super init];
-	
 
-	
-	
-	
 	pilotName = @"Jameson";
 	pilotSkill = 1;
 	fighterSkill = 1;
@@ -1000,10 +1031,11 @@ const char* TechLevel[MAXTECHLEVEL] =
 	
 	if (debt > 0) {
 		unsigned int incDebt = max(1, debt /10);
-		if (credits > incDebt)
+		if (credits > incDebt) {
 			credits -= incDebt;
-		else
+    } else {
 			debt += (incDebt - credits);
+    }
 	}
 }
 
@@ -1011,14 +1043,12 @@ const char* TechLevel[MAXTECHLEVEL] =
 // *************************************************************************
 // Maximum loan
 // *************************************************************************
--(long) maxLoan
-{
+-(long) maxLoan {
 	return (policeRecordScore >= CLEANSCORE ? 
 			min( 25000L, max( 1000L, (([self currentWorth] / 10L) / 500L) * 500L ) ) : 500L);
 }
 
--(void) showDestroyedShipWindow
-{
+-(void) showDestroyedShipWindow {
 	endOfGameViewController * endGame = [[endOfGameViewController alloc] initWithNibName:@"endGame" bundle:nil];
 	[endGame showShipDestroyedImage];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -1029,8 +1059,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 //	[endGame release];
 }
 
--(void) showUtopiaWindow
-{
+-(void) showUtopiaWindow {
 	endOfGameViewController * endGame = [[endOfGameViewController alloc] initWithNibName:@"endGame" bundle:nil];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.window addSubview:[endGame view]];	
@@ -1049,8 +1078,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 // *************************************************************************
 // Lending money
 // *************************************************************************
--(void) getLoan:(long) loan 
-{
+-(void) getLoan:(long) loan {
 	long amount;
 	
 	
@@ -1065,8 +1093,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 // Paying back
 // *************************************************************************
 
--(void) payBack:(long) cash 
-{
+-(void) payBack:(long) cash {
 	long Amount;
 	
 	Amount = min( debt, cash );
@@ -1075,8 +1102,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 	debt -= Amount;
 }
 
-inline long BaseSellPrice(int Index, int Price)
-{
+inline long BaseSellPrice(int Index, int Price) {
 	return (Index >= 0 ?(((float)Price * 3.0) /4.0) :0);
 }
 
@@ -1092,36 +1118,47 @@ inline long BaseSellPrice(int Index, int Price)
 	// subtract costs to fill tank with fuel
 	- (Shiptype[ship.Type].FuelTanks - [self getFuel]) * Shiptype[ship.Type].CostOfFuel;
 	// Add 2/3 of the price of each item of equipment
-	for (i=0; i<MAXWEAPON; ++i)
-		if (ship.Weapon[i] >= 0)
+	for (i=0; i<MAXWEAPON; ++i) {
+		if (ship.Weapon[i] >= 0) {
 			CurPrice += WEAPONSELLPRICE( i );
-	for (i=0; i<MAXSHIELD; ++i)
-		if (ship.Shield[i] >= 0)
+    }
+  }
+
+	for (i=0; i<MAXSHIELD; ++i) {
+		if (ship.Shield[i] >= 0) {
 			CurPrice += SHIELDSELLPRICE( i );
-	for (i=0; i<MAXGADGET; ++i)
-		if (ship.Gadget[i] >= 0)
+    }
+  }
+
+	for (i=0; i<MAXGADGET; ++i) {
+		if (ship.Gadget[i] >= 0) {
 			CurPrice += GADGETSELLPRICE( i );
+    }
+  }
 	
 	return CurPrice;
 }
 
 -(long) insuranceMoney {
-	if (!insurance)
+	if (!insurance) {
 		return 0;
+  }
+
 	return (max(1, (([self currentShipPriceWithoutCargo:true] * 5) / 2000) * (100 - min(noClaim, 90)) / 100));
 }
 
 // *************************************************************************
 // What you owe the mercenaries daily
 // *************************************************************************
--(int) mercenaryMoney
-{
+-(int) mercenaryMoney {
 	int i, ToPay;
 	
 	ToPay = 0;
-	for (i=1; i<MAXCREW; ++i)
-		if (ship.Crew[i] >= 0)
+	for (i=1; i<MAXCREW; ++i) {
+		if (ship.Crew[i] >= 0) {
 			ToPay += MERCENARYHIREPRICE( ship.Crew[i] );
+    }
+  }
 	
 	return ToPay;	
 }
@@ -1129,28 +1166,23 @@ inline long BaseSellPrice(int Index, int Price)
 // *************************************************************************
 // Add a news event flag
 // *************************************************************************
--(void) addNewsEvent:(int) eventFlag
-{
-	if (newsSpecialEventCount < MAXSPECIALNEWSEVENTS - 1)
+-(void) addNewsEvent:(int) eventFlag {
+	if (newsSpecialEventCount < MAXSPECIALNEWSEVENTS - 1) {
 		NewsEvents[newsSpecialEventCount++] = eventFlag;
+  }
 }
 
 
 // *************************************************************************
 // replace a news event flag with another
 // *************************************************************************
--(void) replaceNewsEvent:(int)originalEventFlag replacementEventFlag:(int)replacementEventFlag
-{
+-(void) replaceNewsEvent:(int)originalEventFlag replacementEventFlag:(int)replacementEventFlag {
 	int i;
 	
-	if (originalEventFlag == -1)
-	{
+	if (originalEventFlag == -1) {
 		[self addNewsEvent:replacementEventFlag];
-	}
-	else
-	{
-		for (i=0;i<newsSpecialEventCount; i++)
-		{
+	} else {
+		for (i=0;i<newsSpecialEventCount; i++) {
 			if (NewsEvents[i] == originalEventFlag)
 				NewsEvents[i] = replacementEventFlag;
 		}
@@ -1160,18 +1192,17 @@ inline long BaseSellPrice(int Index, int Price)
 // *************************************************************************
 // Reset news event flags
 // *************************************************************************
--(void) resetNewsEvents
-{
+-(void) resetNewsEvents {
 	newsSpecialEventCount = 0;
 }
 
 // *************************************************************************
 // get most recently addded news event flag
 // *************************************************************************
--(int) latestNewsEvent
-{
-	if (newsSpecialEventCount == 0)
-		return -1;
+-(int) latestNewsEvent {
+	if (newsSpecialEventCount == 0) {
+		return -1;    
+  }
 	
 	return NewsEvents[newsSpecialEventCount - 1];
 }
@@ -1180,14 +1211,13 @@ inline long BaseSellPrice(int Index, int Price)
 // *************************************************************************
 // Query news event flags
 // *************************************************************************
--(bool) isNewsEvent:(int) eventFlag
-{
+-(bool) isNewsEvent:(int) eventFlag {
 	int i;
 	
-	for (i=0;i<newsSpecialEventCount; i++)
-	{
-		if (NewsEvents[i] == eventFlag)
+	for (i=0;i<newsSpecialEventCount; i++) {
+		if (NewsEvents[i] == eventFlag) {
 			return true;
+    }
 	}
 	return false;
 }
@@ -2468,8 +2498,7 @@ bool bDummyAlert;
 	return Shiptype[0].MinTechLevel;
 }
 
--(long) realDistance:(int)a  b:(int)b
-{
+-(long) realDistance:(int)a  b:(int)b {
 	return (sqrt( [self SqrDistance:solarSystem[a]  b:solarSystem[b]] ));
 	//	return [RealDistance:solarSystem[a] b:solarSystem[b]];
 }
@@ -2480,8 +2509,7 @@ bool bDummyAlert;
 	int i, Distance;
 	
 	Distance = [self realDistance: currentSystem b:warpSystem] ;
-	if (Distance > [self getFuel] && !viaSingularity &&![self wormholeExists:currentSystem b:warpSystem])
-	{
+	if (Distance > [self getFuel] && !viaSingularity &&![self wormholeExists:currentSystem b:warpSystem]) {
 		UIAlertView * myAlertView = [[UIAlertView alloc] initWithTitle:@"No fuel!" message:NSLocalizedString(@"You have no fuel for this warp.", @"")  
 															  delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
 		
@@ -2493,10 +2521,8 @@ bool bDummyAlert;
 
 	
 	// if Wild is aboard, make sure ship is armed!
-	if (wildStatus == 1)
-	{	
-		if (! [self HasWeapon:&ship Cg:BEAMLASERWEAPON exactCompare:false])
-		{ 
+	if (wildStatus == 1) {	
+		if (! [self HasWeapon:&ship Cg:BEAMLASERWEAPON exactCompare:false]) { 
 			viaSingularitySaved = viaSingularity;
 			
 			currentState = eWildWeaponBuy;
@@ -2510,77 +2536,63 @@ bool bDummyAlert;
 	}
 	
     // Check for Large Debt
-	if (debt > DEBTTOOLARGE)
-	{
+	if (debt > DEBTTOOLARGE) {
 	    [self FrmAlert:@"DebtTooLargeForTravelAlert"];
 			bLastMessage = false;
 	    return;
 	}
 	
 	// Check for enough money to pay Mercenaries    
-	if ([self mercenaryMoney] > credits)
-	{
+	if ([self mercenaryMoney] > credits) {
 		[self FrmAlert:@"MustPayMercenariesAlert"];
 			bLastMessage = false;
 		return; 
 	}
 	
     // Check for enough money to pay Insurance
-	if (insurance)
-	{
-		if ([self insuranceMoney] + [self mercenaryMoney] > credits)
-		{
+	if (insurance) {
+		if ([self insuranceMoney] + [self mercenaryMoney] > credits) {
 			[self FrmAlert:@"CantPayInsuranceAlert"];
 			return;
 		}
 	}
 	
 	// Check for enough money to pay Wormhole Tax 					
-	if ([self insuranceMoney] + [self mercenaryMoney] + 
-		[self WormholeTax:currentSystem  b:warpSystem] > credits)
-	{
+	if ([self insuranceMoney] + [self mercenaryMoney] + [self WormholeTax:currentSystem  b:warpSystem] > credits) {
 		[self FrmAlert:@"CantPayWormholeAlert"];
 		return;
 	}
 	
-	if (! viaSingularity)
-	{
+	if (! viaSingularity) {
 		credits -= [self WormholeTax:currentSystem b:warpSystem];
 		credits -= [self mercenaryMoney];						
 		credits -= [self insuranceMoney];
 	}
 	
-	for (i=0; i<MAXSHIELD; ++i)
-	{
+	for (i=0; i<MAXSHIELD; ++i) {
 		if (ship.Shield[i] < 0)
 			break;
 		ship.ShieldStrength[i] = Shieldtype[ship.Shield[i]].Power;
 	}
 	
 	countDown = STARTCOUNTDOWN;
-	if ([self wormholeExists:currentSystem b:warpSystem]  || viaSingularity)
-	{
+	if ([self wormholeExists:currentSystem b:warpSystem]  || viaSingularity) {
 		//Distance = 0;
 		arrivedViaWormhole = true;
-	}
-	else
-	{
+	} else {
 		Distance = [self realDistance: currentSystem b:warpSystem] ;
 		ship.Fuel -= min( Distance, [self getFuel] );
 		arrivedViaWormhole = false;
 	}
 	
 	[self resetNewsEvents];
-	if (!viaSingularity)
-	{
+	if (!viaSingularity) {
 		// normal warp.
 		[self payInterest];
 		[self IncDays:1];
 		if (insurance)
 			++noClaim;
-	}
-	else
-	{
+  } else {
 		// add the singularity news story
 		[self addNewsEvent:ARRIVALVIASINGULARITY];
 	}
@@ -2590,13 +2602,15 @@ bool bDummyAlert;
 	inspected = false;
 	litterWarning = false;
 	monsterHull = (monsterHull * 105) / 100;
-	if (monsterHull > Shiptype[SpaceMonster.Type].HullStrength)
+	if (monsterHull > Shiptype[SpaceMonster.Type].HullStrength) {
 		monsterHull = Shiptype[SpaceMonster.Type].HullStrength;
-	if (days%3 == 0)
-	{
+  }
+  
+	if (days%3 == 0) {
 		if (policeRecordScore > CLEANSCORE)
 			--policeRecordScore;
 	}
+  
 	if (policeRecordScore < DUBIOUSSCORE)
 		if (gameDifficulty <= NORMAL)
 			++policeRecordScore;
@@ -2617,19 +2631,19 @@ bool bDummyAlert;
 // *************************************************************************
 // Engineer skill
 // *************************************************************************
--(char) EngineerSkill:(struct  SHIP*) Sh 
-{
+-(char) EngineerSkill:(struct SHIP *) Sh {
 	int i;
 	char MaxSkill;
 	
 	MaxSkill = Mercenary[Sh->Crew[0]].Engineer;
 	
-	for (i=1; i<MAXCREW; ++i)
-	{
-		if (Sh->Crew[i] < 0)
+	for (i=1; i<MAXCREW; ++i) {
+		if (Sh->Crew[i] < 0) {
 			break;
-		if (Mercenary[Sh->Crew[i]].Engineer > MaxSkill)
-			MaxSkill = Mercenary[Sh->Crew[i]].Engineer;
+    }
+		if (Mercenary[Sh->Crew[i]].Engineer > MaxSkill) {
+			MaxSkill = Mercenary[Sh->Crew[i]].Engineer;      
+    }
 	}
 	
 	if ([self HasGadget:Sh Gg:AUTOREPAIRSYSTEM])
@@ -2642,8 +2656,7 @@ bool bDummyAlert;
 // *************************************************************************
 // Generate an opposing ship
 // *************************************************************************
--(void) GenerateOpponent:( char) Opp 
-{
+-(void) GenerateOpponent:( char) Opp {
 	bool Redo;
 	int i, j, sum, Tries;
 	long d, e, f, k, m;
@@ -2652,19 +2665,18 @@ bool bDummyAlert;
 	[encounterViewControllerInstance SetLabelText:@""];
 	Tries = 1;
 	
-	if (Opp == FAMOUSCAPTAIN)
-	{
+	if (Opp == FAMOUSCAPTAIN) {
 		// we just fudge for the Famous Captains' Ships...
 		Opponent.Type = MAXSHIPTYPE - 1;
-		for (i=0;i<MAXSHIELD;i++)
-		{
+		for (i=0;i<MAXSHIELD;i++) {
 			Opponent.Shield[i] = REFLECTIVESHIELD; 
 			Opponent.ShieldStrength[i]= RSHIELDPOWER;
 		}
-		for (i=0;i<MAXWEAPON;i++)
-		{
+    
+		for (i=0;i<MAXWEAPON;i++) {
 			Opponent.Weapon[i] = MILITARYLASERWEAPON; 
 		}
+    
 		Opponent.Gadget[0]=TARGETINGSYSTEM;
 		Opponent.Gadget[1]=NAVIGATINGSYSTEM;
 		Opponent.Hull = Shiptype[MAXSHIPTYPE - 1].HullStrength;
@@ -2678,25 +2690,26 @@ bool bDummyAlert;
 		return;
 	}
 	
-	if (Opp == MANTIS)
+	if (Opp == MANTIS) {
 		Tries = 1+gameDifficulty;
+  }
 	
 	// The police will try to hunt you down with better ships if you are 
 	// a villain, and they will try even harder when you are considered to
 	// be a psychopath (or are transporting Jonathan Wild)
 	
-	if (Opp == POLICE)
-	{
-		if (policeRecordScore < VILLAINSCORE && wildStatus != 1)
+	if (Opp == POLICE) {
+		if (policeRecordScore < VILLAINSCORE && wildStatus != 1) {
 			Tries = 3;
-		else if (policeRecordScore < PSYCHOPATHSCORE || wildStatus == 1)
+    } else if (policeRecordScore < PSYCHOPATHSCORE || wildStatus == 1) {
 			Tries = 5;
+    }
+
 		Tries = max( 1, Tries + gameDifficulty - NORMAL );
 	}
 	
 	// Pirates become better when you get richer
-	if (Opp == PIRATE)
-	{
+	if (Opp == PIRATE) {
 		Tries = 1 + ([self currentWorth] / 100000L);
 		Tries = max( 1, Tries + gameDifficulty - NORMAL );
 	}
@@ -2709,86 +2722,91 @@ bool bDummyAlert;
 	
 	k = (gameDifficulty >= NORMAL ? gameDifficulty - NORMAL : 0);
 	
-	while (j < Tries)
-	{
+	while (j < Tries) {
 		Redo = true;
 		
-		while (Redo)
-		{
+		while (Redo) {
 			d = GetRandom( 100 );
 			i = 0;
 			sum = Shiptype[0].Occurrence;
 			
-			while (sum < d)
-			{
-				if (i >= MAXSHIPTYPE-1)
+			while (sum < d) {
+				if (i >= MAXSHIPTYPE-1) {
 					break;
+        }
 				++i;
 				sum += Shiptype[i].Occurrence;
 			}
 			
-			if (Opp == POLICE && (Shiptype[i].Police < 0 || 
-								  Politics[solarSystem[warpSystem].Politics].StrengthPolice + k < Shiptype[i].Police))
+			if (Opp == POLICE && (Shiptype[i].Police < 0 || Politics[solarSystem[warpSystem].Politics].StrengthPolice + k < Shiptype[i].Police)) {
 				continue;
+      }
 			
-			if (Opp == PIRATE && (Shiptype[i].Pirates < 0 || 
-								  Politics[solarSystem[warpSystem].Politics].StrengthPirates + k < Shiptype[i].Pirates))
+			if (Opp == PIRATE && (Shiptype[i].Pirates < 0 || Politics[solarSystem[warpSystem].Politics].StrengthPirates + k < Shiptype[i].Pirates)) {
 				continue;
+      }
 			
-			if (Opp == TRADER && (Shiptype[i].Traders < 0 || 
-								  Politics[solarSystem[warpSystem].Politics].StrengthTraders + k < Shiptype[i].Traders))
+			if (Opp == TRADER && (Shiptype[i].Traders < 0 || Politics[solarSystem[warpSystem].Politics].StrengthTraders + k < Shiptype[i].Traders)) {
 				continue;
+      }
 			
 			Redo = false;
 		}
 		
-		if (i > Opponent.Type)
+		if (i > Opponent.Type) {
 			Opponent.Type = i;
+    }
+
 		++j;
 	}
 	
-	if (Opp == MANTIS)
+	if (Opp == MANTIS) {
 		Opponent.Type = MANTISTYPE;
-	else	
-		Tries = max( 1, ([self currentWorth] / 150000L) + gameDifficulty - NORMAL );
+  } else {
+		Tries = max( 1, ([self currentWorth] / 150000L) + gameDifficulty - NORMAL );    
+  }	
 	
 	// Determine the gadgets
-	if (Shiptype[Opponent.Type].GadgetSlots <= 0)
+	if (Shiptype[Opponent.Type].GadgetSlots <= 0) {
 		d = 0;
-	else if (gameDifficulty <= HARD)
-	{
+  } else if (gameDifficulty <= HARD) {
 		d = GetRandom( Shiptype[Opponent.Type].GadgetSlots + 1 );
-		if (d < Shiptype[Opponent.Type].GadgetSlots)
-			if (Tries > 4)
+		if (d < Shiptype[Opponent.Type].GadgetSlots) {
+			if (Tries > 4) {
 				++d;
-			else if (Tries > 2)
+      } else if (Tries > 2) {
 				d += GetRandom( 2 );
-	}
-	else
+      }
+    }
+	} else {
 		d = Shiptype[Opponent.Type].GadgetSlots;
-	for (i=0; i<d; ++i)
-	{
+  }
+  
+	for (i=0; i<d; ++i) {
 		e = 0;
 		f = 0;
-		while (e < Tries)
-		{
+		while (e < Tries) {
 			k = GetRandom( 100 );
 			j = 0;
 			sum = Gadgettype[0].Chance;
-			while (k < sum)
-			{
-				if (j >= MAXGADGETTYPE - 1)
+			while (k < sum) {
+				if (j >= MAXGADGETTYPE - 1) {
 					break;
+        }
 				++j;
 				sum += Gadgettype[j].Chance;
 			}
-			if (![self HasGadget:&Opponent Gg:j])
-				if (j > f)
+
+			if (![self HasGadget:&Opponent Gg:j]) {
+				if (j > f) {
 					f = j;
+        }
+      }
 			++e;
 		}
 		Opponent.Gadget[i] = f;
 	}
+  
 	for (i=d; i<MAXGADGET; ++i)
 		Opponent.Gadget[i] = -1;
 	
@@ -3794,8 +3812,7 @@ typedef enum {
 // A fight round
 // Return value indicates whether fight continues into another round
 // *************************************************************************
--(int) ExecuteAction:(bool) CommanderFlees
-{
+-(int) ExecuteAction:(bool) CommanderFlees {
 	//FormPtr frmP;
 	Boolean CommanderGotHit, OpponentGotHit;
 	long OpponentHull, ShipHull;
@@ -3818,43 +3835,33 @@ typedef enum {
 	
 	OpponentGotHit = false;
 	
-	if (!CommanderFlees)
-	{
-		if (encounterType == POLICEFLEE || encounterType == TRADERFLEE ||
-			encounterType == PIRATEFLEE)	
-		{
+	if (!CommanderFlees) {
+		if (encounterType == POLICEFLEE || encounterType == TRADERFLEE || encounterType == PIRATEFLEE) {
 			OpponentGotHit = [self ExecuteAttack:&ship Defender:&Opponent  Flees:true CommanderUnderAttack:false];
-		}
-		else
-		{
+		} else {
 			OpponentGotHit = [self ExecuteAttack:&ship Defender:&Opponent Flees:false CommanderUnderAttack:false];
 		}
 	}
 	
-	if (CommanderGotHit)
-	{
+	if (CommanderGotHit) {
 		playerShipNeedsUpdate = true;
 		[self playSound:eCommanderHit];		
 	}
-	if (OpponentGotHit)
-	{
+  
+	if (OpponentGotHit) {
 		opponentShipNeedsUpdate = true;
 		[self playSound:eFireOpponent];
 	}
 	
 	// Determine whether someone gets destroyed
-	if (ship.Hull <= 0 && Opponent.Hull <= 0)
-	{
+	if (ship.Hull <= 0 && Opponent.Hull <= 0) {
 		autoAttack = false;
 		autoFlee = false;
 		
-		if (escapePod)
-		{
+		if (escapePod) {
 			[self EscapeWithPod];
 			return( true );
-		}
-		else
-		{
+		} else {
 			// TODO: 
 			[self FrmAlert:@"BothDestroyedAlert"];
 			[self showDestroyedShipWindow];
@@ -3862,9 +3869,7 @@ typedef enum {
 			//FrmGotoForm( CurForm );
 		}
 		return false;
-	}
-	else if (Opponent.Hull <= 0)
-	{
+	} else if (Opponent.Hull <= 0) {
 		autoAttack = false;
 		autoFlee = false;
 		
@@ -3880,29 +3885,19 @@ typedef enum {
 		}
 		 */
 		
-		if (ENCOUNTERPOLICE( encounterType ))
-		{
+		if (ENCOUNTERPOLICE( encounterType )) {
 			++policeKills;
 			policeRecordScore += KILLPOLICESCORE;
-		}
-		else if (ENCOUNTERFAMOUS( encounterType))
-		{
-			if (reputationScore < DANGEROUSREP)
-			{
+		} else if (ENCOUNTERFAMOUS( encounterType)) {
+			if (reputationScore < DANGEROUSREP) {
 				reputationScore = DANGEROUSREP;
-			}
-			else
-			{
+			} else {
 				reputationScore += 100;
 			}
 			// bump news flag from attacked to ship destroyed
 			[self replaceNewsEvent:[self latestNewsEvent] replacementEventFlag:([self latestNewsEvent] + 10)];
-			
-		}
-		else if (ENCOUNTERPIRATE( encounterType ))
-		{
-			if (Opponent.Type != MANTISTYPE)
-			{
+		} else if (ENCOUNTERPIRATE( encounterType )) {
+			if (Opponent.Type != MANTISTYPE) {
 				//				Credits += Shiptype[Opponent.Type].Bounty;
 				credits += [self GetBounty:&Opponent];
 				policeRecordScore += KILLPIRATESCORE;
@@ -3911,48 +3906,35 @@ typedef enum {
 				return true;				
 			}
 			++pirateKills;
-		}
-		else if (ENCOUNTERTRADER( encounterType ))
-		{
+		} else if (ENCOUNTERTRADER( encounterType )) {
 			++traderKills;
 			policeRecordScore += KILLTRADERSCORE;
 			[self Scoop];
 			reputationScore += 1 + (Opponent.Type>>1);
 			return true;
-		}
-		else if (ENCOUNTERMONSTER( encounterType ))
-		{
+		} else if (ENCOUNTERMONSTER( encounterType )) {
 			++pirateKills;
 			policeRecordScore += KILLPIRATESCORE;
 			monsterStatus = 2;
-		}
-		else if (ENCOUNTERDRAGONFLY( encounterType ))
-		{
+		} else if (ENCOUNTERDRAGONFLY( encounterType )) {
 			++pirateKills;
 			policeRecordScore += KILLPIRATESCORE;
 			dragonflyStatus = 5;
-		}
-		else if (ENCOUNTERSCARAB( encounterType ))
-		{
+		} else if (ENCOUNTERSCARAB( encounterType )) {
 			++pirateKills;
 			policeRecordScore += KILLPIRATESCORE;
 			scarabStatus = 2;
 		}
 		reputationScore += 1 + (Opponent.Type>>1);
 		return false;
-	}
-	else if (ship.Hull <= 0)
-	{
+	} else if (ship.Hull <= 0) {
 		autoAttack = false;
 		autoFlee = false;
 		
-		if (escapePod)
-		{
+		if (escapePod) {
 			[self EscapeWithPod];
 			return( true );
-		}
-		else
-		{
+		} else {
 			[self FrmAlert:@"ShipDestroyedAlert"];
 			[self showDestroyedShipWindow];
 
@@ -3961,10 +3943,8 @@ typedef enum {
 	}
 	
 	// Determine whether someone gets away.
-	if (CommanderFlees)
-	{
-		if (gameDifficulty == BEGINNER)
-		{
+	if (CommanderFlees) {
+		if (gameDifficulty == BEGINNER) {
 			autoAttack = false;
 			autoFlee = false;
 			
@@ -3974,14 +3954,10 @@ typedef enum {
 				monsterHull = Opponent.Hull;
 			
 			return false;
-		}
-		else if ((GetRandom( 7 ) + ([self PilotSkill: &ship] / 3)) * 2 >= 
-				 GetRandom( [self PilotSkill: &Opponent ] ) * (2 + gameDifficulty))
-		{
+		} else if ((GetRandom( 7 ) + ([self PilotSkill: &ship] / 3)) * 2 >= GetRandom( [self PilotSkill: &Opponent ] ) * (2 + gameDifficulty)) {
 			autoAttack = false;
 			autoFlee = false;
-			if (CommanderGotHit)
-			{
+			if (CommanderGotHit) {
 				[self ShowShip:&ship offset:6 commandersShip:true];
 				// TODO: frmP = FrmGetActiveForm();
 				//for (i=0; i<TRIBBLESONSCREEN; ++i)
@@ -4003,13 +3979,8 @@ typedef enum {
 			return false;
 		}
 	}
-	else if (encounterType == POLICEFLEE || encounterType == TRADERFLEE ||
-			 encounterType == PIRATEFLEE || encounterType == TRADERSURRENDER ||
-			 encounterType == PIRATESURRENDER)	
-	{
-		if (4*GetRandom( [self PilotSkill:&ship] ) <= 
-			GetRandom( (07 + ([self PilotSkill:&Opponent] / 3))) * 2)
-		{
+	else if (encounterType == POLICEFLEE || encounterType == TRADERFLEE || encounterType == PIRATEFLEE || encounterType == TRADERSURRENDER || encounterType == PIRATESURRENDER)	{
+		if (4*GetRandom( [self PilotSkill:&ship] ) <= GetRandom( (07 + ([self PilotSkill:&Opponent] / 3))) * 2) {
 			autoAttack = false;
 			autoFlee = false;
 
@@ -4021,82 +3992,67 @@ typedef enum {
 	// Determine whether the opponent's actions must be changed
 	PrevencounterType = encounterType;
 	
-	if (Opponent.Hull < OpponentHull)
-	{
-		if (ENCOUNTERPOLICE( encounterType ))
-		{
-			if (Opponent.Hull < OpponentHull >> 1)
-				if (ship.Hull < ShipHull >> 1)
-				{
-					if (GetRandom( 10 ) > 5)
+	if (Opponent.Hull < OpponentHull) {
+		if (ENCOUNTERPOLICE( encounterType )) {
+			if (Opponent.Hull < OpponentHull >> 1) {
+				if (ship.Hull < ShipHull >> 1) {
+					if (GetRandom( 10 ) > 5) {
 						encounterType = POLICEFLEE;
-				}	
-				else
+          }
+				}	else {
 					encounterType = POLICEFLEE;
-		}
-		else if (encounterType == POSTMARIEPOLICEENCOUNTER)
-		{
+        }
+      }
+		} else if (encounterType == POSTMARIEPOLICEENCOUNTER) {
 			encounterType = POLICEATTACK;
-		}
-		else if (ENCOUNTERPIRATE( encounterType ))
-		{
-			if (Opponent.Hull < (OpponentHull * 2) / 3)
-			{
-				if (ship.Hull < (ShipHull * 2) / 3)
-				{
-					if (GetRandom( 10 ) > 3)
+		} else if (ENCOUNTERPIRATE( encounterType )) {
+			if (Opponent.Hull < (OpponentHull * 2) / 3) {
+				if (ship.Hull < (ShipHull * 2) / 3) {
+					if (GetRandom( 10 ) > 3) {
 						encounterType = PIRATEFLEE;
-				}
-				else
-				{
-					
+          }
+				} else {
 					encounterType = PIRATEFLEE;
-					if (GetRandom( 10 ) > 8 && Opponent.Type < MAXSHIPTYPE)
+					if (GetRandom( 10 ) > 8 && Opponent.Type < MAXSHIPTYPE) {
 						encounterType = PIRATESURRENDER;
+          }
 				}
 			}
-		}
-		else if (ENCOUNTERTRADER( encounterType ))
-		{
-			if (Opponent.Hull < (OpponentHull * 2) / 3)
-			{
-				if (GetRandom( 10 ) > 3)
+		} else if (ENCOUNTERTRADER( encounterType )) {
+			if (Opponent.Hull < (OpponentHull * 2) / 3) {
+				if (GetRandom( 10 ) > 3) {
 					encounterType = TRADERSURRENDER;
-				else
+        } else {
 					encounterType = TRADERFLEE;
-			}
-			else if (Opponent.Hull < (OpponentHull * 9) / 10)
-			{
-				if (ship.Hull < (ShipHull * 2) / 3)
-				{
+        }
+			} else if (Opponent.Hull < (OpponentHull * 9) / 10) {
+				if (ship.Hull < (ShipHull * 2) / 3) {
 					// If you get damaged a lot, the trader tends to keep shooting
-					if (GetRandom( 10 ) > 7)
+					if (GetRandom( 10 ) > 7) {
 						encounterType = TRADERFLEE;
-				}
-				else if (ship.Hull < (ShipHull * 9) / 10)
-				{
-					if (GetRandom( 10 ) > 3)
+          }
+				} else if (ship.Hull < (ShipHull * 9) / 10) {
+					if (GetRandom( 10 ) > 3) {
 						encounterType = TRADERFLEE;
-				}
-				else
+          }
+				} else {
 					encounterType = TRADERFLEE;
+        }
 			}
 		}
 	}
 	
-	if (PrevencounterType != encounterType)
-	{
-		if (!(autoAttack &&
-			  (encounterType == TRADERFLEE || encounterType == PIRATEFLEE || encounterType == POLICEFLEE)))
+	if (PrevencounterType != encounterType) {
+		if (!(autoAttack && (encounterType == TRADERFLEE || encounterType == PIRATEFLEE || encounterType == POLICEFLEE))) {
 			autoAttack = false;
+    }
 		autoFlee = false;
 	}
 	
 	NSString * str = @"";
 	if (ENCOUNTERPOLICE( PrevencounterType ))
 	 	str =@"police ship";
-	else if (ENCOUNTERPIRATE( PrevencounterType ))
-	{
+	else if (ENCOUNTERPIRATE( PrevencounterType )) {
 		if (Opponent.Type == MANTISTYPE)
 	 		str =@"alien ship";
 		else	
