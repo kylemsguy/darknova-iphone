@@ -11,7 +11,7 @@
 #include "encounterViewController.h"
 #include "personellRosterViewController.h"
 #import "AudioPlayer.h"
-#import "BuyEquipmentViewControllerRENAME.h"
+#import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
 
 
