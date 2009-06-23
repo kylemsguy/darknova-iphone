@@ -72,7 +72,7 @@ bool bWaitFinishPlunder = false;
 
 int *saveItem, savePrice, saveSlot, saveItemIndex;
 bool viaSingularitySaved;
-buyEquipmentViewController * buyController;
+BuyEquipmentViewControllerRENAME * buyController;
 SystemInfoViewController * systemInfoController;
 
 bool bLastMessage;
@@ -6994,7 +6994,7 @@ sellCargoViewController * opponentViewControllerInstance;
 
 
 
--(void)buyItem:(int)index controller:(buyEquipmentViewController *)controller {
+-(void)buyItem:(int)index controller:(BuyEquipmentViewControllerRENAME *)controller {
 	if (index < MAXWEAPONTYPE) {
 		[self BuyItem:Shiptype[ship.Type].WeaponSlots Item:ship.Weapon Price:BASEWEAPONPRICE(index) Name:Weapontype[index].Name ItemIndex:index];	
   } else {

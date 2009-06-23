@@ -26,7 +26,7 @@
 		89A3A9FF0E94225A00B18001 /* shipYard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3A9FE0E94225A00B18001 /* shipYard.xib */; };
 		89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA050E94245D00B18001 /* shipYardViewController.m */; };
 		89A3AA3B0E9429B100B18001 /* buyEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA3A0E9429B100B18001 /* buyEquipment.xib */; };
-		89A3AA400E942A4D00B18001 /* buyEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA3E0E942A4D00B18001 /* buyEquipmentViewController.m */; };
+		89A3AA400E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.m */; };
 		89A3AA580E942B1400B18001 /* sellEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA570E942B1400B18001 /* sellEquipment.xib */; };
 		89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */; };
 		89A3AA850E942D6300B18001 /* personellRoster.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA840E942D6300B18001 /* personellRoster.xib */; };
@@ -251,8 +251,8 @@
 		89A3AA040E94245D00B18001 /* shipYardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipYardViewController.h; path = ../shipYardViewController.h; sourceTree = "<group>"; };
 		89A3AA050E94245D00B18001 /* shipYardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipYardViewController.m; path = ../shipYardViewController.m; sourceTree = "<group>"; };
 		89A3AA3A0E9429B100B18001 /* buyEquipment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buyEquipment.xib; sourceTree = "<group>"; };
-		89A3AA3E0E942A4D00B18001 /* buyEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = buyEquipmentViewController.m; path = ../buyEquipmentViewController.m; sourceTree = "<group>"; };
-		89A3AA3F0E942A4D00B18001 /* buyEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buyEquipmentViewController.h; path = ../buyEquipmentViewController.h; sourceTree = "<group>"; };
+		89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyEquipmentViewControllerRENAME.m; path = ../BuyEquipmentViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AA3F0E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyEquipmentViewControllerRENAME.h; path = ../BuyEquipmentViewControllerRENAME.h; sourceTree = "<group>"; };
 		89A3AA570E942B1400B18001 /* sellEquipment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sellEquipment.xib; sourceTree = "<group>"; };
 		89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sellEquipmentViewController.m; path = ../sellEquipmentViewController.m; sourceTree = "<group>"; };
 		89A3AA5B0E942B6500B18001 /* sellEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellEquipmentViewController.h; path = ../sellEquipmentViewController.h; sourceTree = "<group>"; };
@@ -797,8 +797,8 @@
 		89A3AA410E942A5300B18001 /* Buy Equipment */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AA3E0E942A4D00B18001 /* buyEquipmentViewController.m */,
-				89A3AA3F0E942A4D00B18001 /* buyEquipmentViewController.h */,
+				89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.m */,
+				89A3AA3F0E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.h */,
 			);
 			name = "Buy Equipment";
 			sourceTree = "<group>";
@@ -1312,7 +1312,7 @@
 				89C551040E92DA6D008ECDA8 /* gameViewController.m in Sources */,
 				89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */,
 				89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */,
-				89A3AA400E942A4D00B18001 /* buyEquipmentViewController.m in Sources */,
+				89A3AA400E942A4D00B18001 /* BuyEquipmentViewControllerRENAME.m in Sources */,
 				89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */,
 				89A3AA890E942D9100B18001 /* personellRosterViewController.m in Sources */,
 				89A3AA920E942E0300B18001 /* bankViewController.m in Sources */,

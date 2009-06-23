@@ -11,7 +11,7 @@
 #include "encounterViewController.h"
 #include "personellRosterViewController.h"
 #import "AudioPlayer.h"
-#import "buyEquipmentViewController.h"
+#import "BuyEquipmentViewControllerRENAME.h"
 #import "SystemInfoViewController.h"
 
 
@@ -361,7 +361,7 @@ enum eSystemSound
 -(NSString*)getShipEquipmentName:(int)index; // Return equipment name installed on the ship
 -(int)getEquipmentPrice:(int)index;
 -(int)getSellEquipmentPrice:(int)index;
--(void)buyItem:(int)index controller:(buyEquipmentViewController*)controller;
+-(void)buyItem:(int)index controller:(BuyEquipmentViewControllerRENAME*)controller;
 -(void)sellEquipment:(int)index;
 -(void) updateRosterWindow:(personellRosterViewController*)controller;
 -(void) updateRosterWindow:(personellRosterViewController*)controller;
