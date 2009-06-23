@@ -2,7 +2,7 @@
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "SaveGameViewController.h"
-#import "OptionsViewControllerRENAME.h"
+#import "OptionsViewController.h"
 #import "HelpViewController.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
@@ -21,7 +21,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 	//
 	menuList = [[NSMutableArray alloc] init];
 
-	OptionsViewControllerRENAME *optionsViewControllerInst = [[[OptionsViewControllerRENAME alloc] initWithNibName:@"options1" bundle:nil] autorelease];
+	OptionsViewController *optionsViewControllerInst = [[[OptionsViewController alloc] initWithNibName:@"options1" bundle:nil] autorelease];
 	UIViewController *saveGameViewController = [[[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil] autorelease];
 	UIViewController *helpViewControllerInst = [[[HelpViewController alloc] initWithNibName:@"help" bundle:nil] autorelease];
 	UIViewController *highScores = [[[HighScoresViewController alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
@@ -119,7 +119,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 
 	switch(indexPath.row) {
 		case 0:  {
-			OptionsViewControllerRENAME *targetViewController = (OptionsViewControllerRENAME*)[[menuList objectAtIndex: indexPath.row] objectForKey:@"viewController"];
+			OptionsViewController *targetViewController = (OptionsViewController*)[[menuList objectAtIndex: indexPath.row] objectForKey:@"viewController"];
 			[[self navigationController] pushViewController:targetViewController animated:YES];
 			
 		}	

@@ -1,13 +1,5 @@
-//
-//  OptionsCell.h
-//  S1
-//
-//  Created by Alexey Medvedev on 15.12.08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
-#import "OptionsViewControllerRENAME.h"
+#import "OptionsViewController.h"
 
 extern NSString *oDisplayCell_ID;
 

@@ -3,7 +3,7 @@
 #import "OptionsProtocol.h"
 
 
-@interface OptionsViewControllerRENAME :  UITableViewController<OptionsChangeDelegate> {
+@interface OptionsViewController :  UITableViewController<OptionsChangeDelegate> {
  //   IBOutlet UITableView *tableView;
 }
 
