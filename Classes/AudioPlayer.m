@@ -50,7 +50,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 #import "AudioQueueObject.h"
 #import "AudioPlayer.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 //#import "AudioViewController.h"
 
 

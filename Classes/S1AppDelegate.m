@@ -9,7 +9,7 @@
 #import "S1AppDelegate.h"
 #import <UIKit/UIKit.h>
 #import "startGameViewController.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreFoundation/CoreFoundation.h>
 #import "mainToolBar.h"
@@ -27,7 +27,7 @@
 
 bool bStartNewGame;
 - (void)applicationDidFinishLaunching:(UIApplication *)application {	
-	gamePlayer = [[player alloc] initEmpty];
+	gamePlayer = [[PlayerRENAME alloc] initEmpty];
 	newGame = 0;
 	saveGame = 0;
 	commandView = 0;

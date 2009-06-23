@@ -1,6 +1,6 @@
 #import "SystemInfoViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import "commandViewController.h"
 #import "newsViewController.h"
 @implementation SystemInfoViewController

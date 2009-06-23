@@ -1,6 +1,6 @@
 #import "SaveGameViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import "FileSaveCell.h"
 
 

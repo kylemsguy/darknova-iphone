@@ -1,11 +1,11 @@
 #import "gameViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import "SaveGameViewController.h"
 #import "optionsViewController.h"
 #import "helpViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import "HighScoresViewController.h"
 
 @implementation gameViewController

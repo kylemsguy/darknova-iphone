@@ -1,7 +1,7 @@
 #import "galacticChartView.h"
 #import <QuartzCore/QuartzCore.h>  // Needed for animations
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 
 @implementation galacticChartView
 

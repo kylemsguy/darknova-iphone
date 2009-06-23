@@ -1,6 +1,6 @@
 #import "pricesView.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 
 @implementation pricesView
 
@@ -9,7 +9,7 @@
 -(void)UpdateWindow
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	NSString * tmp;
 	tmp = [pPlayer getSolarSystemName:pPlayer.warpSystem];
 	name.text = tmp; 

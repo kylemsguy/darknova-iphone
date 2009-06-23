@@ -1,6 +1,6 @@
 #import "HighScoresViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 static NSString *kCellIdentifier = @"MyIdentifier1";
 
 @implementation HighScoresViewController

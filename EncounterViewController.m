@@ -1,7 +1,7 @@
 #import "EncounterViewController.h"
 #import "SystemInfoViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 
 #import "math.h"
 
@@ -173,7 +173,7 @@
 -(void)encounterButtons {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	
 	
 	[attackImage removeFromSuperview];
@@ -283,7 +283,7 @@
 -(void) encounterDisplayNextAction:(bool) FirstDisplay
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	int EncounterType = pPlayer.encounterType;
 	
 	if (EncounterType == POLICEINSPECTION)
@@ -352,7 +352,7 @@
 	//EncounterDisplayNextAction( true );
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	int EncounterType = pPlayer.encounterType;
 	
 	if (EncounterType == POSTMARIEPOLICEENCOUNTER)
@@ -429,7 +429,7 @@
 {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer attack];
 	[self showEncounterWindow];
 }
@@ -438,7 +438,7 @@
 {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer flee];
 	[self showEncounterWindow];
 }
@@ -447,7 +447,7 @@
 {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer ignore];
 	[self showEncounterWindow];
 }
@@ -464,20 +464,20 @@
 
 -(IBAction) trade {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer trade];	
 }
 
 -(IBAction)yield {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer yield];		
 }
 
 -(IBAction)surrender 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer surrender];		
 	
 }
@@ -486,49 +486,49 @@
 -(IBAction)bribe 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer bribe];		
 }
 
 -(IBAction)submit 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer submit];		
 }
 
 -(IBAction)plunder 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer plunder];		
 }
 
 -(IBAction)interrupt 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer interrupt];		
 }
 
 -(IBAction)meet 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer meet];		
 }
 
 -(IBAction)board 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer board];		
 }
 
 -(IBAction)drink 
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	player * pPlayer = app.gamePlayer;
+	PlayerRENAME * pPlayer = app.gamePlayer;
 	[pPlayer drink];		
 }
 

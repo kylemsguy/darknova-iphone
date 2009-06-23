@@ -1,6 +1,6 @@
 #import "bankViewController.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 #import "AlertModalWindow.h"
 #include "spacetrader.h"
 

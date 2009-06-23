@@ -7,7 +7,7 @@
 #import "SystemInfoViewController.h"
 
 
-@interface player : NSObject {
+@interface PlayerRENAME : NSObject {
 	
 
 	NSUInteger	pilotSkill;

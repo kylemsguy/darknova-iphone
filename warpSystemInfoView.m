@@ -1,6 +1,6 @@
 #import "warpSystemInfoView.h"
 #import "S1AppDelegate.h"
-#import "player.h"
+#import "PlayerRENAME.h"
 
 @implementation warpSystemInfoView
 
