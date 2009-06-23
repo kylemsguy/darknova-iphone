@@ -1,8 +1,8 @@
-#import "WarpSystemInfoViewRENAME.h"
+#import "WarpSystemInfoView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation WarpSystemInfoViewRENAME
+@implementation WarpSystemInfoView
 
 -(void) UpdateView {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	

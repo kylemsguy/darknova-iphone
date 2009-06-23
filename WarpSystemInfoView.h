@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface WarpSystemInfoViewRENAME : UIView {
+@interface WarpSystemInfoView : UIView {
 	IBOutlet	UILabel*	systemName;
 	IBOutlet	UILabel*	systemSize;
 	IBOutlet	UILabel*	systemTechLevel;
