@@ -1,4 +1,4 @@
-#import "EncounterViewControllerRENAME.h"
+#import "EncounterViewController.h"
 #import "SystemInfoViewController.h"
 #import "S1AppDelegate.h"
 #import "player.h"
@@ -9,7 +9,7 @@
 
 #define ROTATE_VIEW_TAG	999
 
-@implementation EncounterViewControllerRENAME
+@implementation EncounterViewController
 
 -(IBAction) close {
 	[[self view] removeFromSuperview];

@@ -1,14 +1,6 @@
-//
-//  player.h
-//  S1
-//
-//  Created by Alexey M on 9/26/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #include "spacetrader.h"
-#include "EncounterViewControllerRENAME.h"
+#include "EncounterViewController.h"
 #include "personellRosterViewController.h"
 #import "AudioPlayer.h"
 #import "BuyEquipmentViewController.h"
@@ -145,7 +137,7 @@
 	
 	bool audioPlayerReleased;
 	
-	EncounterViewControllerRENAME* encounterViewControllerInstance;
+	EncounterViewController* encounterViewControllerInstance;
 	AudioPlayer* audioPlayer;
 	
 	SystemSoundID sound[20];

@@ -122,7 +122,7 @@
 		F3D61A3E0EC9104800308FBB /* shipInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D61A3D0EC9104800308FBB /* shipInfo.xib */; };
 		F3D61A430EC911C400308FBB /* shipInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A420EC911C400308FBB /* shipInfoViewController.m */; };
 		F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A440EC911CE00308FBB /* shipInfoView.m */; };
-		F3D61C090ECD162300308FBB /* EncounterViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61C080ECD162300308FBB /* EncounterViewControllerRENAME.m */; };
+		F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61C080ECD162300308FBB /* EncounterViewController.m */; };
 		F3D61C0C0ECD162B00308FBB /* encounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61C0B0ECD162B00308FBB /* encounterView.m */; };
 		F3D957360ED0DC1A00B36B79 /* Merchant.rsrc in Resources */ = {isa = PBXBuildFile; fileRef = F3D957350ED0DC1A00B36B79 /* Merchant.rsrc */; };
 		F3D958D00ED1099400B36B79 /* encounter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D958CF0ED1099400B36B79 /* encounter.xib */; };
@@ -393,8 +393,8 @@
 		F3D61A420EC911C400308FBB /* shipInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipInfoViewController.m; path = ../shipInfoViewController.m; sourceTree = "<group>"; };
 		F3D61A440EC911CE00308FBB /* shipInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipInfoView.m; path = ../shipInfoView.m; sourceTree = "<group>"; };
 		F3D61A450EC911CE00308FBB /* shipInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipInfoView.h; path = ../shipInfoView.h; sourceTree = "<group>"; };
-		F3D61C070ECD162300308FBB /* EncounterViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncounterViewControllerRENAME.h; path = ../EncounterViewControllerRENAME.h; sourceTree = "<group>"; };
-		F3D61C080ECD162300308FBB /* EncounterViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncounterViewControllerRENAME.m; path = ../EncounterViewControllerRENAME.m; sourceTree = "<group>"; };
+		F3D61C070ECD162300308FBB /* EncounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncounterViewController.h; path = ../EncounterViewController.h; sourceTree = "<group>"; };
+		F3D61C080ECD162300308FBB /* EncounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncounterViewController.m; path = ../EncounterViewController.m; sourceTree = "<group>"; };
 		F3D61C0A0ECD162B00308FBB /* encounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encounterView.h; path = ../encounterView.h; sourceTree = "<group>"; };
 		F3D61C0B0ECD162B00308FBB /* encounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = encounterView.m; path = ../encounterView.m; sourceTree = "<group>"; };
 		F3D957350ED0DC1A00B36B79 /* Merchant.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = Merchant.rsrc; sourceTree = "<group>"; };
@@ -1015,8 +1015,8 @@
 		F3D61C1A0ECD168A00308FBB /* Encounter Window */ = {
 			isa = PBXGroup;
 			children = (
-				F3D61C070ECD162300308FBB /* EncounterViewControllerRENAME.h */,
-				F3D61C080ECD162300308FBB /* EncounterViewControllerRENAME.m */,
+				F3D61C070ECD162300308FBB /* EncounterViewController.h */,
+				F3D61C080ECD162300308FBB /* EncounterViewController.m */,
 				F3D61C0A0ECD162B00308FBB /* encounterView.h */,
 				F3D61C0B0ECD162B00308FBB /* encounterView.m */,
 			);
@@ -1334,7 +1334,7 @@
 				F3D619B20EC1069B00308FBB /* buyShipViewController.m in Sources */,
 				F3D61A430EC911C400308FBB /* shipInfoViewController.m in Sources */,
 				F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */,
-				F3D61C090ECD162300308FBB /* EncounterViewControllerRENAME.m in Sources */,
+				F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */,
 				F3D61C0C0ECD162B00308FBB /* encounterView.m in Sources */,
 				F3DD9B3E0EE897A7008660FE /* warpSystemInfoView.m in Sources */,
 				F3DD9B410EE897AF008660FE /* pricesView.m in Sources */,

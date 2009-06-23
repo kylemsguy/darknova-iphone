@@ -4219,7 +4219,7 @@ sellCargoViewController * opponentViewControllerInstance;
 	// show encounter window
 	if (!encounterWindow) {
 		if (encounterViewControllerInstance == 0)
-			encounterViewControllerInstance = [[EncounterViewControllerRENAME alloc] initWithNibName:@"encounter" bundle:nil];
+			encounterViewControllerInstance = [[EncounterViewController alloc] initWithNibName:@"encounter" bundle:nil];
 		S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 		[app.window addSubview:[encounterViewControllerInstance view]];
 		encounterWindow = true;

@@ -899,7 +899,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>EncounterViewControllerRENAME</string>
+					<string>EncounterViewController</string>
 					<string>UIResponder</string>
 					<string>encounterView</string>
 					<string>{{701, 373}, {320, 480}}</string>
@@ -953,7 +953,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">EncounterViewControllerRENAME</string>
+					<string key="className">EncounterViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
