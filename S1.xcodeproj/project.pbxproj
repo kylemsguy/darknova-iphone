@@ -68,7 +68,7 @@
 		F38FE4F80EEC83F300053D28 /* endGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4F70EEC83F300053D28 /* endGame.xib */; };
 		F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE4FF0EEC886200053D28 /* EndOfGameViewController.m */; };
 		F38FE5040EEC888200053D28 /* RetireShipDestroyedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */; };
-		F38FE5070EEC888A00053D28 /* HappyEndViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5060EEC888A00053D28 /* HappyEndViewRENAME.m */; };
+		F38FE5070EEC888A00053D28 /* HappyEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5060EEC888A00053D28 /* HappyEndView.m */; };
 		F38FE50A0EEC889000053D28 /* poorEndGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5090EEC889000053D28 /* poorEndGameView.m */; };
 		F38FE7330EEDFA5B00053D28 /* saveGames.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38FE7320EEDFA5B00053D28 /* saveGames.xib */; };
 		F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE74E0EEDFAFB00053D28 /* SaveGameViewController.m */; };
@@ -319,8 +319,8 @@
 		F38FE5000EEC886200053D28 /* EndOfGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndOfGameViewController.h; path = ../EndOfGameViewController.h; sourceTree = "<group>"; };
 		F38FE5020EEC888200053D28 /* RetireShipDestroyedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RetireShipDestroyedView.h; path = ../RetireShipDestroyedView.h; sourceTree = "<group>"; };
 		F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RetireShipDestroyedView.m; path = ../RetireShipDestroyedView.m; sourceTree = "<group>"; };
-		F38FE5050EEC888A00053D28 /* HappyEndViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappyEndViewRENAME.h; path = ../HappyEndViewRENAME.h; sourceTree = "<group>"; };
-		F38FE5060EEC888A00053D28 /* HappyEndViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappyEndViewRENAME.m; path = ../HappyEndViewRENAME.m; sourceTree = "<group>"; };
+		F38FE5050EEC888A00053D28 /* HappyEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappyEndView.h; path = ../HappyEndView.h; sourceTree = "<group>"; };
+		F38FE5060EEC888A00053D28 /* HappyEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappyEndView.m; path = ../HappyEndView.m; sourceTree = "<group>"; };
 		F38FE5080EEC889000053D28 /* poorEndGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = poorEndGameView.h; path = ../poorEndGameView.h; sourceTree = "<group>"; };
 		F38FE5090EEC889000053D28 /* poorEndGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = poorEndGameView.m; path = ../poorEndGameView.m; sourceTree = "<group>"; };
 		F38FE7320EEDFA5B00053D28 /* saveGames.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = saveGames.xib; sourceTree = "<group>"; };
@@ -973,8 +973,8 @@
 				F38FE5000EEC886200053D28 /* EndOfGameViewController.h */,
 				F38FE5020EEC888200053D28 /* RetireShipDestroyedView.h */,
 				F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */,
-				F38FE5050EEC888A00053D28 /* HappyEndViewRENAME.h */,
-				F38FE5060EEC888A00053D28 /* HappyEndViewRENAME.m */,
+				F38FE5050EEC888A00053D28 /* HappyEndView.h */,
+				F38FE5060EEC888A00053D28 /* HappyEndView.m */,
 				F38FE5080EEC889000053D28 /* poorEndGameView.h */,
 				F38FE5090EEC889000053D28 /* poorEndGameView.m */,
 			);
@@ -1341,7 +1341,7 @@
 				F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */,
 				F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */,
 				F38FE5040EEC888200053D28 /* RetireShipDestroyedView.m in Sources */,
-				F38FE5070EEC888A00053D28 /* HappyEndViewRENAME.m in Sources */,
+				F38FE5070EEC888A00053D28 /* HappyEndView.m in Sources */,
 				F38FE50A0EEC889000053D28 /* poorEndGameView.m in Sources */,
 				F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */,
 				F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */,

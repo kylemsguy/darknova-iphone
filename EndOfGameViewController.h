@@ -2,12 +2,12 @@
 #import <Foundation/Foundation.h>
 #import "RetireShipDestroyedView.h"
 #import "poorEndGameView.h"
-#import "HappyEndViewRENAME.h"
+#import "HappyEndView.h"
 
 
 @interface EndOfGameViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet RetireShipDestroyedView * shipDestroyedView;
-	IBOutlet HappyEndViewRENAME* shipHappyEndView;
+	IBOutlet HappyEndView* shipHappyEndView;
 	IBOutlet poorEndGameView * shipPoorEndGameView;
 	IBOutlet RetireShipDestroyedView * shipDestroyedWithPodView;	
 }
