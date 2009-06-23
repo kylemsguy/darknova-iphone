@@ -2,7 +2,7 @@
 #import <QuartzCore/QuartzCore.h>  // Needed for animations
 #import "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
-#import "PlayerRENAME.h"
+#import "Player.h"
 #import "warpViewController.h"
 
 @interface shortRangeChartView()

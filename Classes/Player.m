@@ -1,10 +1,10 @@
-#import "PlayerRENAME.h"
+#import "Player.h"
 #include "spacetrader.h"
 #include "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
 #import "EndOfGameViewController.h"
 
-@implementation PlayerRENAME
+@implementation Player
 
 @synthesize pilotName, 
   pilotSkill, 

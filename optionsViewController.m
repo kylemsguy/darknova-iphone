@@ -1,9 +1,9 @@
 #import "optionsViewController.h"
 #import "S1AppDelegate.h"
-#import "PlayerRENAME.h"
+#import "Player.h"
 #import "OptionsCell.h"
 #import "S1AppDelegate.h"
-#import "PlayerRENAME.h"
+#import "Player.h"
 
 @implementation optionsViewController
 

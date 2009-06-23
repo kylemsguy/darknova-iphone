@@ -1,6 +1,6 @@
 #import "shipView.h"
 #import "S1AppDelegate.h"
-#import "PlayerRENAME.h"
+#import "Player.h"
 
 @implementation shipView
 
