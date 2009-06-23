@@ -471,7 +471,7 @@
 					<string>HappyEndView</string>
 					<string>{{196, 319}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>PoorEndGameViewRENAME</string>
+					<string>PoorEndGameView</string>
 					<string>{{285, 393}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -524,7 +524,7 @@
 							<string>RetireShipDestroyedView</string>
 							<string>RetireShipDestroyedView</string>
 							<string>HappyEndView</string>
-							<string>PoorEndGameViewRENAME</string>
+							<string>PoorEndGameView</string>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -541,7 +541,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">PoorEndGameViewRENAME</string>
+					<string key="className">PoorEndGameView</string>
 					<string key="superclassName">UIView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>

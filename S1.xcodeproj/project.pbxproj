@@ -69,7 +69,7 @@
 		F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE4FF0EEC886200053D28 /* EndOfGameViewController.m */; };
 		F38FE5040EEC888200053D28 /* RetireShipDestroyedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */; };
 		F38FE5070EEC888A00053D28 /* HappyEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5060EEC888A00053D28 /* HappyEndView.m */; };
-		F38FE50A0EEC889000053D28 /* PoorEndGameViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5090EEC889000053D28 /* PoorEndGameViewRENAME.m */; };
+		F38FE50A0EEC889000053D28 /* PoorEndGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5090EEC889000053D28 /* PoorEndGameView.m */; };
 		F38FE7330EEDFA5B00053D28 /* saveGames.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38FE7320EEDFA5B00053D28 /* saveGames.xib */; };
 		F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE74E0EEDFAFB00053D28 /* SaveGameViewController.m */; };
 		F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F39264D00EF35159006AAB4B /* FileSaveCell.m */; };
@@ -321,8 +321,8 @@
 		F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RetireShipDestroyedView.m; path = ../RetireShipDestroyedView.m; sourceTree = "<group>"; };
 		F38FE5050EEC888A00053D28 /* HappyEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappyEndView.h; path = ../HappyEndView.h; sourceTree = "<group>"; };
 		F38FE5060EEC888A00053D28 /* HappyEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappyEndView.m; path = ../HappyEndView.m; sourceTree = "<group>"; };
-		F38FE5080EEC889000053D28 /* PoorEndGameViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoorEndGameViewRENAME.h; path = ../PoorEndGameViewRENAME.h; sourceTree = "<group>"; };
-		F38FE5090EEC889000053D28 /* PoorEndGameViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoorEndGameViewRENAME.m; path = ../PoorEndGameViewRENAME.m; sourceTree = "<group>"; };
+		F38FE5080EEC889000053D28 /* PoorEndGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoorEndGameView.h; path = ../PoorEndGameView.h; sourceTree = "<group>"; };
+		F38FE5090EEC889000053D28 /* PoorEndGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoorEndGameView.m; path = ../PoorEndGameView.m; sourceTree = "<group>"; };
 		F38FE7320EEDFA5B00053D28 /* saveGames.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = saveGames.xib; sourceTree = "<group>"; };
 		F38FE74D0EEDFAFB00053D28 /* SaveGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveGameViewController.h; path = ../SaveGameViewController.h; sourceTree = "<group>"; };
 		F38FE74E0EEDFAFB00053D28 /* SaveGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveGameViewController.m; path = ../SaveGameViewController.m; sourceTree = "<group>"; };
@@ -975,8 +975,8 @@
 				F38FE5030EEC888200053D28 /* RetireShipDestroyedView.m */,
 				F38FE5050EEC888A00053D28 /* HappyEndView.h */,
 				F38FE5060EEC888A00053D28 /* HappyEndView.m */,
-				F38FE5080EEC889000053D28 /* PoorEndGameViewRENAME.h */,
-				F38FE5090EEC889000053D28 /* PoorEndGameViewRENAME.m */,
+				F38FE5080EEC889000053D28 /* PoorEndGameView.h */,
+				F38FE5090EEC889000053D28 /* PoorEndGameView.m */,
 			);
 			name = "End Game";
 			sourceTree = "<group>";
@@ -1342,7 +1342,7 @@
 				F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */,
 				F38FE5040EEC888200053D28 /* RetireShipDestroyedView.m in Sources */,
 				F38FE5070EEC888A00053D28 /* HappyEndView.m in Sources */,
-				F38FE50A0EEC889000053D28 /* PoorEndGameViewRENAME.m in Sources */,
+				F38FE50A0EEC889000053D28 /* PoorEndGameView.m in Sources */,
 				F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */,
 				F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */,
 				F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */,
