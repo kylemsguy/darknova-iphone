@@ -1,5 +1,5 @@
-#import "retireShipDestroyedView.h"
+#import "RetireShipDestroyedViewRENAME.h"
 
-@implementation retireShipDestroyedView
+@implementation RetireShipDestroyedViewRENAME
 
 @end
