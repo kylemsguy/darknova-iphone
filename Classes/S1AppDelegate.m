@@ -12,7 +12,7 @@
 #import "Player.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreFoundation/CoreFoundation.h>
-#import "MainToolBarRENAME.h"
+#import "MainToolBar.h"
 
 @implementation S1AppDelegate
 
