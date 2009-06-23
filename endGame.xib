@@ -452,7 +452,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>EndOfGameViewControllerRENAME</string>
+					<string>EndOfGameViewController</string>
 					<string>UIResponder</string>
 					<string>retireShipDestroyedView</string>
 					<string>{{701, 265}, {320, 480}}</string>
@@ -504,7 +504,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">EndOfGameViewControllerRENAME</string>
+					<string key="className">EndOfGameViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<string key="NS.key.0">startNewGame</string>

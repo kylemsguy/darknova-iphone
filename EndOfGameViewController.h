@@ -5,7 +5,7 @@
 #import "happyEndView.h"
 
 
-@interface EndOfGameViewControllerRENAME : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface EndOfGameViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet retireShipDestroyedView * shipDestroyedView;
 	IBOutlet happyEndView* shipHappyEndView;
 	IBOutlet poorEndGameView * shipPoorEndGameView;

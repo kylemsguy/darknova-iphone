@@ -66,7 +66,7 @@
 		F38FE4CF0EEC7D0600053D28 /* dotvisited.png in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4CC0EEC7D0600053D28 /* dotvisited.png */; };
 		F38FE4D00EEC7D0600053D28 /* dotwormhole.png in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4CD0EEC7D0600053D28 /* dotwormhole.png */; };
 		F38FE4F80EEC83F300053D28 /* endGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4F70EEC83F300053D28 /* endGame.xib */; };
-		F38FE5010EEC886200053D28 /* EndOfGameViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE4FF0EEC886200053D28 /* EndOfGameViewControllerRENAME.m */; };
+		F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE4FF0EEC886200053D28 /* EndOfGameViewController.m */; };
 		F38FE5040EEC888200053D28 /* retireShipDestroyedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5030EEC888200053D28 /* retireShipDestroyedView.m */; };
 		F38FE5070EEC888A00053D28 /* happyEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5060EEC888A00053D28 /* happyEndView.m */; };
 		F38FE50A0EEC889000053D28 /* poorEndGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE5090EEC889000053D28 /* poorEndGameView.m */; };
@@ -315,8 +315,8 @@
 		F38FE4CC0EEC7D0600053D28 /* dotvisited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotvisited.png; sourceTree = "<group>"; };
 		F38FE4CD0EEC7D0600053D28 /* dotwormhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotwormhole.png; sourceTree = "<group>"; };
 		F38FE4F70EEC83F300053D28 /* endGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = endGame.xib; sourceTree = "<group>"; };
-		F38FE4FF0EEC886200053D28 /* EndOfGameViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndOfGameViewControllerRENAME.m; path = ../EndOfGameViewControllerRENAME.m; sourceTree = "<group>"; };
-		F38FE5000EEC886200053D28 /* EndOfGameViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndOfGameViewControllerRENAME.h; path = ../EndOfGameViewControllerRENAME.h; sourceTree = "<group>"; };
+		F38FE4FF0EEC886200053D28 /* EndOfGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndOfGameViewController.m; path = ../EndOfGameViewController.m; sourceTree = "<group>"; };
+		F38FE5000EEC886200053D28 /* EndOfGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndOfGameViewController.h; path = ../EndOfGameViewController.h; sourceTree = "<group>"; };
 		F38FE5020EEC888200053D28 /* retireShipDestroyedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = retireShipDestroyedView.h; path = ../retireShipDestroyedView.h; sourceTree = "<group>"; };
 		F38FE5030EEC888200053D28 /* retireShipDestroyedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = retireShipDestroyedView.m; path = ../retireShipDestroyedView.m; sourceTree = "<group>"; };
 		F38FE5050EEC888A00053D28 /* happyEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = happyEndView.h; path = ../happyEndView.h; sourceTree = "<group>"; };
@@ -969,8 +969,8 @@
 		F38FE4FA0EEC883F00053D28 /* End Game */ = {
 			isa = PBXGroup;
 			children = (
-				F38FE4FF0EEC886200053D28 /* EndOfGameViewControllerRENAME.m */,
-				F38FE5000EEC886200053D28 /* EndOfGameViewControllerRENAME.h */,
+				F38FE4FF0EEC886200053D28 /* EndOfGameViewController.m */,
+				F38FE5000EEC886200053D28 /* EndOfGameViewController.h */,
 				F38FE5020EEC888200053D28 /* retireShipDestroyedView.h */,
 				F38FE5030EEC888200053D28 /* retireShipDestroyedView.m */,
 				F38FE5050EEC888A00053D28 /* happyEndView.h */,
@@ -1339,7 +1339,7 @@
 				F3DD9B3E0EE897A7008660FE /* warpSystemInfoView.m in Sources */,
 				F3DD9B410EE897AF008660FE /* pricesView.m in Sources */,
 				F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */,
-				F38FE5010EEC886200053D28 /* EndOfGameViewControllerRENAME.m in Sources */,
+				F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */,
 				F38FE5040EEC888200053D28 /* retireShipDestroyedView.m in Sources */,
 				F38FE5070EEC888A00053D28 /* happyEndView.m in Sources */,
 				F38FE50A0EEC889000053D28 /* poorEndGameView.m in Sources */,

@@ -2,7 +2,7 @@
 #include "spacetrader.h"
 #include "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
-#import "EndOfGameViewControllerRENAME.h"
+#import "EndOfGameViewController.h"
 
 @implementation player
 
@@ -1049,7 +1049,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 }
 
 -(void) showDestroyedShipWindow {
-	EndOfGameViewControllerRENAME * endGame = [[EndOfGameViewControllerRENAME alloc] initWithNibName:@"endGame" bundle:nil];
+	EndOfGameViewController * endGame = [[EndOfGameViewController alloc] initWithNibName:@"endGame" bundle:nil];
 	[endGame showShipDestroyedImage];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.window addSubview:[endGame view]];	
@@ -1060,7 +1060,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 }
 
 -(void) showUtopiaWindow {
-	EndOfGameViewControllerRENAME * endGame = [[EndOfGameViewControllerRENAME alloc] initWithNibName:@"endGame" bundle:nil];
+	EndOfGameViewController * endGame = [[EndOfGameViewController alloc] initWithNibName:@"endGame" bundle:nil];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.window addSubview:[endGame view]];	
 	[endGame showHappyEndImage];	
@@ -1068,7 +1068,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 }
 
 -(void)showRetiredForm {
-	EndOfGameViewControllerRENAME * endGame = [[EndOfGameViewControllerRENAME alloc] initWithNibName:@"endGame" bundle:nil];
+	EndOfGameViewController * endGame = [[EndOfGameViewController alloc] initWithNibName:@"endGame" bundle:nil];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.window addSubview:[endGame view]];	
 	[endGame showPoorEndGameImage];	
