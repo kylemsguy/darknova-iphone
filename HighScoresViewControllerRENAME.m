@@ -1,9 +1,9 @@
-#import "highScoresViewController.h"
+#import "HighScoresViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "player.h"
 static NSString *kCellIdentifier = @"MyIdentifier1";
 
-@implementation highScoresViewController
+@implementation HighScoresViewControllerRENAME
 
 - (void)awakeFromNib
 {	

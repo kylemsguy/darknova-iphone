@@ -6,7 +6,7 @@
 #import "helpViewController.h"
 #import "S1AppDelegate.h"
 #import "player.h"
-#import "highScoresViewController.h"
+#import "HighScoresViewControllerRENAME.h"
 
 @implementation gameViewController
 
@@ -24,7 +24,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 	optionsViewController *optionsViewControllerInst = [[[optionsViewController alloc] initWithNibName:@"options1" bundle:nil] autorelease];
 	UIViewController *saveGameViewController = [[[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil] autorelease];
 	UIViewController *helpViewControllerInst = [[[helpViewController alloc] initWithNibName:@"help" bundle:nil] autorelease];
-	UIViewController *highScores = [[[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
+	UIViewController *highScores = [[[HighScoresViewControllerRENAME alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
 	
 	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
 						 NSLocalizedString(@"Options", @""), @"title",
@@ -153,7 +153,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 			break;
 		case 5: 
 		{
-			highScoresViewController *targetViewController = (highScoresViewController *)[[menuList objectAtIndex: indexPath.row] objectForKey:@"viewController"];
+			HighScoresViewControllerRENAME *targetViewController = (HighScoresViewControllerRENAME *)[[menuList objectAtIndex: indexPath.row] objectForKey:@"viewController"];
 			[[self navigationController] pushViewController:targetViewController animated:YES];		
 			
 		}

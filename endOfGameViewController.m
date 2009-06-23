@@ -1,7 +1,7 @@
 #import "endOfGameViewController.h"
 #import "S1AppDelegate.h"
 #import "startGameViewController.h"
-#import "highScoresViewController.h"
+#import "HighScoresViewControllerRENAME.h"
 
 @implementation endOfGameViewController
 
@@ -52,7 +52,7 @@
 	[app showStartGame];
 
 	if (highScore) {
-		UIViewController* highScores = [[highScoresViewController alloc] initWithNibName:@"highScores" bundle:nil];;
+		UIViewController* highScores = [[HighScoresViewControllerRENAME alloc] initWithNibName:@"highScores" bundle:nil];;
 		[app.navigationController pushViewController:highScores animated:TRUE];
 		[highScores release];
 	}
