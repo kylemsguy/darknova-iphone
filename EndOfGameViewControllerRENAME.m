@@ -1,9 +1,9 @@
-#import "endOfGameViewController.h"
+#import "EndOfGameViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "startGameViewController.h"
 #import "HighScoresViewController.h"
 
-@implementation endOfGameViewController
+@implementation EndOfGameViewControllerRENAME
 
 
 -(void)showShipDestroyedImage
