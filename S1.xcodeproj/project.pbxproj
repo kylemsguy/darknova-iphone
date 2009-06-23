@@ -183,7 +183,7 @@
 		F3DD992F0EE0D5A0008660FE /* Warp.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD98420EE0D5A0008660FE /* Warp.png */; };
 		F3DD9AF70EE4D918008660FE /* DN-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD9AF60EE4D918008660FE /* DN-57x57.png */; };
 		F3DD9B3A0EE8920A008660FE /* warp.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DD9B390EE8920A008660FE /* warp.xib */; };
-		F3DD9B3E0EE897A7008660FE /* warpSystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B3C0EE897A7008660FE /* warpSystemInfoView.m */; };
+		F3DD9B3E0EE897A7008660FE /* WarpSystemInfoViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B3C0EE897A7008660FE /* WarpSystemInfoViewRENAME.m */; };
 		F3DD9B410EE897AF008660FE /* pricesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B400EE897AF008660FE /* pricesView.m */; };
 		F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B430EE897B8008660FE /* warpViewController.m */; };
 		F3E7F1530EFD2EC500B8D882 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E7F1520EFD2EC500B8D882 /* AudioPlayer.m */; };
@@ -456,8 +456,8 @@
 		F3DD98420EE0D5A0008660FE /* Warp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warp.png; sourceTree = "<group>"; };
 		F3DD9AF60EE4D918008660FE /* DN-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DN-57x57.png"; sourceTree = "<group>"; };
 		F3DD9B390EE8920A008660FE /* warp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = warp.xib; sourceTree = "<group>"; };
-		F3DD9B3C0EE897A7008660FE /* warpSystemInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = warpSystemInfoView.m; path = ../warpSystemInfoView.m; sourceTree = "<group>"; };
-		F3DD9B3D0EE897A7008660FE /* warpSystemInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warpSystemInfoView.h; path = ../warpSystemInfoView.h; sourceTree = "<group>"; };
+		F3DD9B3C0EE897A7008660FE /* WarpSystemInfoViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WarpSystemInfoViewRENAME.m; path = ../WarpSystemInfoViewRENAME.m; sourceTree = "<group>"; };
+		F3DD9B3D0EE897A7008660FE /* WarpSystemInfoViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WarpSystemInfoViewRENAME.h; path = ../WarpSystemInfoViewRENAME.h; sourceTree = "<group>"; };
 		F3DD9B3F0EE897AF008660FE /* pricesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pricesView.h; path = ../pricesView.h; sourceTree = "<group>"; };
 		F3DD9B400EE897AF008660FE /* pricesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pricesView.m; path = ../pricesView.m; sourceTree = "<group>"; };
 		F3DD9B420EE897B8008660FE /* warpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warpViewController.h; path = ../warpViewController.h; sourceTree = "<group>"; };
@@ -1085,8 +1085,8 @@
 		F3DD9B450EE89BA4008660FE /* Warp */ = {
 			isa = PBXGroup;
 			children = (
-				F3DD9B3C0EE897A7008660FE /* warpSystemInfoView.m */,
-				F3DD9B3D0EE897A7008660FE /* warpSystemInfoView.h */,
+				F3DD9B3C0EE897A7008660FE /* WarpSystemInfoViewRENAME.m */,
+				F3DD9B3D0EE897A7008660FE /* WarpSystemInfoViewRENAME.h */,
 				F3DD9B3F0EE897AF008660FE /* pricesView.h */,
 				F3DD9B400EE897AF008660FE /* pricesView.m */,
 				F3DD9B420EE897B8008660FE /* warpViewController.h */,
@@ -1336,7 +1336,7 @@
 				F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */,
 				F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */,
 				F3D61C0C0ECD162B00308FBB /* EncounterView.m in Sources */,
-				F3DD9B3E0EE897A7008660FE /* warpSystemInfoView.m in Sources */,
+				F3DD9B3E0EE897A7008660FE /* WarpSystemInfoViewRENAME.m in Sources */,
 				F3DD9B410EE897AF008660FE /* pricesView.m in Sources */,
 				F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */,
 				F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */,
