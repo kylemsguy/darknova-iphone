@@ -454,13 +454,13 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>EndOfGameViewController</string>
 					<string>UIResponder</string>
-					<string>retireShipDestroyedView</string>
+					<string>RetireShipDestroyedViewRENAME</string>
 					<string>{{701, 265}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<boolean value="NO" id="6"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>retireShipDestroyedView</string>
+					<string>RetireShipDestroyedViewRENAME</string>
 					<string>{{701, 265}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<reference ref="6"/>
@@ -521,12 +521,20 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>retireShipDestroyedView</string>
-							<string>retireShipDestroyedView</string>
+							<string>RetireShipDestroyedViewRENAME</string>
+							<string>RetireShipDestroyedViewRENAME</string>
 							<string>happyEndView</string>
 							<string>poorEndGameView</string>
 						</object>
 					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">RetireShipDestroyedViewRENAME</string>
+					<string key="superclassName">UIView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
@@ -546,14 +554,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">poorEndGameView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">retireShipDestroyedView</string>
-					<string key="superclassName">UIView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">retireShipDestroyedView.h</string>
 					</object>
 				</object>
 			</object>
