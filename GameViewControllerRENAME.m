@@ -1,4 +1,4 @@
-#import "gameViewController.h"
+#import "GameViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "SaveGameViewController.h"
@@ -8,7 +8,7 @@
 #import "Player.h"
 #import "HighScoresViewController.h"
 
-@implementation gameViewController
+@implementation GameViewControllerRENAME
 
 @synthesize myTableView;
 

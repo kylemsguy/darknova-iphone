@@ -201,7 +201,7 @@ bool bStartNewGame;
 
 -(IBAction)gameCommand{
 	if (gameView == 0)
-		gameView = [[gameViewController alloc] initWithNibName:@"game" bundle:nil];
+		gameView = [[GameViewControllerRENAME alloc] initWithNibName:@"game" bundle:nil];
 	
 	NSArray* arr = [NSArray arrayWithObjects:gameView, nil];	
 	self.navigationController.viewControllers = arr;
