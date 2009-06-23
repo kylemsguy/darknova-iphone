@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "optionsViewController.h"
+#import "OptionsViewControllerRENAME.h"
 
 extern NSString *oDisplayCell_ID;
 

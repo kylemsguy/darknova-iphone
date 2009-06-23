@@ -1,11 +1,11 @@
-#import "optionsViewController.h"
+#import "OptionsViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "OptionsCell.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation optionsViewController
+@implementation OptionsViewControllerRENAME
 
 - (void)viewDidLoad {
 	

@@ -77,7 +77,7 @@
 		F392670E0EF48550006AAB4B /* newsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670D0EF48550006AAB4B /* newsView.m */; };
 		F39267460EF48F8A006AAB4B /* news.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39267450EF48F8A006AAB4B /* news.xib */; };
 		F392674A0EF48FBE006AAB4B /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* newsViewController.m */; };
-		F3971A250EF5EA2B00ECA84D /* optionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A240EF5EA2B00ECA84D /* optionsViewController.m */; };
+		F3971A250EF5EA2B00ECA84D /* OptionsViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A240EF5EA2B00ECA84D /* OptionsViewControllerRENAME.m */; };
 		F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A720EF5EA7A00ECA84D /* OptionsCell.m */; };
 		F3B1815B0EF853A800B57222 /* command.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B181560EF853A800B57222 /* command.png */; };
 		F3B1815C0EF853A800B57222 /* sellcargo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B181570EF853A800B57222 /* sellcargo.png */; };
@@ -335,8 +335,8 @@
 		F39267450EF48F8A006AAB4B /* news.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = news.xib; path = Classes/news.xib; sourceTree = "<group>"; };
 		F39267480EF48FBE006AAB4B /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsViewController.m; path = ../newsViewController.m; sourceTree = "<group>"; };
 		F39267490EF48FBE006AAB4B /* newsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsViewController.h; path = ../newsViewController.h; sourceTree = "<group>"; };
-		F3971A230EF5EA2B00ECA84D /* optionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = optionsViewController.h; path = ../optionsViewController.h; sourceTree = "<group>"; };
-		F3971A240EF5EA2B00ECA84D /* optionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = optionsViewController.m; path = ../optionsViewController.m; sourceTree = "<group>"; };
+		F3971A230EF5EA2B00ECA84D /* OptionsViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewControllerRENAME.h; path = ../OptionsViewControllerRENAME.h; sourceTree = "<group>"; };
+		F3971A240EF5EA2B00ECA84D /* OptionsViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewControllerRENAME.m; path = ../OptionsViewControllerRENAME.m; sourceTree = "<group>"; };
 		F3971A710EF5EA7A00ECA84D /* OptionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsCell.h; sourceTree = "<group>"; };
 		F3971A720EF5EA7A00ECA84D /* OptionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsCell.m; sourceTree = "<group>"; };
 		F3B181560EF853A800B57222 /* command.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command.png; sourceTree = "<group>"; };
@@ -1002,8 +1002,8 @@
 		F3971A270EF5EA4E00ECA84D /* Options */ = {
 			isa = PBXGroup;
 			children = (
-				F3971A230EF5EA2B00ECA84D /* optionsViewController.h */,
-				F3971A240EF5EA2B00ECA84D /* optionsViewController.m */,
+				F3971A230EF5EA2B00ECA84D /* OptionsViewControllerRENAME.h */,
+				F3971A240EF5EA2B00ECA84D /* OptionsViewControllerRENAME.m */,
 				F3971A710EF5EA7A00ECA84D /* OptionsCell.h */,
 				F3971A720EF5EA7A00ECA84D /* OptionsCell.m */,
 				F3BEE2120EF73D010098DF74 /* OptionsProtocol.h */,
@@ -1348,7 +1348,7 @@
 				F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */,
 				F392670E0EF48550006AAB4B /* newsView.m in Sources */,
 				F392674A0EF48FBE006AAB4B /* newsViewController.m in Sources */,
-				F3971A250EF5EA2B00ECA84D /* optionsViewController.m in Sources */,
+				F3971A250EF5EA2B00ECA84D /* OptionsViewControllerRENAME.m in Sources */,
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,
 				F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */,
 				F3B182430EF8905100B57222 /* HelpViewController.m in Sources */,
