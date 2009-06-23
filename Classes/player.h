@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #include "spacetrader.h"
-#include "encounterViewController.h"
+#include "EncounterViewControllerRENAME.h"
 #include "personellRosterViewController.h"
 #import "AudioPlayer.h"
 #import "BuyEquipmentViewController.h"
@@ -145,7 +145,7 @@
 	
 	bool audioPlayerReleased;
 	
-	encounterViewController* encounterViewControllerInstance;
+	EncounterViewControllerRENAME* encounterViewControllerInstance;
 	AudioPlayer* audioPlayer;
 	
 	SystemSoundID sound[20];
