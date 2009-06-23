@@ -361,7 +361,7 @@ enum eSystemSound
 -(NSString*)getShipEquipmentName:(int)index; // Return equipment name installed on the ship
 -(int)getEquipmentPrice:(int)index;
 -(int)getSellEquipmentPrice:(int)index;
--(void)buyItem:(int)index controller:(BuyEquipmentViewControllerRENAME*)controller;
+-(void)buyItem:(int)index controller:(BuyEquipmentViewController*)controller;
 -(void)sellEquipment:(int)index;
 -(void) updateRosterWindow:(personellRosterViewController*)controller;
 -(void) updateRosterWindow:(personellRosterViewController*)controller;
