@@ -27,7 +27,7 @@
 @class Player;
 @class mainTabBar;
 @class commandViewController;
-@class mainToolBar;
+@class MainToolBarRENAME;
 @class gameViewController;
 
 
@@ -36,7 +36,7 @@
 	IBOutlet UINavigationController	*navigationController;
 	//IBOutlet mainTabBar * tabbarController;
 //	IBOutlet helloWindowViewController* helloWindow;
-	IBOutlet mainToolBar* mainToolbar;
+	IBOutlet MainToolBarRENAME* mainToolbar;
 	IBOutlet startGameToolBar * startToolbar;
 	IBOutlet UIBarButtonItem	*gameOptionsButton;
 
@@ -63,7 +63,7 @@
 @property (nonatomic, retain) buyShipViewController *buyShipController;
 @property (nonatomic, retain) gameViewController* gameView;
 @property (nonatomic, retain) UINavigationController *navigationController;
-@property (nonatomic, retain) mainToolBar* mainToolbar;
+@property (nonatomic, retain) MainToolBarRENAME* mainToolbar;
 @property (nonatomic, retain) Player* gamePlayer;
 @property (nonatomic, retain) bankViewController* mainBankViewController;
 @property (nonatomic, retain) UIBarButtonItem* gameOptionsButton;
