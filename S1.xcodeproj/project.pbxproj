@@ -53,7 +53,7 @@
 		89C54FD10E92C77F008ECDA8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C54FD00E92C77F008ECDA8 /* CoreFoundation.framework */; };
 		89C54FD70E92C878008ECDA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C54FD60E92C878008ECDA8 /* CoreGraphics.framework */; };
 		89C550FF0E92D9E6008ECDA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89C550FE0E92D9E6008ECDA8 /* Localizable.strings */; };
-		89C551040E92DA6D008ECDA8 /* GameViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C551030E92DA6D008ECDA8 /* GameViewControllerRENAME.m */; };
+		89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C551030E92DA6D008ECDA8 /* GameViewController.m */; };
 		89C551060E92DC01008ECDA8 /* options1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C551050E92DC01008ECDA8 /* options1.xib */; };
 		89DF15700E8CDD2000FFCE8C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF156F0E8CDD2000FFCE8C /* Player.m */; };
 		89DF15B00E8CE0CA00FFCE8C /* startGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF15AF0E8CE0CA00FFCE8C /* startGameViewController.m */; };
@@ -294,8 +294,8 @@
 		89C54FD00E92C77F008ECDA8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		89C54FD60E92C878008ECDA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		89C550FE0E92D9E6008ECDA8 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		89C551020E92DA6D008ECDA8 /* GameViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewControllerRENAME.h; path = ../GameViewControllerRENAME.h; sourceTree = "<group>"; };
-		89C551030E92DA6D008ECDA8 /* GameViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewControllerRENAME.m; path = ../GameViewControllerRENAME.m; sourceTree = "<group>"; };
+		89C551020E92DA6D008ECDA8 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		89C551030E92DA6D008ECDA8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 		89C551050E92DC01008ECDA8 /* options1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = options1.xib; sourceTree = "<group>"; };
 		89DF156E0E8CDD2000FFCE8C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		89DF156F0E8CDD2000FFCE8C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
@@ -706,8 +706,8 @@
 			children = (
 				F3971A270EF5EA4E00ECA84D /* Options */,
 				F39262D80EF1F625006AAB4B /* Save Game */,
-				89C551020E92DA6D008ECDA8 /* GameViewControllerRENAME.h */,
-				89C551030E92DA6D008ECDA8 /* GameViewControllerRENAME.m */,
+				89C551020E92DA6D008ECDA8 /* GameViewController.h */,
+				89C551030E92DA6D008ECDA8 /* GameViewController.m */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -1309,7 +1309,7 @@
 				899BFFFD0E91AE6B00C4CD69 /* buyCargoViewController.m in Sources */,
 				899B00A80E91B86D00C4CD69 /* buyCargoView.m in Sources */,
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,
-				89C551040E92DA6D008ECDA8 /* GameViewControllerRENAME.m in Sources */,
+				89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */,
 				89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */,
 				89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */,
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,

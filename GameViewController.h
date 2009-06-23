@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface GameViewControllerRENAME : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface GameViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	NSMutableArray			*menuList;
 	IBOutlet UITableView	*myTableView;
 }

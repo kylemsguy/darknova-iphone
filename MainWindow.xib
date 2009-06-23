@@ -526,7 +526,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">GameViewControllerRENAME</string>
+					<string key="className">GameViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">myTableView</string>
@@ -596,7 +596,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>commandViewController</string>
 							<string>UIBarButtonItem</string>
-							<string>GameViewControllerRENAME</string>
+							<string>GameViewController</string>
 							<string>bankViewController</string>
 							<string>MainToolBar</string>
 							<string>UINavigationController</string>

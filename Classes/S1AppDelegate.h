@@ -16,7 +16,7 @@
 #import "startGameToolBar.h"
 #import "AudioPlayer.h"
 #import "commandViewController.h"
-#import "GameViewControllerRENAME.h"
+#import "GameViewController.h"
 #import "SaveGameViewController.h"
 #import "HelpViewController.h"
 #import "shipInfoViewController.h"
@@ -28,7 +28,7 @@
 @class mainTabBar;
 @class commandViewController;
 @class MainToolBar;
-@class GameViewControllerRENAME;
+@class GameViewController;
 
 
 @interface S1AppDelegate : NSObject <UIApplicationDelegate> {
@@ -42,7 +42,7 @@
 
 	HelpViewController * helpWindow;
 	IBOutlet commandViewController* commandView;
-	IBOutlet GameViewControllerRENAME* gameView;
+	IBOutlet GameViewController* gameView;
 	IBOutlet bankViewController* mainBankViewController;
 //	IBOutlet startGameViewController* startViewController;
 	startGameViewController * newGame;
@@ -61,7 +61,7 @@
 @property (nonatomic, retain) commandViewController *commandView;
 @property (nonatomic, retain) shipInfoViewController *shipInfoController;
 @property (nonatomic, retain) buyShipViewController *buyShipController;
-@property (nonatomic, retain) GameViewControllerRENAME* gameView;
+@property (nonatomic, retain) GameViewController* gameView;
 @property (nonatomic, retain) UINavigationController *navigationController;
 @property (nonatomic, retain) MainToolBar* mainToolbar;
 @property (nonatomic, retain) Player* gamePlayer;
