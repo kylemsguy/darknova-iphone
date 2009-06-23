@@ -251,7 +251,7 @@ bool bStartNewGame;
 -(IBAction) help
 {
 	if (helpWindow == 0)
-		helpWindow	= [[HelpViewControllerRENAME alloc] initWithNibName:@"help" bundle:nil];
+		helpWindow	= [[HelpViewController alloc] initWithNibName:@"help" bundle:nil];
 	[self.navigationController pushViewController:helpWindow animated:TRUE];
 //	[helpView release];
 	

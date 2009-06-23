@@ -18,10 +18,10 @@
 #import "commandViewController.h"
 #import "gameViewController.h"
 #import "SaveGameViewController.h"
-#import "HelpViewControllerRENAME.h"
+#import "HelpViewController.h"
 #import "shipInfoViewController.h"
 #import "buyShipViewController.h"
-#import "HelpViewControllerRENAME.h"
+#import "HelpViewController.h"
 
 @class S1ViewController;
 @class Player;
@@ -40,7 +40,7 @@
 	IBOutlet startGameToolBar * startToolbar;
 	IBOutlet UIBarButtonItem	*gameOptionsButton;
 
-	HelpViewControllerRENAME * helpWindow;
+	HelpViewController * helpWindow;
 	IBOutlet commandViewController* commandView;
 	IBOutlet gameViewController* gameView;
 	IBOutlet bankViewController* mainBankViewController;
