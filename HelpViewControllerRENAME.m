@@ -1,6 +1,6 @@
-#import "helpViewController.h"
+#import "HelpViewControllerRENAME.h"
 
-@implementation helpViewController
+@implementation HelpViewControllerRENAME
 
 - (void)viewDidAppear:(BOOL)animated {
 	

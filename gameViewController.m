@@ -3,7 +3,7 @@
 #import "Player.h"
 #import "SaveGameViewController.h"
 #import "optionsViewController.h"
-#import "helpViewController.h"
+#import "HelpViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "HighScoresViewController.h"
@@ -23,7 +23,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 
 	optionsViewController *optionsViewControllerInst = [[[optionsViewController alloc] initWithNibName:@"options1" bundle:nil] autorelease];
 	UIViewController *saveGameViewController = [[[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil] autorelease];
-	UIViewController *helpViewControllerInst = [[[helpViewController alloc] initWithNibName:@"help" bundle:nil] autorelease];
+	UIViewController *helpViewControllerInst = [[[HelpViewControllerRENAME alloc] initWithNibName:@"help" bundle:nil] autorelease];
 	UIViewController *highScores = [[[HighScoresViewController alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
 	
 	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:

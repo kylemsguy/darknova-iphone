@@ -86,7 +86,7 @@
 		F3B1815F0EF853A800B57222 /* WarpTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1815A0EF853A800B57222 /* WarpTabBar.png */; };
 		F3B182270EF88B2500B57222 /* Galaxy3.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B182250EF88B2500B57222 /* Galaxy3.png */; };
 		F3B182280EF88B2500B57222 /* ShortRange3.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B182260EF88B2500B57222 /* ShortRange3.png */; };
-		F3B182430EF8905100B57222 /* helpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B182420EF8905100B57222 /* helpViewController.m */; };
+		F3B182430EF8905100B57222 /* HelpViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B182420EF8905100B57222 /* HelpViewControllerRENAME.m */; };
 		F3B182450EF891BD00B57222 /* DNHELP.html in Resources */ = {isa = PBXBuildFile; fileRef = F3B182440EF891BD00B57222 /* DNHELP.html */; };
 		F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BEE2130EF73D010098DF74 /* OptionsProtocol.m */; };
 		F3CCB5FC0E9BFA0C00D65804 /* bankView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB5FA0E9BFA0C00D65804 /* bankView.m */; };
@@ -346,8 +346,8 @@
 		F3B1815A0EF853A800B57222 /* WarpTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WarpTabBar.png; sourceTree = "<group>"; };
 		F3B182250EF88B2500B57222 /* Galaxy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Galaxy3.png; sourceTree = "<group>"; };
 		F3B182260EF88B2500B57222 /* ShortRange3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShortRange3.png; sourceTree = "<group>"; };
-		F3B182410EF8905100B57222 /* helpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helpViewController.h; path = ../helpViewController.h; sourceTree = "<group>"; };
-		F3B182420EF8905100B57222 /* helpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helpViewController.m; path = ../helpViewController.m; sourceTree = "<group>"; };
+		F3B182410EF8905100B57222 /* HelpViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewControllerRENAME.h; path = ../HelpViewControllerRENAME.h; sourceTree = "<group>"; };
+		F3B182420EF8905100B57222 /* HelpViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewControllerRENAME.m; path = ../HelpViewControllerRENAME.m; sourceTree = "<group>"; };
 		F3B182440EF891BD00B57222 /* DNHELP.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DNHELP.html; sourceTree = "<group>"; };
 		F3BEE2120EF73D010098DF74 /* OptionsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsProtocol.h; sourceTree = "<group>"; };
 		F3BEE2130EF73D010098DF74 /* OptionsProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsProtocol.m; sourceTree = "<group>"; };
@@ -715,8 +715,8 @@
 		899BFC5C0E91813400C4CD69 /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				F3B182410EF8905100B57222 /* helpViewController.h */,
-				F3B182420EF8905100B57222 /* helpViewController.m */,
+				F3B182410EF8905100B57222 /* HelpViewControllerRENAME.h */,
+				F3B182420EF8905100B57222 /* HelpViewControllerRENAME.m */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -1351,7 +1351,7 @@
 				F3971A250EF5EA2B00ECA84D /* optionsViewController.m in Sources */,
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,
 				F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */,
-				F3B182430EF8905100B57222 /* helpViewController.m in Sources */,
+				F3B182430EF8905100B57222 /* HelpViewControllerRENAME.m in Sources */,
 				F30596EC0EFB0D0A00A7FBFF /* startGameToolBar.m in Sources */,
 				F305994F0EFC7D0000A7FBFF /* HighScoresViewController.m in Sources */,
 				F3E7F1530EFD2EC500B8D882 /* AudioPlayer.m in Sources */,
