@@ -468,7 +468,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>happyEndView</string>
+					<string>HappyEndViewRENAME</string>
 					<string>{{196, 319}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>poorEndGameView</string>
@@ -523,10 +523,18 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>RetireShipDestroyedView</string>
 							<string>RetireShipDestroyedView</string>
-							<string>happyEndView</string>
+							<string>HappyEndViewRENAME</string>
 							<string>poorEndGameView</string>
 						</object>
 					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">HappyEndViewRENAME</string>
+					<string key="superclassName">UIView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
@@ -538,14 +546,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">happyEndView</string>
-					<string key="superclassName">UIView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">happyEndView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
