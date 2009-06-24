@@ -1,18 +1,18 @@
-#import "shortRangeChartView.h"
+#import "ShortRangeChartViewRENAME.h"
 #import <QuartzCore/QuartzCore.h>  // Needed for animations
 #import "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
 #import "Player.h"
 #import "WarpViewController.h"
 
-@interface shortRangeChartView()
+@interface ShortRangeChartViewRENAME()
 
 @property (nonatomic) BOOL piecesOnTop;  
 @property (nonatomic) CGPoint startTouchPosition;
 @end
 
 
-@interface shortRangeChartView (PrivateMethods)
+@interface ShortRangeChartViewRENAME (PrivateMethods)
 -(UILabel *) newLabelWithOffset:(float)offset numberOfLines:(NSUInteger) lines;
 -(UIImageView *)newPieceViewWithImageNamed:(NSString *)imageName atPostion:(CGPoint)centerPoint;
 -(void)animateFirstTouchAtPoint:(CGPoint)touchPoint forView:(UIImageView *)theView;
@@ -24,7 +24,7 @@
 @end
 
 
-@implementation shortRangeChartView
+@implementation ShortRangeChartViewRENAME
 
 #define GROW_ANIMATION_DURATION_SECONDS 0.15    // Determines how fast a piece size grows when it is moved.
 #define SHRINK_ANIMATION_DURATION_SECONDS 0.15  // Determines how fast a piece size shrinks when a piece stops moving.
