@@ -350,7 +350,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>GalacticChartViewController</string>
 					<string>UIResponder</string>
-					<string>galacticChartView</string>
+					<string>GalacticChartViewRENAME</string>
 					<string>{{736, 363}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -395,7 +395,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">galacticChartView</string>
+					<string key="className">GalacticChartViewRENAME</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -434,8 +434,8 @@
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">galacticChartView.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 			</object>
