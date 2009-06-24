@@ -7039,7 +7039,7 @@ sellCargoViewController * opponentViewControllerInstance;
 	}	
 }
 
--(void) DrawMercenary:(int)index controller:(personellRosterViewController *)controller  name:(UILabel *)name cost:(UILabel *)cost pilot:(UILabel *)pilot trader:(UILabel *)trader fighter:(UILabel*)fighter engineer:(UILabel*)engineer {
+-(void) DrawMercenary:(int)index controller:(PersonellRosterViewControllerRENAME *)controller  name:(UILabel *)name cost:(UILabel *)cost pilot:(UILabel *)pilot trader:(UILabel *)trader fighter:(UILabel*)fighter engineer:(UILabel*)engineer {
 	[controller.view addSubview:name];
 	[controller.view addSubview:cost];
 	[controller.view addSubview:pilot];
@@ -7078,7 +7078,7 @@ sellCargoViewController * opponentViewControllerInstance;
 }
 
 
--(void) updateRosterWindow:(personellRosterViewController *)controller {
+-(void) updateRosterWindow:(PersonellRosterViewControllerRENAME *)controller {
 	int i = 0;
 	//for (i=0; i<2; ++i)
 	{

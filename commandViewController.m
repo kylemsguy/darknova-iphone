@@ -96,7 +96,7 @@
 -(IBAction) personellRoster {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(personellRosterViewControllerImpl == 0)
-		personellRosterViewControllerImpl = [[personellRosterViewController alloc] initWithNibName:@"personellRoster" bundle:nil];
+		personellRosterViewControllerImpl = [[PersonellRosterViewControllerRENAME alloc] initWithNibName:@"personellRoster" bundle:nil];
 	[self.navigationController pushViewController:personellRosterViewControllerImpl animated:YES];
 	personellRosterViewControllerImpl.navigationItem.rightBarButtonItem = app.gameOptionsButton;	
 }

@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface personellRosterViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface PersonellRosterViewControllerRENAME : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet UILabel * cash;
 	
 	IBOutlet UIButton * fire0;

@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #include "spacetrader.h"
 #include "EncounterViewController.h"
-#include "personellRosterViewController.h"
+#include "PersonellRosterViewControllerRENAME.h"
 #import "AudioPlayer.h"
 #import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
@@ -355,8 +355,8 @@ enum eSystemSound
 -(int)getSellEquipmentPrice:(int)index;
 -(void)buyItem:(int)index controller:(BuyEquipmentViewController*)controller;
 -(void)sellEquipment:(int)index;
--(void) updateRosterWindow:(personellRosterViewController*)controller;
--(void) updateRosterWindow:(personellRosterViewController*)controller;
+-(void) updateRosterWindow:(PersonellRosterViewControllerRENAME*)controller;
+-(void) updateRosterWindow:(PersonellRosterViewControllerRENAME*)controller;
 -(void) fireMercenary:(int)index; 
 -(void) hireMercenaryFromRoster;
 
