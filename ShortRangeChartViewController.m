@@ -1,6 +1,6 @@
-#import "ShortRangeChartViewControllerRENAME.h"
+#import "ShortRangeChartViewController.h"
 
-@implementation ShortRangeChartViewControllerRENAME
+@implementation ShortRangeChartViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

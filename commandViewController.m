@@ -140,7 +140,7 @@
 -(IBAction) shortRangeChart {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(shortRangeChartViewControllerImpl == 0)
-		shortRangeChartViewControllerImpl = [[ShortRangeChartViewControllerRENAME alloc] initWithNibName:@"shortrangeChart" bundle:nil];
+		shortRangeChartViewControllerImpl = [[ShortRangeChartViewController alloc] initWithNibName:@"shortrangeChart" bundle:nil];
 	[self.navigationController pushViewController:shortRangeChartViewControllerImpl animated:YES];
 	shortRangeChartViewControllerImpl.navigationItem.rightBarButtonItem = app.gameOptionsButton;	
 }
