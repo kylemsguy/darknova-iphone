@@ -1,9 +1,9 @@
-#import "BankViewRENAME.h"
+#import "BankView.h"
 #import "BankViewController.h"
 #import "S1AppDelegate.h"
 
 
-@implementation BankViewRENAME
+@implementation BankView
 
 - (void)viewDidAppear:(BOOL)animated  {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
