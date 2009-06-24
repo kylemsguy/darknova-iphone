@@ -35,7 +35,7 @@
 		89A3AA920E942E0300B18001 /* bankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA910E942E0300B18001 /* bankViewController.m */; };
 		89A3AAA70E942FDA00B18001 /* commanderStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AAA60E942FDA00B18001 /* commanderStatus.xib */; };
 		89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */; };
-		89A3AAC00E9430DF00B18001 /* statusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* statusView.m */; };
+		89A3AAC00E9430DF00B18001 /* StatusViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* StatusViewRENAME.m */; };
 		89A3AAC30E9430E500B18001 /* QuestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC10E9430E500B18001 /* QuestView.m */; };
 		89A3AAC60E9430EB00B18001 /* ShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC50E9430EB00B18001 /* ShipView.m */; };
 		89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC70E9430F100B18001 /* SpecialCargoView.m */; };
@@ -265,8 +265,8 @@
 		89A3AAA60E942FDA00B18001 /* commanderStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commanderStatus.xib; sourceTree = "<group>"; };
 		89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommanderStatusViewController.m; path = ../CommanderStatusViewController.m; sourceTree = "<group>"; };
 		89A3AAAA0E942FF900B18001 /* CommanderStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommanderStatusViewController.h; path = ../CommanderStatusViewController.h; sourceTree = "<group>"; };
-		89A3AABE0E9430DF00B18001 /* statusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statusView.h; path = ../statusView.h; sourceTree = "<group>"; };
-		89A3AABF0E9430DF00B18001 /* statusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statusView.m; path = ../statusView.m; sourceTree = "<group>"; };
+		89A3AABE0E9430DF00B18001 /* StatusViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusViewRENAME.h; path = ../StatusViewRENAME.h; sourceTree = "<group>"; };
+		89A3AABF0E9430DF00B18001 /* StatusViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusViewRENAME.m; path = ../StatusViewRENAME.m; sourceTree = "<group>"; };
 		89A3AAC10E9430E500B18001 /* QuestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestView.m; path = ../QuestView.m; sourceTree = "<group>"; };
 		89A3AAC20E9430E500B18001 /* QuestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestView.h; path = ../QuestView.h; sourceTree = "<group>"; };
 		89A3AAC40E9430EB00B18001 /* ShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipView.h; path = ../ShipView.h; sourceTree = "<group>"; };
@@ -871,8 +871,8 @@
 		89A3AAAF0E94305400B18001 /* Status */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AABE0E9430DF00B18001 /* statusView.h */,
-				89A3AABF0E9430DF00B18001 /* statusView.m */,
+				89A3AABE0E9430DF00B18001 /* StatusViewRENAME.h */,
+				89A3AABF0E9430DF00B18001 /* StatusViewRENAME.m */,
 			);
 			name = Status;
 			sourceTree = "<group>";
@@ -1317,7 +1317,7 @@
 				89A3AA890E942D9100B18001 /* personellRosterViewController.m in Sources */,
 				89A3AA920E942E0300B18001 /* bankViewController.m in Sources */,
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
-				89A3AAC00E9430DF00B18001 /* statusView.m in Sources */,
+				89A3AAC00E9430DF00B18001 /* StatusViewRENAME.m in Sources */,
 				89A3AAC30E9430E500B18001 /* QuestView.m in Sources */,
 				89A3AAC60E9430EB00B18001 /* ShipView.m in Sources */,
 				89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */,
