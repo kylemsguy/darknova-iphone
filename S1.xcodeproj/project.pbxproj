@@ -32,7 +32,7 @@
 		89A3AA850E942D6300B18001 /* personellRoster.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA840E942D6300B18001 /* personellRoster.xib */; };
 		89A3AA890E942D9100B18001 /* personellRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA880E942D9100B18001 /* personellRosterViewController.m */; };
 		89A3AA8E0E942DD900B18001 /* bank.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA8D0E942DD900B18001 /* bank.xib */; };
-		89A3AA920E942E0300B18001 /* bankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA910E942E0300B18001 /* bankViewController.m */; };
+		89A3AA920E942E0300B18001 /* BankViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA910E942E0300B18001 /* BankViewControllerRENAME.m */; };
 		89A3AAA70E942FDA00B18001 /* commanderStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AAA60E942FDA00B18001 /* commanderStatus.xib */; };
 		89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */; };
 		89A3AAC00E9430DF00B18001 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* StatusView.m */; };
@@ -260,8 +260,8 @@
 		89A3AA870E942D9100B18001 /* personellRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personellRosterViewController.h; path = ../personellRosterViewController.h; sourceTree = "<group>"; };
 		89A3AA880E942D9100B18001 /* personellRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personellRosterViewController.m; path = ../personellRosterViewController.m; sourceTree = "<group>"; };
 		89A3AA8D0E942DD900B18001 /* bank.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bank.xib; sourceTree = "<group>"; };
-		89A3AA900E942E0300B18001 /* bankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bankViewController.h; path = ../bankViewController.h; sourceTree = "<group>"; };
-		89A3AA910E942E0300B18001 /* bankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bankViewController.m; path = ../bankViewController.m; sourceTree = "<group>"; };
+		89A3AA900E942E0300B18001 /* BankViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankViewControllerRENAME.h; path = ../BankViewControllerRENAME.h; sourceTree = "<group>"; };
+		89A3AA910E942E0300B18001 /* BankViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankViewControllerRENAME.m; path = ../BankViewControllerRENAME.m; sourceTree = "<group>"; };
 		89A3AAA60E942FDA00B18001 /* commanderStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commanderStatus.xib; sourceTree = "<group>"; };
 		89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommanderStatusViewController.m; path = ../CommanderStatusViewController.m; sourceTree = "<group>"; };
 		89A3AAAA0E942FF900B18001 /* CommanderStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommanderStatusViewController.h; path = ../CommanderStatusViewController.h; sourceTree = "<group>"; };
@@ -824,10 +824,10 @@
 		89A3AA8B0E942DC500B18001 /* Bank */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AA900E942E0300B18001 /* bankViewController.h */,
+				89A3AA900E942E0300B18001 /* BankViewControllerRENAME.h */,
 				F3CCB5FA0E9BFA0C00D65804 /* bankView.m */,
 				F3CCB5FB0E9BFA0C00D65804 /* bankView.h */,
-				89A3AA910E942E0300B18001 /* bankViewController.m */,
+				89A3AA910E942E0300B18001 /* BankViewControllerRENAME.m */,
 			);
 			name = Bank;
 			sourceTree = "<group>";
@@ -1315,7 +1315,7 @@
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,
 				89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */,
 				89A3AA890E942D9100B18001 /* personellRosterViewController.m in Sources */,
-				89A3AA920E942E0300B18001 /* bankViewController.m in Sources */,
+				89A3AA920E942E0300B18001 /* BankViewControllerRENAME.m in Sources */,
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
 				89A3AAC00E9430DF00B18001 /* StatusView.m in Sources */,
 				89A3AAC30E9430E500B18001 /* QuestView.m in Sources */,

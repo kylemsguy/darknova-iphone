@@ -104,7 +104,7 @@
 -(IBAction) bank {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	if (bankViewControllerImpl == 0)
-		bankViewControllerImpl = [[bankViewController alloc] initWithNibName:@"bank" bundle:nil];
+		bankViewControllerImpl = [[BankViewControllerRENAME alloc] initWithNibName:@"bank" bundle:nil];
 	
 	app.mainBankViewController  = bankViewControllerImpl;	
 	[self.navigationController pushViewController:bankViewControllerImpl animated:YES];

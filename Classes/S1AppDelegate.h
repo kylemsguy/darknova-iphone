@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "helloWindowViewController.h"
-#import "bankViewController.h"
+#import "BankViewControllerRENAME.h"
 #import "Player.h"
 #import <Foundation/NSRunLoop.h>
 #import "AlertModalWindow.h"
@@ -43,7 +43,7 @@
 	HelpViewController * helpWindow;
 	IBOutlet commandViewController* commandView;
 	IBOutlet GameViewController* gameView;
-	IBOutlet bankViewController* mainBankViewController;
+	IBOutlet BankViewControllerRENAME* mainBankViewController;
 //	IBOutlet startGameViewController* startViewController;
 	startGameViewController * newGame;
 	SaveGameViewController * saveGame;
@@ -65,7 +65,7 @@
 @property (nonatomic, retain) UINavigationController *navigationController;
 @property (nonatomic, retain) MainToolBar* mainToolbar;
 @property (nonatomic, retain) Player* gamePlayer;
-@property (nonatomic, retain) bankViewController* mainBankViewController;
+@property (nonatomic, retain) BankViewControllerRENAME* mainBankViewController;
 @property (nonatomic, retain) UIBarButtonItem* gameOptionsButton;
 @property bool isGameLoaded;
 -(void)switchBarToGame;

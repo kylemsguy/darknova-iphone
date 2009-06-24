@@ -1,10 +1,10 @@
-#import "bankViewController.h"
+#import "BankViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
 #include "spacetrader.h"
 
-@implementation bankViewController
+@implementation BankViewControllerRENAME
 
 @synthesize		getLoan;
 @synthesize		paybackLoan;
