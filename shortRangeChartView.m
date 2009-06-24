@@ -3,7 +3,7 @@
 #import "S1AppDelegate.h"
 #import "SystemInfoViewController.h"
 #import "Player.h"
-#import "WarpViewControllerRENAME.h"
+#import "WarpViewController.h"
 
 @interface shortRangeChartView()
 
@@ -46,11 +46,11 @@
 	
 }
 
-WarpViewControllerRENAME * targetViewController = 0;
+WarpViewController * targetViewController = 0;
 
 -(void) doWarp {
 	if (targetViewController==0)
-		targetViewController = [[WarpViewControllerRENAME alloc] initWithNibName:@"warp" bundle:nil];
+		targetViewController = [[WarpViewController alloc] initWithNibName:@"warp" bundle:nil];
 	//[self.window.navigationController pushViewController:targetViewController animated:YES];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.navigationController  pushViewController:targetViewController animated:YES];

@@ -1971,7 +1971,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>WarpViewControllerRENAME</string>
+					<string>WarpViewController</string>
 					<string>UIResponder</string>
 					<string>PricesView</string>
 					<string>{{655, 413}, {320, 480}}</string>
@@ -2180,7 +2180,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">WarpViewControllerRENAME</string>
+					<string key="className">WarpViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
