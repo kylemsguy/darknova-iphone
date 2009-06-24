@@ -2,7 +2,7 @@
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
-#import "buyShipViewController.h"
+#import "BuyShipViewControllerRENAME.h"
 
 
 @implementation shipYardView
@@ -162,7 +162,7 @@
 -(IBAction) buyNewShip {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (app.buyShipController == 0)
-	app.buyShipController = [[[buyShipViewController alloc] initWithNibName:@"buyShip" bundle:nil] autorelease];
+	app.buyShipController = [[[BuyShipViewControllerRENAME alloc] initWithNibName:@"buyShip" bundle:nil] autorelease];
 
 	[app.navigationController pushViewController:app.buyShipController animated:YES];
 }
