@@ -1594,7 +1594,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>CommanderStatusViewController</string>
 					<string>UIResponder</string>
-					<string>StatusViewRENAME</string>
+					<string>StatusView</string>
 					<string>{{1000, 38}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1716,7 +1716,7 @@
 							<string>QuestView</string>
 							<string>ShipView</string>
 							<string>SpecialCargoView</string>
-							<string>StatusViewRENAME</string>
+							<string>StatusView</string>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -1772,7 +1772,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">StatusViewRENAME</string>
+					<string key="className">StatusView</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>

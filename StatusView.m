@@ -1,8 +1,8 @@
-#import "StatusViewRENAME.h"
+#import "StatusView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation StatusViewRENAME
+@implementation StatusView
 
 @synthesize pilotName, pilotSkill, traderSkill, fighterSkill, engineerSkill, kills, time, cash, debt, newWorth, reputation, policeRecord, difficulty;
 
