@@ -1,6 +1,6 @@
-#import "BuyShipViewControllerRENAME.h"
+#import "BuyShipViewController.h"
 
-@implementation BuyShipViewControllerRENAME
+@implementation BuyShipViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

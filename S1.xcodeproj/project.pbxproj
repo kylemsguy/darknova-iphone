@@ -118,7 +118,7 @@
 		F3D618930EBFDCCF00308FBB /* shipYardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D618920EBFDCCF00308FBB /* shipYardView.m */; };
 		F3D619AB0EC1059000308FBB /* buyShip.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D619AA0EC1059000308FBB /* buyShip.xib */; };
 		F3D619AF0EC105E200308FBB /* BuyShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D619AD0EC105E200308FBB /* BuyShipView.m */; };
-		F3D619B20EC1069B00308FBB /* BuyShipViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D619B00EC1069B00308FBB /* BuyShipViewControllerRENAME.m */; };
+		F3D619B20EC1069B00308FBB /* BuyShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D619B00EC1069B00308FBB /* BuyShipViewController.m */; };
 		F3D61A3E0EC9104800308FBB /* shipInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D61A3D0EC9104800308FBB /* shipInfo.xib */; };
 		F3D61A430EC911C400308FBB /* shipInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A420EC911C400308FBB /* shipInfoViewController.m */; };
 		F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A440EC911CE00308FBB /* shipInfoView.m */; };
@@ -386,8 +386,8 @@
 		F3D619AA0EC1059000308FBB /* buyShip.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buyShip.xib; sourceTree = "<group>"; };
 		F3D619AD0EC105E200308FBB /* BuyShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyShipView.m; path = ../BuyShipView.m; sourceTree = "<group>"; };
 		F3D619AE0EC105E200308FBB /* BuyShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyShipView.h; path = ../BuyShipView.h; sourceTree = "<group>"; };
-		F3D619B00EC1069B00308FBB /* BuyShipViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyShipViewControllerRENAME.m; path = ../BuyShipViewControllerRENAME.m; sourceTree = "<group>"; };
-		F3D619B10EC1069B00308FBB /* BuyShipViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyShipViewControllerRENAME.h; path = ../BuyShipViewControllerRENAME.h; sourceTree = "<group>"; };
+		F3D619B00EC1069B00308FBB /* BuyShipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyShipViewController.m; path = ../BuyShipViewController.m; sourceTree = "<group>"; };
+		F3D619B10EC1069B00308FBB /* BuyShipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyShipViewController.h; path = ../BuyShipViewController.h; sourceTree = "<group>"; };
 		F3D61A3D0EC9104800308FBB /* shipInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shipInfo.xib; sourceTree = "<group>"; };
 		F3D61A410EC911C400308FBB /* shipInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipInfoViewController.h; path = ../shipInfoViewController.h; sourceTree = "<group>"; };
 		F3D61A420EC911C400308FBB /* shipInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipInfoViewController.m; path = ../shipInfoViewController.m; sourceTree = "<group>"; };
@@ -747,8 +747,8 @@
 			children = (
 				F3D619AD0EC105E200308FBB /* BuyShipView.m */,
 				F3D619AE0EC105E200308FBB /* BuyShipView.h */,
-				F3D619B00EC1069B00308FBB /* BuyShipViewControllerRENAME.m */,
-				F3D619B10EC1069B00308FBB /* BuyShipViewControllerRENAME.h */,
+				F3D619B00EC1069B00308FBB /* BuyShipViewController.m */,
+				F3D619B10EC1069B00308FBB /* BuyShipViewController.h */,
 				89A3AA040E94245D00B18001 /* shipYardViewController.h */,
 				89A3AA050E94245D00B18001 /* shipYardViewController.m */,
 				F3D618910EBFDCCF00308FBB /* shipYardView.h */,
@@ -1331,7 +1331,7 @@
 				F3D615C80EB6A4DE00308FBB /* GalacticChartView.m in Sources */,
 				F3D618930EBFDCCF00308FBB /* shipYardView.m in Sources */,
 				F3D619AF0EC105E200308FBB /* BuyShipView.m in Sources */,
-				F3D619B20EC1069B00308FBB /* BuyShipViewControllerRENAME.m in Sources */,
+				F3D619B20EC1069B00308FBB /* BuyShipViewController.m in Sources */,
 				F3D61A430EC911C400308FBB /* shipInfoViewController.m in Sources */,
 				F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */,
 				F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */,
