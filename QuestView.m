@@ -1,8 +1,8 @@
-#import "QuestViewRENAME.h"
+#import "QuestView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation QuestViewRENAME
+@implementation QuestView
 
 -(void)update  {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];

@@ -2,19 +2,19 @@
 #import <Foundation/Foundation.h>
 #import "SpecialCargoView.h"
 #import "ShipView.h"
-#import "QuestViewRENAME.h"
+#import "QuestView.h"
 #import "statusView.h"
 
 @interface CommanderStatusViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet ShipView * shipViewInst;
 	IBOutlet statusView * statusViewInst;
-	IBOutlet QuestViewRENAME * questViewInst;
+	IBOutlet QuestView * questViewInst;
 	IBOutlet SpecialCargoView *  specialCargoViewInst;
 }
 
 @property (nonatomic, retain) ShipView * shipViewInst;
 @property (nonatomic, retain) statusView * statusViewInst;
-@property (nonatomic, retain) QuestViewRENAME * questViewInst;
+@property (nonatomic, retain) QuestView * questViewInst;
 @property (nonatomic, retain) SpecialCargoView *  specialCargoViewInst;
 
 -(IBAction) quests;
