@@ -664,7 +664,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>BankViewControllerRENAME</string>
+					<string>BankViewController</string>
 					<string>UIResponder</string>
 					<string>bankView</string>
 					<string>{{600, 430}, {320, 480}}</string>
@@ -715,7 +715,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">BankViewControllerRENAME</string>
+					<string key="className">BankViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>

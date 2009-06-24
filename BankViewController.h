@@ -7,7 +7,7 @@
 #define BUYINSURANCE		3
 #define STOPINSURANCE		4
 
-@interface BankViewControllerRENAME : UIViewController <UIAlertViewDelegate>/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface BankViewController : UIViewController <UIAlertViewDelegate> {
 	IBOutlet	UIButton*		getLoan;
 	IBOutlet	UIButton*		paybackLoan;
 	IBOutlet	UIButton*		getInsurance;

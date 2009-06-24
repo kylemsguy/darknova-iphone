@@ -3,7 +3,7 @@
 
 #import "buyCargoViewController.h"
 #import "CommanderStatusViewController.h"
-#import "BankViewControllerRENAME.h"
+#import "BankViewController.h"
 #import "sellCargoViewController.h"
 #import "shipYardViewController.h"
 #import "sellEquipmentViewController.h"
@@ -21,7 +21,7 @@
 	BuyEquipmentViewController * buyEquipmentViewControllerImpl;
 	sellEquipmentViewController * sellEquipmentViewControllerImpl;
 	personellRosterViewController * personellRosterViewControllerImpl;
-	BankViewControllerRENAME * bankViewControllerImpl;
+	BankViewController * bankViewControllerImpl;
 	SystemInfoViewController * SystemInfoViewControllerImpl;
 	CommanderStatusViewController * commanderStatusViewControllerImpl;
 	GalacticChartViewController * galacticChartViewControllerImpl;
