@@ -1,9 +1,9 @@
-#import "GalacticChartViewRENAME.h"
+#import "GalacticChartView.h"
 #import <QuartzCore/QuartzCore.h>  // Needed for animations
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation GalacticChartViewRENAME
+@implementation GalacticChartView
 
 
 -(void)WinDrawLine:(CGContextRef)context x1:(int)x1 y1:(int)y1 x2:(int)x2 y2:(int)y2

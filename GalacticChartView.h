@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface GalacticChartViewRENAME :UIView /* Specify a superclass (eg: NSObject or NSView) */ {
+@interface GalacticChartView :UIView /* Specify a superclass (eg: NSObject or NSView) */ {
 	
 	CGImageRef redDot;
 	CGImageRef greenDot;
