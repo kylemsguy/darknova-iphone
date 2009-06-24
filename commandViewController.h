@@ -6,7 +6,7 @@
 #import "BankViewController.h"
 #import "sellCargoViewController.h"
 #import "shipYardViewController.h"
-#import "SellEquipmentViewControllerRENAME.h"
+#import "SellEquipmentViewController.h"
 #import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
 #import "PersonellRosterViewController.h"
@@ -19,7 +19,7 @@
 	sellCargoViewController * sellCargoViewControllerImpl;
 	shipYardViewController * shipYardViewControllerImpl;
 	BuyEquipmentViewController * buyEquipmentViewControllerImpl;
-	SellEquipmentViewControllerRENAME * sellEquipmentViewControllerImpl;
+	SellEquipmentViewController * sellEquipmentViewControllerImpl;
 	PersonellRosterViewController * personellRosterViewControllerImpl;
 	BankViewController * bankViewControllerImpl;
 	SystemInfoViewController * SystemInfoViewControllerImpl;

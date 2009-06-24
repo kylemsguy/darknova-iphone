@@ -88,7 +88,7 @@
 -(IBAction) sellEquipment {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (sellEquipmentViewControllerImpl == 0)
-		sellEquipmentViewControllerImpl = [[SellEquipmentViewControllerRENAME alloc] initWithNibName:@"sellEquipment" bundle:nil];
+		sellEquipmentViewControllerImpl = [[SellEquipmentViewController alloc] initWithNibName:@"sellEquipment" bundle:nil];
 	[self.navigationController pushViewController:sellEquipmentViewControllerImpl animated:YES];
 	sellEquipmentViewControllerImpl.navigationItem.rightBarButtonItem = app.gameOptionsButton;	
 }

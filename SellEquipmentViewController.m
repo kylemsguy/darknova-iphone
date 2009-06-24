@@ -1,8 +1,8 @@
-#import "SellEquipmentViewControllerRENAME.h"
+#import "SellEquipmentViewController.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation SellEquipmentViewControllerRENAME
+@implementation SellEquipmentViewController
 
 
 - (void)awakeFromNib
