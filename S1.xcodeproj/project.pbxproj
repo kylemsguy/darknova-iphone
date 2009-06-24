@@ -36,7 +36,7 @@
 		89A3AAA70E942FDA00B18001 /* commanderStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AAA60E942FDA00B18001 /* commanderStatus.xib */; };
 		89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */; };
 		89A3AAC00E9430DF00B18001 /* statusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* statusView.m */; };
-		89A3AAC30E9430E500B18001 /* questView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC10E9430E500B18001 /* questView.m */; };
+		89A3AAC30E9430E500B18001 /* QuestViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC10E9430E500B18001 /* QuestViewRENAME.m */; };
 		89A3AAC60E9430EB00B18001 /* ShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC50E9430EB00B18001 /* ShipView.m */; };
 		89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC70E9430F100B18001 /* SpecialCargoView.m */; };
 		89A3AB180E94369F00B18001 /* galacticChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB170E94369F00B18001 /* galacticChart.xib */; };
@@ -267,8 +267,8 @@
 		89A3AAAA0E942FF900B18001 /* CommanderStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommanderStatusViewController.h; path = ../CommanderStatusViewController.h; sourceTree = "<group>"; };
 		89A3AABE0E9430DF00B18001 /* statusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statusView.h; path = ../statusView.h; sourceTree = "<group>"; };
 		89A3AABF0E9430DF00B18001 /* statusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statusView.m; path = ../statusView.m; sourceTree = "<group>"; };
-		89A3AAC10E9430E500B18001 /* questView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questView.m; path = ../questView.m; sourceTree = "<group>"; };
-		89A3AAC20E9430E500B18001 /* questView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questView.h; path = ../questView.h; sourceTree = "<group>"; };
+		89A3AAC10E9430E500B18001 /* QuestViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestViewRENAME.m; path = ../QuestViewRENAME.m; sourceTree = "<group>"; };
+		89A3AAC20E9430E500B18001 /* QuestViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestViewRENAME.h; path = ../QuestViewRENAME.h; sourceTree = "<group>"; };
 		89A3AAC40E9430EB00B18001 /* ShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipView.h; path = ../ShipView.h; sourceTree = "<group>"; };
 		89A3AAC50E9430EB00B18001 /* ShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipView.m; path = ../ShipView.m; sourceTree = "<group>"; };
 		89A3AAC70E9430F100B18001 /* SpecialCargoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialCargoView.m; path = ../SpecialCargoView.m; sourceTree = "<group>"; };
@@ -880,8 +880,8 @@
 		89A3AAB00E94305A00B18001 /* Quests */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AAC10E9430E500B18001 /* questView.m */,
-				89A3AAC20E9430E500B18001 /* questView.h */,
+				89A3AAC10E9430E500B18001 /* QuestViewRENAME.m */,
+				89A3AAC20E9430E500B18001 /* QuestViewRENAME.h */,
 			);
 			name = Quests;
 			sourceTree = "<group>";
@@ -1318,7 +1318,7 @@
 				89A3AA920E942E0300B18001 /* bankViewController.m in Sources */,
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
 				89A3AAC00E9430DF00B18001 /* statusView.m in Sources */,
-				89A3AAC30E9430E500B18001 /* questView.m in Sources */,
+				89A3AAC30E9430E500B18001 /* QuestViewRENAME.m in Sources */,
 				89A3AAC60E9430EB00B18001 /* ShipView.m in Sources */,
 				89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */,
 				89A3AB1E0E9436CA00B18001 /* GalacticChartViewController.m in Sources */,
