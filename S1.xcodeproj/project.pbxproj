@@ -37,7 +37,7 @@
 		89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* CommanderStatusViewController.m */; };
 		89A3AAC00E9430DF00B18001 /* statusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* statusView.m */; };
 		89A3AAC30E9430E500B18001 /* questView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC10E9430E500B18001 /* questView.m */; };
-		89A3AAC60E9430EB00B18001 /* shipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC50E9430EB00B18001 /* shipView.m */; };
+		89A3AAC60E9430EB00B18001 /* ShipViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC50E9430EB00B18001 /* ShipViewRENAME.m */; };
 		89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC70E9430F100B18001 /* SpecialCargoView.m */; };
 		89A3AB180E94369F00B18001 /* galacticChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB170E94369F00B18001 /* galacticChart.xib */; };
 		89A3AB1A0E9436AC00B18001 /* shortrangeChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB190E9436AC00B18001 /* shortrangeChart.xib */; };
@@ -269,8 +269,8 @@
 		89A3AABF0E9430DF00B18001 /* statusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statusView.m; path = ../statusView.m; sourceTree = "<group>"; };
 		89A3AAC10E9430E500B18001 /* questView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questView.m; path = ../questView.m; sourceTree = "<group>"; };
 		89A3AAC20E9430E500B18001 /* questView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questView.h; path = ../questView.h; sourceTree = "<group>"; };
-		89A3AAC40E9430EB00B18001 /* shipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipView.h; path = ../shipView.h; sourceTree = "<group>"; };
-		89A3AAC50E9430EB00B18001 /* shipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipView.m; path = ../shipView.m; sourceTree = "<group>"; };
+		89A3AAC40E9430EB00B18001 /* ShipViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipViewRENAME.h; path = ../ShipViewRENAME.h; sourceTree = "<group>"; };
+		89A3AAC50E9430EB00B18001 /* ShipViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipViewRENAME.m; path = ../ShipViewRENAME.m; sourceTree = "<group>"; };
 		89A3AAC70E9430F100B18001 /* SpecialCargoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialCargoView.m; path = ../SpecialCargoView.m; sourceTree = "<group>"; };
 		89A3AAC80E9430F100B18001 /* SpecialCargoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialCargoView.h; path = ../SpecialCargoView.h; sourceTree = "<group>"; };
 		89A3AB170E94369F00B18001 /* galacticChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = galacticChart.xib; sourceTree = "<group>"; };
@@ -889,8 +889,8 @@
 		89A3AAB10E94306300B18001 /* Ship */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AAC40E9430EB00B18001 /* shipView.h */,
-				89A3AAC50E9430EB00B18001 /* shipView.m */,
+				89A3AAC40E9430EB00B18001 /* ShipViewRENAME.h */,
+				89A3AAC50E9430EB00B18001 /* ShipViewRENAME.m */,
 			);
 			name = Ship;
 			sourceTree = "<group>";
@@ -1319,7 +1319,7 @@
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
 				89A3AAC00E9430DF00B18001 /* statusView.m in Sources */,
 				89A3AAC30E9430E500B18001 /* questView.m in Sources */,
-				89A3AAC60E9430EB00B18001 /* shipView.m in Sources */,
+				89A3AAC60E9430EB00B18001 /* ShipViewRENAME.m in Sources */,
 				89A3AAC90E9430F100B18001 /* SpecialCargoView.m in Sources */,
 				89A3AB1E0E9436CA00B18001 /* GalacticChartViewController.m in Sources */,
 				89A3AB2B0E94374300B18001 /* ShortRangeChartViewController.m in Sources */,

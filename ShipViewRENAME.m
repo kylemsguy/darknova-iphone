@@ -1,8 +1,8 @@
-#import "shipView.h"
+#import "ShipViewRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation shipView
+@implementation ShipViewRENAME
 
 -(void)update  {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
