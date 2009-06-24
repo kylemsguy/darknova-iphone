@@ -1,6 +1,6 @@
-#import "galacticChartViewController.h"
+#import "GalacticChartViewControllerRENAME.h"
 
-@implementation galacticChartViewController
+@implementation GalacticChartViewControllerRENAME
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	if (self)
