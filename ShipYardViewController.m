@@ -1,6 +1,6 @@
-#import "ShipYardViewControllerRENAME.h"
+#import "ShipYardViewController.h"
 
-@implementation ShipYardViewControllerRENAME
+@implementation ShipYardViewController
 
 
 

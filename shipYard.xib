@@ -670,7 +670,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>ShipYardViewControllerRENAME</string>
+					<string>ShipYardViewController</string>
 					<string>UIResponder</string>
 					<string>shipYardView</string>
 					<string>{{672, 384}, {320, 480}}</string>
@@ -718,7 +718,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">ShipYardViewControllerRENAME</string>
+					<string key="className">ShipYardViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>

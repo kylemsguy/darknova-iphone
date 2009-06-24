@@ -5,7 +5,7 @@
 #import "CommanderStatusViewController.h"
 #import "BankViewController.h"
 #import "sellCargoViewController.h"
-#import "ShipYardViewControllerRENAME.h"
+#import "ShipYardViewController.h"
 #import "SellEquipmentViewController.h"
 #import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
@@ -17,7 +17,7 @@
 
 	buyCargoViewController * buyCargoViewControllerImpl;
 	sellCargoViewController * sellCargoViewControllerImpl;
-	ShipYardViewControllerRENAME * shipYardViewControllerImpl;
+	ShipYardViewController * shipYardViewControllerImpl;
 	BuyEquipmentViewController * buyEquipmentViewControllerImpl;
 	SellEquipmentViewController * sellEquipmentViewControllerImpl;
 	PersonellRosterViewController * personellRosterViewControllerImpl;

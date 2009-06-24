@@ -69,7 +69,7 @@
 -(IBAction) shipYard {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(shipYardViewControllerImpl == 0) {
-		shipYardViewControllerImpl = [[ShipYardViewControllerRENAME alloc] initWithNibName:@"shipYard" bundle:nil];
+		shipYardViewControllerImpl = [[ShipYardViewController alloc] initWithNibName:@"shipYard" bundle:nil];
 	}
 
 	[self.navigationController pushViewController:shipYardViewControllerImpl animated:YES];
