@@ -24,7 +24,7 @@
 		899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */; };
 		899BFFFD0E91AE6B00C4CD69 /* buyCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFFFC0E91AE6B00C4CD69 /* buyCargoViewController.m */; };
 		89A3A9FF0E94225A00B18001 /* shipYard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3A9FE0E94225A00B18001 /* shipYard.xib */; };
-		89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA050E94245D00B18001 /* shipYardViewController.m */; };
+		89A3AA060E94245D00B18001 /* ShipYardViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA050E94245D00B18001 /* ShipYardViewControllerRENAME.m */; };
 		89A3AA3B0E9429B100B18001 /* buyEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA3A0E9429B100B18001 /* buyEquipment.xib */; };
 		89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewController.m */; };
 		89A3AA580E942B1400B18001 /* sellEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA570E942B1400B18001 /* sellEquipment.xib */; };
@@ -248,8 +248,8 @@
 		899BFFFB0E91AE6B00C4CD69 /* buyCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buyCargoViewController.h; path = ../buyCargoViewController.h; sourceTree = "<group>"; };
 		899BFFFC0E91AE6B00C4CD69 /* buyCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = buyCargoViewController.m; path = ../buyCargoViewController.m; sourceTree = "<group>"; };
 		89A3A9FE0E94225A00B18001 /* shipYard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shipYard.xib; sourceTree = "<group>"; };
-		89A3AA040E94245D00B18001 /* shipYardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipYardViewController.h; path = ../shipYardViewController.h; sourceTree = "<group>"; };
-		89A3AA050E94245D00B18001 /* shipYardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipYardViewController.m; path = ../shipYardViewController.m; sourceTree = "<group>"; };
+		89A3AA040E94245D00B18001 /* ShipYardViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipYardViewControllerRENAME.h; path = ../ShipYardViewControllerRENAME.h; sourceTree = "<group>"; };
+		89A3AA050E94245D00B18001 /* ShipYardViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipYardViewControllerRENAME.m; path = ../ShipYardViewControllerRENAME.m; sourceTree = "<group>"; };
 		89A3AA3A0E9429B100B18001 /* buyEquipment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buyEquipment.xib; sourceTree = "<group>"; };
 		89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyEquipmentViewController.m; path = ../BuyEquipmentViewController.m; sourceTree = "<group>"; };
 		89A3AA3F0E942A4D00B18001 /* BuyEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyEquipmentViewController.h; path = ../BuyEquipmentViewController.h; sourceTree = "<group>"; };
@@ -749,8 +749,8 @@
 				F3D619AE0EC105E200308FBB /* BuyShipView.h */,
 				F3D619B00EC1069B00308FBB /* BuyShipViewController.m */,
 				F3D619B10EC1069B00308FBB /* BuyShipViewController.h */,
-				89A3AA040E94245D00B18001 /* shipYardViewController.h */,
-				89A3AA050E94245D00B18001 /* shipYardViewController.m */,
+				89A3AA040E94245D00B18001 /* ShipYardViewControllerRENAME.h */,
+				89A3AA050E94245D00B18001 /* ShipYardViewControllerRENAME.m */,
 				F3D618910EBFDCCF00308FBB /* shipYardView.h */,
 				F3D618920EBFDCCF00308FBB /* shipYardView.m */,
 				F3D61A410EC911C400308FBB /* shipInfoViewController.h */,
@@ -1311,7 +1311,7 @@
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,
 				89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */,
 				89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */,
-				89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */,
+				89A3AA060E94245D00B18001 /* ShipYardViewControllerRENAME.m in Sources */,
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,
 				89A3AA5C0E942B6500B18001 /* SellEquipmentViewController.m in Sources */,
 				89A3AA890E942D9100B18001 /* PersonellRosterViewController.m in Sources */,
