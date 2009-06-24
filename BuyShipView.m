@@ -1,11 +1,11 @@
-#import "buyShipView.h"
+#import "BuyShipView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
 #import "shipInfoViewController.h"
 
 
-@implementation buyShipView
+@implementation BuyShipView
 
 -(void)UpdateView {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
