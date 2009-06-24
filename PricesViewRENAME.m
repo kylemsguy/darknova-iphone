@@ -1,8 +1,8 @@
-#import "pricesView.h"
+#import "PricesViewRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation pricesView
+@implementation PricesViewRENAME
 
 
 

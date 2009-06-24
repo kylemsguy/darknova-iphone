@@ -1,11 +1,11 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import "pricesView.h"
+#import "PricesViewRENAME.h"
 #import "WarpSystemInfoView.h"
 
 @interface warpViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
-	IBOutlet pricesView * pricesViewInst;
+	IBOutlet PricesViewRENAME * pricesViewInst;
 	IBOutlet WarpSystemInfoView * sysInfoViewInst;
 }
 

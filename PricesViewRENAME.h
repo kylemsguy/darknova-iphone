@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface pricesView : UIView<UIAlertViewDelegate>/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface PricesViewRENAME : UIView<UIAlertViewDelegate>/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet UILabel * water;
 	IBOutlet UILabel * furs;
 	IBOutlet UILabel * food;
