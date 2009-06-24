@@ -10,7 +10,7 @@
 #import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
 #import "personellRosterViewController.h"
-#import "shortRangeChartViewController.h"
+#import "ShortRangeChartViewControllerRENAME.h"
 #import "galacticChartViewController.h"
 
 @interface commandViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
@@ -25,7 +25,7 @@
 	SystemInfoViewController * SystemInfoViewControllerImpl;
 	commanderStatusViewController * commanderStatusViewControllerImpl;
 	galacticChartViewController * galacticChartViewControllerImpl;
-	shortRangeChartViewController * shortRangeChartViewControllerImpl;
+	ShortRangeChartViewControllerRENAME * shortRangeChartViewControllerImpl;
 }
 
 -(IBAction) buyCargo;

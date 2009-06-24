@@ -42,7 +42,7 @@
 		89A3AB180E94369F00B18001 /* galacticChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB170E94369F00B18001 /* galacticChart.xib */; };
 		89A3AB1A0E9436AC00B18001 /* shortrangeChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB190E9436AC00B18001 /* shortrangeChart.xib */; };
 		89A3AB1E0E9436CA00B18001 /* galacticChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB1D0E9436CA00B18001 /* galacticChartViewController.m */; };
-		89A3AB2B0E94374300B18001 /* shortRangeChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB290E94374300B18001 /* shortRangeChartViewController.m */; };
+		89A3AB2B0E94374300B18001 /* ShortRangeChartViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB290E94374300B18001 /* ShortRangeChartViewControllerRENAME.m */; };
 		89A3AB420E94380D00B18001 /* sellCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB410E94380D00B18001 /* sellCargoViewController.m */; };
 		89A9C4400E904E9800A6A030 /* systemInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A9C43F0E904E9800A6A030 /* systemInfo.xib */; };
 		89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */; };
@@ -277,8 +277,8 @@
 		89A3AB190E9436AC00B18001 /* shortrangeChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shortrangeChart.xib; sourceTree = "<group>"; };
 		89A3AB1C0E9436CA00B18001 /* galacticChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = galacticChartViewController.h; path = ../galacticChartViewController.h; sourceTree = "<group>"; };
 		89A3AB1D0E9436CA00B18001 /* galacticChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = galacticChartViewController.m; path = ../galacticChartViewController.m; sourceTree = "<group>"; };
-		89A3AB290E94374300B18001 /* shortRangeChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shortRangeChartViewController.m; path = ../shortRangeChartViewController.m; sourceTree = "<group>"; };
-		89A3AB2A0E94374300B18001 /* shortRangeChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shortRangeChartViewController.h; path = ../shortRangeChartViewController.h; sourceTree = "<group>"; };
+		89A3AB290E94374300B18001 /* ShortRangeChartViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortRangeChartViewControllerRENAME.m; path = ../ShortRangeChartViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AB2A0E94374300B18001 /* ShortRangeChartViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortRangeChartViewControllerRENAME.h; path = ../ShortRangeChartViewControllerRENAME.h; sourceTree = "<group>"; };
 		89A3AB400E94380D00B18001 /* sellCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellCargoViewController.h; path = ../sellCargoViewController.h; sourceTree = "<group>"; };
 		89A3AB410E94380D00B18001 /* sellCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sellCargoViewController.m; path = ../sellCargoViewController.m; sourceTree = "<group>"; };
 		89A9C43F0E904E9800A6A030 /* systemInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = systemInfo.xib; sourceTree = "<group>"; };
@@ -862,8 +862,8 @@
 				F3DD9B450EE89BA4008660FE /* Warp */,
 				F3D6146F0EB15CD300308FBB /* ShortRangeChartView.m */,
 				F3D614700EB15CD300308FBB /* ShortRangeChartView.h */,
-				89A3AB290E94374300B18001 /* shortRangeChartViewController.m */,
-				89A3AB2A0E94374300B18001 /* shortRangeChartViewController.h */,
+				89A3AB290E94374300B18001 /* ShortRangeChartViewControllerRENAME.m */,
+				89A3AB2A0E94374300B18001 /* ShortRangeChartViewControllerRENAME.h */,
 			);
 			name = "Short Range Chart";
 			sourceTree = "<group>";
@@ -1322,7 +1322,7 @@
 				89A3AAC60E9430EB00B18001 /* shipView.m in Sources */,
 				89A3AAC90E9430F100B18001 /* specialCargoView.m in Sources */,
 				89A3AB1E0E9436CA00B18001 /* galacticChartViewController.m in Sources */,
-				89A3AB2B0E94374300B18001 /* shortRangeChartViewController.m in Sources */,
+				89A3AB2B0E94374300B18001 /* ShortRangeChartViewControllerRENAME.m in Sources */,
 				89A3AB420E94380D00B18001 /* sellCargoViewController.m in Sources */,
 				F3CCB5FC0E9BFA0C00D65804 /* bankView.m in Sources */,
 				F37DB8CA0E9D5C2A002FDBDC /* AlertModalWindow.m in Sources */,

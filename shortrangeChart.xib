@@ -99,7 +99,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>shortRangeChartViewController</string>
+					<string>ShortRangeChartViewControllerRENAME</string>
 					<string>UIResponder</string>
 					<string>ShortRangeChartView</string>
 					<string>{{452, 146}, {320, 480}}</string>
@@ -140,11 +140,11 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">shortRangeChartViewController</string>
+					<string key="className">ShortRangeChartViewControllerRENAME</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">shortRangeChartViewController.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 			</object>
