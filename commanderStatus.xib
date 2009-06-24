@@ -1592,7 +1592,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>CommanderStatusViewControllerRENAME</string>
+					<string>CommanderStatusViewController</string>
 					<string>UIResponder</string>
 					<string>statusView</string>
 					<string>{{1000, 38}, {320, 480}}</string>
@@ -1683,7 +1683,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">CommanderStatusViewControllerRENAME</string>
+					<string key="className">CommanderStatusViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
