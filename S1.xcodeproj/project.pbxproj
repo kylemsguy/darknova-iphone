@@ -89,7 +89,7 @@
 		F3B182430EF8905100B57222 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B182420EF8905100B57222 /* HelpViewController.m */; };
 		F3B182450EF891BD00B57222 /* DNHELP.html in Resources */ = {isa = PBXBuildFile; fileRef = F3B182440EF891BD00B57222 /* DNHELP.html */; };
 		F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BEE2130EF73D010098DF74 /* OptionsProtocol.m */; };
-		F3CCB5FC0E9BFA0C00D65804 /* bankView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB5FA0E9BFA0C00D65804 /* bankView.m */; };
+		F3CCB5FC0E9BFA0C00D65804 /* BankViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB5FA0E9BFA0C00D65804 /* BankViewRENAME.m */; };
 		F3CD99AC0F0451BB00BA370B /* alien_encounter.caf in Resources */ = {isa = PBXBuildFile; fileRef = F3CD99980F0451BB00BA370B /* alien_encounter.caf */; };
 		F3CD99AD0F0451BB00BA370B /* alien_return_artifact.caf in Resources */ = {isa = PBXBuildFile; fileRef = F3CD99990F0451BB00BA370B /* alien_return_artifact.caf */; };
 		F3CD99AE0F0451BB00BA370B /* begin_game_welcome_aboard_captain.caf in Resources */ = {isa = PBXBuildFile; fileRef = F3CD999A0F0451BB00BA370B /* begin_game_welcome_aboard_captain.caf */; };
@@ -352,8 +352,8 @@
 		F3BEE2120EF73D010098DF74 /* OptionsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsProtocol.h; sourceTree = "<group>"; };
 		F3BEE2130EF73D010098DF74 /* OptionsProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsProtocol.m; sourceTree = "<group>"; };
 		F3CCB52F0E9BE93400D65804 /* spacetrader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spacetrader.h; sourceTree = SOURCE_ROOT; };
-		F3CCB5FA0E9BFA0C00D65804 /* bankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bankView.m; path = ../bankView.m; sourceTree = "<group>"; };
-		F3CCB5FB0E9BFA0C00D65804 /* bankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bankView.h; path = ../bankView.h; sourceTree = "<group>"; };
+		F3CCB5FA0E9BFA0C00D65804 /* BankViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankViewRENAME.m; path = ../BankViewRENAME.m; sourceTree = "<group>"; };
+		F3CCB5FB0E9BFA0C00D65804 /* BankViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankViewRENAME.h; path = ../BankViewRENAME.h; sourceTree = "<group>"; };
 		F3CD99980F0451BB00BA370B /* alien_encounter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_encounter.caf; sourceTree = "<group>"; };
 		F3CD99990F0451BB00BA370B /* alien_return_artifact.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_return_artifact.caf; sourceTree = "<group>"; };
 		F3CD999A0F0451BB00BA370B /* begin_game_welcome_aboard_captain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = begin_game_welcome_aboard_captain.caf; sourceTree = "<group>"; };
@@ -825,8 +825,8 @@
 			isa = PBXGroup;
 			children = (
 				89A3AA900E942E0300B18001 /* BankViewController.h */,
-				F3CCB5FA0E9BFA0C00D65804 /* bankView.m */,
-				F3CCB5FB0E9BFA0C00D65804 /* bankView.h */,
+				F3CCB5FA0E9BFA0C00D65804 /* BankViewRENAME.m */,
+				F3CCB5FB0E9BFA0C00D65804 /* BankViewRENAME.h */,
 				89A3AA910E942E0300B18001 /* BankViewController.m */,
 			);
 			name = Bank;
@@ -1324,7 +1324,7 @@
 				89A3AB1E0E9436CA00B18001 /* GalacticChartViewController.m in Sources */,
 				89A3AB2B0E94374300B18001 /* ShortRangeChartViewController.m in Sources */,
 				89A3AB420E94380D00B18001 /* sellCargoViewController.m in Sources */,
-				F3CCB5FC0E9BFA0C00D65804 /* bankView.m in Sources */,
+				F3CCB5FC0E9BFA0C00D65804 /* BankViewRENAME.m in Sources */,
 				F37DB8CA0E9D5C2A002FDBDC /* AlertModalWindow.m in Sources */,
 				F36A2B260EA569670032180E /* buyVargoTableView.m in Sources */,
 				F3D614710EB15CD300308FBB /* ShortRangeChartView.m in Sources */,
