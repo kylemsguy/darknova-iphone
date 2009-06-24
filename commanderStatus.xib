@@ -1641,7 +1641,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>SpecialCargoViewRENAME</string>
+					<string>SpecialCargoView</string>
 					<string>{{9, 31}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1715,7 +1715,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>questView</string>
 							<string>shipView</string>
-							<string>SpecialCargoViewRENAME</string>
+							<string>SpecialCargoView</string>
 							<string>statusView</string>
 						</object>
 					</object>
@@ -1725,7 +1725,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">SpecialCargoViewRENAME</string>
+					<string key="className">SpecialCargoView</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">label</string>

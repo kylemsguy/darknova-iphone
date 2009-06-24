@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "SpecialCargoViewRENAME.h"
+#import "SpecialCargoView.h"
 #import "shipView.h"
 #import "questView.h"
 #import "statusView.h"
@@ -9,13 +9,13 @@
 	IBOutlet shipView * shipViewInst;
 	IBOutlet statusView * statusViewInst;
 	IBOutlet questView * questViewInst;
-	IBOutlet SpecialCargoViewRENAME *  specialCargoViewInst;
+	IBOutlet SpecialCargoView *  specialCargoViewInst;
 }
 
 @property (nonatomic, retain) shipView * shipViewInst;
 @property (nonatomic, retain) statusView * statusViewInst;
 @property (nonatomic, retain) questView * questViewInst;
-@property (nonatomic, retain) SpecialCargoViewRENAME *  specialCargoViewInst;
+@property (nonatomic, retain) SpecialCargoView *  specialCargoViewInst;
 
 -(IBAction) quests;
 -(IBAction) ship;

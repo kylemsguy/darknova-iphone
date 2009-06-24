@@ -1,8 +1,8 @@
-#import "SpecialCargoViewRENAME.h"
+#import "SpecialCargoView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation SpecialCargoViewRENAME
+@implementation SpecialCargoView
 
 
 -(void)update  {
