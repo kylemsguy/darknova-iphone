@@ -28,7 +28,7 @@
 		89A3AA3B0E9429B100B18001 /* buyEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA3A0E9429B100B18001 /* buyEquipment.xib */; };
 		89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewController.m */; };
 		89A3AA580E942B1400B18001 /* sellEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA570E942B1400B18001 /* sellEquipment.xib */; };
-		89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */; };
+		89A3AA5C0E942B6500B18001 /* SellEquipmentViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA5A0E942B6500B18001 /* SellEquipmentViewControllerRENAME.m */; };
 		89A3AA850E942D6300B18001 /* personellRoster.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA840E942D6300B18001 /* personellRoster.xib */; };
 		89A3AA890E942D9100B18001 /* PersonellRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA880E942D9100B18001 /* PersonellRosterViewController.m */; };
 		89A3AA8E0E942DD900B18001 /* bank.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA8D0E942DD900B18001 /* bank.xib */; };
@@ -254,8 +254,8 @@
 		89A3AA3E0E942A4D00B18001 /* BuyEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyEquipmentViewController.m; path = ../BuyEquipmentViewController.m; sourceTree = "<group>"; };
 		89A3AA3F0E942A4D00B18001 /* BuyEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyEquipmentViewController.h; path = ../BuyEquipmentViewController.h; sourceTree = "<group>"; };
 		89A3AA570E942B1400B18001 /* sellEquipment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sellEquipment.xib; sourceTree = "<group>"; };
-		89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sellEquipmentViewController.m; path = ../sellEquipmentViewController.m; sourceTree = "<group>"; };
-		89A3AA5B0E942B6500B18001 /* sellEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellEquipmentViewController.h; path = ../sellEquipmentViewController.h; sourceTree = "<group>"; };
+		89A3AA5A0E942B6500B18001 /* SellEquipmentViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SellEquipmentViewControllerRENAME.m; path = ../SellEquipmentViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AA5B0E942B6500B18001 /* SellEquipmentViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SellEquipmentViewControllerRENAME.h; path = ../SellEquipmentViewControllerRENAME.h; sourceTree = "<group>"; };
 		89A3AA840E942D6300B18001 /* personellRoster.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = personellRoster.xib; sourceTree = "<group>"; };
 		89A3AA870E942D9100B18001 /* PersonellRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonellRosterViewController.h; path = ../PersonellRosterViewController.h; sourceTree = "<group>"; };
 		89A3AA880E942D9100B18001 /* PersonellRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonellRosterViewController.m; path = ../PersonellRosterViewController.m; sourceTree = "<group>"; };
@@ -806,8 +806,8 @@
 		89A3AA5D0E942B6F00B18001 /* Sell Equipment */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */,
-				89A3AA5B0E942B6500B18001 /* sellEquipmentViewController.h */,
+				89A3AA5A0E942B6500B18001 /* SellEquipmentViewControllerRENAME.m */,
+				89A3AA5B0E942B6500B18001 /* SellEquipmentViewControllerRENAME.h */,
 			);
 			name = "Sell Equipment";
 			sourceTree = "<group>";
@@ -1313,7 +1313,7 @@
 				89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */,
 				89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */,
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,
-				89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */,
+				89A3AA5C0E942B6500B18001 /* SellEquipmentViewControllerRENAME.m in Sources */,
 				89A3AA890E942D9100B18001 /* PersonellRosterViewController.m in Sources */,
 				89A3AA920E942E0300B18001 /* BankViewController.m in Sources */,
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
