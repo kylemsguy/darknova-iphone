@@ -11,7 +11,7 @@
 #import "SystemInfoViewController.h"
 #import "personellRosterViewController.h"
 #import "ShortRangeChartViewController.h"
-#import "GalacticChartViewControllerRENAME.h"
+#import "GalacticChartViewController.h"
 
 @interface commandViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
 
@@ -24,7 +24,7 @@
 	bankViewController * bankViewControllerImpl;
 	SystemInfoViewController * SystemInfoViewControllerImpl;
 	commanderStatusViewController * commanderStatusViewControllerImpl;
-	GalacticChartViewControllerRENAME * galacticChartViewControllerImpl;
+	GalacticChartViewController * galacticChartViewControllerImpl;
 	ShortRangeChartViewController * shortRangeChartViewControllerImpl;
 }
 

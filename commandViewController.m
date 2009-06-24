@@ -131,7 +131,7 @@
 -(IBAction) galacticChart {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(galacticChartViewControllerImpl == 0)
-		galacticChartViewControllerImpl = [[GalacticChartViewControllerRENAME alloc] initWithNibName:@"galacticChart" bundle:nil];
+		galacticChartViewControllerImpl = [[GalacticChartViewController alloc] initWithNibName:@"galacticChart" bundle:nil];
 			
 	[self.navigationController pushViewController:galacticChartViewControllerImpl animated:YES];
 	galacticChartViewControllerImpl.navigationItem.rightBarButtonItem = app.gameOptionsButton;	

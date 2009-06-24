@@ -41,7 +41,7 @@
 		89A3AAC90E9430F100B18001 /* specialCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC70E9430F100B18001 /* specialCargoView.m */; };
 		89A3AB180E94369F00B18001 /* galacticChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB170E94369F00B18001 /* galacticChart.xib */; };
 		89A3AB1A0E9436AC00B18001 /* shortrangeChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AB190E9436AC00B18001 /* shortrangeChart.xib */; };
-		89A3AB1E0E9436CA00B18001 /* GalacticChartViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB1D0E9436CA00B18001 /* GalacticChartViewControllerRENAME.m */; };
+		89A3AB1E0E9436CA00B18001 /* GalacticChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB1D0E9436CA00B18001 /* GalacticChartViewController.m */; };
 		89A3AB2B0E94374300B18001 /* ShortRangeChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB290E94374300B18001 /* ShortRangeChartViewController.m */; };
 		89A3AB420E94380D00B18001 /* sellCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB410E94380D00B18001 /* sellCargoViewController.m */; };
 		89A9C4400E904E9800A6A030 /* systemInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A9C43F0E904E9800A6A030 /* systemInfo.xib */; };
@@ -275,8 +275,8 @@
 		89A3AAC80E9430F100B18001 /* specialCargoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = specialCargoView.h; path = ../specialCargoView.h; sourceTree = "<group>"; };
 		89A3AB170E94369F00B18001 /* galacticChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = galacticChart.xib; sourceTree = "<group>"; };
 		89A3AB190E9436AC00B18001 /* shortrangeChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shortrangeChart.xib; sourceTree = "<group>"; };
-		89A3AB1C0E9436CA00B18001 /* GalacticChartViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalacticChartViewControllerRENAME.h; path = ../GalacticChartViewControllerRENAME.h; sourceTree = "<group>"; };
-		89A3AB1D0E9436CA00B18001 /* GalacticChartViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalacticChartViewControllerRENAME.m; path = ../GalacticChartViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AB1C0E9436CA00B18001 /* GalacticChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalacticChartViewController.h; path = ../GalacticChartViewController.h; sourceTree = "<group>"; };
+		89A3AB1D0E9436CA00B18001 /* GalacticChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalacticChartViewController.m; path = ../GalacticChartViewController.m; sourceTree = "<group>"; };
 		89A3AB290E94374300B18001 /* ShortRangeChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortRangeChartViewController.m; path = ../ShortRangeChartViewController.m; sourceTree = "<group>"; };
 		89A3AB2A0E94374300B18001 /* ShortRangeChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortRangeChartViewController.h; path = ../ShortRangeChartViewController.h; sourceTree = "<group>"; };
 		89A3AB400E94380D00B18001 /* sellCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellCargoViewController.h; path = ../sellCargoViewController.h; sourceTree = "<group>"; };
@@ -848,10 +848,10 @@
 		89A3AAAD0E94301000B18001 /* Galactic Chart */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AB1C0E9436CA00B18001 /* GalacticChartViewControllerRENAME.h */,
+				89A3AB1C0E9436CA00B18001 /* GalacticChartViewController.h */,
 				F3D615C60EB6A4DE00308FBB /* galacticChartView.h */,
 				F3D615C70EB6A4DE00308FBB /* galacticChartView.m */,
-				89A3AB1D0E9436CA00B18001 /* GalacticChartViewControllerRENAME.m */,
+				89A3AB1D0E9436CA00B18001 /* GalacticChartViewController.m */,
 			);
 			name = "Galactic Chart";
 			sourceTree = "<group>";
@@ -1321,7 +1321,7 @@
 				89A3AAC30E9430E500B18001 /* questView.m in Sources */,
 				89A3AAC60E9430EB00B18001 /* shipView.m in Sources */,
 				89A3AAC90E9430F100B18001 /* specialCargoView.m in Sources */,
-				89A3AB1E0E9436CA00B18001 /* GalacticChartViewControllerRENAME.m in Sources */,
+				89A3AB1E0E9436CA00B18001 /* GalacticChartViewController.m in Sources */,
 				89A3AB2B0E94374300B18001 /* ShortRangeChartViewController.m in Sources */,
 				89A3AB420E94380D00B18001 /* sellCargoViewController.m in Sources */,
 				F3CCB5FC0E9BFA0C00D65804 /* bankView.m in Sources */,
