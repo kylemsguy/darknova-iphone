@@ -185,7 +185,7 @@
 		F3DD9B3A0EE8920A008660FE /* warp.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DD9B390EE8920A008660FE /* warp.xib */; };
 		F3DD9B3E0EE897A7008660FE /* WarpSystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B3C0EE897A7008660FE /* WarpSystemInfoView.m */; };
 		F3DD9B410EE897AF008660FE /* PricesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B400EE897AF008660FE /* PricesView.m */; };
-		F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B430EE897B8008660FE /* warpViewController.m */; };
+		F3DD9B440EE897B8008660FE /* WarpViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD9B430EE897B8008660FE /* WarpViewControllerRENAME.m */; };
 		F3E7F1530EFD2EC500B8D882 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E7F1520EFD2EC500B8D882 /* AudioPlayer.m */; };
 		F3E7F15F0EFD2F0D00B8D882 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E7F15E0EFD2F0D00B8D882 /* AudioQueueObject.m */; };
 		F3E7F16B0EFD302800B8D882 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E7F16A0EFD302800B8D882 /* AudioToolbox.framework */; };
@@ -460,8 +460,8 @@
 		F3DD9B3D0EE897A7008660FE /* WarpSystemInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WarpSystemInfoView.h; path = ../WarpSystemInfoView.h; sourceTree = "<group>"; };
 		F3DD9B3F0EE897AF008660FE /* PricesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricesView.h; path = ../PricesView.h; sourceTree = "<group>"; };
 		F3DD9B400EE897AF008660FE /* PricesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PricesView.m; path = ../PricesView.m; sourceTree = "<group>"; };
-		F3DD9B420EE897B8008660FE /* warpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warpViewController.h; path = ../warpViewController.h; sourceTree = "<group>"; };
-		F3DD9B430EE897B8008660FE /* warpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = warpViewController.m; path = ../warpViewController.m; sourceTree = "<group>"; };
+		F3DD9B420EE897B8008660FE /* WarpViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WarpViewControllerRENAME.h; path = ../WarpViewControllerRENAME.h; sourceTree = "<group>"; };
+		F3DD9B430EE897B8008660FE /* WarpViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WarpViewControllerRENAME.m; path = ../WarpViewControllerRENAME.m; sourceTree = "<group>"; };
 		F3E7F1510EFD2EC500B8D882 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		F3E7F1520EFD2EC500B8D882 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		F3E7F15D0EFD2F0D00B8D882 /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueObject.h; sourceTree = "<group>"; };
@@ -1089,8 +1089,8 @@
 				F3DD9B3D0EE897A7008660FE /* WarpSystemInfoView.h */,
 				F3DD9B3F0EE897AF008660FE /* PricesView.h */,
 				F3DD9B400EE897AF008660FE /* PricesView.m */,
-				F3DD9B420EE897B8008660FE /* warpViewController.h */,
-				F3DD9B430EE897B8008660FE /* warpViewController.m */,
+				F3DD9B420EE897B8008660FE /* WarpViewControllerRENAME.h */,
+				F3DD9B430EE897B8008660FE /* WarpViewControllerRENAME.m */,
 			);
 			name = Warp;
 			sourceTree = "<group>";
@@ -1338,7 +1338,7 @@
 				F3D61C0C0ECD162B00308FBB /* EncounterView.m in Sources */,
 				F3DD9B3E0EE897A7008660FE /* WarpSystemInfoView.m in Sources */,
 				F3DD9B410EE897AF008660FE /* PricesView.m in Sources */,
-				F3DD9B440EE897B8008660FE /* warpViewController.m in Sources */,
+				F3DD9B440EE897B8008660FE /* WarpViewControllerRENAME.m in Sources */,
 				F38FE5010EEC886200053D28 /* EndOfGameViewController.m in Sources */,
 				F38FE5040EEC888200053D28 /* RetireShipDestroyedView.m in Sources */,
 				F38FE5070EEC888A00053D28 /* HappyEndView.m in Sources */,

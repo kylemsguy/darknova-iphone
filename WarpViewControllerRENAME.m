@@ -1,8 +1,8 @@
-#import "warpViewController.h"
+#import "WarpViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation warpViewController
+@implementation WarpViewControllerRENAME
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
