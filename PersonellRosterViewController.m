@@ -1,8 +1,8 @@
-#import "PersonellRosterViewControllerRENAME.h"
+#import "PersonellRosterViewController.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
-@implementation PersonellRosterViewControllerRENAME
+@implementation PersonellRosterViewController
 
 @synthesize fire0, fire1, fire2, Price0, Price1, Price2, Trader0, Trader1, Trader2, Fighter0, Fighter1, Fighter2, 
 Engineer0, Engineer1, Engineer2, Pilot0, Pilot1, Pilot2, Vacancy0, Vacancy1, Vacancy2, PilotName0, PilotName1, PilotName2;

@@ -30,7 +30,7 @@
 		89A3AA580E942B1400B18001 /* sellEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA570E942B1400B18001 /* sellEquipment.xib */; };
 		89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */; };
 		89A3AA850E942D6300B18001 /* personellRoster.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA840E942D6300B18001 /* personellRoster.xib */; };
-		89A3AA890E942D9100B18001 /* PersonellRosterViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA880E942D9100B18001 /* PersonellRosterViewControllerRENAME.m */; };
+		89A3AA890E942D9100B18001 /* PersonellRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA880E942D9100B18001 /* PersonellRosterViewController.m */; };
 		89A3AA8E0E942DD900B18001 /* bank.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA8D0E942DD900B18001 /* bank.xib */; };
 		89A3AA920E942E0300B18001 /* BankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA910E942E0300B18001 /* BankViewController.m */; };
 		89A3AAA70E942FDA00B18001 /* commanderStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AAA60E942FDA00B18001 /* commanderStatus.xib */; };
@@ -257,8 +257,8 @@
 		89A3AA5A0E942B6500B18001 /* sellEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sellEquipmentViewController.m; path = ../sellEquipmentViewController.m; sourceTree = "<group>"; };
 		89A3AA5B0E942B6500B18001 /* sellEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellEquipmentViewController.h; path = ../sellEquipmentViewController.h; sourceTree = "<group>"; };
 		89A3AA840E942D6300B18001 /* personellRoster.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = personellRoster.xib; sourceTree = "<group>"; };
-		89A3AA870E942D9100B18001 /* PersonellRosterViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonellRosterViewControllerRENAME.h; path = ../PersonellRosterViewControllerRENAME.h; sourceTree = "<group>"; };
-		89A3AA880E942D9100B18001 /* PersonellRosterViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonellRosterViewControllerRENAME.m; path = ../PersonellRosterViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AA870E942D9100B18001 /* PersonellRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonellRosterViewController.h; path = ../PersonellRosterViewController.h; sourceTree = "<group>"; };
+		89A3AA880E942D9100B18001 /* PersonellRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonellRosterViewController.m; path = ../PersonellRosterViewController.m; sourceTree = "<group>"; };
 		89A3AA8D0E942DD900B18001 /* bank.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bank.xib; sourceTree = "<group>"; };
 		89A3AA900E942E0300B18001 /* BankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankViewController.h; path = ../BankViewController.h; sourceTree = "<group>"; };
 		89A3AA910E942E0300B18001 /* BankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankViewController.m; path = ../BankViewController.m; sourceTree = "<group>"; };
@@ -815,8 +815,8 @@
 		89A3AA8A0E942D9700B18001 /* Personell Roster */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AA870E942D9100B18001 /* PersonellRosterViewControllerRENAME.h */,
-				89A3AA880E942D9100B18001 /* PersonellRosterViewControllerRENAME.m */,
+				89A3AA870E942D9100B18001 /* PersonellRosterViewController.h */,
+				89A3AA880E942D9100B18001 /* PersonellRosterViewController.m */,
 			);
 			name = "Personell Roster";
 			sourceTree = "<group>";
@@ -1314,7 +1314,7 @@
 				89A3AA060E94245D00B18001 /* shipYardViewController.m in Sources */,
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,
 				89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */,
-				89A3AA890E942D9100B18001 /* PersonellRosterViewControllerRENAME.m in Sources */,
+				89A3AA890E942D9100B18001 /* PersonellRosterViewController.m in Sources */,
 				89A3AA920E942E0300B18001 /* BankViewController.m in Sources */,
 				89A3AAAB0E942FF900B18001 /* CommanderStatusViewController.m in Sources */,
 				89A3AAC00E9430DF00B18001 /* StatusView.m in Sources */,

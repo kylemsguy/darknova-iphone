@@ -954,7 +954,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>PersonellRosterViewControllerRENAME</string>
+					<string>PersonellRosterViewController</string>
 					<string>UIResponder</string>
 					<string>{{675, 324}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1012,7 +1012,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">PersonellRosterViewControllerRENAME</string>
+					<string key="className">PersonellRosterViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
