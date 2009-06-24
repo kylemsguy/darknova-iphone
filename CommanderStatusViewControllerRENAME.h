@@ -5,7 +5,7 @@
 #import "questView.h"
 #import "statusView.h"
 
-@interface commanderStatusViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface CommanderStatusViewControllerRENAME : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
 	IBOutlet shipView * shipViewInst;
 	IBOutlet statusView * statusViewInst;
 	IBOutlet questView * questViewInst;

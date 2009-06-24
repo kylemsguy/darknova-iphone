@@ -34,7 +34,7 @@
 		89A3AA8E0E942DD900B18001 /* bank.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA8D0E942DD900B18001 /* bank.xib */; };
 		89A3AA920E942E0300B18001 /* bankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA910E942E0300B18001 /* bankViewController.m */; };
 		89A3AAA70E942FDA00B18001 /* commanderStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AAA60E942FDA00B18001 /* commanderStatus.xib */; };
-		89A3AAAB0E942FF900B18001 /* commanderStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* commanderStatusViewController.m */; };
+		89A3AAAB0E942FF900B18001 /* CommanderStatusViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAA90E942FF900B18001 /* CommanderStatusViewControllerRENAME.m */; };
 		89A3AAC00E9430DF00B18001 /* statusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AABF0E9430DF00B18001 /* statusView.m */; };
 		89A3AAC30E9430E500B18001 /* questView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC10E9430E500B18001 /* questView.m */; };
 		89A3AAC60E9430EB00B18001 /* shipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AAC50E9430EB00B18001 /* shipView.m */; };
@@ -263,8 +263,8 @@
 		89A3AA900E942E0300B18001 /* bankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bankViewController.h; path = ../bankViewController.h; sourceTree = "<group>"; };
 		89A3AA910E942E0300B18001 /* bankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bankViewController.m; path = ../bankViewController.m; sourceTree = "<group>"; };
 		89A3AAA60E942FDA00B18001 /* commanderStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commanderStatus.xib; sourceTree = "<group>"; };
-		89A3AAA90E942FF900B18001 /* commanderStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commanderStatusViewController.m; path = ../commanderStatusViewController.m; sourceTree = "<group>"; };
-		89A3AAAA0E942FF900B18001 /* commanderStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commanderStatusViewController.h; path = ../commanderStatusViewController.h; sourceTree = "<group>"; };
+		89A3AAA90E942FF900B18001 /* CommanderStatusViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommanderStatusViewControllerRENAME.m; path = ../CommanderStatusViewControllerRENAME.m; sourceTree = "<group>"; };
+		89A3AAAA0E942FF900B18001 /* CommanderStatusViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommanderStatusViewControllerRENAME.h; path = ../CommanderStatusViewControllerRENAME.h; sourceTree = "<group>"; };
 		89A3AABE0E9430DF00B18001 /* statusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statusView.h; path = ../statusView.h; sourceTree = "<group>"; };
 		89A3AABF0E9430DF00B18001 /* statusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statusView.m; path = ../statusView.m; sourceTree = "<group>"; };
 		89A3AAC10E9430E500B18001 /* questView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questView.m; path = ../questView.m; sourceTree = "<group>"; };
@@ -835,8 +835,8 @@
 		89A3AAAC0E94300100B18001 /* Commander Status */ = {
 			isa = PBXGroup;
 			children = (
-				89A3AAA90E942FF900B18001 /* commanderStatusViewController.m */,
-				89A3AAAA0E942FF900B18001 /* commanderStatusViewController.h */,
+				89A3AAA90E942FF900B18001 /* CommanderStatusViewControllerRENAME.m */,
+				89A3AAAA0E942FF900B18001 /* CommanderStatusViewControllerRENAME.h */,
 				89A3AAB20E94306A00B18001 /* Special Cargo */,
 				89A3AAB10E94306300B18001 /* Ship */,
 				89A3AAB00E94305A00B18001 /* Quests */,
@@ -1316,7 +1316,7 @@
 				89A3AA5C0E942B6500B18001 /* sellEquipmentViewController.m in Sources */,
 				89A3AA890E942D9100B18001 /* personellRosterViewController.m in Sources */,
 				89A3AA920E942E0300B18001 /* bankViewController.m in Sources */,
-				89A3AAAB0E942FF900B18001 /* commanderStatusViewController.m in Sources */,
+				89A3AAAB0E942FF900B18001 /* CommanderStatusViewControllerRENAME.m in Sources */,
 				89A3AAC00E9430DF00B18001 /* statusView.m in Sources */,
 				89A3AAC30E9430E500B18001 /* questView.m in Sources */,
 				89A3AAC60E9430EB00B18001 /* shipView.m in Sources */,

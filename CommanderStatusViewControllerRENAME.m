@@ -1,7 +1,7 @@
-#import "commanderStatusViewController.h"
+#import "CommanderStatusViewControllerRENAME.h"
 
 
-@implementation commanderStatusViewController
+@implementation CommanderStatusViewControllerRENAME
 
 
 @synthesize shipViewInst, statusViewInst, questViewInst, specialCargoViewInst;

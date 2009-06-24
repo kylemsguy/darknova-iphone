@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 
 #import "buyCargoViewController.h"
-#import "commanderStatusViewController.h"
+#import "CommanderStatusViewControllerRENAME.h"
 #import "bankViewController.h"
 #import "sellCargoViewController.h"
 #import "shipYardViewController.h"
@@ -23,7 +23,7 @@
 	personellRosterViewController * personellRosterViewControllerImpl;
 	bankViewController * bankViewControllerImpl;
 	SystemInfoViewController * SystemInfoViewControllerImpl;
-	commanderStatusViewController * commanderStatusViewControllerImpl;
+	CommanderStatusViewControllerRENAME * commanderStatusViewControllerImpl;
 	GalacticChartViewController * galacticChartViewControllerImpl;
 	ShortRangeChartViewController * shortRangeChartViewControllerImpl;
 }

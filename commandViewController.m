@@ -123,7 +123,7 @@
 -(IBAction) commanderStatus {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(commanderStatusViewControllerImpl == 0)
-		commanderStatusViewControllerImpl = [[commanderStatusViewController alloc] initWithNibName:@"commanderStatus" bundle:nil];
+		commanderStatusViewControllerImpl = [[CommanderStatusViewControllerRENAME alloc] initWithNibName:@"commanderStatus" bundle:nil];
 	[self.navigationController pushViewController:commanderStatusViewControllerImpl animated:YES];
 	commanderStatusViewControllerImpl.navigationItem.rightBarButtonItem = app.gameOptionsButton;	
 }
