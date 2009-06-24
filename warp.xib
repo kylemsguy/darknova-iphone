@@ -1973,7 +1973,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>warpViewController</string>
 					<string>UIResponder</string>
-					<string>PricesViewRENAME</string>
+					<string>PricesView</string>
 					<string>{{655, 413}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -2061,7 +2061,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">PricesViewRENAME</string>
+					<string key="className">PricesView</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2212,7 +2212,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>PricesViewRENAME</string>
+							<string>PricesView</string>
 							<string>WarpSystemInfoView</string>
 						</object>
 					</object>
