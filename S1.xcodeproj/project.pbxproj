@@ -19,7 +19,7 @@
 		899BFB5F0E9166A600C4CD69 /* commands.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFB5E0E9166A600C4CD69 /* commands.xib */; };
 		899BFBCB0E91768E00C4CD69 /* game.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFBCA0E91768E00C4CD69 /* game.xib */; };
 		899BFBCE0E9176B600C4CD69 /* help.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFBCD0E9176B600C4CD69 /* help.xib */; };
-		899BFC320E917DA400C4CD69 /* CommandViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFC310E917DA400C4CD69 /* CommandViewControllerRENAME.m */; };
+		899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFC310E917DA400C4CD69 /* CommandViewController.m */; };
 		899BFD780E918A3A00C4CD69 /* helloWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFD770E918A3A00C4CD69 /* helloWindow.xib */; };
 		899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */; };
 		899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewController.m */; };
@@ -240,8 +240,8 @@
 		899BFB5E0E9166A600C4CD69 /* commands.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commands.xib; sourceTree = "<group>"; };
 		899BFBCA0E91768E00C4CD69 /* game.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = game.xib; sourceTree = "<group>"; };
 		899BFBCD0E9176B600C4CD69 /* help.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = help.xib; sourceTree = "<group>"; };
-		899BFC300E917DA400C4CD69 /* CommandViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandViewControllerRENAME.h; path = ../CommandViewControllerRENAME.h; sourceTree = "<group>"; };
-		899BFC310E917DA400C4CD69 /* CommandViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandViewControllerRENAME.m; path = ../CommandViewControllerRENAME.m; sourceTree = "<group>"; };
+		899BFC300E917DA400C4CD69 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandViewController.h; path = ../CommandViewController.h; sourceTree = "<group>"; };
+		899BFC310E917DA400C4CD69 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandViewController.m; path = ../CommandViewController.m; sourceTree = "<group>"; };
 		899BFD770E918A3A00C4CD69 /* helloWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helloWindow.xib; sourceTree = "<group>"; };
 		899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helloWindowViewController.h; path = ../helloWindowViewController.h; sourceTree = "<group>"; };
 		899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helloWindowViewController.m; path = ../helloWindowViewController.m; sourceTree = "<group>"; };
@@ -695,8 +695,8 @@
 				89C550DE0E92D844008ECDA8 /* System Info */,
 				89C550DD0E92D82D008ECDA8 /* Sell Cargo */,
 				89C550DC0E92D81D008ECDA8 /* Buy cargo */,
-				899BFC300E917DA400C4CD69 /* CommandViewControllerRENAME.h */,
-				899BFC310E917DA400C4CD69 /* CommandViewControllerRENAME.m */,
+				899BFC300E917DA400C4CD69 /* CommandViewController.h */,
+				899BFC310E917DA400C4CD69 /* CommandViewController.m */,
 			);
 			name = Commands;
 			sourceTree = "<group>";
@@ -1304,7 +1304,7 @@
 				89DF15B00E8CE0CA00FFCE8C /* startGameViewController.m in Sources */,
 				89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */,
 				89A9C4AD0E90564500A6A030 /* newCommanderView.m in Sources */,
-				899BFC320E917DA400C4CD69 /* CommandViewControllerRENAME.m in Sources */,
+				899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */,
 				899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */,
 				899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */,
 				899B00A80E91B86D00C4CD69 /* BuyCargoView.m in Sources */,

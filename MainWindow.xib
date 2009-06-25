@@ -465,7 +465,7 @@
 					<string>UIResponder</string>
 					<string>{{651, 505}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>CommandViewControllerRENAME</string>
+					<string>CommandViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -580,7 +580,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">CommandViewControllerRENAME</string>
+					<string key="className">CommandViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -687,7 +687,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>CommandViewControllerRENAME</string>
+							<string>CommandViewController</string>
 							<string>UIBarButtonItem</string>
 							<string>GameViewController</string>
 							<string>BankViewController</string>

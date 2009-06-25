@@ -158,7 +158,7 @@ bool bStartNewGame;
 	if (commandView != navigationController.topViewController) {
 		
 		if (commandView == 0)
-			commandView = [[CommandViewControllerRENAME alloc] initWithNibName:@"commands" bundle:nil];
+			commandView = [[CommandViewController alloc] initWithNibName:@"commands" bundle:nil];
 		
 		NSArray* arr = [NSArray arrayWithObjects:commandView, nil];
 		
