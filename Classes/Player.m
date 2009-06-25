@@ -4175,13 +4175,13 @@ typedef enum {
 	credits -= Percentage * Shiptype[ship.Type].RepairCosts;
 }
 
-sellCargoViewController * jettisonViewControllerInstance;
-sellCargoViewController * opponentViewControllerInstance;
+SellCargoViewControllerRENAME * jettisonViewControllerInstance;
+SellCargoViewControllerRENAME * opponentViewControllerInstance;
 
 -(void) showJettisonForm
 {
 	if (jettisonViewControllerInstance == 0) {
-		jettisonViewControllerInstance = [[sellCargoViewController alloc] initWithNibName:@"sellCargo" bundle:nil];
+		jettisonViewControllerInstance = [[SellCargoViewControllerRENAME alloc] initWithNibName:@"sellCargo" bundle:nil];
 		S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 		
 		[app.window addSubview:[jettisonViewControllerInstance view]];
@@ -4198,7 +4198,7 @@ sellCargoViewController * opponentViewControllerInstance;
 -(void) showOpponentForm
 {
 	if (opponentViewControllerInstance == 0) {
-		opponentViewControllerInstance = [[sellCargoViewController alloc] initWithNibName:@"sellCargo" bundle:nil];
+		opponentViewControllerInstance = [[SellCargoViewControllerRENAME alloc] initWithNibName:@"sellCargo" bundle:nil];
 		S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 		
 		[app.window addSubview:[opponentViewControllerInstance view]];

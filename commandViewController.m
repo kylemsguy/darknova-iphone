@@ -59,7 +59,7 @@
 -(IBAction) sellCargo {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if(sellCargoViewControllerImpl == 0) {
-		sellCargoViewControllerImpl = [[sellCargoViewController alloc] initWithNibName:@"sellCargo" bundle:nil];
+		sellCargoViewControllerImpl = [[SellCargoViewControllerRENAME alloc] initWithNibName:@"sellCargo" bundle:nil];
 	}
 	
 	[self.navigationController pushViewController:sellCargoViewControllerImpl animated:YES];

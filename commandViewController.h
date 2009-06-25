@@ -4,7 +4,7 @@
 #import "buyCargoViewController.h"
 #import "CommanderStatusViewController.h"
 #import "BankViewController.h"
-#import "sellCargoViewController.h"
+#import "SellCargoViewControllerRENAME.h"
 #import "ShipYardViewController.h"
 #import "SellEquipmentViewController.h"
 #import "BuyEquipmentViewController.h"
@@ -16,7 +16,7 @@
 @interface commandViewController : UIViewController  {
 
 	buyCargoViewController * buyCargoViewControllerImpl;
-	sellCargoViewController * sellCargoViewControllerImpl;
+	SellCargoViewControllerRENAME * sellCargoViewControllerImpl;
 	ShipYardViewController * shipYardViewControllerImpl;
 	BuyEquipmentViewController * buyEquipmentViewControllerImpl;
 	SellEquipmentViewController * sellEquipmentViewControllerImpl;

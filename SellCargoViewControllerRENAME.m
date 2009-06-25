@@ -1,7 +1,7 @@
-#import "sellCargoViewController.h"
+#import "SellCargoViewControllerRENAME.h"
 #import "sellCargoView.h"
 
-@implementation sellCargoViewController
+@implementation SellCargoViewControllerRENAME
 - (void)awakeFromNib
 {
 	self.title = @"Sell Cargo";	
