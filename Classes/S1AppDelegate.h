@@ -13,7 +13,7 @@
 #import <Foundation/NSRunLoop.h>
 #import "AlertModalWindow.h"
 #import "startGameViewController.h"
-#import "startGameToolBar.h"
+#import "StartGameToolBarRENAME.h"
 #import "AudioPlayer.h"
 #import "CommandViewController.h"
 #import "GameViewController.h"
@@ -37,7 +37,7 @@
 	//IBOutlet mainTabBar * tabbarController;
 //	IBOutlet helloWindowViewController* helloWindow;
 	IBOutlet MainToolBar* mainToolbar;
-	IBOutlet startGameToolBar * startToolbar;
+	IBOutlet StartGameToolBarRENAME * startToolbar;
 	IBOutlet UIBarButtonItem	*gameOptionsButton;
 
 	HelpViewController * helpWindow;

@@ -58,7 +58,7 @@
 		89DF15700E8CDD2000FFCE8C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF156F0E8CDD2000FFCE8C /* Player.m */; };
 		89DF15B00E8CE0CA00FFCE8C /* startGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF15AF0E8CE0CA00FFCE8C /* startGameViewController.m */; };
 		F30280ED0F347BF10023A9AE /* Resonance.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30280EC0F347BF10023A9AE /* Resonance.m4a */; };
-		F30596EC0EFB0D0A00A7FBFF /* startGameToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F30596EA0EFB0D0A00A7FBFF /* startGameToolBar.m */; };
+		F30596EC0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F30596EA0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.m */; };
 		F305994B0EFC7C7300A7FBFF /* highScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = F305994A0EFC7C7300A7FBFF /* highScores.xib */; };
 		F305994F0EFC7D0000A7FBFF /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F305994E0EFC7D0000A7FBFF /* HighScoresViewController.m */; };
 		F36A2B260EA569670032180E /* BuyVargoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F36A2B250EA569670032180E /* BuyVargoTableView.m */; };
@@ -303,8 +303,8 @@
 		89DF15AF0E8CE0CA00FFCE8C /* startGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = startGameViewController.m; path = ../startGameViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30280EC0F347BF10023A9AE /* Resonance.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resonance.m4a; sourceTree = "<group>"; };
-		F30596EA0EFB0D0A00A7FBFF /* startGameToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = startGameToolBar.m; path = ../startGameToolBar.m; sourceTree = "<group>"; };
-		F30596EB0EFB0D0A00A7FBFF /* startGameToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = startGameToolBar.h; path = ../startGameToolBar.h; sourceTree = "<group>"; };
+		F30596EA0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameToolBarRENAME.m; path = ../StartGameToolBarRENAME.m; sourceTree = "<group>"; };
+		F30596EB0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartGameToolBarRENAME.h; path = ../StartGameToolBarRENAME.h; sourceTree = "<group>"; };
 		F305994A0EFC7C7300A7FBFF /* highScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScores.xib; sourceTree = "<group>"; };
 		F305994D0EFC7D0000A7FBFF /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoresViewController.h; path = ../HighScoresViewController.h; sourceTree = "<group>"; };
 		F305994E0EFC7D0000A7FBFF /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoresViewController.m; path = ../HighScoresViewController.m; sourceTree = "<group>"; };
@@ -669,8 +669,8 @@
 		899BFC590E91811D00C4CD69 /* New game */ = {
 			isa = PBXGroup;
 			children = (
-				F30596EA0EFB0D0A00A7FBFF /* startGameToolBar.m */,
-				F30596EB0EFB0D0A00A7FBFF /* startGameToolBar.h */,
+				F30596EA0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.m */,
+				F30596EB0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.h */,
 				89DF15AE0E8CE0CA00FFCE8C /* startGameViewController.h */,
 				89DF15AF0E8CE0CA00FFCE8C /* startGameViewController.m */,
 				899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */,
@@ -1352,7 +1352,7 @@
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,
 				F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */,
 				F3B182430EF8905100B57222 /* HelpViewController.m in Sources */,
-				F30596EC0EFB0D0A00A7FBFF /* startGameToolBar.m in Sources */,
+				F30596EC0EFB0D0A00A7FBFF /* StartGameToolBarRENAME.m in Sources */,
 				F305994F0EFC7D0000A7FBFF /* HighScoresViewController.m in Sources */,
 				F3E7F1530EFD2EC500B8D882 /* AudioPlayer.m in Sources */,
 				F3E7F15F0EFD2F0D00B8D882 /* AudioQueueObject.m in Sources */,
