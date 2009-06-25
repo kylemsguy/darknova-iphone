@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface StartGameViewControllerRENAME : UIViewController {
+@interface StartGameViewController : UIViewController {
 
 }
 - (IBAction)closeWindow;

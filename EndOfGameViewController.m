@@ -1,6 +1,6 @@
 #import "EndOfGameViewController.h"
 #import "S1AppDelegate.h"
-#import "StartGameViewControllerRENAME.h"
+#import "StartGameViewController.h"
 #import "HighScoresViewController.h"
 
 @implementation EndOfGameViewController

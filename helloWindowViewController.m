@@ -1,5 +1,5 @@
 #import "helloWindowViewController.h"
-#import "StartGameViewControllerRENAME.h"
+#import "StartGameViewController.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "SaveGameViewController.h"

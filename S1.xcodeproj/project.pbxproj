@@ -56,7 +56,7 @@
 		89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C551030E92DA6D008ECDA8 /* GameViewController.m */; };
 		89C551060E92DC01008ECDA8 /* options1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C551050E92DC01008ECDA8 /* options1.xib */; };
 		89DF15700E8CDD2000FFCE8C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF156F0E8CDD2000FFCE8C /* Player.m */; };
-		89DF15B00E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF15AF0E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.m */; };
+		89DF15B00E8CE0CA00FFCE8C /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF15AF0E8CE0CA00FFCE8C /* StartGameViewController.m */; };
 		F30280ED0F347BF10023A9AE /* Resonance.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30280EC0F347BF10023A9AE /* Resonance.m4a */; };
 		F30596EC0EFB0D0A00A7FBFF /* StartGameToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F30596EA0EFB0D0A00A7FBFF /* StartGameToolBar.m */; };
 		F305994B0EFC7C7300A7FBFF /* highScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = F305994A0EFC7C7300A7FBFF /* highScores.xib */; };
@@ -299,8 +299,8 @@
 		89C551050E92DC01008ECDA8 /* options1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = options1.xib; sourceTree = "<group>"; };
 		89DF156E0E8CDD2000FFCE8C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		89DF156F0E8CDD2000FFCE8C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		89DF15AE0E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartGameViewControllerRENAME.h; path = ../StartGameViewControllerRENAME.h; sourceTree = "<group>"; };
-		89DF15AF0E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameViewControllerRENAME.m; path = ../StartGameViewControllerRENAME.m; sourceTree = "<group>"; };
+		89DF15AE0E8CE0CA00FFCE8C /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartGameViewController.h; path = ../StartGameViewController.h; sourceTree = "<group>"; };
+		89DF15AF0E8CE0CA00FFCE8C /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameViewController.m; path = ../StartGameViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30280EC0F347BF10023A9AE /* Resonance.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resonance.m4a; sourceTree = "<group>"; };
 		F30596EA0EFB0D0A00A7FBFF /* StartGameToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameToolBar.m; path = ../StartGameToolBar.m; sourceTree = "<group>"; };
@@ -671,8 +671,8 @@
 			children = (
 				F30596EA0EFB0D0A00A7FBFF /* StartGameToolBar.m */,
 				F30596EB0EFB0D0A00A7FBFF /* StartGameToolBar.h */,
-				89DF15AE0E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.h */,
-				89DF15AF0E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.m */,
+				89DF15AE0E8CE0CA00FFCE8C /* StartGameViewController.h */,
+				89DF15AF0E8CE0CA00FFCE8C /* StartGameViewController.m */,
 				899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */,
 				899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */,
 				89A9C4AB0E90564500A6A030 /* newCommanderView.h */,
@@ -1301,7 +1301,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* S1AppDelegate.m in Sources */,
 				89DF15700E8CDD2000FFCE8C /* Player.m in Sources */,
-				89DF15B00E8CE0CA00FFCE8C /* StartGameViewControllerRENAME.m in Sources */,
+				89DF15B00E8CE0CA00FFCE8C /* StartGameViewController.m in Sources */,
 				89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */,
 				89A9C4AD0E90564500A6A030 /* newCommanderView.m in Sources */,
 				899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */,
