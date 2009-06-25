@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "helloWindowViewController.h"
+#import "HelloWindowViewControllerRENAME.h"
 #import "BankViewController.h"
 #import "Player.h"
 #import <Foundation/NSRunLoop.h>

@@ -136,7 +136,7 @@ bool bStartNewGame;
 	[[navigationController view] addSubview:startToolbar];	
 	
 	
-	helloWindowViewController * helloWindow = [[[helloWindowViewController alloc] initWithNibName:@"helloWindow" bundle:nil] autorelease];
+	HelloWindowViewControllerRENAME * helloWindow = [[[HelloWindowViewControllerRENAME alloc] initWithNibName:@"helloWindow" bundle:nil] autorelease];
 	NSArray* arr = [NSArray arrayWithObjects:helloWindow, nil];
 	[self.navigationController setViewControllers:arr];
 }

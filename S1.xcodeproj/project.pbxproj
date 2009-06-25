@@ -21,7 +21,7 @@
 		899BFBCE0E9176B600C4CD69 /* help.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFBCD0E9176B600C4CD69 /* help.xib */; };
 		899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFC310E917DA400C4CD69 /* CommandViewController.m */; };
 		899BFD780E918A3A00C4CD69 /* helloWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFD770E918A3A00C4CD69 /* helloWindow.xib */; };
-		899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */; };
+		899BFD7C0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFD7B0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.m */; };
 		899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewController.m */; };
 		89A3A9FF0E94225A00B18001 /* shipYard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3A9FE0E94225A00B18001 /* shipYard.xib */; };
 		89A3AA060E94245D00B18001 /* ShipYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA050E94245D00B18001 /* ShipYardViewController.m */; };
@@ -243,8 +243,8 @@
 		899BFC300E917DA400C4CD69 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandViewController.h; path = ../CommandViewController.h; sourceTree = "<group>"; };
 		899BFC310E917DA400C4CD69 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandViewController.m; path = ../CommandViewController.m; sourceTree = "<group>"; };
 		899BFD770E918A3A00C4CD69 /* helloWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helloWindow.xib; sourceTree = "<group>"; };
-		899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helloWindowViewController.h; path = ../helloWindowViewController.h; sourceTree = "<group>"; };
-		899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helloWindowViewController.m; path = ../helloWindowViewController.m; sourceTree = "<group>"; };
+		899BFD7A0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWindowViewControllerRENAME.h; path = ../HelloWindowViewControllerRENAME.h; sourceTree = "<group>"; };
+		899BFD7B0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWindowViewControllerRENAME.m; path = ../HelloWindowViewControllerRENAME.m; sourceTree = "<group>"; };
 		899BFFFB0E91AE6B00C4CD69 /* BuyCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyCargoViewController.h; path = ../BuyCargoViewController.h; sourceTree = "<group>"; };
 		899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyCargoViewController.m; path = ../BuyCargoViewController.m; sourceTree = "<group>"; };
 		89A3A9FE0E94225A00B18001 /* shipYard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shipYard.xib; sourceTree = "<group>"; };
@@ -673,8 +673,8 @@
 				F30596EB0EFB0D0A00A7FBFF /* StartGameToolBar.h */,
 				89DF15AE0E8CE0CA00FFCE8C /* StartGameViewController.h */,
 				89DF15AF0E8CE0CA00FFCE8C /* StartGameViewController.m */,
-				899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */,
-				899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */,
+				899BFD7A0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.h */,
+				899BFD7B0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.m */,
 				89A9C4AB0E90564500A6A030 /* newCommanderView.h */,
 				89A9C4AC0E90564500A6A030 /* newCommanderView.m */,
 			);
@@ -1305,7 +1305,7 @@
 				89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */,
 				89A9C4AD0E90564500A6A030 /* newCommanderView.m in Sources */,
 				899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */,
-				899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */,
+				899BFD7C0E918A8400C4CD69 /* HelloWindowViewControllerRENAME.m in Sources */,
 				899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */,
 				899B00A80E91B86D00C4CD69 /* BuyCargoView.m in Sources */,
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,

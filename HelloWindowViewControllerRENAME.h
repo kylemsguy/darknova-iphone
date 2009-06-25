@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface helloWindowViewController : UIViewController  {
+@interface HelloWindowViewControllerRENAME : UIViewController  {
 }
 
 @end

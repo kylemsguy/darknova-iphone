@@ -1,10 +1,10 @@
-#import "helloWindowViewController.h"
+#import "HelloWindowViewControllerRENAME.h"
 #import "StartGameViewController.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "SaveGameViewController.h"
 
-@implementation helloWindowViewController
+@implementation HelloWindowViewControllerRENAME
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
