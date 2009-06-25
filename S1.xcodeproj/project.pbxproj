@@ -76,7 +76,7 @@
 		F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670A0EF48547006AAB4B /* mainSystemInfoView.m */; };
 		F392670E0EF48550006AAB4B /* newsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670D0EF48550006AAB4B /* newsView.m */; };
 		F39267460EF48F8A006AAB4B /* news.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39267450EF48F8A006AAB4B /* news.xib */; };
-		F392674A0EF48FBE006AAB4B /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* newsViewController.m */; };
+		F392674A0EF48FBE006AAB4B /* NewsViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */; };
 		F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A240EF5EA2B00ECA84D /* OptionsViewController.m */; };
 		F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A720EF5EA7A00ECA84D /* OptionsCell.m */; };
 		F3B1815B0EF853A800B57222 /* command.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B181560EF853A800B57222 /* command.png */; };
@@ -121,7 +121,7 @@
 		F3D619B20EC1069B00308FBB /* BuyShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D619B00EC1069B00308FBB /* BuyShipViewController.m */; };
 		F3D61A3E0EC9104800308FBB /* shipInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D61A3D0EC9104800308FBB /* shipInfo.xib */; };
 		F3D61A430EC911C400308FBB /* ShipInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A420EC911C400308FBB /* ShipInfoViewController.m */; };
-		F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A440EC911CE00308FBB /* shipInfoView.m */; };
+		F3D61A460EC911CE00308FBB /* ShipInfoViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61A440EC911CE00308FBB /* ShipInfoViewRENAME.m */; };
 		F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61C080ECD162300308FBB /* EncounterViewController.m */; };
 		F3D61C0C0ECD162B00308FBB /* EncounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D61C0B0ECD162B00308FBB /* EncounterView.m */; };
 		F3D957360ED0DC1A00B36B79 /* Merchant.rsrc in Resources */ = {isa = PBXBuildFile; fileRef = F3D957350ED0DC1A00B36B79 /* Merchant.rsrc */; };
@@ -333,8 +333,8 @@
 		F392670C0EF48550006AAB4B /* newsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsView.h; path = ../newsView.h; sourceTree = "<group>"; };
 		F392670D0EF48550006AAB4B /* newsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsView.m; path = ../newsView.m; sourceTree = "<group>"; };
 		F39267450EF48F8A006AAB4B /* news.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = news.xib; path = Classes/news.xib; sourceTree = "<group>"; };
-		F39267480EF48FBE006AAB4B /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsViewController.m; path = ../newsViewController.m; sourceTree = "<group>"; };
-		F39267490EF48FBE006AAB4B /* newsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsViewController.h; path = ../newsViewController.h; sourceTree = "<group>"; };
+		F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewControllerRENAME.m; path = ../NewsViewControllerRENAME.m; sourceTree = "<group>"; };
+		F39267490EF48FBE006AAB4B /* NewsViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewControllerRENAME.h; path = ../NewsViewControllerRENAME.h; sourceTree = "<group>"; };
 		F3971A230EF5EA2B00ECA84D /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = ../OptionsViewController.h; sourceTree = "<group>"; };
 		F3971A240EF5EA2B00ECA84D /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = ../OptionsViewController.m; sourceTree = "<group>"; };
 		F3971A710EF5EA7A00ECA84D /* OptionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsCell.h; sourceTree = "<group>"; };
@@ -391,8 +391,8 @@
 		F3D61A3D0EC9104800308FBB /* shipInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shipInfo.xib; sourceTree = "<group>"; };
 		F3D61A410EC911C400308FBB /* ShipInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipInfoViewController.h; path = ../ShipInfoViewController.h; sourceTree = "<group>"; };
 		F3D61A420EC911C400308FBB /* ShipInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipInfoViewController.m; path = ../ShipInfoViewController.m; sourceTree = "<group>"; };
-		F3D61A440EC911CE00308FBB /* shipInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shipInfoView.m; path = ../shipInfoView.m; sourceTree = "<group>"; };
-		F3D61A450EC911CE00308FBB /* shipInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shipInfoView.h; path = ../shipInfoView.h; sourceTree = "<group>"; };
+		F3D61A440EC911CE00308FBB /* ShipInfoViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipInfoViewRENAME.m; path = ../ShipInfoViewRENAME.m; sourceTree = "<group>"; };
+		F3D61A450EC911CE00308FBB /* ShipInfoViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipInfoViewRENAME.h; path = ../ShipInfoViewRENAME.h; sourceTree = "<group>"; };
 		F3D61C070ECD162300308FBB /* EncounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncounterViewController.h; path = ../EncounterViewController.h; sourceTree = "<group>"; };
 		F3D61C080ECD162300308FBB /* EncounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncounterViewController.m; path = ../EncounterViewController.m; sourceTree = "<group>"; };
 		F3D61C0A0ECD162B00308FBB /* EncounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncounterView.h; path = ../EncounterView.h; sourceTree = "<group>"; };
@@ -755,8 +755,8 @@
 				F3D618920EBFDCCF00308FBB /* ShipYardView.m */,
 				F3D61A410EC911C400308FBB /* ShipInfoViewController.h */,
 				F3D61A420EC911C400308FBB /* ShipInfoViewController.m */,
-				F3D61A440EC911CE00308FBB /* shipInfoView.m */,
-				F3D61A450EC911CE00308FBB /* shipInfoView.h */,
+				F3D61A440EC911CE00308FBB /* ShipInfoViewRENAME.m */,
+				F3D61A450EC911CE00308FBB /* ShipInfoViewRENAME.h */,
 			);
 			name = "Ship Yard";
 			sourceTree = "<group>";
@@ -932,8 +932,8 @@
 			isa = PBXGroup;
 			children = (
 				F392674B0EF4900A006AAB4B /* News */,
-				F39267480EF48FBE006AAB4B /* newsViewController.m */,
-				F39267490EF48FBE006AAB4B /* newsViewController.h */,
+				F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */,
+				F39267490EF48FBE006AAB4B /* NewsViewControllerRENAME.h */,
 				F39267090EF48547006AAB4B /* mainSystemInfoView.h */,
 				F392670A0EF48547006AAB4B /* mainSystemInfoView.m */,
 				F392670C0EF48550006AAB4B /* newsView.h */,
@@ -1333,7 +1333,7 @@
 				F3D619AF0EC105E200308FBB /* BuyShipView.m in Sources */,
 				F3D619B20EC1069B00308FBB /* BuyShipViewController.m in Sources */,
 				F3D61A430EC911C400308FBB /* ShipInfoViewController.m in Sources */,
-				F3D61A460EC911CE00308FBB /* shipInfoView.m in Sources */,
+				F3D61A460EC911CE00308FBB /* ShipInfoViewRENAME.m in Sources */,
 				F3D61C090ECD162300308FBB /* EncounterViewController.m in Sources */,
 				F3D61C0C0ECD162B00308FBB /* EncounterView.m in Sources */,
 				F3DD9B3E0EE897A7008660FE /* WarpSystemInfoView.m in Sources */,
@@ -1347,7 +1347,7 @@
 				F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */,
 				F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */,
 				F392670E0EF48550006AAB4B /* newsView.m in Sources */,
-				F392674A0EF48FBE006AAB4B /* newsViewController.m in Sources */,
+				F392674A0EF48FBE006AAB4B /* NewsViewControllerRENAME.m in Sources */,
 				F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */,
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,
 				F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */,

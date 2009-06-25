@@ -1,5 +1,5 @@
 #import "ShipInfoViewController.h"
-#import "shipInfoView.h"
+#import "ShipInfoViewRENAME.h"
 
 @implementation ShipInfoViewController
 
@@ -15,7 +15,7 @@
 }
 
 -(void) setShip:(int)index {
-	shipInfoView* view1 = (shipInfoView*)[self view];//(shipInfoView*)[UIViewController view] delegate];
+	ShipInfoViewRENAME* view1 = (ShipInfoViewRENAME*)[self view];//(shipInfoView*)[UIViewController view] delegate];
 	view1.ship = index;
 }
 @end

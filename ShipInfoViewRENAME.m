@@ -1,9 +1,9 @@
-#import "shipInfoView.h"
+#import "ShipInfoViewRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 
 
-@implementation shipInfoView
+@implementation ShipInfoViewRENAME
 
 @synthesize ship;
 

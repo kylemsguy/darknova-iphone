@@ -659,7 +659,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ShipInfoViewController</string>
 					<string>UIResponder</string>
-					<string>shipInfoView</string>
+					<string>ShipInfoViewRENAME</string>
 					<string>{{618, 473}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -718,7 +718,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">shipInfoView</string>
+					<string key="className">ShipInfoViewRENAME</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="actions">
 						<string key="NS.key.0">done</string>
@@ -756,8 +756,8 @@
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">shipInfoView.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 			</object>
