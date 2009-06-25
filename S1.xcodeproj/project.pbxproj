@@ -61,7 +61,7 @@
 		F30596EC0EFB0D0A00A7FBFF /* startGameToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F30596EA0EFB0D0A00A7FBFF /* startGameToolBar.m */; };
 		F305994B0EFC7C7300A7FBFF /* highScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = F305994A0EFC7C7300A7FBFF /* highScores.xib */; };
 		F305994F0EFC7D0000A7FBFF /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F305994E0EFC7D0000A7FBFF /* HighScoresViewController.m */; };
-		F36A2B260EA569670032180E /* buyVargoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F36A2B250EA569670032180E /* buyVargoTableView.m */; };
+		F36A2B260EA569670032180E /* BuyVargoTableViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F36A2B250EA569670032180E /* BuyVargoTableViewRENAME.m */; };
 		F37DB8CA0E9D5C2A002FDBDC /* AlertModalWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F37DB8C90E9D5C2A002FDBDC /* AlertModalWindow.m */; };
 		F38FE4CF0EEC7D0600053D28 /* dotvisited.png in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4CC0EEC7D0600053D28 /* dotvisited.png */; };
 		F38FE4D00EEC7D0600053D28 /* dotwormhole.png in Resources */ = {isa = PBXBuildFile; fileRef = F38FE4CD0EEC7D0600053D28 /* dotwormhole.png */; };
@@ -308,8 +308,8 @@
 		F305994A0EFC7C7300A7FBFF /* highScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScores.xib; sourceTree = "<group>"; };
 		F305994D0EFC7D0000A7FBFF /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoresViewController.h; path = ../HighScoresViewController.h; sourceTree = "<group>"; };
 		F305994E0EFC7D0000A7FBFF /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoresViewController.m; path = ../HighScoresViewController.m; sourceTree = "<group>"; };
-		F36A2B240EA569670032180E /* buyVargoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buyVargoTableView.h; path = ../buyVargoTableView.h; sourceTree = "<group>"; };
-		F36A2B250EA569670032180E /* buyVargoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = buyVargoTableView.m; path = ../buyVargoTableView.m; sourceTree = "<group>"; };
+		F36A2B240EA569670032180E /* BuyVargoTableViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyVargoTableViewRENAME.h; path = ../BuyVargoTableViewRENAME.h; sourceTree = "<group>"; };
+		F36A2B250EA569670032180E /* BuyVargoTableViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyVargoTableViewRENAME.m; path = ../BuyVargoTableViewRENAME.m; sourceTree = "<group>"; };
 		F37DB8C80E9D5C2A002FDBDC /* AlertModalWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertModalWindow.h; sourceTree = "<group>"; };
 		F37DB8C90E9D5C2A002FDBDC /* AlertModalWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertModalWindow.m; sourceTree = "<group>"; };
 		F38FE4CC0EEC7D0600053D28 /* dotvisited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotvisited.png; sourceTree = "<group>"; };
@@ -907,8 +907,8 @@
 		89C550DC0E92D81D008ECDA8 /* Buy cargo */ = {
 			isa = PBXGroup;
 			children = (
-				F36A2B240EA569670032180E /* buyVargoTableView.h */,
-				F36A2B250EA569670032180E /* buyVargoTableView.m */,
+				F36A2B240EA569670032180E /* BuyVargoTableViewRENAME.h */,
+				F36A2B250EA569670032180E /* BuyVargoTableViewRENAME.m */,
 				899BFFFB0E91AE6B00C4CD69 /* buyCargoViewController.h */,
 				899B00A60E91B86D00C4CD69 /* buyCargoView.h */,
 				899B00A70E91B86D00C4CD69 /* buyCargoView.m */,
@@ -1326,7 +1326,7 @@
 				89A3AB420E94380D00B18001 /* SellCargoViewController.m in Sources */,
 				F3CCB5FC0E9BFA0C00D65804 /* BankView.m in Sources */,
 				F37DB8CA0E9D5C2A002FDBDC /* AlertModalWindow.m in Sources */,
-				F36A2B260EA569670032180E /* buyVargoTableView.m in Sources */,
+				F36A2B260EA569670032180E /* BuyVargoTableViewRENAME.m in Sources */,
 				F3D614710EB15CD300308FBB /* ShortRangeChartView.m in Sources */,
 				F3D615C80EB6A4DE00308FBB /* GalacticChartView.m in Sources */,
 				F3D618930EBFDCCF00308FBB /* ShipYardView.m in Sources */,
