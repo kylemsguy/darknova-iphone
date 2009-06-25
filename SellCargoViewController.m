@@ -1,5 +1,5 @@
 #import "SellCargoViewController.h"
-#import "SellCargoViewRENAME.h"
+#import "SellCargoView.h"
 
 @implementation SellCargoViewController
 - (void)awakeFromNib
@@ -18,14 +18,14 @@
 
 -(void) setJettisonType {
 	self.title = @"Jettison Cargo";	
-	SellCargoViewRENAME * pCargo = (SellCargoViewRENAME*) self.view;
+	SellCargoView * pCargo = (SellCargoView*) self.view;
 	[pCargo setJettisonType];
 }
 
 -(void) setOpponentType
 {
 	self.title = @"Plunder Cargo";	
-	SellCargoViewRENAME * pCargo = (SellCargoViewRENAME*) self.view;
+	SellCargoView * pCargo = (SellCargoView*) self.view;
 	[pCargo setOpponentType];
 }
 @end

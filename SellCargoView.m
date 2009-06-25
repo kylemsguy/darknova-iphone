@@ -1,9 +1,9 @@
-#import "SellCargoViewRENAME.h"
+#import "SellCargoView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
 
-@implementation SellCargoViewRENAME
+@implementation SellCargoView
 
 - (void)awakeFromNib
 {
