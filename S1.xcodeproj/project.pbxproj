@@ -14,7 +14,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		890595730E8C521600A6DCCF /* startView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890595720E8C521600A6DCCF /* startView.xib */; };
-		899B00A80E91B86D00C4CD69 /* buyCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899B00A70E91B86D00C4CD69 /* buyCargoView.m */; };
+		899B00A80E91B86D00C4CD69 /* BuyCargoViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 899B00A70E91B86D00C4CD69 /* BuyCargoViewRENAME.m */; };
 		899BFB5A0E9161D700C4CD69 /* buyCargo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFB590E9161D700C4CD69 /* buyCargo.xib */; };
 		899BFB5F0E9166A600C4CD69 /* commands.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFB5E0E9166A600C4CD69 /* commands.xib */; };
 		899BFBCB0E91768E00C4CD69 /* game.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFBCA0E91768E00C4CD69 /* game.xib */; };
@@ -234,8 +234,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* S1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S1_Prefix.pch; sourceTree = "<group>"; };
 		890595720E8C521600A6DCCF /* startView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = startView.xib; sourceTree = "<group>"; };
-		899B00A60E91B86D00C4CD69 /* buyCargoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buyCargoView.h; path = ../buyCargoView.h; sourceTree = "<group>"; };
-		899B00A70E91B86D00C4CD69 /* buyCargoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = buyCargoView.m; path = ../buyCargoView.m; sourceTree = "<group>"; };
+		899B00A60E91B86D00C4CD69 /* BuyCargoViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyCargoViewRENAME.h; path = ../BuyCargoViewRENAME.h; sourceTree = "<group>"; };
+		899B00A70E91B86D00C4CD69 /* BuyCargoViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyCargoViewRENAME.m; path = ../BuyCargoViewRENAME.m; sourceTree = "<group>"; };
 		899BFB590E9161D700C4CD69 /* buyCargo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buyCargo.xib; sourceTree = "<group>"; };
 		899BFB5E0E9166A600C4CD69 /* commands.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commands.xib; sourceTree = "<group>"; };
 		899BFBCA0E91768E00C4CD69 /* game.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = game.xib; sourceTree = "<group>"; };
@@ -910,8 +910,8 @@
 				F36A2B240EA569670032180E /* BuyVargoTableView.h */,
 				F36A2B250EA569670032180E /* BuyVargoTableView.m */,
 				899BFFFB0E91AE6B00C4CD69 /* BuyCargoViewController.h */,
-				899B00A60E91B86D00C4CD69 /* buyCargoView.h */,
-				899B00A70E91B86D00C4CD69 /* buyCargoView.m */,
+				899B00A60E91B86D00C4CD69 /* BuyCargoViewRENAME.h */,
+				899B00A70E91B86D00C4CD69 /* BuyCargoViewRENAME.m */,
 				899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewController.m */,
 			);
 			name = "Buy cargo";
@@ -1307,7 +1307,7 @@
 				899BFC320E917DA400C4CD69 /* commandViewController.m in Sources */,
 				899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */,
 				899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */,
-				899B00A80E91B86D00C4CD69 /* buyCargoView.m in Sources */,
+				899B00A80E91B86D00C4CD69 /* BuyCargoViewRENAME.m in Sources */,
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,
 				89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */,
 				89AE3B290E93135C006B5B98 /* SellCargoView.m in Sources */,
