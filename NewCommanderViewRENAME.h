@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface newCommanderView : UIView {
+@interface NewCommanderViewRENAME : UIView {
     IBOutlet UILabel *difficultyLevel;
     IBOutlet UILabel *skillPoints;
     IBOutlet UILabel *pilotPointsLabel;	
