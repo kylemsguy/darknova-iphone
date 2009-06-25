@@ -1,5 +1,5 @@
-#import "MainSystemInfoViewRENAME.h"
+#import "MainSystemInfoView.h"
 
-@implementation MainSystemInfoViewRENAME
+@implementation MainSystemInfoView
 
 @end

@@ -74,7 +74,7 @@
 		F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FE74E0EEDFAFB00053D28 /* SaveGameViewController.m */; };
 		F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F39264D00EF35159006AAB4B /* FileSaveCell.m */; };
 		F392670B0EF48547006AAB4B /* MainSystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670A0EF48547006AAB4B /* MainSystemInfoView.m */; };
-		F392670E0EF48550006AAB4B /* newsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670D0EF48550006AAB4B /* newsView.m */; };
+		F392670E0EF48550006AAB4B /* NewsViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670D0EF48550006AAB4B /* NewsViewRENAME.m */; };
 		F39267460EF48F8A006AAB4B /* news.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39267450EF48F8A006AAB4B /* news.xib */; };
 		F392674A0EF48FBE006AAB4B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* NewsViewController.m */; };
 		F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A240EF5EA2B00ECA84D /* OptionsViewController.m */; };
@@ -330,8 +330,8 @@
 		F39264D00EF35159006AAB4B /* FileSaveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSaveCell.m; sourceTree = "<group>"; };
 		F39267090EF48547006AAB4B /* MainSystemInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainSystemInfoView.h; path = ../MainSystemInfoView.h; sourceTree = "<group>"; };
 		F392670A0EF48547006AAB4B /* MainSystemInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainSystemInfoView.m; path = ../MainSystemInfoView.m; sourceTree = "<group>"; };
-		F392670C0EF48550006AAB4B /* newsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsView.h; path = ../newsView.h; sourceTree = "<group>"; };
-		F392670D0EF48550006AAB4B /* newsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsView.m; path = ../newsView.m; sourceTree = "<group>"; };
+		F392670C0EF48550006AAB4B /* NewsViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewRENAME.h; path = ../NewsViewRENAME.h; sourceTree = "<group>"; };
+		F392670D0EF48550006AAB4B /* NewsViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewRENAME.m; path = ../NewsViewRENAME.m; sourceTree = "<group>"; };
 		F39267450EF48F8A006AAB4B /* news.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = news.xib; path = Classes/news.xib; sourceTree = "<group>"; };
 		F39267480EF48FBE006AAB4B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
 		F39267490EF48FBE006AAB4B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
@@ -936,8 +936,8 @@
 				F39267490EF48FBE006AAB4B /* NewsViewController.h */,
 				F39267090EF48547006AAB4B /* MainSystemInfoView.h */,
 				F392670A0EF48547006AAB4B /* MainSystemInfoView.m */,
-				F392670C0EF48550006AAB4B /* newsView.h */,
-				F392670D0EF48550006AAB4B /* newsView.m */,
+				F392670C0EF48550006AAB4B /* NewsViewRENAME.h */,
+				F392670D0EF48550006AAB4B /* NewsViewRENAME.m */,
 				89A9C4440E90504C00A6A030 /* SystemInfoViewController.h */,
 				89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */,
 			);
@@ -1346,7 +1346,7 @@
 				F38FE74F0EEDFAFB00053D28 /* SaveGameViewController.m in Sources */,
 				F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */,
 				F392670B0EF48547006AAB4B /* MainSystemInfoView.m in Sources */,
-				F392670E0EF48550006AAB4B /* newsView.m in Sources */,
+				F392670E0EF48550006AAB4B /* NewsViewRENAME.m in Sources */,
 				F392674A0EF48FBE006AAB4B /* NewsViewController.m in Sources */,
 				F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */,
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,

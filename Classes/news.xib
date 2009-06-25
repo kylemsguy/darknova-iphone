@@ -160,7 +160,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>NewsViewController</string>
 					<string>UIResponder</string>
-					<string>newsView</string>
+					<string>NewsViewRENAME</string>
 					<string>{{721, 464}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -205,11 +205,11 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">newsView</string>
+					<string key="className">NewsViewRENAME</string>
 					<string key="superclassName">UIView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">newsView.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 			</object>
