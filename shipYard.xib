@@ -672,7 +672,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ShipYardViewController</string>
 					<string>UIResponder</string>
-					<string>shipYardView</string>
+					<string>ShipYardViewRENAME</string>
 					<string>{{672, 384}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -726,7 +726,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">shipYardView</string>
+					<string key="className">ShipYardViewRENAME</string>
 					<string key="superclassName">UIView</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -789,8 +789,8 @@
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">shipYardView.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 			</object>

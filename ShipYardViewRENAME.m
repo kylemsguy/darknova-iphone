@@ -1,11 +1,11 @@
-#import "shipYardView.h"
+#import "ShipYardViewRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
 #import "BuyShipViewController.h"
 
 
-@implementation shipYardView
+@implementation ShipYardViewRENAME
 
 //@synthesize 	fuelAmount,	fuelCost, hullStrength,	needRepairs, newShipsInfo, escapePod, buyFuel, buyFullTank,
 //buyRepair, buyFullRepair, buyEscapePod, totalCash;
