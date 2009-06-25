@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface StatusView : UIView/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface StatusView : UIView {
 	IBOutlet	UILabel*		pilotName;
 	IBOutlet	UILabel*		pilotSkill;	
 	IBOutlet	UILabel*		traderSkill;

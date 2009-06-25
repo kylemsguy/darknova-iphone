@@ -13,7 +13,7 @@
 #import "ShortRangeChartViewController.h"
 #import "GalacticChartViewController.h"
 
-@interface commandViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
+@interface commandViewController : UIViewController  {
 
 	buyCargoViewController * buyCargoViewControllerImpl;
 	sellCargoViewController * sellCargoViewControllerImpl;

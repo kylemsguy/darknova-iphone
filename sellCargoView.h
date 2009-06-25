@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 #include "spacetrader.h"
 
-@interface sellCargoView : UIView/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface sellCargoView : UIView {
     IBOutlet UIButton *cargo1;
     IBOutlet UIButton *cargo10;
     IBOutlet UIButton *cargo2;

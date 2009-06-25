@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface SellEquipmentViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
+@interface SellEquipmentViewController : UIViewController  {
 
 	IBOutlet UILabel *  weaponName0;
 	IBOutlet UILabel *  weaponName1;

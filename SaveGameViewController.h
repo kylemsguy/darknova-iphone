@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface SaveGameViewController : UITableViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface SaveGameViewController : UITableViewController {
 	NSMutableArray			*menuList;  
 	NSMutableArray			*menuName;  	
 	NSMutableArray			*menuListAdditional;  

@@ -4,7 +4,7 @@
 #import "PricesView.h"
 #import "WarpSystemInfoView.h"
 
-@interface WarpViewController : UIViewController /* Specify a superclass (eg: NSObject or NSView) */ {
+@interface WarpViewController : UIViewController  {
 	IBOutlet PricesView * pricesViewInst;
 	IBOutlet WarpSystemInfoView * sysInfoViewInst;
 }

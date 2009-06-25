@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface shipInfoView : UIView /* Specify a superclass (eg: NSObject or NSView) */ {
+@interface shipInfoView : UIView  {
 	IBOutlet UILabel * nameLabel;
 	IBOutlet UILabel * sizeLabel;
 	IBOutlet UILabel * cargoBaysLabel;

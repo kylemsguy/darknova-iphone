@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface newsViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface newsViewController : UIViewController {
     IBOutlet UITextView *text;
 }
 

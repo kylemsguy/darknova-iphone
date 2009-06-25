@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface shipYardView : UIView/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface shipYardView : UIView {
 	IBOutlet UILabel*	fuelAmount;
 	IBOutlet UILabel*	fuelCost;
 	IBOutlet UILabel*	hullStrength;

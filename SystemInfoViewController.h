@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface SystemInfoViewController : UIViewController<UINavigationBarDelegate>/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface SystemInfoViewController : UIViewController<UINavigationBarDelegate> {
 	IBOutlet	UILabel*	systemMessage;	
 	IBOutlet    UIWebView*  systemInfoContent;
 	

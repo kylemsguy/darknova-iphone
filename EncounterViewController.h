@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface EncounterViewController : UIViewController/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface EncounterViewController : UIViewController {
 	IBOutlet UIButton *   close;
 	
 	

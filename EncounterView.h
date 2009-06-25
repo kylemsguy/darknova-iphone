@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface EncounterView : UIView/* Specify a superclass (eg: NSObject or NSView) */ {
+@interface EncounterView : UIView {
 
 }
 
