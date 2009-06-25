@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface ShipYardViewRENAME : UIView {
+@interface ShipYardView : UIView {
 	IBOutlet UILabel*	fuelAmount;
 	IBOutlet UILabel*	fuelCost;
 	IBOutlet UILabel*	hullStrength;
