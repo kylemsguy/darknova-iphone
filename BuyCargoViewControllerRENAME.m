@@ -1,6 +1,6 @@
-#import "buyCargoViewController.h"
+#import "BuyCargoViewControllerRENAME.h"
 
-@implementation buyCargoViewController
+@implementation BuyCargoViewControllerRENAME
 
 -(void)viewDidAppear {
 	menuList = [[NSMutableArray alloc] init];	

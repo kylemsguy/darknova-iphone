@@ -48,7 +48,7 @@
 -(IBAction) buyCargo {
 	
 	if (buyCargoViewControllerImpl == 0) {
-		buyCargoViewControllerImpl = [[buyCargoViewController alloc] initWithNibName:@"buyCargo" bundle:nil];		
+		buyCargoViewControllerImpl = [[BuyCargoViewControllerRENAME alloc] initWithNibName:@"buyCargo" bundle:nil];		
 	}
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	

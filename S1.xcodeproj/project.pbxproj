@@ -22,7 +22,7 @@
 		899BFC320E917DA400C4CD69 /* commandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFC310E917DA400C4CD69 /* commandViewController.m */; };
 		899BFD780E918A3A00C4CD69 /* helloWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899BFD770E918A3A00C4CD69 /* helloWindow.xib */; };
 		899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */; };
-		899BFFFD0E91AE6B00C4CD69 /* buyCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFFFC0E91AE6B00C4CD69 /* buyCargoViewController.m */; };
+		899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.m */; };
 		89A3A9FF0E94225A00B18001 /* shipYard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3A9FE0E94225A00B18001 /* shipYard.xib */; };
 		89A3AA060E94245D00B18001 /* ShipYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AA050E94245D00B18001 /* ShipYardViewController.m */; };
 		89A3AA3B0E9429B100B18001 /* buyEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3AA3A0E9429B100B18001 /* buyEquipment.xib */; };
@@ -245,8 +245,8 @@
 		899BFD770E918A3A00C4CD69 /* helloWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helloWindow.xib; sourceTree = "<group>"; };
 		899BFD7A0E918A8400C4CD69 /* helloWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helloWindowViewController.h; path = ../helloWindowViewController.h; sourceTree = "<group>"; };
 		899BFD7B0E918A8400C4CD69 /* helloWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helloWindowViewController.m; path = ../helloWindowViewController.m; sourceTree = "<group>"; };
-		899BFFFB0E91AE6B00C4CD69 /* buyCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buyCargoViewController.h; path = ../buyCargoViewController.h; sourceTree = "<group>"; };
-		899BFFFC0E91AE6B00C4CD69 /* buyCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = buyCargoViewController.m; path = ../buyCargoViewController.m; sourceTree = "<group>"; };
+		899BFFFB0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyCargoViewControllerRENAME.h; path = ../BuyCargoViewControllerRENAME.h; sourceTree = "<group>"; };
+		899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyCargoViewControllerRENAME.m; path = ../BuyCargoViewControllerRENAME.m; sourceTree = "<group>"; };
 		89A3A9FE0E94225A00B18001 /* shipYard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shipYard.xib; sourceTree = "<group>"; };
 		89A3AA040E94245D00B18001 /* ShipYardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipYardViewController.h; path = ../ShipYardViewController.h; sourceTree = "<group>"; };
 		89A3AA050E94245D00B18001 /* ShipYardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipYardViewController.m; path = ../ShipYardViewController.m; sourceTree = "<group>"; };
@@ -909,10 +909,10 @@
 			children = (
 				F36A2B240EA569670032180E /* BuyVargoTableView.h */,
 				F36A2B250EA569670032180E /* BuyVargoTableView.m */,
-				899BFFFB0E91AE6B00C4CD69 /* buyCargoViewController.h */,
+				899BFFFB0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.h */,
 				899B00A60E91B86D00C4CD69 /* buyCargoView.h */,
 				899B00A70E91B86D00C4CD69 /* buyCargoView.m */,
-				899BFFFC0E91AE6B00C4CD69 /* buyCargoViewController.m */,
+				899BFFFC0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.m */,
 			);
 			name = "Buy cargo";
 			sourceTree = "<group>";
@@ -1306,7 +1306,7 @@
 				89A9C4AD0E90564500A6A030 /* newCommanderView.m in Sources */,
 				899BFC320E917DA400C4CD69 /* commandViewController.m in Sources */,
 				899BFD7C0E918A8400C4CD69 /* helloWindowViewController.m in Sources */,
-				899BFFFD0E91AE6B00C4CD69 /* buyCargoViewController.m in Sources */,
+				899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewControllerRENAME.m in Sources */,
 				899B00A80E91B86D00C4CD69 /* buyCargoView.m in Sources */,
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,
 				89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */,
