@@ -8783,6 +8783,8 @@ long GetScore( char EndStatus, int Days, long Worth, char Level ) {
 
 -(void)clearHighScores {
 	InitHighScores();
+  [self SaveHighScore:@"scores"];
+
 }
 
 NSString* DifficultyLevel[MAXDIFFICULTY] =

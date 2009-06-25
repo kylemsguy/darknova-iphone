@@ -25,6 +25,10 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 	UIViewController *saveGameViewController = [[[SaveGameViewController alloc] initWithNibName:@"saveGames" bundle:nil] autorelease];
 	UIViewController *helpViewControllerInst = [[[HelpViewController alloc] initWithNibName:@"help" bundle:nil] autorelease];
 	UIViewController *highScores = [[[HighScoresViewController alloc] initWithNibName:@"highScores" bundle:nil] autorelease];
+  
+  clearHighScoreAlert=[[[UIAlertView alloc] initWithTitle:@"Clear HighScores" message:@"Do you want to clear high scores?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil] retain];
+  retireAlert=[[[UIAlertView alloc] initWithTitle:@"Retire" message:@"Do you really want to retire?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil] retain];
+
 	
 	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
 						 NSLocalizedString(@"Options", @""), @"title",
@@ -56,11 +60,11 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 						 highScores, @"viewController",
 						 nil]];	
 	
-/*	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
+	[menuList addObject:[NSDictionary dictionaryWithObjectsAndKeys:
 						 NSLocalizedString(@"Clear High Scores", @""), @"title",
 						 nil, @"viewController",
 						 nil]];	
-*/
+
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -77,6 +81,8 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 {
 	[menuList release];
 	[myTableView release];
+  [clearHighScoreAlert release];
+  [retireAlert release];
 	
 	[super dealloc];
 }
@@ -108,10 +114,22 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex  // after animation
 {
-	if (buttonIndex == 1) {
-		S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-		[app.gamePlayer showRetiredForm];
-	}
+
+  if(alertView == clearHighScoreAlert) {
+    if (buttonIndex == 1) {  
+      S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
+      [app.gamePlayer clearHighScores];
+    }    
+    [myTableView deselectRowAtIndexPath:[myTableView indexPathForSelectedRow] animated:NO];
+  } 
+
+  if(alertView == retireAlert) {
+    if (buttonIndex == 1) {
+      S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
+      [app.gamePlayer showRetiredForm];
+    }
+  }  
+  
 }
 // the table's selection has changed, switch to that item's UIViewController
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -147,8 +165,7 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 		case 4:
 		{	
 
-			UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Retire" message:@"Are you really want to retire?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil] autorelease];
-			[alert show];	
+			[retireAlert show];	
 		}
 			break;
 		case 5: 
@@ -158,13 +175,12 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 			
 		}
 			break;
-/*  commented this out until issue 18 can properly be addressed
- case 6:
+    case 6:
 		{
-			
+			[clearHighScoreAlert show];	
+      
 		}
 			break;
- */
 	}
 }
  

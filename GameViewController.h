@@ -3,6 +3,9 @@
 
 @interface GameViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	NSMutableArray			*menuList;
+  UIAlertView         *clearHighScoreAlert;
+  UIAlertView         *retireAlert;
+
 	IBOutlet UITableView	*myTableView;
 }
 
