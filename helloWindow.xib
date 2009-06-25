@@ -148,7 +148,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>HelloWindowViewControllerRENAME</string>
+					<string>HelloWindowViewController</string>
 					<string>UIResponder</string>
 					<string>{{682, 435}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -182,7 +182,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">HelloWindowViewControllerRENAME</string>
+					<string key="className">HelloWindowViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<string key="NS.key.0">myAction1:</string>
