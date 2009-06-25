@@ -46,7 +46,7 @@
 		89A3AB420E94380D00B18001 /* SellCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3AB410E94380D00B18001 /* SellCargoViewController.m */; };
 		89A9C4400E904E9800A6A030 /* systemInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A9C43F0E904E9800A6A030 /* systemInfo.xib */; };
 		89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */; };
-		89A9C4AD0E90564500A6A030 /* NewCommanderViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4AC0E90564500A6A030 /* NewCommanderViewRENAME.m */; };
+		89A9C4AD0E90564500A6A030 /* NewCommanderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4AC0E90564500A6A030 /* NewCommanderView.m */; };
 		89AE3B290E93135C006B5B98 /* SellCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE3B280E93135C006B5B98 /* SellCargoView.m */; };
 		89AE3B520E9314FB006B5B98 /* sellCargo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89AE3B510E9314FB006B5B98 /* sellCargo.xib */; };
 		89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C54F3B0E92C18B008ECDA8 /* MainToolBar.m */; };
@@ -284,8 +284,8 @@
 		89A9C43F0E904E9800A6A030 /* systemInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = systemInfo.xib; sourceTree = "<group>"; };
 		89A9C4440E90504C00A6A030 /* SystemInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemInfoViewController.h; path = ../SystemInfoViewController.h; sourceTree = "<group>"; };
 		89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystemInfoViewController.m; path = ../SystemInfoViewController.m; sourceTree = "<group>"; };
-		89A9C4AB0E90564500A6A030 /* NewCommanderViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCommanderViewRENAME.h; path = ../NewCommanderViewRENAME.h; sourceTree = "<group>"; };
-		89A9C4AC0E90564500A6A030 /* NewCommanderViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCommanderViewRENAME.m; path = ../NewCommanderViewRENAME.m; sourceTree = "<group>"; };
+		89A9C4AB0E90564500A6A030 /* NewCommanderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCommanderView.h; path = ../NewCommanderView.h; sourceTree = "<group>"; };
+		89A9C4AC0E90564500A6A030 /* NewCommanderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCommanderView.m; path = ../NewCommanderView.m; sourceTree = "<group>"; };
 		89AE3B270E93135C006B5B98 /* SellCargoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SellCargoView.h; path = ../SellCargoView.h; sourceTree = "<group>"; };
 		89AE3B280E93135C006B5B98 /* SellCargoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SellCargoView.m; path = ../SellCargoView.m; sourceTree = "<group>"; };
 		89AE3B510E9314FB006B5B98 /* sellCargo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sellCargo.xib; sourceTree = "<group>"; };
@@ -675,8 +675,8 @@
 				89DF15AF0E8CE0CA00FFCE8C /* StartGameViewController.m */,
 				899BFD7A0E918A8400C4CD69 /* HelloWindowViewController.h */,
 				899BFD7B0E918A8400C4CD69 /* HelloWindowViewController.m */,
-				89A9C4AB0E90564500A6A030 /* NewCommanderViewRENAME.h */,
-				89A9C4AC0E90564500A6A030 /* NewCommanderViewRENAME.m */,
+				89A9C4AB0E90564500A6A030 /* NewCommanderView.h */,
+				89A9C4AC0E90564500A6A030 /* NewCommanderView.m */,
 			);
 			name = "New game";
 			sourceTree = "<group>";
@@ -1303,7 +1303,7 @@
 				89DF15700E8CDD2000FFCE8C /* Player.m in Sources */,
 				89DF15B00E8CE0CA00FFCE8C /* StartGameViewController.m in Sources */,
 				89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */,
-				89A9C4AD0E90564500A6A030 /* NewCommanderViewRENAME.m in Sources */,
+				89A9C4AD0E90564500A6A030 /* NewCommanderView.m in Sources */,
 				899BFC320E917DA400C4CD69 /* CommandViewController.m in Sources */,
 				899BFD7C0E918A8400C4CD69 /* HelloWindowViewController.m in Sources */,
 				899BFFFD0E91AE6B00C4CD69 /* BuyCargoViewController.m in Sources */,

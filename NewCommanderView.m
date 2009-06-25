@@ -1,7 +1,7 @@
-#import "NewCommanderViewRENAME.h"
+#import "NewCommanderView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
-@implementation NewCommanderViewRENAME
+@implementation NewCommanderView
 
 /*
 - (IBAction)decDifficulty {
