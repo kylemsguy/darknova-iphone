@@ -47,7 +47,7 @@
 		89A9C4400E904E9800A6A030 /* systemInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A9C43F0E904E9800A6A030 /* systemInfo.xib */; };
 		89A9C4460E90504C00A6A030 /* SystemInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */; };
 		89A9C4AD0E90564500A6A030 /* newCommanderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A9C4AC0E90564500A6A030 /* newCommanderView.m */; };
-		89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE3B280E93135C006B5B98 /* sellCargoView.m */; };
+		89AE3B290E93135C006B5B98 /* SellCargoViewRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE3B280E93135C006B5B98 /* SellCargoViewRENAME.m */; };
 		89AE3B520E9314FB006B5B98 /* sellCargo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89AE3B510E9314FB006B5B98 /* sellCargo.xib */; };
 		89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C54F3B0E92C18B008ECDA8 /* MainToolBar.m */; };
 		89C54FD10E92C77F008ECDA8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C54FD00E92C77F008ECDA8 /* CoreFoundation.framework */; };
@@ -286,8 +286,8 @@
 		89A9C4450E90504C00A6A030 /* SystemInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystemInfoViewController.m; path = ../SystemInfoViewController.m; sourceTree = "<group>"; };
 		89A9C4AB0E90564500A6A030 /* newCommanderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newCommanderView.h; path = ../newCommanderView.h; sourceTree = "<group>"; };
 		89A9C4AC0E90564500A6A030 /* newCommanderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newCommanderView.m; path = ../newCommanderView.m; sourceTree = "<group>"; };
-		89AE3B270E93135C006B5B98 /* sellCargoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sellCargoView.h; path = ../sellCargoView.h; sourceTree = "<group>"; };
-		89AE3B280E93135C006B5B98 /* sellCargoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sellCargoView.m; path = ../sellCargoView.m; sourceTree = "<group>"; };
+		89AE3B270E93135C006B5B98 /* SellCargoViewRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SellCargoViewRENAME.h; path = ../SellCargoViewRENAME.h; sourceTree = "<group>"; };
+		89AE3B280E93135C006B5B98 /* SellCargoViewRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SellCargoViewRENAME.m; path = ../SellCargoViewRENAME.m; sourceTree = "<group>"; };
 		89AE3B510E9314FB006B5B98 /* sellCargo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sellCargo.xib; sourceTree = "<group>"; };
 		89C54F3B0E92C18B008ECDA8 /* MainToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainToolBar.m; path = ../MainToolBar.m; sourceTree = "<group>"; };
 		89C54F3C0E92C18B008ECDA8 /* MainToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainToolBar.h; path = ../MainToolBar.h; sourceTree = "<group>"; };
@@ -922,8 +922,8 @@
 			children = (
 				89A3AB400E94380D00B18001 /* SellCargoViewController.h */,
 				89A3AB410E94380D00B18001 /* SellCargoViewController.m */,
-				89AE3B270E93135C006B5B98 /* sellCargoView.h */,
-				89AE3B280E93135C006B5B98 /* sellCargoView.m */,
+				89AE3B270E93135C006B5B98 /* SellCargoViewRENAME.h */,
+				89AE3B280E93135C006B5B98 /* SellCargoViewRENAME.m */,
 			);
 			name = "Sell Cargo";
 			sourceTree = "<group>";
@@ -1310,7 +1310,7 @@
 				899B00A80E91B86D00C4CD69 /* buyCargoView.m in Sources */,
 				89C54F3D0E92C18B008ECDA8 /* MainToolBar.m in Sources */,
 				89C551040E92DA6D008ECDA8 /* GameViewController.m in Sources */,
-				89AE3B290E93135C006B5B98 /* sellCargoView.m in Sources */,
+				89AE3B290E93135C006B5B98 /* SellCargoViewRENAME.m in Sources */,
 				89A3AA060E94245D00B18001 /* ShipYardViewController.m in Sources */,
 				89A3AA400E942A4D00B18001 /* BuyEquipmentViewController.m in Sources */,
 				89A3AA5C0E942B6500B18001 /* SellEquipmentViewController.m in Sources */,

@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 #include "spacetrader.h"
 
-@interface sellCargoView : UIView {
+@interface SellCargoViewRENAME : UIView {
     IBOutlet UIButton *cargo1;
     IBOutlet UIButton *cargo10;
     IBOutlet UIButton *cargo2;
