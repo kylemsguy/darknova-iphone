@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface NewsViewControllerRENAME : UIViewController {
+@interface NewsViewController : UIViewController {
     IBOutlet UITextView *text;
 }
 

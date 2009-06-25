@@ -2,7 +2,7 @@
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "commandViewController.h"
-#import "NewsViewControllerRENAME.h"
+#import "NewsViewController.h"
 @implementation SystemInfoViewController
 
 
@@ -79,7 +79,7 @@
 {	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer payForNewsPaper:1];
-	NewsViewControllerRENAME * targetViewController = [[NewsViewControllerRENAME alloc] initWithNibName:@"news"  bundle:nil];
+	NewsViewController * targetViewController = [[NewsViewController alloc] initWithNibName:@"news"  bundle:nil];
 	[self.navigationController pushViewController:targetViewController animated:YES];
 	targetViewController.text.text = [app.gamePlayer drawNewspaperForm];
 	[targetViewController release];

@@ -76,7 +76,7 @@
 		F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670A0EF48547006AAB4B /* mainSystemInfoView.m */; };
 		F392670E0EF48550006AAB4B /* newsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F392670D0EF48550006AAB4B /* newsView.m */; };
 		F39267460EF48F8A006AAB4B /* news.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39267450EF48F8A006AAB4B /* news.xib */; };
-		F392674A0EF48FBE006AAB4B /* NewsViewControllerRENAME.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */; };
+		F392674A0EF48FBE006AAB4B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39267480EF48FBE006AAB4B /* NewsViewController.m */; };
 		F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A240EF5EA2B00ECA84D /* OptionsViewController.m */; };
 		F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3971A720EF5EA7A00ECA84D /* OptionsCell.m */; };
 		F3B1815B0EF853A800B57222 /* command.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B181560EF853A800B57222 /* command.png */; };
@@ -333,8 +333,8 @@
 		F392670C0EF48550006AAB4B /* newsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsView.h; path = ../newsView.h; sourceTree = "<group>"; };
 		F392670D0EF48550006AAB4B /* newsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsView.m; path = ../newsView.m; sourceTree = "<group>"; };
 		F39267450EF48F8A006AAB4B /* news.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = news.xib; path = Classes/news.xib; sourceTree = "<group>"; };
-		F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewControllerRENAME.m; path = ../NewsViewControllerRENAME.m; sourceTree = "<group>"; };
-		F39267490EF48FBE006AAB4B /* NewsViewControllerRENAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewControllerRENAME.h; path = ../NewsViewControllerRENAME.h; sourceTree = "<group>"; };
+		F39267480EF48FBE006AAB4B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
+		F39267490EF48FBE006AAB4B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
 		F3971A230EF5EA2B00ECA84D /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = ../OptionsViewController.h; sourceTree = "<group>"; };
 		F3971A240EF5EA2B00ECA84D /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = ../OptionsViewController.m; sourceTree = "<group>"; };
 		F3971A710EF5EA7A00ECA84D /* OptionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsCell.h; sourceTree = "<group>"; };
@@ -932,8 +932,8 @@
 			isa = PBXGroup;
 			children = (
 				F392674B0EF4900A006AAB4B /* News */,
-				F39267480EF48FBE006AAB4B /* NewsViewControllerRENAME.m */,
-				F39267490EF48FBE006AAB4B /* NewsViewControllerRENAME.h */,
+				F39267480EF48FBE006AAB4B /* NewsViewController.m */,
+				F39267490EF48FBE006AAB4B /* NewsViewController.h */,
 				F39267090EF48547006AAB4B /* mainSystemInfoView.h */,
 				F392670A0EF48547006AAB4B /* mainSystemInfoView.m */,
 				F392670C0EF48550006AAB4B /* newsView.h */,
@@ -1347,7 +1347,7 @@
 				F39264D10EF35159006AAB4B /* FileSaveCell.m in Sources */,
 				F392670B0EF48547006AAB4B /* mainSystemInfoView.m in Sources */,
 				F392670E0EF48550006AAB4B /* newsView.m in Sources */,
-				F392674A0EF48FBE006AAB4B /* NewsViewControllerRENAME.m in Sources */,
+				F392674A0EF48FBE006AAB4B /* NewsViewController.m in Sources */,
 				F3971A250EF5EA2B00ECA84D /* OptionsViewController.m in Sources */,
 				F3971A730EF5EA7A00ECA84D /* OptionsCell.m in Sources */,
 				F3BEE2140EF73D010098DF74 /* OptionsProtocol.m in Sources */,
