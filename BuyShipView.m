@@ -2,7 +2,7 @@
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
-#import "ShipInfoViewControllerRENAME.h"
+#import "ShipInfoViewController.h"
 
 
 @implementation BuyShipView
@@ -92,7 +92,7 @@
 {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (app.shipInfoController == 0) {
-		app.shipInfoController = [[[ShipInfoViewControllerRENAME alloc] initWithNibName:@"shipInfo" bundle:nil] autorelease];
+		app.shipInfoController = [[[ShipInfoViewController alloc] initWithNibName:@"shipInfo" bundle:nil] autorelease];
 	}
 	
 	[app.shipInfoController setShip:ship];

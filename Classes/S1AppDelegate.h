@@ -19,7 +19,7 @@
 #import "GameViewController.h"
 #import "SaveGameViewController.h"
 #import "HelpViewController.h"
-#import "ShipInfoViewControllerRENAME.h"
+#import "ShipInfoViewController.h"
 #import "BuyShipViewController.h"
 #import "HelpViewController.h"
 
@@ -52,14 +52,14 @@
 	bool isGameLoaded;
 	BuyShipViewController * buyShipController;
 	
-	ShipInfoViewControllerRENAME * shipInfoController;	
+	ShipInfoViewController * shipInfoController;	
 //	AudioPlayer* audioPlayer;
 
 }
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) commandViewController *commandView;
-@property (nonatomic, retain) ShipInfoViewControllerRENAME *shipInfoController;
+@property (nonatomic, retain) ShipInfoViewController *shipInfoController;
 @property (nonatomic, retain) BuyShipViewController *buyShipController;
 @property (nonatomic, retain) GameViewController* gameView;
 @property (nonatomic, retain) UINavigationController *navigationController;

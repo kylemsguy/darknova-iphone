@@ -1,7 +1,7 @@
-#import "ShipInfoViewControllerRENAME.h"
+#import "ShipInfoViewController.h"
 #import "shipInfoView.h"
 
-@implementation ShipInfoViewControllerRENAME
+@implementation ShipInfoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
