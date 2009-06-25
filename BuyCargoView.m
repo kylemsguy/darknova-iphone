@@ -1,9 +1,9 @@
-#import "BuyCargoViewRENAME.h"
+#import "BuyCargoView.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
 #import "AlertModalWindow.h"
 
-@implementation BuyCargoViewRENAME
+@implementation BuyCargoView
 
 -(void)setTitleToButton:(UIButton*) cargo num:(int)num maxButton:(UIButton*)maxButton{
 	if (num > 0) {

@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 #include "spacetrader.h"
 
-@interface BuyCargoViewRENAME : UIView<UIAlertViewDelegate> {
+@interface BuyCargoView : UIView<UIAlertViewDelegate> {
     IBOutlet UIButton *cargo1;
     IBOutlet UIButton *cargo10;
     IBOutlet UIButton *cargo2;
