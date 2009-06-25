@@ -1,7 +1,7 @@
-#import "startGameViewController.h"
+#import "StartGameViewControllerRENAME.h"
 #import "S1AppDelegate.h"
 #import "Player.h"
-@implementation startGameViewController
+@implementation StartGameViewControllerRENAME
 
 
 - (IBAction)closeWindow {

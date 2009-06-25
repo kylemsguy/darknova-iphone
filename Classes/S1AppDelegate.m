@@ -8,7 +8,7 @@
 
 #import "S1AppDelegate.h"
 #import <UIKit/UIKit.h>
-#import "startGameViewController.h"
+#import "StartGameViewControllerRENAME.h"
 #import "Player.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreFoundation/CoreFoundation.h>
@@ -227,7 +227,7 @@ bool bStartNewGame;
 -(IBAction) startNewGame 
 {
 	if (newGame == 0)
-		newGame = [[startGameViewController alloc] initWithNibName:@"startView" bundle:nil];
+		newGame = [[StartGameViewControllerRENAME alloc] initWithNibName:@"startView" bundle:nil];
 	//[self.navigationController pushViewController:newGame animated:TRUE];
 	NSArray* arr = [NSArray arrayWithObjects:newGame, nil];	
 	self.navigationController.viewControllers = arr;

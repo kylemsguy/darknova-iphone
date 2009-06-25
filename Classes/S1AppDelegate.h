@@ -12,7 +12,7 @@
 #import "Player.h"
 #import <Foundation/NSRunLoop.h>
 #import "AlertModalWindow.h"
-#import "startGameViewController.h"
+#import "StartGameViewControllerRENAME.h"
 #import "StartGameToolBar.h"
 #import "AudioPlayer.h"
 #import "CommandViewController.h"
@@ -45,7 +45,7 @@
 	IBOutlet GameViewController* gameView;
 	IBOutlet BankViewController* mainBankViewController;
 //	IBOutlet startGameViewController* startViewController;
-	startGameViewController * newGame;
+	StartGameViewControllerRENAME * newGame;
 	SaveGameViewController * saveGame;
 
 	Player * gamePlayer;
