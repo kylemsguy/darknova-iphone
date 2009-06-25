@@ -13,7 +13,7 @@
 #import "ShortRangeChartViewController.h"
 #import "GalacticChartViewController.h"
 
-@interface commandViewController : UIViewController  {
+@interface CommandViewControllerRENAME : UIViewController  {
 
 	BuyCargoViewController * buyCargoViewControllerImpl;
 	SellCargoViewController * sellCargoViewControllerImpl;

@@ -1,8 +1,8 @@
-#import "commandViewController.h"
+#import "CommandViewControllerRENAME.h"
 
 #import "S1AppDelegate.h"
 
-@implementation commandViewController
+@implementation CommandViewControllerRENAME
 
 -(id)initGlobals
 {
