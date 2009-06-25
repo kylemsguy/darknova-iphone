@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import "BuyCargoViewControllerRENAME.h"
+#import "BuyCargoViewController.h"
 #import "CommanderStatusViewController.h"
 #import "BankViewController.h"
 #import "SellCargoViewController.h"
@@ -15,7 +15,7 @@
 
 @interface commandViewController : UIViewController  {
 
-	BuyCargoViewControllerRENAME * buyCargoViewControllerImpl;
+	BuyCargoViewController * buyCargoViewControllerImpl;
 	SellCargoViewController * sellCargoViewControllerImpl;
 	ShipYardViewController * shipYardViewControllerImpl;
 	BuyEquipmentViewController * buyEquipmentViewControllerImpl;
