@@ -2507,6 +2507,17 @@ bool bDummyAlert;
 
 -(void) doWarp:(bool)viaSingularity {
 	int i, Distance;
+
+  // TODO put a check in here so it won't warp to the current system
+  if( currentSystem == warpSystem) {
+		UIAlertView * myAlertView = [[UIAlertView alloc] initWithTitle:@"Already There!" message:NSLocalizedString(@"You cannot warp to that system, you are already there.", @"")  
+                                                          delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		
+		[myAlertView show];
+		[myAlertView release];		
+		bLastMessage = false;
+		return;		    
+  } 
 	
 	Distance = [self realDistance: currentSystem b:warpSystem] ;
 	if (Distance > [self getFuel] && !viaSingularity &&![self wormholeExists:currentSystem b:warpSystem]) {
