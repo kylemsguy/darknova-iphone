@@ -138,8 +138,8 @@ typedef struct {
 	Byte MinTechLevel;      // Mininum tech level needed
 	Byte MaxTechLevel; 		// Maximum tech level where this is found
 	Byte BribeLevel;		// Indicates how easily someone can be bribed 0 = unbribeable/high bribe costs
-	Boolean DrugsOK;		// Drugs can be traded (if not, people aren't interested or the governemnt is too strict)
-	Boolean FirearmsOK;		// Firearms can be traded (if not, people aren't interested or the governemnt is too strict)
+	Boolean DrugsOk;		// Drugs can be traded (if not, people aren't interested or the governemnt is too strict)
+	Boolean FirearmsOk;		// Firearms can be traded (if not, people aren't interested or the governemnt is too strict)
 	int Wanted;				// Tradeitem requested in particular in this type of government
 } POLITICS;
 
@@ -1385,8 +1385,8 @@ inline long BaseSellPrice(int Index, int Price) {
 	{
 		if (solarSystem[SystemID].TechLevel < Tradeitem[i].TechProduction)
 			BuyPrice[i] = 0;
-		else if (((i == NARCOTICS) && (!Politics[solarSystem[SystemID].Politics].DrugsOK)) ||
-				 ((i == FIREARMS) &&	(!Politics[solarSystem[SystemID].Politics].FirearmsOK)))
+		else if (((i == NARCOTICS) && (!Politics[solarSystem[SystemID].Politics].DrugsOk)) ||
+				 ((i == FIREARMS) &&	(!Politics[solarSystem[SystemID].Politics].FirearmsOk)))
 			BuyPrice[i] = 0;
 		else
 		{
@@ -1407,9 +1407,9 @@ inline long BaseSellPrice(int Index, int Price) {
 	for (i=0; i<MAXTRADEITEM; ++i)
 	{
 		if (((i == NARCOTICS) &&
-			 (!Politics[solarSystem[Index].Politics].DrugsOK)) ||
+			 (!Politics[solarSystem[Index].Politics].DrugsOk)) ||
 			((i == FIREARMS) &&
-			 (!Politics[solarSystem[Index].Politics].FirearmsOK)) ||
+			 (!Politics[solarSystem[Index].Politics].FirearmsOk)) ||
 			(solarSystem[Index].TechLevel < Tradeitem[i].TechProduction))
 		{
 			solarSystem[Index].Qty[i] = 0;
@@ -1454,8 +1454,8 @@ inline long BaseSellPrice(int Index, int Price) {
 {
     long Price;
 	
-    if (((Good == NARCOTICS) && (!Politics[Government].DrugsOK)) ||
-		((Good == FIREARMS) &&	(!Politics[Government].FirearmsOK)))
+    if (((Good == NARCOTICS) && (!Politics[Government].DrugsOk)) ||
+		((Good == FIREARMS) &&	(!Politics[Government].FirearmsOk)))
 		return 0L ;
 	
 	// Determine base price on techlevel of system
@@ -2179,7 +2179,7 @@ bool bDummyAlert;
 
 
 -(void)FrmAlertWithState:(NSString *)MessageId state:(eAlertState)state {
-	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Alert" message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Alert" message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] autorelease];
 	[alert show];	
 //	[alert release];
 	currentState = state;
@@ -2188,14 +2188,14 @@ bool bDummyAlert;
 
 
 -(void)FrmAlert:(NSString *)MessageId{
-	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Alert" message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:@"Alert" message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] autorelease];
 	[alert show];	
 	currentState = eDummy;	
 	bLastMessage = false;
 }
 
 -(void)FrmAlertWithTitle:(NSString *)MessageId Title:(NSString*)Title{
-	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:Title message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert=[[[UIAlertView alloc] initWithTitle:Title message:NSLocalizedString(MessageId, @"") delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] autorelease];
 	[alert show];	
 	currentState = eDummy;	
 //	[alert release];	
@@ -5269,7 +5269,7 @@ SellCargoViewController * opponentViewControllerInstance;
 		ship.Cargo[NARCOTICS] <= 0)
 	{
 		//TODO:!!!!!!!!!!!!
-		//if (FrmAlert( SureToFleeOrBribeAlert ) == SureToFleeOrBribeOKIwont)
+		//if (FrmAlert( SureToFleeOrBribeAlert ) == SureToFleeOrBribeOkIwont)
 		//	return true;
 	}
 	
@@ -5337,7 +5337,7 @@ SellCargoViewController * opponentViewControllerInstance;
 	else if (ENCOUNTERFAMOUS( encounterType ))
 	{
 		//if (encounterType != FAMOUSCAPATTACK &&
-		//	FrmAlert( SureToAttackFamousAlert ) == SureToAttackFamousOKIWont)
+		//	FrmAlert( SureToAttackFamousAlert ) == SureToAttackFamousOkIWont)
 		//	return true;
 		if (policeRecordScore > VILLAINSCORE)
 			policeRecordScore = VILLAINSCORE;
@@ -5372,7 +5372,7 @@ SellCargoViewController * opponentViewControllerInstance;
 		ship.Cargo[NARCOTICS] <= 0 && wildStatus != 1 && (reactorStatus == 0 || reactorStatus == 21))
 	{
 		// TODO:!!!
-		//if (FrmAlert( SureToFleeOrBribeAlert ) == SureToFleeOrBribeOKIwont)
+		//if (FrmAlert( SureToFleeOrBribeAlert ) == SureToFleeOrBribeOkIwont)
 		//	return true;
 	}
 	
@@ -5387,7 +5387,7 @@ SellCargoViewController * opponentViewControllerInstance;
 	else if (encounterType == POSTMARIEPOLICEENCOUNTER)
 	{
 		//TODO:!!!!
-		//if (FrmAlert( SureToFleePostMarieAlert ) != SureToFleePostMarieOKIwont)
+		//if (FrmAlert( SureToFleePostMarieAlert ) != SureToFleePostMarieOkIwont)
 		{
 			encounterType = POLICEATTACK;
 			if (policeRecordScore >= CRIMINALSCORE)
