@@ -18,8 +18,7 @@
 	[app.gamePlayer Travel];
 }
 
--(UIImage*) drawShip:(bool)player
-{
+-(UIImage*) drawShip:(bool)player {
 
 	long hull, shield, maxShield, hullMax;
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
@@ -28,8 +27,7 @@
 		shield = [app.gamePlayer getShipShield] ;
 		maxShield = [app.gamePlayer getShipShieldMax] ;
 		hullMax = [app.gamePlayer getShipHullMax];
-	}
-	else {
+	} else {
 		hull = [app.gamePlayer getShipOpponentHull];
 		shield = [app.gamePlayer getShipOpponentShield];		
 		maxShield = [app.gamePlayer getShipShieldMax] 	;
@@ -46,11 +44,9 @@
 
 	NSString * tmp;
 	float aspect;
-	if (currentShieldAspect > 0.0f)
-	{
+	if (currentShieldAspect > 0.0f) {
 		aspect = currentShieldAspect;
-		if (player)
-		{
+		if (player) {
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getCurrentShipType]];
 			fullDamage = [UIImage imageNamed: tmp];
 			//[tmp release];
@@ -58,9 +54,7 @@
 			fullHull = [UIImage imageNamed:tmp];
 			//[tmp release];
 			
-		}
-		else
-		{
+		} else {
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getShipOpponentType]];
 			fullDamage = [UIImage imageNamed:tmp];
 			//[tmp release];
@@ -69,21 +63,16 @@
 			//[tmp release];
 		}
 		
-	}
-	else
-	{
+	} else {
 		aspect = currentHullAspect;
-		if (player)
-		{
+		if (player) {
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getCurrentShipType]];
 			fullHull = [UIImage imageNamed:tmp];
 			//[tmp release];			
 			tmp = [app.gamePlayer getShipDamagedImageName:[app.gamePlayer getCurrentShipType]];
 			fullDamage = [UIImage imageNamed:tmp];
 			//[tmp release];			
-		}
-		else
-		{
+		} else {
 			tmp = [app.gamePlayer getShipImageName:[app.gamePlayer getShipOpponentType]];
 			fullHull = [UIImage imageNamed:tmp];
 			//[tmp release];			
@@ -137,21 +126,15 @@
 }
 
 
--(void) dealloc 
-{
-	
-	//[attackImage.image release];
-	//[attackImage2.image release];  
+-(void) dealloc {
 	[super dealloc];
-	
 }
 
 
 -(void)drawShips {
 	
-	/*for (int i = 0; i < 100; ++i) */{
-		
-	
+	/*for (int i = 0; i < 100; ++i) */
+  {
 	UIImage * i1 = [self drawShip:true];
 	//[att
 	attackImage.image = i1;
@@ -280,87 +263,55 @@
 // *************************************************************************
 // Display on the encounter screen what the next action will be
 // *************************************************************************
--(void) encounterDisplayNextAction:(bool) FirstDisplay
-{
+-(void) encounterDisplayNextAction:(bool) FirstDisplay {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	Player * pPlayer = app.gamePlayer;
 	int EncounterType = pPlayer.encounterType;
 	
-	if (EncounterType == POLICEINSPECTION)
-	{
+	if (EncounterType == POLICEINSPECTION) {
 		message1Labe2.text = @"The police summon you to submit to an inspection";
-	}
-	else if (EncounterType == POSTMARIEPOLICEENCOUNTER)
-	{
+	} else if (EncounterType == POSTMARIEPOLICEENCOUNTER) {
 		message1Labe2.text = @"We know you removed illegal goods from the Marie Celeste. You must give them up at once!";
-	}
-	else if (FirstDisplay && EncounterType == POLICEATTACK && 
-			 pPlayer.policeRecordScore > CRIMINALSCORE)
-	{
+	} else if (FirstDisplay && EncounterType == POLICEATTACK && pPlayer.policeRecordScore > CRIMINALSCORE) {
 		message1Labe2.text = @"The police hail they want you to surrender.";
-	}
-	else if (EncounterType == POLICEFLEE || EncounterType == TRADERFLEE ||
-			 EncounterType == PIRATEFLEE)
+	} else if (EncounterType == POLICEFLEE || EncounterType == TRADERFLEE || EncounterType == PIRATEFLEE)
 		message1Labe2.text = @"Your opponent is fleeing.";
-	else if (EncounterType == PIRATEATTACK || EncounterType == POLICEATTACK ||
-			 EncounterType == TRADERATTACK || EncounterType == SPACEMONSTERATTACK ||
-			 EncounterType == DRAGONFLYATTACK || EncounterType == SCARABATTACK ||
-			 EncounterType == FAMOUSCAPATTACK)
+	else if (EncounterType == PIRATEATTACK || EncounterType == POLICEATTACK || EncounterType == TRADERATTACK || EncounterType == SPACEMONSTERATTACK || EncounterType == DRAGONFLYATTACK || EncounterType == SCARABATTACK || EncounterType == FAMOUSCAPATTACK)
 		message1Labe2.text = @ "Your opponent attacks.";
-	else if (EncounterType == TRADERIGNORE || EncounterType == POLICEIGNORE ||
-			 EncounterType == SPACEMONSTERIGNORE || EncounterType == DRAGONFLYIGNORE || 
-			 EncounterType == PIRATEIGNORE || EncounterType == SCARABIGNORE)
-	{
+	else if (EncounterType == TRADERIGNORE || EncounterType == POLICEIGNORE || EncounterType == SPACEMONSTERIGNORE || EncounterType == DRAGONFLYIGNORE || EncounterType == PIRATEIGNORE || EncounterType == SCARABIGNORE) {
 		if ([pPlayer isShipCloaked])
 			message1Labe2.text = @"It doesn't notice you.";
 		else
 			message1Labe2.text = @"It ignores you.";
-	}
-	else if (EncounterType == TRADERSELL || EncounterType == TRADERBUY)
-	{
+	} else if (EncounterType == TRADERSELL || EncounterType == TRADERBUY) {
 	//	[self.view addSubview:encounterTypeImage];
 	//	encounterTypeImage.image = [UIImage imageNamed:@"trader.png"];
 		message1Labe2.text = @"You are hailed with an offer to trade goods.";
-	}
-	else if (EncounterType == TRADERSURRENDER || EncounterType == PIRATESURRENDER)
-	{
+	} else if (EncounterType == TRADERSURRENDER || EncounterType == PIRATESURRENDER) {
 		[self.view addSubview:encounterTypeImage];
 		encounterTypeImage.image = [UIImage imageNamed:@"trader.png"];		
 		message1Labe2.text = @"Your opponent hails that he surrenders to you.";
-	}
-	else if (EncounterType == MARIECELESTEENCOUNTER)
-	{
+	} else if (EncounterType == MARIECELESTEENCOUNTER) {
 		message1Labe2.text = @ "The Marie Celeste appears to be completely abandoned.";
-	}
-	else if (ENCOUNTERFAMOUS(EncounterType) && EncounterType != FAMOUSCAPATTACK)
-	{
+	} else if (ENCOUNTERFAMOUS(EncounterType) && EncounterType != FAMOUSCAPATTACK) {
 		message1Labe2.text = @"The Captain requests a brief meeting with you.";
-	}
-	else if (EncounterType == BOTTLEOLDENCOUNTER ||
-	         EncounterType == BOTTLEGOODENCOUNTER)
-	{
+	} else if (EncounterType == BOTTLEOLDENCOUNTER || EncounterType == BOTTLEGOODENCOUNTER) {
 		message1Labe2.text = @"It appears to be a rare bottle of Captain Marmoset's Skill Tonic!";
-    }
+  }
 	
 }
+
 -(void) showEncounterWindow {
 	[self encounterButtons];
 	[self encounterDisplayNextAction:TRUE];
-	
-
-	//EncounterDisplayShips();
-	//EncounterDisplayNextAction( true );
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	Player * pPlayer = app.gamePlayer;
 	int EncounterType = pPlayer.encounterType;
 	
-	if (EncounterType == POSTMARIEPOLICEENCOUNTER)
-	{
+	if (EncounterType == POSTMARIEPOLICEENCOUNTER) {
 		message1Label.text = @"You encounter the Customs Police.";
-	}
-	else
-	{
+	} else {
 		NSString * shipType;
 		NSString * shipName = [pPlayer getShipName:[pPlayer getShipOpponentType]];
 		
@@ -369,23 +320,18 @@
 			[self.view addSubview:encounterTypeImage];
 			encounterTypeImage.image = [UIImage imageNamed:@"Police.png"];		
 			shipType =@"a police";
-		}
-		else if (ENCOUNTERPIRATE( EncounterType ))
-		{
+		} else if (ENCOUNTERPIRATE( EncounterType )) {
 			[self.view addSubview:encounterTypeImage];
 			encounterTypeImage.image = [UIImage imageNamed:@"Pirate.png"];			
 			if ([pPlayer getShipOpponentType] == MANTISTYPE)
 				shipType =@"an alien";
 			else
 				shipType =@"a pirate";
-		}
-		else if (ENCOUNTERTRADER( EncounterType )){
-			
+		} else if (ENCOUNTERTRADER( EncounterType )){
 			[self.view addSubview:encounterTypeImage];
 			encounterTypeImage.image = [UIImage imageNamed:@"trader.png"];		
 			shipType =@"a trader";
-		}
-		else if (ENCOUNTERMONSTER( EncounterType ))
+		} else if (ENCOUNTERMONSTER( EncounterType ))
 			shipType =@" ";
 		else if (EncounterType == MARIECELESTEENCOUNTER)
 			shipType =@"a drifting ship";
@@ -400,8 +346,7 @@
 		else
 			shipType =@"a stolen";
 		if (message1Label.text.length == 0)
-		message1Label.text = [NSString  stringWithFormat:@"At %i clicks from %@ you encounter %@ %@.", pPlayer.clicks, [pPlayer getSolarSystemName:pPlayer.warpSystem],
-		shipType, shipName]; 
+		 message1Label.text = [NSString  stringWithFormat:@"At %i clicks from %@ you encounter %@ %@.", pPlayer.clicks, [pPlayer getSolarSystemName:pPlayer.warpSystem], shipType, shipName]; 
 		
 	
 	}			
@@ -418,118 +363,91 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-	if (self)
-	{
+	if (self) {
 		self.title = NSLocalizedString(@"Encounter", @"");//
 	}
 	return self;
 }
 
--(IBAction) attack
-{
+-(IBAction) attack {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer attack];
+	[app.gamePlayer attack];
 	[self showEncounterWindow];
 }
 
--(IBAction) flee
-{
+-(IBAction) flee {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer flee];
+	[app.gamePlayer flee];
 	[self showEncounterWindow];
 }
 
--(IBAction) ignore
-{
+-(IBAction) ignore {
 	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer ignore];
+	[app.gamePlayer ignore];
 	[self showEncounterWindow];
 }
 
--(void) SetLabelText:(NSString*)text
-{
+-(void) SetLabelText:(NSString*)text {
 	message1Label.text = text;
-	//[self.view 
 }
--(void) SetLabel2Text:(NSString*)text
-{
+
+-(void) SetLabel2Text:(NSString*)text {
 	message1Labe2.text = text;
 }
 
 -(IBAction) trade {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer trade];	
+	[app.gamePlayer trade];	
 }
 
 -(IBAction)yield {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer yield];		
+	[app.gamePlayer yield];		
 }
 
--(IBAction)surrender 
-{
+-(IBAction)surrender {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer surrender];		
+	[app.gamePlayer surrender];		
 	
 }
 
 
--(IBAction)bribe 
-{
+-(IBAction)bribe {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer bribe];		
+	[app.gamePlayer bribe];		
 }
 
--(IBAction)submit 
-{
+-(IBAction)submit {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer submit];		
+	[app.gamePlayer submit];		
 }
 
--(IBAction)plunder 
-{
+-(IBAction)plunder {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer plunder];		
+	[app.gamePlayer plunder];		
 }
 
--(IBAction)interrupt 
-{
+-(IBAction)interrupt {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer interrupt];		
+	[app.gamePlayer interrupt];		
 }
 
--(IBAction)meet 
-{
+-(IBAction)meet {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer meet];		
+	[app.gamePlayer meet];		
 }
 
--(IBAction)board 
-{
+-(IBAction)board {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer board];		
+	[app.gamePlayer board];		
 }
 
--(IBAction)drink 
-{
+-(IBAction)drink {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	Player * pPlayer = app.gamePlayer;
-	[pPlayer drink];		
+	[app.gamePlayer drink];		
 }
 
 

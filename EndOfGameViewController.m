@@ -6,8 +6,7 @@
 @implementation EndOfGameViewController
 
 
--(void)showShipDestroyedImage
-{
+-(void)showShipDestroyedImage {
 	self.view = shipDestroyedView;
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (app.gamePlayer.escapePod)
@@ -17,16 +16,14 @@
 	[app.gamePlayer eraseAutoSave];
 }
 
--(void)showPoorEndGameImage
-{
+-(void)showPoorEndGameImage {
 	self.view = shipPoorEndGameView;
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer playSound:eYouRetirePoorly];	
 	[app.gamePlayer eraseAutoSave];	
 }
 
--(void)showHappyEndImage
-{
+-(void)showHappyEndImage {
 	self.view = shipHappyEndView;
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer playSound:eYouRetirelavishly];
@@ -34,8 +31,7 @@
 }
 
 
--(IBAction) startNewGame
-{
+-(IBAction) startNewGame {
 	[self.view removeFromSuperview];
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	

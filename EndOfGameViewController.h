@@ -6,10 +6,10 @@
 
 
 @interface EndOfGameViewController : UIViewController {
-	IBOutlet RetireShipDestroyedView * shipDestroyedView;
-	IBOutlet HappyEndView* shipHappyEndView;
-	IBOutlet PoorEndGameView * shipPoorEndGameView;
-	IBOutlet RetireShipDestroyedView * shipDestroyedWithPodView;	
+	IBOutlet RetireShipDestroyedView *shipDestroyedView;
+	IBOutlet HappyEndView *shipHappyEndView;
+	IBOutlet PoorEndGameView *shipPoorEndGameView;
+	IBOutlet RetireShipDestroyedView *shipDestroyedWithPodView;	
 }
 
 -(void)showShipDestroyedImage;

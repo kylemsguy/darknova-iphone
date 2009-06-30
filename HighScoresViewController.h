@@ -3,7 +3,7 @@
 
 @interface HighScoresViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	NSMutableArray			*menuList;	
-    IBOutlet id tableView;
+  IBOutlet id tableView;
 }
 
 @end
