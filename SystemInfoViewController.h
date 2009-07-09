@@ -10,8 +10,6 @@
 	IBOutlet	UIButton*	systemSpecial;	
 }
 
-@property (nonatomic, retain)	UILabel*	systemMessage;	
-
 
 -(IBAction)doQuests;
 -(IBAction)showNews;

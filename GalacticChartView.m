@@ -16,7 +16,6 @@
 
 -(void)drawView:(CGContextRef)context bounds:(CGRect)bounds
 {
-	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	
 	//FIXME:!!!
@@ -42,7 +41,8 @@
 	float delta = 2.2;
 	if (fuel)
 	{
-		CGContextAddArc(context, Xs, Ys,  fuel * delta, 0, 2*3.1416f, 1);
+		//CGContextAddArc(context, Xs, Ys,  fuel * delta, 0, 2*3.1416f, 1);
+		CGContextAddArc(context, Xs, Ys,  fuel * delta + 3, 0, 2*3.1416f, 1);
 	}
 	
 	CGContextStrokePath(context);

@@ -85,7 +85,6 @@ WarpViewController * targetViewController = 0;
 	int Ys = (int)((SHORTRANGEHEIGHT >> 1) + BOUNDSY);
 	int delta = (SHORTRANGEWIDTH / (MAXRANGE << 1));
 	
-	
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	
 	
@@ -103,7 +102,9 @@ WarpViewController * targetViewController = 0;
 	int fuel = [app.gamePlayer getFuel];
 	if (fuel)
 	{
-		CGContextAddArc(context, Xs, Ys,  fuel * delta, 0, 2*3.1416f, 1);
+		//CGContextAddArc(context, Xs, Ys,  fuel * delta, 0, 2*3.1416f, 1);
+		// Duke changed.
+		CGContextAddArc(context, Xs, Ys,  fuel * delta + 3, 0, 2*3.1416f, 1);
 	}
 	
 	CGContextStrokePath(context);

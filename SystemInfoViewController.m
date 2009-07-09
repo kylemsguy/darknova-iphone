@@ -71,6 +71,7 @@
 
 -(IBAction)doQuests
 {
+	NSLog(@"doQuests");
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer drawQuestsForm:self];
 }
@@ -135,6 +136,7 @@
 
 -(IBAction)showSpecial
 {
+	NSLog(@"showSpecial");
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer showSpecialEvent]; //	[app commandCommand];
 	[app.gamePlayer setInfoViewController:self];

@@ -97,7 +97,9 @@
 		
 		NSString * value = [[(AlertModalWindow*)alertView myTextField] text];
 		unsigned int val = value.intValue;
-		[app.gamePlayer buyCargo:activeTradeItem Amount:buyCargoViewValue[val]];
+		// Duke changed.
+//		[app.gamePlayer buyCargo:activeTradeItem Amount:buyCargoViewValue[val]];
+		[app.gamePlayer buyCargo:activeTradeItem Amount:val];
 		[self UpdateView];	
 	} else if (button == 2) {
 		

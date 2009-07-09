@@ -325,7 +325,7 @@ const SHIPTYPE Shiptype[MAXSHIPTYPE+EXTRASHIPS] =
 { "Nanomite", 10, 0, 0, 0, 1, MAXRANGE, 4, 1, 2000, 5, 2, 25, -1, -1, 0, 1, 0 },
 { "Minox", 15, 1, 0, 1, 1, 14, 5, 2, 10000, 50, 28, 100, 0, 0, 0, 1, 1 },
 { "Spathi Scout", 20, 1, 1, 1, 1, 17, 5, 3, 25000, 75, 20, 100, 0, 0, 0, 1, 1 },
-{ "T-16 Womprat", 15, 2, 1, 1, 1, 13, 5, 5, 30000, 100, 20, 100, 0, 1, 0, 1, 1 },
+{ "T-16 Womprat", 15, 2, 1, 1, 1, 13000, 5, 5, 30000, 100, 20, 100, 0, 1, 0, 1, 1 },
 { "Vorchan", 25, 1, 2, 2, 2, 15, 5, 7, 60000, 125, 15, 100, 1, 1, 0, 1, 2 },
 { "Hirogen Freighter", 50, 0, 1, 1, 3, 14, 5, 10, 80000, 50, 3, 50, -1, -1, 0, 1, 2 },
 { "Vorlon Cruiser", 20, 3, 2, 1, 2, 16, 6, 15, 100000, 200, 6, 150, 2, 3, 1, 2, 3 },
@@ -1001,6 +1001,7 @@ const char* TechLevel[MAXTECHLEVEL] =
 	totalSkillPoints = 16;
 	
 	credits = 1000;
+//	credits = 999999999;
 	debt = 0;
 	policeRecordScore = 0;
 	reputationScore = 0;
@@ -2029,6 +2030,7 @@ void RandSeed( UInt16 seed1, UInt16 seed2 )
 	}
 	if (k >= 0)
 	{
+		//solarSystem[NIXSYSTEM].Special = EXPERIMENT;
 		solarSystem[k].Special = EXPERIMENT;
 		solarSystem[DALEDSYSTEM].Special = EXPERIMENTSTOPPED;
 	}
@@ -2085,6 +2087,7 @@ void RandSeed( UInt16 seed1, UInt16 seed2 )
 	}
 	
 	credits = 1000;
+//	credits = 9999999999999;
 	debt = 0;
 	days = 0;
 	warpSystem = currentSystem;
@@ -2393,7 +2396,6 @@ bool bDummyAlert;
 		[self FrmAlert:@"CantAffordAlert"];
 		return;
 	}
-	
 	ToBuy = min( Amount, CURSYSTEM.Qty[Index] );
 	ToBuy = min( ToBuy, [self totalCargoBays] - [self filledCargoBays] - leaveEmpty );
 	ToBuy = min( ToBuy, [self toSpend] / BuyPrice[Index] );
@@ -4339,7 +4341,8 @@ SellCargoViewController * opponentViewControllerInstance;
 				encounterType = SCARABIGNORE;
 			else
 				encounterType = SCARABATTACK;
-
+			// Duke changed.
+			[self showEncounteredWindow];
 			return;
 		} 
 		// Encounter with stolen Dragonfly
@@ -4409,7 +4412,6 @@ SellCargoViewController * opponentViewControllerInstance;
 				if (artifactOnBoard && GetRandom( 20 ) <= 3)
 					Mantis = true;
 		}
-		
 		// Encounter with police
 		if (Police)
 		{
@@ -4569,8 +4571,9 @@ SellCargoViewController * opponentViewControllerInstance;
 			}
 			
 			// Will there be trade in orbit?
-			if (encounterType == TRADERIGNORE && (GetRandom(1000) < ChanceOfTradeInOrbit))
+			if (encounterType == TRADERIGNORE && /*(GetRandom(1000) < ChanceOfTradeInOrbit)*/1)
 			{
+				NSLog(@"should be allowed to trade");
 				if ([self filledCargoBays] < [self totalCargoBays] &&
 				    [self HasTradeableItems:&Opponent theSystem:warpSystem Operation:TRADERSELL])
 					encounterType = TRADERSELL;
@@ -4606,6 +4609,7 @@ SellCargoViewController * opponentViewControllerInstance;
 			[self showEncounteredWindow];
 			return;
 		}
+		 
 		// Very Rare Random Events:
 		// 1. Encounter the abandoned Marie Celeste, which you may loot.
 		// 2. Captain Ahab will trade your Reflective Shield for skill points in Piloting.
@@ -6038,7 +6042,7 @@ SellCargoViewController * opponentViewControllerInstance;
 		currentState = eTradeInOrbit;
 		activeTradeItem = i;
 		NSString * message = [NSString stringWithFormat:@"The trader wants to buy %@, and offers %i  cr. each. You have %i unit(s) available. \n \
-							  You paid about %i  cr. per unit. How many do you wish to sell?\n\n", Tradeitem[i].Name,SellPrice[i], ship.Cargo[i],
+							  You paid about %i  cr. per unit. How many do you wish to sell?\n\n", [NSString stringWithCString:Tradeitem[i].Name],SellPrice[i], ship.Cargo[i],
 							  BuyingPrice[i] / ship.Cargo[i]];
 		
 		
@@ -6079,7 +6083,7 @@ SellCargoViewController * opponentViewControllerInstance;
 		currentState = eSellInOrbit;
 		activeTradeItem = i;
 		NSString * message = [NSString stringWithFormat:@"The trader wants to sell %@, for the price of %i  cr. each. The trader has %i unit(s) for sale. \n \
-							  You can afford %i unit(s). How many do you wish to buy?\n\n", Tradeitem[i].Name, BuyPrice[i],  Opponent.Cargo[i],
+		You can afford %i unit(s). How many do you wish to buy?\n\n", [NSString stringWithCString:Tradeitem[i].Name], BuyPrice[i],  Opponent.Cargo[i],
 							  credits / BuyPrice[i]];
 		
 		
@@ -6597,6 +6601,14 @@ SellCargoViewController * opponentViewControllerInstance;
 // Returns number of open quests.
 -(int) OpenQuests
 {
+	// DUKE debugging code.
+	/*if (dragonflyStatus == 0)
+		dragonflyStatus = 1;
+	if (monsterStatus == 0)
+		monsterStatus = 1;
+	if (experimentStatus == 0)
+		experimentStatus = 1;
+	*/
 	int r = 0;
 	
 	if (monsterStatus == 1)
@@ -6649,7 +6661,7 @@ SellCargoViewController * opponentViewControllerInstance;
 
 
 -(NSString*) drawQuestsForm {
-
+	NSLog(@"drawQuestsForm");
 	NSMutableString *header = [[NSMutableString alloc] init];
 
 	if([self OpenQuests])
@@ -7783,8 +7795,8 @@ typedef struct
     } else if (CURSYSTEM.Special == ALIENINVASION) {
       [self addNewsEvent:ALIENINVASION];
     } else if (CURSYSTEM.Special == EXPERIMENTSTOPPED && experimentStatus > 0 && experimentStatus < 12) {
-			experimentStatus = 13;
-		  [self addNewsEvent:EXPERIMENTSTOPPED];
+		[self addNewsEvent:EXPERIMENTSTOPPED];
+			//experimentStatus = 13;
 		} else if (CURSYSTEM.Special == EXPERIMENTNOTSTOPPED) {
       [self addNewsEvent:EXPERIMENTNOTSTOPPED];
     }
@@ -7807,6 +7819,10 @@ typedef struct
 
 -(bool)IsSpecialExist {
 	int OpenQ = [self OpenQuests];
+	
+	// DUKE fix
+	if (currentSystem == ACAMARSYSTEM && CURSYSTEM.Special == 0)
+		return false;
 
 	if  ((CURSYSTEM.Special < 0) || 
 		 (CURSYSTEM.Special == BUYTRIBBLE && ship.Tribbles <= 0) ||
@@ -8328,7 +8344,7 @@ NSString * SoundsList[] = {
 
 -(void)showSpecialEvent
 {
-	
+	NSLog(@"showSpecialEvent");
 	NSString * title = [NSString stringWithCString:SpecialEvent[CURSYSTEM.Special].Title];
 	NSString * text = NSLocalizedString([NSString stringWithCString:SpecialEvent[CURSYSTEM.Special].QuestStringID], @"")	;
 
@@ -8421,9 +8437,12 @@ NSString * SoundsList[] = {
 		[systemInfoController UpdateView];
 		return;
 	}
+	// DUKE debug code.
+	/*if (experimentStatus == 0)
+		CURSYSTEM.Special = EXPERIMENT;*/
 	
 	credits -= SpecialEvent[CURSYSTEM.Special].Price;
-	
+	NSLog(@"cur System special: %d", CURSYSTEM.Special);
 	switch (CURSYSTEM.Special) {
 			
 		case GETREACTOR:
@@ -8506,18 +8525,22 @@ NSString * SoundsList[] = {
 			break;
 			
 		case FLYBARATAS:
+			NSLog(@"flybaratas");
 			++dragonflyStatus;
 			break;
 			
 		case FLYMELINA:
+			NSLog(@"flymelina");
 			++dragonflyStatus;
 			break;
 			
 		case FLYREGULAS:
+			NSLog(@"flyregulas");
 			++dragonflyStatus;
 			break;
 			
 		case DRAGONFLYDESTROYED:
+			NSLog(@"dragonflydestroyed");
 			/*CURSYSTEM.Special*/solarSystem[ZALKONSYSTEM].Special = INSTALLLIGHTNINGSHIELD;
 			handled = true;
 			break;
@@ -8696,6 +8719,7 @@ NSString * SoundsList[] = {
 			break;
 			
 		case INSTALLLIGHTNINGSHIELD:
+			NSLog(@"installlingshield");
 			FirstEmptySlot = [self GetFirstEmptySlot:Shiptype[ship.Type].ShieldSlots Item:ship.Shield];
 			currentState = eUpdateSpecial;
 			if (FirstEmptySlot < 0) {
