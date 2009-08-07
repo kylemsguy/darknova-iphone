@@ -5,43 +5,51 @@
 #import "NewsViewController.h"
 @implementation SystemInfoViewController
 
+/*@synthesize	systemName;
+@synthesize	systemSize;
+@synthesize	systemTechLevel;
+@synthesize	systemGoverment;
+@synthesize	systemResources;
+@synthesize	systemPolice;	
+@synthesize	systemPirates;
+@synthesize	systemMessage;	*/
 
+
+-(IBAction)testClick {
+//	UIViewController * targetViewController = [[UIViewController alloc] initWithNibName:@"startView" bundle:nil];
+//	[[self navigationController] presentModalViewController:targetViewController animated:YES];		
+}
 
 -(void) UpdateView {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
-
-	NSString *systemInfoTemplatePath = [[NSBundle mainBundle] pathForResource:@"SystemInfoTemplate" ofType:@"txt"];  
-	NSString *systemInfoTemplateText = [NSString stringWithContentsOfFile:systemInfoTemplatePath];  
-	NSString* htmlContent = [NSString stringWithFormat:systemInfoTemplateText,	[app.gamePlayer getCurrentSystemName],
-																				[app.gamePlayer getCurrentSystemSize],
-																				[app.gamePlayer getCurrentSystemTechLevel],
-																				[app.gamePlayer getCurrentSystemPolitics],
-																				[app.gamePlayer getCurrentSystemSpecalResources],
-																				[app.gamePlayer getCurrentSystemPolice],
-																				[app.gamePlayer getCurrentSystemPirates]];
-//	[app.gamePlayer getCurrentSystem
-
-    [systemInfoContent setBackgroundColor: [UIColor clearColor]];
-    [systemInfoContent loadHTMLString:htmlContent baseURL:nil];
+	systemName.text = [app.gamePlayer getCurrentSystemName];
+	systemSize.text = [app.gamePlayer getCurrentSystemSize];
+	systemTechLevel.text = [app.gamePlayer getCurrentSystemTechLevel];	
+	systemGoverment.text = [app.gamePlayer getCurrentSystemPolitics];	
+	systemPirates.text = [app.gamePlayer getCurrentSystemPirates];
+	systemPolice.text = [app.gamePlayer getCurrentSystemPolice];
+	systemResources.text = [app.gamePlayer getCurrentSystemSpecalResources];
 	
-	if ([app.gamePlayer IsNewsExist]) {
+	if ([app.gamePlayer IsNewsExist])
+	{
 		[self.view addSubview:systemNews];
-	} else {
+	}
+	else
 		[ systemNews removeFromSuperview];
-	}
 		
-	if ([app.gamePlayer IsHireExist]) {
+	if ([app.gamePlayer IsHireExist])
+	{
 		[self.view addSubview:systemHire];
-	} else {
+	}
+	else
 		[ systemHire removeFromSuperview];
-	}
-		
-	if ([app.gamePlayer IsSpecialExist]) {
+
+	if ([app.gamePlayer IsSpecialExist])
+	{
 		[self.view addSubview:systemSpecial];
-	} else {
-		[ systemSpecial removeFromSuperview];
 	}
-		
+	else
+		[ systemSpecial removeFromSuperview];
 	
 	
 }
@@ -71,7 +79,6 @@
 
 -(IBAction)doQuests
 {
-	NSLog(@"doQuests");
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer drawQuestsForm:self];
 }
@@ -136,7 +143,6 @@
 
 -(IBAction)showSpecial
 {
-	NSLog(@"showSpecial");
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];	
 	[app.gamePlayer showSpecialEvent]; //	[app commandCommand];
 	[app.gamePlayer setInfoViewController:self];
