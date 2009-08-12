@@ -1395,13 +1395,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos2.1]" = "iPhone Developer: Alexey Medvedev";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos2.1]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = S1;
+				"PROVISIONING_PROFILE[sdk=iphoneos2.1]" = "";
 				SDKROOT = iphoneos2.1;
 			};
 			name = Debug;
@@ -1411,11 +1412,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexey Medvedev";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos2.1]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "67927D33-CA6F-4BF6-B3CF-2298936D327C";
+				"PROVISIONING_PROFILE[sdk=iphoneos2.1]" = "";
 				SDKROOT = iphoneos2.1;
 			};
 			name = Release;

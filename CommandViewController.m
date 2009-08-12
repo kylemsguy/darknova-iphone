@@ -113,6 +113,7 @@
 }
 
 -(IBAction) systemInformation {
+	NSLog(@"systemInformation");
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
 	if (SystemInfoViewControllerImpl == 0)
 		SystemInfoViewControllerImpl = [[SystemInfoViewController alloc] initWithNibName:@"systemInfo" bundle:nil];

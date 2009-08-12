@@ -4896,7 +4896,7 @@ SellCargoViewController * opponentViewControllerInstance;
 	
 	//	if (clicks > 0) {
 	S1AppDelegate * app = (S1AppDelegate *)[[UIApplication sharedApplication] delegate];
-	UIViewController * targetViewController = [[SystemInfoViewController alloc] initWithNibName:@"systemInfo" bundle:nil];
+	SystemInfoViewController * targetViewController = [[SystemInfoViewController alloc] initWithNibName:@"systemInfo" bundle:nil];
 	[[app navigationController] popViewControllerAnimated:NO];
 	encounterWindow = false;	
 	//[encounterViewControllerInstance release];
@@ -5712,7 +5712,7 @@ SellCargoViewController * opponentViewControllerInstance;
 				Opponent.Cargo[i] -= j;
 				BuyingPrice[i] += (j * BuyPrice[i]);
 				credits -= (j * BuyPrice[i]);
-				[self FrmAlertWithTitle:[NSString stringWithFormat:@"Thanks for buying the %@.", Tradeitem[activeTradeItem].Name ] Title:@"Trade Completed"];
+				[self FrmAlertWithTitle:[NSString stringWithFormat:@"Thanks for buying the %s.", Tradeitem[activeTradeItem].Name ] Title:@"Trade Completed"];
 			}
 			
 			[self Travel];
