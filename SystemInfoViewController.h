@@ -9,7 +9,8 @@
 	IBOutlet	UILabel*	systemResources;
 	IBOutlet	UILabel*	systemPolice;	
 	IBOutlet	UILabel*	systemPirates;
-	IBOutlet	UILabel*	systemMessage;	
+//	IBOutlet	UILabel*	systemMessage;	
+	IBOutlet	UITextView*	systemMessage;	
 	
 	IBOutlet	UIButton*	systemNews;
 	IBOutlet	UIButton*	systemHire;
