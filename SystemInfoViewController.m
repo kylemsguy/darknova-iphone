@@ -29,13 +29,13 @@
 	systemPirates.text = [app.gamePlayer getCurrentSystemPirates];
 	systemPolice.text = [app.gamePlayer getCurrentSystemPolice];
 	systemResources.text = [app.gamePlayer getCurrentSystemSpecalResources];
-	systemMessage.text = [app.gamePlayer drawNewspaperForm];
+	systemMessage.text = [app.gamePlayer getCurrentSystemStatus];
 	
-	/*if ([app.gamePlayer IsNewsExist])
+	if ([app.gamePlayer IsNewsExist])
 	{
 		[self.view addSubview:systemNews];
 	}
-	else*/
+	else
 		[ systemNews removeFromSuperview];
 		
 	if ([app.gamePlayer IsHireExist])
