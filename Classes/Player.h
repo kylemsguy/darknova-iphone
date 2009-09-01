@@ -393,6 +393,7 @@ enum eSystemSound
 -(void)enableSound;
 -(bool)isSoundEnabled;
 
+-(NSString*)getCurrentSystemStatus;
 -(NSString*)drawNewspaperForm;
 -(void)showSpecialEvent;
 -(void) specialEventFormHandleEvent;

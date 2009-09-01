@@ -8019,6 +8019,30 @@ NSString * SoundsList[] = {
   }
 }
 
+-(NSString*)getCurrentSystemStatus
+{
+	// local system status information
+	if (CURSYSTEM.Status > 0) {
+		switch (CURSYSTEM.Status) {
+			case WAR:
+				return @"War News: Offensives Continue!";
+			case PLAGUE:
+				return @"Plague Spreads! Outlook Grim.";
+			case DROUGHT:
+				return @"No Rain in Sight!";
+			case BOREDOM:
+				return @"Editors: Won't Someone Entertain Us?";
+			case COLD:
+				return @"Cold Snap Continues!";
+			case CROPFAILURE:
+				return @"Serious Crop Failure! Must We Ration?";
+			case LACKOFWORKERS:
+				return @"Jobless Rate at All-Time Low!";
+		}
+	}
+	return @"";
+}
+
 -(NSString*)drawNewspaperForm {
   Boolean realNews = false;
 	NSMutableString* headLine = [[NSMutableString alloc] init];
