@@ -8030,8 +8030,6 @@ NSString * SoundsList[] = {
 				return @"Plague Spreads! Outlook Grim.";
 			case DROUGHT:
 				return @"No Rain in Sight!";
-			case BOREDOM:
-				return @"Editors: Won't Someone Entertain Us?";
 			case COLD:
 				return @"Cold Snap Continues!";
 			case CROPFAILURE:
