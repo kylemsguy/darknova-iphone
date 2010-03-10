@@ -9,14 +9,37 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4C7779410FDEEE1600245B3A /* S1 */;
+		activeSDKPreference = iphonesimulator3.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* S1 */;
 		codeSenseManager = 4C7779570FDEEE3600245B3A /* Code sense */;
 		executables = (
 			4C7779410FDEEE1600245B3A /* S1 */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 266268182;
-			PBXWorkspaceStateSaveDate = 266268182;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289941538;
+			PBXWorkspaceStateSaveDate = 289941538;
 		};
 		sourceControlManager = 4C7779560FDEEE3600245B3A /* Source Control */;
 		userBuildSettings = {
@@ -33,8 +56,12 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -42,6 +69,7 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = S1;
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
@@ -50,6 +78,9 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
 	4C7779570FDEEE3600245B3A /* Code sense */ = {
