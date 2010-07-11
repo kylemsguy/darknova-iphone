@@ -1,0 +1,4026 @@
+TDark Nova
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004B47D7B70000000000000110
+t1262999479
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004ABDBC03000000000000E37C
+t1253948419
+s58236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004ABDBC030000000000000A22
+t1253948419
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004ABDBB6400000000000D0230
+t1253948260
+s852528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004ABDBB57000000000000F342
+t1253948247
+s62274
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
+c000000004ABDB8B40000000000004980
+t1253947572
+s18816
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004ABDD36400000000000028E4
+t1253954404
+s10468
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004ABDD3640000000000000092
+t1253954404
+s146
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004ABDD36F00000000000C32C0
+t1253954415
+s799424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004ABDBC8800000000000064FD
+t1253948552
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004ABDBC880000000000001F45
+t1253948552
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004ABDBC8C000000000003AB60
+t1253948556
+s240480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDC85900000000001C27F0
+t1253951577
+s1845232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/mach/mach.h
+c000000004ABDA9170000000000001057
+t1253943575
+s4183
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/math.h
+c000000004ABDAF4A00000000000004F1
+t1253945162
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/pthread.h
+c000000004ABDAF79000000000000380F
+t1253945209
+s14351
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/57_icon.png
+c000000004BD8CADC0000000000000318
+t1272498908
+s792
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/App_Prefix.pch
+c000000004BCC8B2F0000000000000390
+t1271696175
+s912
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/AirWrench.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Ambiance.m4a
+c000000004BCF8839000000000007A5A8
+t1271892025
+s501160
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Buy.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Cancel.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/CashReg.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Commands
+c000000004BD8C9A000000000000005B6
+t1272498592
+s1462
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Encounter.m4a
+c000000004BCF8839000000000007A5A8
+t1271892025
+s501160
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/FireLaser.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/HyperWarp.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/LedLum.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Pling.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Pock.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/PoliceEncounter.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/PowerDown.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Refuel.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Sounds
+c000000004BD130180000000000000198
+t1272000536
+s408
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/SwitchClick.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Systems
+c000000004BD8C8F60000000000001188
+t1272498422
+s4488
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/TransportTo.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/Tribble.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/WelcomeTo.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/WormJump.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/WormJumpArrive.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Audio/YourHit.caf
+c000000004BD8C8470000000000001000
+t1272498247
+s4096
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/AudioFX.h
+c000000004BCC8B3000000000000007EA
+t1271696176
+s2026
+i<Foundation/Foundation.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/AudioFX.m
+c000000004BCC8B300000000000000A7D
+t1271696176
+s2685
+i<AudioToolbox/AudioServices.h>
+i"AudioFX.h"
+i"Audio_Internal.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/Audio_Internal.h
+c000000004BCC8B300000000000000DB8
+t1271696176
+s3512
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundEngine.cpp
+c000000004BCC8B30000000000000CB49
+t1271696176
+s52041
+i<AudioToolbox/AudioToolbox.h>
+i<CoreFoundation/CFURL.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<map>
+i<vector>
+i<pthread.h>
+i<mach/mach.h>
+i"SoundEngine.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundEngine.h
+c000000004BCC8B300000000000003CC4
+t1271696176
+s15556
+i<CoreAudio/CoreAudioTypes.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundManager.h
+c000000004BCC8B30000000000000055F
+t1271696176
+s1375
+i<UIKit/UIKit.h>
+i"AudioFX.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundManager.m
+c000000004BCC8B300000000000000E05
+t1271696176
+s3589
+i"SoundManager.h"
+i"AudioFX.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Cargo.png
+c000000004BCC8B3000000000000007C4
+t1271696176
+s1988
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/GPTA.png
+c000000004BCC8B30000000000000010E
+t1271696176
+s270
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/HyperWARP.png
+c000000004BCC8B3000000000000017AC
+t1271696176
+s6060
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Info.png
+c000000004BCC8B30000000000000040F
+t1271696176
+s1039
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Log.png
+c000000004BCC8B30000000000000040F
+t1271696176
+s1039
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long0.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long1.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long10.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long11.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long12.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long13.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long14.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long15.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long16.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long2.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long3.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long4.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long5.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long6.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long7.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long8.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Long9.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_LongPAD.png
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short0.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short1.png
+c000000004BCC8B3000000000000001C8
+t1271696176
+s456
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short10.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short11.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short12.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short13.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short14.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short15.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short16.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short2.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short3.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short4.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short5.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short6.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short7.png
+c000000004BCC8B300000000000000169
+t1271696176
+s361
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short8.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_Short9.png
+c000000004BCC8B300000000000000158
+t1271696176
+s344
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/PAD_ShortPirate.png
+c000000004BCC8B2F0000000000002773
+t1271696175
+s10099
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Quests.png
+c000000004BCC8B3000000000000001E9
+t1271696176
+s489
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Ship.png
+c000000004BCC8B30000000000000073F
+t1271696176
+s1855
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/Status.png
+c000000004BCC8B3000000000000000B5
+t1271696176
+s181
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Buttons/WormHole.png
+c000000004BCC8B3000000000000017AC
+t1271696176
+s6060
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalTextWindow.h
+c000000004BCC8B3000000000000004F9
+t1271696176
+s1273
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalTextWindow.m
+c000000004BCC8B3000000000000009B3
+t1271696176
+s2483
+i"AlertModalTextWindow.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalWindow.h
+c000000004BCC8B30000000000000053E
+t1271696176
+s1342
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalWindow.m
+c000000004BCC8B300000000000000A59
+t1271696176
+s2649
+i"AlertModalWindow.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppDelegate.h
+c000000004BCC8B300000000000000E5D
+t1271696176
+s3677
+i<UIKit/UIKit.h>
+i"HelloWindowViewController.h"
+i"Player.h"
+i<AudioToolbox/AudioToolbox.h>
+i"AlertModalWindow.h"
+i"AlertModalTextWindow.h"
+i"StartGameViewController.h"
+i"StartGameToolBar.h"
+i"CommandViewController.h"
+i"SaveGameViewController.h"
+i"HelpViewController.h"
+i"ShipInfoViewController.h"
+i"BuyShipViewController.h"
+i"JumpStartViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppDelegate.m
+c000000004BCC8B3000000000000039B3
+t1271696176
+s14771
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+i"StartGameViewController.h"
+i"Player.h"
+i"MainToolBar.h"
+i"SoundEngine.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppSettingsViewController.h
+c000000004BCC8B300000000000000E45
+t1271696176
+s3653
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppSettingsViewController.m
+c000000004BCC8B30000000000000240A
+t1271696176
+s9226
+i"AppSettingsViewController.h"
+i"AppDelegate.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BankViewController.h
+c000000004BCC8B3000000000000009FD
+t1271696176
+s2557
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BankViewController.m
+c000000004BCC8B3000000000000024C2
+t1271696176
+s9410
+i"BankViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"AlertModalWindow.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoView.h
+c000000004BCC8B300000000000001149
+t1271696176
+s4425
+i<UIKit/UIKit.h>
+i"GameDefines.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoView.m
+c000000004BCC8B300000000000001FB8
+t1271696176
+s8120
+i"BuyCargoView.h"
+i"AppDelegate.h"
+i"Player.h"
+i"AlertModalWindow.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoViewController.h
+c000000004BCC8B3000000000000003DA
+t1271696176
+s986
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoViewController.m
+c000000004BCC8B3000000000000009BE
+t1271696176
+s2494
+i"BuyCargoViewController.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyEquipmentViewController.h
+c000000004BCC8B3000000000000011ED
+t1271696176
+s4589
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyEquipmentViewController.m
+c000000004BCC8B3000000000000020A7
+t1271696176
+s8359
+i"BuyEquipmentViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyShipViewController.h
+c000000004BCC8B300000000000001446
+t1271696176
+s5190
+i<UIKit/UIKit.h>
+i"GameDefines.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyShipViewController.m
+c000000004BCC8B300000000000002213
+t1271696176
+s8723
+i"BuyShipViewController.h"
+i"ShipInfoViewController.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CommandViewController.h
+c000000004BCC8B300000000000000BDD
+t1271696176
+s3037
+i<UIKit/UIKit.h>
+i"SellCargoViewController.h"
+i"SystemInfoViewController.h"
+i"ShortRangeChartViewController.h"
+i"ShipYardViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CommandViewController.m
+c000000004BCC8B300000000000002599
+t1271696176
+s9625
+i"CommandViewController.h"
+i"AppDelegate.h"
+i"SaveGameViewController.h"
+i"BuyCargoViewController.h"
+i"CommanderTabBarStatus.h"
+i"BankViewController.h"
+i"SellEquipmentViewController.h"
+i"BuyEquipmentViewController.h"
+i"PersonnelRosterViewController.h"
+i"GalacticChartViewController.h"
+i"GameOptionsViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CreditsViewController.h
+c000000004BCC8B30000000000000053A
+t1271696176
+s1338
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CreditsViewController.m
+c000000004BD1DE6D000000000000123C
+t1272045165
+s4668
+i"CreditsViewController.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EncounterViewController.h
+c000000004BCC8B300000000000001036
+t1271696176
+s4150
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EncounterViewController.m
+c000000004BCC8B30000000000000617F
+t1271696176
+s24959
+i"EncounterViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SoundManager.h"
+i"math.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EndOfGameViewController.h
+c000000004BCC8B300000000000000456
+t1271696176
+s1110
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EndOfGameViewController.m
+c000000004BCC8B300000000000000A6D
+t1271696176
+s2669
+i"EndOfGameViewController.h"
+i"AppDelegate.h"
+i"StartGameViewController.h"
+i"HighScoresViewController.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GPTAViewController.h
+c000000004BCC8B3000000000000005CE
+t1271696176
+s1486
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GPTAViewController.m
+c000000004BCC8B300000000000000B28
+t1271696176
+s2856
+i"GPTAViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartView.h
+c000000004BCC8B300000000000000748
+t1271696176
+s1864
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartView.m
+c000000004BCC8B300000000000002D45
+t1271696176
+s11589
+i"GalacticChartView.h"
+i"AppDelegate.h"
+i"Player.h"
+i"GalacticChartViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartViewController.h
+c000000004BCC8B3000000000000004A9
+t1271696176
+s1193
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartViewController.m
+c000000004BCC8B300000000000000A54
+t1271696176
+s2644
+i"GalacticChartViewController.h"
+i"AppDelegate.h"
+i"ViewerViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GameDefines.h
+c000000004BCC8B300000000000002C26
+t1271696176
+s11302
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GameOptionsViewController.h
+c000000004BCC8B300000000000000951
+t1271696176
+s2385
+i<UIKit/UIKit.h>
+i"SaveGameViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GameOptionsViewController.m
+c000000004BCC8B300000000000001F09
+t1271696176
+s7945
+i"GameOptionsViewController.h"
+i"SoundManager.h"
+i"CommandViewController.h"
+i"AppSettingsViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SettingsViewController.h"
+i"HelpViewController.h"
+i"HighScoresViewController.h"
+i"CreditsViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelloWindowViewController.h
+c000000004BCC8B3000000000000003D1
+t1271696176
+s977
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelloWindowViewController.m
+c000000004BCC8B300000000000000692
+t1271696176
+s1682
+i"HelloWindowViewController.h"
+i"StartGameViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SaveGameViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelpViewController.h
+c000000004BCC8B3000000000000004F6
+t1271696176
+s1270
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelpViewController.m
+c000000004BCC8B300000000000000642
+t1271696176
+s1602
+i"HelpViewController.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HighScoresViewController.h
+c000000004BCC8B3000000000000004ED
+t1271696176
+s1261
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HighScoresViewController.m
+c000000004BCC8B30000000000000127C
+t1271696176
+s4732
+i"HighScoresViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/JumpStartViewController.h
+c000000004BCC8B30000000000000060C
+t1271696176
+s1548
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/JumpStartViewController.m
+c000000004BCC8B3000000000000014C2
+t1271696176
+s5314
+i"JumpStartViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SaveGameCell.h"
+i"SoundManager.h"
+i"AlertModalTextWindow.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/LogViewController.h
+c000000004BCC8B300000000000000548
+t1271696176
+s1352
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/LogViewController.m
+c000000004BCC8B300000000000000A72
+t1271696176
+s2674
+i"LogViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/MainToolBar.h
+c000000004BCC8B300000000000000374
+t1271696176
+s884
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/MainToolBar.m
+c000000004BCC8B300000000000000344
+t1271696176
+s836
+i"MainToolBar.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/NewsViewController.h
+c000000004BCC8B300000000000000451
+t1271696176
+s1105
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/NewsViewController.m
+c000000004BCC8B3000000000000007D1
+t1271696176
+s2001
+i"NewsViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"LogViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PersonnelRosterViewController.h
+c000000004BCC8B300000000000000C13
+t1271696176
+s3091
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PersonnelRosterViewController.m
+c000000004BCC8B300000000000000F42
+t1271696176
+s3906
+i"PersonnelRosterViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PilotCommon.h
+c000000004BD12C480000000000004331
+t1271999560
+s17201
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/Player.h
+c000000004BCC8B300000000000003796
+t1271696176
+s14230
+i<UIKit/UIKit.h>
+i"GameDefines.h"
+i"EncounterViewController.h"
+i"PersonnelRosterViewController.h"
+i"BuyEquipmentViewController.h"
+i"SystemInfoViewController.h"
+i"BuyShipViewController.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/Player.m
+c000000004BCC8B300000000000032F8E
+t1271696176
+s208782
+i"Player.h"
+i"PilotCommon.h"
+i"AppDelegate.h"
+i"EndOfGameViewController.h"
+i"EncounterViewController.h"
+i"SoundManager.h"
+i"ViewerViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PricesView.h
+c000000004BCC8B300000000000000C0C
+t1271696176
+s3084
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PricesView.m
+c000000004BCC8B30000000000000232F
+t1271696176
+s9007
+i"PricesView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/QuestView.h
+c000000004BCC8B3000000000000003B2
+t1271696176
+s946
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/QuestView.m
+c000000004BCC8B300000000000000499
+t1271696176
+s1177
+i"QuestView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameCell.h
+c000000004BCC8B30000000000000040B
+t1271696176
+s1035
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameCell.m
+c000000004BCC8B30000000000000095F
+t1271696176
+s2399
+i"SaveGameCell.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameViewController.h
+c000000004BCC8B300000000000000725
+t1271696176
+s1829
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameViewController.m
+c000000004BCC8B300000000000002037
+t1271696176
+s8247
+i"SaveGameViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SaveGameCell.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoView.h
+c000000004BCC8B300000000000001346
+t1271696176
+s4934
+i<UIKit/UIKit.h>
+i"GameDefines.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoView.m
+c000000004BCC8B300000000000003989
+t1271696176
+s14729
+i"SellCargoView.h"
+i"AppDelegate.h"
+i"Player.h"
+i"AlertModalWindow.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoViewController.h
+c000000004BCC8B3000000000000003A9
+t1271696176
+s937
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoViewController.m
+c000000004BCC8B3000000000000007C0
+t1271696176
+s1984
+i"SellCargoViewController.h"
+i"SellCargoView.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellEquipmentViewController.h
+c000000004BCC8B300000000000000FE2
+t1271696176
+s4066
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellEquipmentViewController.m
+c000000004BCC8B300000000000001796
+t1271696176
+s6038
+i"SellEquipmentViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SettingsViewController.h
+c000000004BCC8B300000000000001444
+t1271696176
+s5188
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SettingsViewController.m
+c000000004BCC8C1B0000000000002AC5
+t1271696411
+s10949
+i"SettingsViewController.h"
+i"HelpViewController.h"
+i"AppDelegate.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoView.h
+c000000004BCC8B3000000000000007BA
+t1271696176
+s1978
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoView.m
+c000000004BCC8B300000000000000B65
+t1271696176
+s2917
+i"ShipInfoView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoViewController.h
+c000000004BCC8B3000000000000003A5
+t1271696176
+s933
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoViewController.m
+c000000004BCC8B3000000000000006DC
+t1271696176
+s1756
+i"ShipInfoViewController.h"
+i"ShipInfoView.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipView.h
+c000000004BCC8B30000000000000055E
+t1271696176
+s1374
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipView.m
+c000000004BCC8B300000000000000963
+t1271696176
+s2403
+i"ShipView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardView.h
+c000000004BCC8B300000000000000915
+t1271696176
+s2325
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardView.m
+c000000004BCC8B300000000000001E4A
+t1271696176
+s7754
+i"ShipYardView.h"
+i"AppDelegate.h"
+i"Player.h"
+i"AlertModalWindow.h"
+i"BuyShipViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardViewController.h
+c000000004BCC8B3000000000000003AC
+t1271696176
+s940
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardViewController.m
+c000000004BCC8B30000000000000084B
+t1271696176
+s2123
+i"ShipYardViewController.h"
+i"BuyShipViewController.h"
+i"AppDelegate.h"
+i"ShipInfoViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartView.h
+c000000004BCC8B30000000000000053F
+t1271696176
+s1343
+i<UIKit/UIKit.h>
+i"WarpViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartView.m
+c000000004BCC8B30000000000000359B
+t1271696176
+s13723
+i"ShortRangeChartView.h"
+i"AppDelegate.h"
+i"SystemInfoViewController.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartViewController.h
+c000000004BCC8B30000000000000037A
+t1271696176
+s890
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartViewController.m
+c000000004BCC8B30000000000000065D
+t1271696176
+s1629
+i"ShortRangeChartViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SpecialCargoView.h
+c000000004BCC8B3000000000000003B1
+t1271696176
+s945
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SpecialCargoView.m
+c000000004BCC8B3000000000000004B6
+t1271696176
+s1206
+i"SpecialCargoView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameToolBar.h
+c000000004BCC8B300000000000000359
+t1271696176
+s857
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameToolBar.m
+c000000004BCC8B300000000000000352
+t1271696176
+s850
+i"StartGameToolBar.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameViewController.h
+c000000004BCC8B3000000000000009A0
+t1271696176
+s2464
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameViewController.m
+c000000004BCC8B300000000000002584
+t1271696176
+s9604
+i"StartGameViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"SoundManager.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StatusView.h
+c000000004BCC8B300000000000000938
+t1271696176
+s2360
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StatusView.m
+c000000004BCC8B300000000000000FC1
+t1271696176
+s4033
+i"StatusView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SystemInfoViewController.h
+c000000004BCC8B3000000000000008B8
+t1271696176
+s2232
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SystemInfoViewController.m
+c000000004BCC8B30000000000000205B
+t1271696176
+s8283
+i"SystemInfoViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"CommandViewController.h"
+i"NewsViewController.h"
+i"GPTAViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CargoViewController.h
+c000000004BCC8B300000000000000367
+t1271696176
+s871
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CargoViewController.m
+c000000004BCC8B3000000000000007F6
+t1271696176
+s2038
+i"CargoViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CargoViewController.xib
+c000000004BCDFE4D00000000000054D0
+t1271791181
+s21712
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CommanderTabBarStatus.h
+c000000004BCC8B300000000000000401
+t1271696176
+s1025
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CommanderTabBarStatus.m
+c000000004BCC8B3000000000000006AB
+t1271696176
+s1707
+i"CommanderTabBarStatus.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CommanderTabBarStatus.xib
+c000000004BCC8B30000000000000B10D
+t1271696176
+s45325
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/GPTATab.xib
+c000000004BCDFE6D000000000000830A
+t1271791213
+s33546
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/QuestsViewController.h
+c000000004BCC8B300000000000000369
+t1271696176
+s873
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/QuestsViewController.m
+c000000004BCC8B3000000000000007F9
+t1271696176
+s2041
+i"QuestsViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/QuestsViewController.xib
+c000000004BCC8B3000000000000051D6
+t1271696176
+s20950
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/ShipViewController.h
+c000000004BCC8B300000000000000365
+t1271696176
+s869
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/ShipViewController.m
+c000000004BCC8B3000000000000007F3
+t1271696176
+s2035
+i"ShipViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/ShipViewController.xib
+c000000004BCC8B300000000000007ABB
+t1271696176
+s31419
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/StatusViewController.h
+c000000004BCC8B300000000000000388
+t1271696176
+s904
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/StatusViewController.m
+c000000004BCC8B30000000000000093F
+t1271696176
+s2367
+i"StatusViewController.h"
+i"LogViewController.h"
+i"AppDelegate.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/StatusViewController.xib
+c000000004BCDFEBC000000000000F6A6
+t1271791292
+s63142
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ViewerViewController.h
+c000000004BCC8B30000000000000047F
+t1271696176
+s1151
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ViewerViewController.m
+c000000004BCC8B300000000000000616
+t1271696176
+s1558
+i"ViewerViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpSystemInfoView.h
+c000000004BCC8B3000000000000009C5
+t1271696176
+s2501
+i<UIKit/UIKit.h>
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpSystemInfoView.m
+c000000004BCC8B300000000000001669
+t1271696176
+s5737
+i"WarpSystemInfoView.h"
+i"AppDelegate.h"
+i"Player.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpViewController.h
+c000000004BCC8B30000000000000055F
+t1271696176
+s1375
+i<UIKit/UIKit.h>
+i"PricesView.h"
+i"WarpSystemInfoView.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpViewController.m
+c000000004BCC8B300000000000000D70
+t1271696176
+s3440
+i"WarpViewController.h"
+i"AppDelegate.h"
+i"Player.h"
+i"GalacticChartViewController.h"
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Default.png
+c000000004BD8CA8D0000000000000986
+t1272498829
+s2438
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Entitlements.plist
+c000000004BCDE10E00000000000000E1
+t1271783694
+s225
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/HTML
+c000000004BD8CB020000000000000088
+t1272498946
+s136
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/1-Nanomite-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/1-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/1-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/1-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/1-Start.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/10-Bank.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/10-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/10-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/10-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/10-VixDreadnaught-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/11-KorahMenace-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/11-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/11-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/11-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/11-SystemInfo.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/12-CommanderStatus.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/12-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/12-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/12-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/13-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/13-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/13-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/13-YouDied.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/14-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/14-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/14-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/15-Bottle.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/2-Galaxy.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/2-Minox-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/2-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/2-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/2-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/3-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/3-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/3-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/3-ShortRangeChart.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/3-SpathiScout-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/4-BuyCargo.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/4-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/4-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/4-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/4-T16Womprat-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/5-SellEquipment.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/5-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/5-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/5-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/5-Vorchan-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/6-HirogenFreighter-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/6-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/6-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/6-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/6-ShipYard.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/7-SellCargo.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/7-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/7-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/7-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/7-VorlonCruiser-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/8-BuyEquip.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/8-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/8-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/8-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/8-YT1300-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/9-PersonnelRoster.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/9-Ship128.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/9-Ship128D.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/9-Ship128S.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/9-TkharUberhauler-Bg.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/BadgeAlert.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/BadgeBlue.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/BadgeTarget.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Blue.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs1.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs2.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs3.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs4.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs5.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs6.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs7.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs8.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ColorTabs9.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Dot.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Dot_Target.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Dot_Visited.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Dot_Wormhole.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/EncounterAlien.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/EncounterMerchant.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/EncounterPirate.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/EncounterPolice.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Galaxy.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/GoldLog.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/GrayLog.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/PlusButton.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Print.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/RetireLavishly.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/RetirePoorly.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/ShortRange.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/Space.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Images/YouDied.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Jump
+c000000004BCC8B3000000000000000CC
+t1271696176
+s204
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Localizable.strings
+c000000004BCC8B310000000000006F3A
+t1271696177
+s28474
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Settings.bundle
+c000000004BCC8B330000000000000088
+t1271696179
+s136
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/AppSettingsView.xib
+c000000004BCC8B31000000000001171B
+t1271696177
+s71451
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Bank.xib
+c000000004BCDFF1C000000000000F3E2
+t1271791388
+s62434
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyCargo.xib
+c000000004BCDFEE70000000000018063
+t1271791335
+s98403
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyEquipment.xib
+c000000004BCC8B310000000000015680
+t1271696177
+s87680
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyShip.xib
+c000000004BCC8B310000000000018CC4
+t1271696177
+s101572
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Commands.xib
+c000000004BCDFDF5000000000000C4A0
+t1271791093
+s50336
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Credits.xib
+c000000004BCC8B310000000000005F0D
+t1271696177
+s24333
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EncounterLeft.xib
+c000000004BCC8B3100000000000100C4
+t1271696177
+s65732
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EncounterRight.xib
+c000000004BCC8B310000000000010171
+t1271696177
+s65905
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EndGame.xib
+c000000004BCC8B3100000000000055A4
+t1271696177
+s21924
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/GalacticChart.xib
+c000000004BCC8B31000000000000A64E
+t1271696177
+s42574
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/GameOptions.xib
+c000000004BCC8B31000000000000DC33
+t1271696177
+s56371
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/HelloWindow.xib
+c000000004BCF597E0000000000005148
+t1271880062
+s20808
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Help.xib
+c000000004BCC8B310000000000006120
+t1271696177
+s24864
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/HighScores.xib
+c000000004BCC8B310000000000006425
+t1271696177
+s25637
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/JumpStart.xib
+c000000004BCC8B310000000000005267
+t1271696177
+s21095
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Log.xib
+c000000004BCC8B3100000000000088F9
+t1271696177
+s35065
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/MainWindow.xib
+c000000004BCD13E5000000000000E52F
+t1271731173
+s58671
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/NewGame.xib
+c000000004BCC8B31000000000000F2DD
+t1271696177
+s62173
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/News.xib
+c000000004BCC8B310000000000006AF8
+t1271696177
+s27384
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/PersonnelRoster.xib
+c000000004BCE00A000000000000102DD
+t1271791776
+s66269
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SaveGames.xib
+c000000004BCC8B31000000000000788A
+t1271696177
+s30858
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SellCargo.xib
+c000000004BCC8B310000000000018857
+t1271696177
+s100439
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SellEquipment.xib
+c000000004BCC8B310000000000013862
+t1271696177
+s79970
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SettingsView.xib
+c000000004BCC8B31000000000001A330
+t1271696177
+s107312
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShipInfo.xib
+c000000004BCC8B31000000000000C4DE
+t1271696177
+s50398
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShipYard.xib
+c000000004BCC8B31000000000000C499
+t1271696177
+s50329
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShortRangeChart.xib
+c000000004BCC8B310000000000004B85
+t1271696177
+s19333
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SystemInfo.xib
+c000000004BCC8B31000000000000D03F
+t1271696177
+s53311
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Viewer.xib
+c000000004BCC8B3100000000000064AD
+t1271696177
+s25773
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Warp.xib
+c000000004BCC8B31000000000001D5AF
+t1271696177
+s120239
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/WebView.xib
+c000000004BCC8B3100000000000062A0
+t1271696177
+s25248
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app.dSYM
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Nanomite-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Start.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Bank.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-VixDreadnaught-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-KorahMenace-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-SystemInfo.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-CommanderStatus.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-YouDied.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/15-Bottle.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Galaxy.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Minox-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-ShortRangeChart.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-SpathiScout-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-BuyCargo.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-T16Womprat-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-SellEquipment.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Vorchan-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/57_icon.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-HirogenFreighter-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-ShipYard.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-SellCargo.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-VorlonCruiser-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-BuyEquip.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-YT1300-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-PersonnelRoster.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128D.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128S.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-TkharUberhauler-Bg.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/AirWrench.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Ambiance.m4a
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/AppSettingsView.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeAlert.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeBlue.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeTarget.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Bank.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Blue.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Buy.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BuyCargo.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BuyEquipment.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BuyShip.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Cancel.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Cargo.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/CargoViewController.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/CashReg.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs1.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs2.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs3.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs4.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs5.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs6.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs7.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs8.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs9.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/CommanderTabBarStatus.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Commands
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Commands.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Credits.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Default.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Target.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Visited.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Wormhole.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Encounter.m4a
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterAlien.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterLeft.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterMerchant.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterPirate.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterPolice.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterRight.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EndGame.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Entitlements.plist
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/FireLaser.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Full
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GPTA.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GPTATab.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GalacticChart.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Galaxy.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GameOptions.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GoldLog.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GrayLog.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HTML
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HelloWindow.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Help.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HighScores.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HyperWARP.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HyperWarp.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Info.plist
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Info.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Jump
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/JumpStart.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/LedLum.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Localizable.strings
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Log.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Log.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/MainWindow.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/NewGame.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/News.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long0.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long1.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long10.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long11.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long12.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long13.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long14.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long15.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long16.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long2.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long3.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long4.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long5.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long6.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long7.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long8.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long9.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_LongPAD.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short0.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short1.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short10.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short11.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short12.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short13.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short14.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short15.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short16.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short2.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short3.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short4.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short5.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short6.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short7.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short8.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short9.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_ShortPirate.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PersonnelRoster.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PkgInfo
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Pling.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PlusButton.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Pock.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PoliceEncounter.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PowerDown.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Print.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Quests.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/QuestsViewController.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Refuel.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/RetireLavishly.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/RetirePoorly.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SaveGames.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SellCargo.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SellEquipment.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Settings.bundle
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SettingsView.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Ship.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ShipInfo.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ShipViewController.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ShipYard.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ShortRange.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ShortRangeChart.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Sounds
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Space.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Status.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/StatusViewController.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SwitchClick.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/SystemInfo.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Systems
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/TransportTo.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Tribble.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Viewer.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Warp.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WebView.nib
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WelcomeTo.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WormHole.png
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WormJump.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WormJumpArrive.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/YouDied.jpg
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/YourHit.caf
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AlertModalTextWindow.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AlertModalWindow.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AppDelegate.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AppSettingsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AudioFX.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BankViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyCargoView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyCargoViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyEquipmentViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyShipViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CargoViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CommandViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CommanderTabBarStatus.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CreditsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/EncounterViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/EndOfGameViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/Full.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GPTAViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GalacticChartView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GalacticChartViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GameOptionsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HelloWindowViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HelpViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HighScoresViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/JumpStartViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/LogViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/MainToolBar.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/NewsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/PersonnelRosterViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/Player.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/PricesView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/QuestView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/QuestsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SaveGameCell.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SaveGameViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellCargoView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellCargoViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellEquipmentViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SettingsViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipInfoView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipInfoViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipYardView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipYardViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShortRangeChartView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShortRangeChartViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SoundEngine.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SoundManager.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SpecialCargoView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StartGameToolBar.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StartGameViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StatusView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StatusViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SystemInfoViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ViewerViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/WarpSystemInfoView.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/WarpViewController.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/main.m
+c000000004BCC8B3000000000000003D5
+t1271696176
+s981
+i<UIKit/UIKit.h>
+
+N/var/folders/1u/1us6l5nUElKtffguunZIs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/App_Prefix-eiufxhkhbdzxhhekxxihoocqsovo/App_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1u/1us6l5nUElKtffguunZIs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/App_Prefix-fjtbueqeljylnebvgylkqvyxuecg/App_Prefix.pch.gch
+t2
+s0
+
+NApp-Info.plist
+c000000004BCF8D120000000000000461
+t1271893266
+s1121
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AlertModalTextWindow.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalTextWindow.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AlertModalWindow.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AlertModalWindow.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AppDelegate.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AppSettingsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/AppSettingsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/AudioFX.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/AudioFX.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BankViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BankViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyCargoView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyCargoViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyCargoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyEquipmentViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyEquipmentViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/BuyShipViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/BuyShipViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CargoViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CargoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CommandViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CommandViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CommanderTabBarStatus.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CommanderTabBarStatus.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/CreditsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/CreditsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/EncounterViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EncounterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/EndOfGameViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/EndOfGameViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GPTAViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GPTAViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GalacticChartView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GalacticChartViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GalacticChartViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/GameOptionsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/GameOptionsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HelloWindowViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelloWindowViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HelpViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HelpViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/HighScoresViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/HighScoresViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/JumpStartViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/JumpStartViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/LogViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/LogViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/MainToolBar.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/MainToolBar.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/NewsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/NewsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/PersonnelRosterViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PersonnelRosterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/Player.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/Player.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/PricesView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/PricesView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/QuestView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/QuestView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/QuestsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/QuestsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SaveGameCell.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SaveGameViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SaveGameViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellCargoView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellCargoViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellCargoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SellEquipmentViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SellEquipmentViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SettingsViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SettingsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipInfoView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipInfoViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipInfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/ShipViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipYardView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShipYardViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShipYardViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShortRangeChartView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ShortRangeChartViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ShortRangeChartViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SoundEngine.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundEngine.cpp" normal armv6 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SoundManager.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/AudioSupport/SoundManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SpecialCargoView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SpecialCargoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StartGameToolBar.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameToolBar.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StartGameViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StartGameViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StatusView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/StatusView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/StatusViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/StatusViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/SystemInfoViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/SystemInfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/ViewerViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/ViewerViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/WarpSystemInfoView.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpSystemInfoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/WarpViewController.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/WarpViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/HyperWARP.build/Debug-iphoneos/Dark Nova.build/Objects-normal/armv6/main.o" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CargoViewController.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/CommanderTabBarStatus.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/GPTATab.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/QuestsViewController.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/ShipViewController.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/Classes/TabStatus/StatusViewController.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/AppSettingsView.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Bank.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyCargo.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyEquipment.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/BuyShip.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Commands.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Credits.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EncounterLeft.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EncounterRight.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/EndGame.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/GalacticChart.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/GameOptions.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/HelloWindow.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Help.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/HighScores.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/JumpStart.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Log.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/NewGame.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/News.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/PersonnelRoster.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SaveGames.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SellCargo.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SellEquipment.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SettingsView.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShipInfo.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShipYard.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/ShortRangeChart.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/SystemInfo.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Viewer.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/Warp.xib"
+r0
+
+CCompileXIB "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/XIB/WebView.xib"
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128.png" Images/1-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128D.png" Images/1-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/1-Ship128S.png" Images/1-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128.png" Images/10-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128D.png" Images/10-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/10-Ship128S.png" Images/10-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128.png" Images/11-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128D.png" Images/11-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/11-Ship128S.png" Images/11-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128.png" Images/12-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128D.png" Images/12-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/12-Ship128S.png" Images/12-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128.png" Images/13-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128D.png" Images/13-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/13-Ship128S.png" Images/13-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128.png" Images/14-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128D.png" Images/14-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/14-Ship128S.png" Images/14-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/15-Bottle.png" Images/15-Bottle.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128.png" Images/2-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128D.png" Images/2-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/2-Ship128S.png" Images/2-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128.png" Images/3-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128D.png" Images/3-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/3-Ship128S.png" Images/3-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128.png" Images/4-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128D.png" Images/4-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/4-Ship128S.png" Images/4-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128.png" Images/5-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128D.png" Images/5-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/5-Ship128S.png" Images/5-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/57_icon.png" 57_icon.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128.png" Images/6-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128D.png" Images/6-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/6-Ship128S.png" Images/6-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128.png" Images/7-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128D.png" Images/7-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/7-Ship128S.png" Images/7-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128.png" Images/8-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128D.png" Images/8-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/8-Ship128S.png" Images/8-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128.png" Images/9-Ship128.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128D.png" Images/9-Ship128D.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/9-Ship128S.png" Images/9-Ship128S.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeAlert.png" Images/BadgeAlert.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeBlue.png" Images/BadgeBlue.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/BadgeTarget.png" Images/BadgeTarget.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Cargo.png" Buttons/Cargo.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs1.png" Images/ColorTabs1.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs2.png" Images/ColorTabs2.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs3.png" Images/ColorTabs3.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs4.png" Images/ColorTabs4.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs5.png" Images/ColorTabs5.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs6.png" Images/ColorTabs6.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs7.png" Images/ColorTabs7.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs8.png" Images/ColorTabs8.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/ColorTabs9.png" Images/ColorTabs9.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Default.png" Default.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot.png" Images/Dot.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Target.png" Images/Dot_Target.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Visited.png" Images/Dot_Visited.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Dot_Wormhole.png" Images/Dot_Wormhole.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterAlien.png" Images/EncounterAlien.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterMerchant.png" Images/EncounterMerchant.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterPirate.png" Images/EncounterPirate.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/EncounterPolice.png" Images/EncounterPolice.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/GPTA.png" Buttons/GPTA.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/HyperWARP.png" Buttons/HyperWARP.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Info.png" Buttons/Info.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Log.png" Buttons/Log.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long.png" Buttons/PAD_Long.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long0.png" Buttons/PAD_Long0.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long1.png" Buttons/PAD_Long1.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long10.png" Buttons/PAD_Long10.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long11.png" Buttons/PAD_Long11.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long12.png" Buttons/PAD_Long12.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long13.png" Buttons/PAD_Long13.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long14.png" Buttons/PAD_Long14.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long15.png" Buttons/PAD_Long15.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long16.png" Buttons/PAD_Long16.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long2.png" Buttons/PAD_Long2.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long3.png" Buttons/PAD_Long3.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long4.png" Buttons/PAD_Long4.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long5.png" Buttons/PAD_Long5.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long6.png" Buttons/PAD_Long6.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long7.png" Buttons/PAD_Long7.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long8.png" Buttons/PAD_Long8.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Long9.png" Buttons/PAD_Long9.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_LongPAD.png" Buttons/PAD_LongPAD.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short0.png" Buttons/PAD_Short0.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short1.png" Buttons/PAD_Short1.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short10.png" Buttons/PAD_Short10.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short11.png" Buttons/PAD_Short11.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short12.png" Buttons/PAD_Short12.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short13.png" Buttons/PAD_Short13.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short14.png" Buttons/PAD_Short14.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short15.png" Buttons/PAD_Short15.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short16.png" Buttons/PAD_Short16.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short2.png" Buttons/PAD_Short2.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short3.png" Buttons/PAD_Short3.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short4.png" Buttons/PAD_Short4.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short5.png" Buttons/PAD_Short5.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short6.png" Buttons/PAD_Short6.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short7.png" Buttons/PAD_Short7.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short8.png" Buttons/PAD_Short8.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_Short9.png" Buttons/PAD_Short9.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PAD_ShortPirate.png" Buttons/PAD_ShortPirate.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/PlusButton.png" Images/PlusButton.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Print.png" Images/Print.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Quests.png" Buttons/Quests.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Ship.png" Buttons/Ship.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Status.png" Buttons/Status.png
+r0
+
+CCopyPNGFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/WormHole.png" Buttons/WormHole.png
+r0
+
+CCopyPlistFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Entitlements.plist" Entitlements.plist
+r0
+
+CCopyStringsFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Localizable.strings" Localizable.strings
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/1-Nanomite-Bg.jpg Images/1-Nanomite-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/1-Start.jpg Images/1-Start.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/10-Bank.jpg Images/10-Bank.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/10-VixDreadnaught-Bg.jpg Images/10-VixDreadnaught-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/11-KorahMenace-Bg.jpg Images/11-KorahMenace-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/11-SystemInfo.jpg Images/11-SystemInfo.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/12-CommanderStatus.jpg Images/12-CommanderStatus.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/13-YouDied.jpg Images/13-YouDied.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/2-Galaxy.jpg Images/2-Galaxy.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/2-Minox-Bg.jpg Images/2-Minox-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/3-ShortRangeChart.jpg Images/3-ShortRangeChart.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/3-SpathiScout-Bg.jpg Images/3-SpathiScout-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/4-BuyCargo.jpg Images/4-BuyCargo.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/4-T16Womprat-Bg.jpg Images/4-T16Womprat-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/5-SellEquipment.jpg Images/5-SellEquipment.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/5-Vorchan-Bg.jpg Images/5-Vorchan-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/6-HirogenFreighter-Bg.jpg Images/6-HirogenFreighter-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/6-ShipYard.jpg Images/6-ShipYard.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/7-SellCargo.jpg Images/7-SellCargo.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/7-VorlonCruiser-Bg.jpg Images/7-VorlonCruiser-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/8-BuyEquip.jpg Images/8-BuyEquip.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/8-YT1300-Bg.jpg Images/8-YT1300-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/9-PersonnelRoster.jpg Images/9-PersonnelRoster.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/9-TkharUberhauler-Bg.jpg Images/9-TkharUberhauler-Bg.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/AirWrench.caf Audio/AirWrench.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Ambiance.m4a Audio/Ambiance.m4a
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Blue.jpg Images/Blue.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Buy.caf Audio/Buy.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Cancel.caf Audio/Cancel.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/CashReg.caf Audio/CashReg.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Commands Audio/Commands
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Encounter.m4a Audio/Encounter.m4a
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/FireLaser.caf Audio/FireLaser.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Galaxy.jpg Images/Galaxy.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/GoldLog.jpg Images/GoldLog.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/GrayLog.jpg Images/GrayLog.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/HTML HTML
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/HyperWarp.caf Audio/HyperWarp.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Jump Jump
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/LedLum.caf Audio/LedLum.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Pling.caf Audio/Pling.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Pock.caf Audio/Pock.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/PoliceEncounter.caf Audio/PoliceEncounter.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/PowerDown.caf Audio/PowerDown.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Refuel.caf Audio/Refuel.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/RetireLavishly.jpg Images/RetireLavishly.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/RetirePoorly.jpg Images/RetirePoorly.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Settings.bundle Settings.bundle
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/ShortRange.jpg Images/ShortRange.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Sounds Audio/Sounds
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Space.jpg Images/Space.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/SwitchClick.caf Audio/SwitchClick.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Systems Audio/Systems
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/TransportTo.caf Audio/TransportTo.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/Tribble.caf Audio/Tribble.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/WelcomeTo.caf Audio/WelcomeTo.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/WormJump.caf Audio/WormJump.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/WormJumpArrive.caf Audio/WormJumpArrive.caf
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/YouDied.jpg Images/YouDied.jpg
+r0
+
+CCpResource build/Debug-iphoneos/Full.app/YourHit.caf Audio/YourHit.caf
+r0
+
+CGenerateDSYMFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app.dSYM" "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Full"
+r0
+
+CLd "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Full" normal armv6
+r0
+
+CProcessInfoPlistFile "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app/Info.plist" App-Info.plist
+r0
+
+CProcessPCH /var/folders/1u/1us6l5nUElKtffguunZIs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/App_Prefix-eiufxhkhbdzxhhekxxihoocqsovo/App_Prefix.pch.gch App_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/1u/1us6l5nUElKtffguunZIs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/App_Prefix-fjtbueqeljylnebvgylkqvyxuecg/App_Prefix.pch.gch App_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/shon/Documents/Dark Nova/Builds/Test/Android Seed/build/Debug-iphoneos/Full.app"
+r0
+
