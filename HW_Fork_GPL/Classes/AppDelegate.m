@@ -299,7 +299,8 @@ BOOL bStartNewGame;
 	[self initTheGame];
 	[window makeKeyAndVisible];
 
-	[window addSubview:navigationController.view];		
+//	[window addSubview:navigationController.view];
+    [window setRootViewController:navigationController];
 	[self showStartGame];
 
 	[self performSelector:@selector(loadAudioSystemSounds) withObject:nil afterDelay:0.0];
