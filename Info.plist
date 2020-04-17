@@ -8,28 +8,28 @@
 	<string>Dark Nova</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>DN-57x57.png</string>
-	<key>NSHumanReadableCopyright</key>
-	<string></string>
 	<key>CFBundleGetInfoString</key>
 	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>DN-57x57.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.munkyfun.dnova</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>S1</string>
-	<key>CFBundleShortVersionString</key>
-	<string></string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>UIPrerenderedIcon</key>
