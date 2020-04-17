@@ -1,44 +1,65 @@
-/*
-    Dark Nova © Copyright 2009 Dead Jim Studios
-    This file is part of Dark Nova.
-
-    Dark Nova is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Dark Nova is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Dark Nova.  If not, see <http://www.gnu.org/licenses/>
-*/
+//
+//  Player.h
+//
+//  Copyright (C) Dead Jim Studios 2009-2010, All rights reserved.
+//
+// This file is part of HyperWARP.
+//
+// HyperWARP is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// HyperWARP is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with HyperWARP.  If not, see <http://www.gnu.org/licenses/>.
+//
+//
 
 #import <UIKit/UIKit.h>
-#include "spacetrader.h"
-#include "EncounterViewController.h"
-#include "PersonellRosterViewController.h"
-#import "AudioPlayer.h"
+#include "GameDefines.h"
+#import "EncounterViewController.h"
+#import "PersonnelRosterViewController.h"
 #import "BuyEquipmentViewController.h"
 #import "SystemInfoViewController.h"
+#import "BuyShipViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
+
+enum aNoticeMode
+{
+	aAlert = 0,
+	aCaution,
+	aConfirm,
+	aNotice,
+	aWarning
+};
 
 
-@interface Player : NSObject {
+@interface Player : NSObject <UIAlertViewDelegate, EncounterViewControllerDelegate> {
 	
+	NSUserDefaults		*playerDefaults;
 
 	NSUInteger	pilotSkill;
 	NSUInteger	fighterSkill;
 	NSUInteger	traderSkill;
 	NSUInteger	engineerSkill;
-	NSString*	pilotName;
+	NSString	*pilotName;
+	NSString	*pilotLog;
 	NSUInteger	gameDifficulty;
 	NSUInteger	totalSkillPoints;
 	NSUInteger	credits;
+	NSUInteger  gesdb;
 	NSUInteger	debt;
 	NSInteger	policeRecordScore;
 	NSInteger	reputationScore;
+	NSInteger	transporterScore;	
+	NSUInteger	totalPassengers;
+	NSUInteger	totalPEPPassengers;
+	NSUInteger	transportRatingTotal;
 	NSUInteger	policeKills;
 	NSUInteger	traderKills;
 	NSUInteger	pirateKills;
@@ -48,43 +69,46 @@
 	NSUInteger	days;	
 	
 	NSArray*	solarSystemName, *systemSize, *techLevel;
-	bool		insurance;
-	bool		escapePod;
-	bool		moonBought;
-	bool		remindLoans;
-	bool		artifactOnBoard;
-	bool		tribbleMessage;
-	bool		possibleToGoThroughRip;
-	bool		arrivedViaWormhole;
+	BOOL		insurance;
+	BOOL		escapePod;
+	BOOL		moonBought;
+	BOOL		remindLoans;
+	BOOL		artifactOnBoard;
+	BOOL		tribbleMessage;
+	BOOL		rygellianFleasMessage;
+	BOOL		possibleToGoThroughRip;
+	BOOL		arrivedViaWormhole;
 	int			trackedSystem;
-	bool		showTrackedRange;
-	bool		justLootedMarie;
+	BOOL		showTrackedRange;
+	BOOL		justLootedMary;
 	int			chanceOfVeryRareEncounter;
-	bool		alreadyPaidForNewspaper;
-//	bool		canSuperWarp;
-	bool		gameLoaded;
+	BOOL		alreadyPaidForNewspaper;
+	BOOL		alreadyLoggedNews;
+	BOOL		gameLoaded;
 	int			monsterHull;
 	int			galacticChartSystem;
-//	bool		attackFleeing;
-	bool		newsAutoPay;
-	
+	BOOL		newsAutoPay;
 	
 	int			NewsEvents[MAXSPECIALNEWSEVENTS];
+	NSString	*newestSavedGame;
+	NSDate		*oldDate;
+	NSDate		*newDate;
+
 		
 	struct SOLARSYSTEM {
 		Byte NameIndex;
-		Byte TechLevel;			// Tech level
-		Byte Politics;			// Political system
-		Byte Status;			// Status
-		Byte X;					// X-coordinate (galaxy width = 150)
-		Byte Y;					// Y-coordinate (galaxy height = 100)
-		Byte SpecialResources;	// Special resources
-		Byte Size;				// System size
-		int Qty[MAXTRADEITEM];	// Quantities of tradeitems. These change very slowly over time.
-		Byte CountDown;			// Countdown for reset of tradeitems.
-		Boolean Visited;		// Visited Yes or No
-		int Special;			// Special event
-	} /*currentSystemInfo,*/ solarSystem[MAXSOLARSYSTEM] ;
+		Byte TechLevel;			
+		Byte Politics;			
+		Byte Status;			
+		Byte X;					
+		Byte Y;					
+		Byte SpecialResources;	
+		Byte Size;				
+		int Qty[MAXTRADEITEM];	
+		Byte CountDown;			
+		Boolean Visited;		
+		int Special;			
+	} solarSystem[MAXSOLARSYSTEM] ;
 	
 	
 	struct SHIP {
@@ -98,77 +122,85 @@
 		Byte Fuel;
 		long Hull;
 		long Tribbles;
+		long RygellianFleas;
+		int PirateHullUpgrade;
 		long ForFutureUse[4];
 	} ship, Opponent;
 	
-	// Systems
-	long BuyPrice[MAXTRADEITEM];    // Price list current system
-	long BuyingPrice[MAXTRADEITEM]; // Total price paid for trade goods
-	long SellPrice[MAXTRADEITEM];   // Price list current system
-	long ShipPrice[MAXSHIPTYPE];    // Price list current system (recalculate when buy ship screen is entered)
+	long BuyPrice[MAXTRADEITEM];    
+	long BuyingPrice[MAXTRADEITEM]; 
+	long SellPrice[MAXTRADEITEM];   
+	long ShipPrice[MAXSHIPTYPE];    
 	Byte Wormhole[MAXWORMHOLE];
-	//NSString* solarSystemName[MAXSOLARSYSTEM]
-	Byte monsterStatus;       // 0 = Space monster isn't available, 1 = Space monster is in Acamar system, 2 = Space monster is destroyed
-	Byte dragonflyStatus;     // 0 = Dragonfly not available, 1 = Go to Baratas, 2 = Go to Melina, 3 = Go to Regulas, 4 = Go to Zalkon, 5 = Dragonfly destroyed
-	Byte japoriDiseaseStatus; // 0 = No disease, 1 = Go to Japori (always at least 10 medicine cannisters), 2 = Assignment finished or canceled
-	Byte jarekStatus;         // Ambassador Jarek 0=not delivered; 1=on board; 2=delivered
-	Byte invasionStatus;      // Status Alien invasion of Gemulon; 0=not given yet; 1-7=days from start; 8=too late
-	Byte experimentStatus;    // Experiment; 0=not given yet,1-11 days from start; 12=performed, 13=cancelled
-	Byte fabricRipProbability; // if Experiment = 8, this is the probability of being warped to a random planet.
-	Byte veryRareEncounter;     // bit map for which Very Rare Encounter(s) have taken place (see traveler.c, around line 1850)
-	Byte wildStatus;			// Jonathan Wild: 0=not delivered; 1=on board; 2=delivered
-	Byte reactorStatus;			// Unstable Reactor Status: 0=not encountered; 1-20=days of mission (bays of fuel left = 10 - (ReactorStatus/2); 21=delivered
-	Byte scarabStatus ;		// Scarab: 0=not given yet, 1=not destroyed, 2=destroyed, upgrade not performed, 3=destroyed, hull upgrade performed
+	
+	Byte monsterStatus;       
+	Byte dragonflyStatus;     
+	Byte japoriDiseaseStatus; 
+	Byte jarekStatus;         
+	Byte invasionStatus;      
+	Byte experimentStatus;    
+	Byte fabricRipProbability; 
+	Byte veryRareEncounter;     
+	Byte browerStatus;			
+	Byte reactorStatus;			
+	Byte scarabStatus ;		
+	BOOL transportPassengers;
 	NSUInteger	warpSystem;
 	int leaveEmpty;
-	bool reserveMoney;
-	bool litterWarning;
-	bool alwaysInfo;
+	BOOL reserveMoney;
+	BOOL litterWarning;
+	BOOL agreedToGPTA;
 	NSUInteger countDown;
 	int clicks;
-	bool raided;
-	bool inspected;
+	BOOL raided;
+	BOOL inspected;
 	int encounterType;
-	bool alwaysIgnorePolice;
-	bool alwaysIgnorePirates;
-	bool alwaysIgnoreTraders;
-	bool alwaysIgnoreTradeInOrbit;
-	bool trackAutoOff;
-	int ChanceOfTradeInOrbit;
-	bool autoFuel;
-	bool autoRepair;
-	bool playerShipNeedsUpdate;
-	bool opponentShipNeedsUpdate;
-	bool autoAttack;
-	bool autoFlee;
-	bool attackIconStatus;
-	bool textualEncounters;
-	bool continuous;
-	bool encounterWindow;
+	BOOL alwaysIgnorePolice;
+	BOOL alwaysIgnorePirates;
+	BOOL alwaysIgnoreTraders;
+	BOOL alwaysIgnoreTradeInOrbit;
+	BOOL trackAutoOff;
+	int chanceOfTradeInOrbit;
+	BOOL autoFuel;
+	BOOL autoRepair;
+	BOOL playerShipNeedsUpdate;
+	BOOL opponentShipNeedsUpdate;
+	BOOL autoAttack;
+	BOOL autoFlee;
+	BOOL shouldAutoAttack;
+	BOOL shouldAutoFlee;
+	BOOL attackIconStatus;
+	BOOL textualEncounters;
+	BOOL encounterWindow;
 	int activeTradeItem;
-	int Bribe;
-	bool canSuperWarp;
-//	bool musicEnabled;
+	int bribe;
+	BOOL canSuperWarp;
 	int currentGalaxySystem;
-	bool firstEncounter;
-//	bool lastMessage;
+	BOOL firstEncounter;
+		
+	BOOL leftHandIsOn;
+	BOOL speechAlertsOn;
+	SystemSoundID planetNameSoundID;
+	SystemSoundID speechFileSoundID;
+	SystemSoundID soundFileSoundID;
+	BOOL nameSoundIsDone;
 	
-	bool audioPlayerReleased;
+	int numberOfPassengers;
+	int passengersDestination;
+	BOOL didUsePEP;
+	int newShip;
+
+	EncounterViewController *encounterViewControllerInstance;
 	
-	EncounterViewController* encounterViewControllerInstance;
-	AudioPlayer* audioPlayer;
-	
-	SystemSoundID sound[20];
 };
 
-//@property bool							musicEnabled;
-@property bool							alwaysIgnorePolice;
-@property bool							alwaysIgnorePirates;
-@property bool							alwaysIgnoreTraders;
-@property bool							alwaysIgnoreTradeInOrbit;
-@property bool							autoFuel;
-@property bool							autoRepair;
-@property bool							reserveMoney;
+@property BOOL							alwaysIgnorePolice;
+@property BOOL							alwaysIgnorePirates;
+@property BOOL							alwaysIgnoreTraders;
+@property BOOL							alwaysIgnoreTradeInOrbit;
+@property BOOL							autoFuel;
+@property BOOL							autoRepair;
+@property BOOL							reserveMoney;
 @property int							leaveEmpty;
 @property  NSUInteger					pilotSkill;
 @property  NSUInteger					fighterSkill;
@@ -177,93 +209,83 @@
 @property  NSUInteger					gameDifficulty;
 @property  NSUInteger					totalSkillPoints;
 @property (nonatomic, retain) NSString*	pilotName;
+@property (nonatomic, retain) NSString*	pilotLog;
 @property NSUInteger					noClaim;
 @property NSUInteger					credits;
 @property NSUInteger					debt;
+@property NSUInteger					gesdb;
+@property int			chanceOfVeryRareEncounter;
 @property NSInteger						policeRecordScore;
 @property NSInteger						reputationScore;
 @property NSUInteger					policeKills;
 @property NSUInteger					traderKills;
 @property NSUInteger					pirateKills;
 @property NSUInteger					currentSystem;
-@property bool							insurance;
-@property bool							escapePod;
+@property BOOL							insurance;
+@property BOOL							escapePod;
 @property NSUInteger					newsSpecialEventCount;
 @property (nonatomic,copy) NSArray*		solarSystemName;
 @property (nonatomic,copy) NSArray*		systemSize;
 @property (nonatomic,copy) NSArray*		techLevel;
 @property NSUInteger					days;
-@property Byte							monsterStatus;       // 0 = Space monster isn't available, 1 = Space monster is in Acamar system, 2 = Space monster is destroyed
-@property Byte							dragonflyStatus;     // 0 = Dragonfly not available, 1 = Go to Baratas, 2 = Go to Melina, 3 = Go to Regulas, 4 = Go to Zalkon, 5 = Dragonfly destroyed
-@property Byte							japoriDiseaseStatus; // 0 = No disease, 1 = Go to Japori (always at least 10 medicine cannisters), 2 = Assignment finished or canceled
-@property Byte							jarekStatus;         // Ambassador Jarek 0=not delivered; 1=on board; 2=delivered
-@property Byte							invasionStatus;      // Status Alien invasion of Gemulon; 0=not given yet; 1-7=days from start; 8=too late
-@property Byte							experimentStatus;    // Experiment; 0=not given yet,1-11 days from start; 12=performed, 13=cancelled
-@property Byte							fabricRipProbability; // if Experiment = 8, this is the probability of being warped to a random planet.
-@property Byte							veryRareEncounter;     // bit map for which Very Rare Encounter(s) have taken place (see traveler.c, around line 1850)
-@property Byte							wildStatus;			// Jonathan Wild: 0=not delivered; 1=on board; 2=delivered
-@property Byte							reactorStatus;			// Unstable Reactor Status: 0=not encountered; 1-20=days of mission (bays of fuel left = 10 - (ReactorStatus/2); 21=delivered
-@property Byte							scarabStatus ;		// Scarab: 0=not given yet, 1=not destroyed, 2=destroyed, upgrade not performed, 3=destroyed, hull upgrade performed
-@property  NSUInteger					warpSystem;
+@property Byte							monsterStatus;
+@property Byte							dragonflyStatus;
+@property Byte							japoriDiseaseStatus;
+@property Byte							jarekStatus;
+@property Byte							invasionStatus; 
+@property Byte							experimentStatus; 
+@property Byte							fabricRipProbability;
+@property Byte							veryRareEncounter; 
+@property Byte							browerStatus;		
+@property Byte							reactorStatus;		
+@property Byte							scarabStatus ;		
+@property BOOL							transportPassengers;
+@property NSUInteger					warpSystem;
 @property int							trackedSystem;
 @property int							currentGalaxySystem;
-@property bool							showTrackedRange;
-@property bool							alwaysInfo;
+@property BOOL							showTrackedRange;
 @property NSUInteger					countDown;
-@property bool							autoAttack;
-@property bool							autoFlee;
-@property bool							attackIconStatus;
+@property BOOL							autoAttack;
+@property BOOL							autoFlee;
+@property BOOL							shouldAutoAttack;
+@property BOOL							shouldAutoFlee;
+@property BOOL							attackIconStatus;
 @property int							encounterType;
-@property bool							textualEncounters;
+@property BOOL							textualEncounters;
 @property int							clicks;
-@property bool							alreadyPaidForNewspaper;
-@property bool							newsAutoPay;
-@property bool							trackAutoOff;
-@property bool							remindLoans;
-@property bool							canSuperWarp;
-//@property (nonatomic, retain) SOLARSYSTEM*	currentSystemInfo;
-
-enum eSystemSound 
-{
-	eAlienEncounter,
-	eAlienReturnArtifact,
-	eBeginGame,
-	eBottleEncounter,
-	eBuyInsurance,
-	eBuyNewShip,
-	eBuyShipUpgardes,
-	eCantSelectAnything,
-	eFireMercenary,
-	eFireOpponent,
-	eGetGas,
-	eGetLoan,
-	eHirMercenary,
-	ePoliceEncounter,
-	eTribble,
-	eWormholeJump,
-	eYouAreDestroyed,
-	eYouLose,
-	eYouRetirelavishly,
-	eYouRetirePoorly,
-	eCommanderHit
-};	
+@property BOOL							alreadyPaidForNewspaper;
+@property BOOL							alreadyLoggedNews;
+@property BOOL							agreedToGPTA;
+@property BOOL							newsAutoPay;
+@property BOOL							trackAutoOff;
+@property BOOL							remindLoans;
+@property BOOL							canSuperWarp;
+@property (nonatomic, retain) NSString	*newestSavedGame;
+@property BOOL							leftHandIsOn;
+@property int							numberOfPassengers;
+@property int							passengersDestination;
+@property int							newShip;
+@property BOOL							didUsePEP;
+@property NSUInteger	totalPassengers;
+@property NSUInteger	totalPEPPassengers;
 
 
-
--(void)updateMercenary0Data;
--(id)initEmpty;
+-(void) updateMercenary0Data;
+-(id) initEmpty;
 -(NSUInteger) currentWorth;
+-(NSUInteger) currentNetWorth;
 -(void) payInterest;
 -(long) maxLoan;
 -(void) getLoan:(long) Loan;
 -(void) payBack:(long) Loan;
--(long) currentShipPriceWithoutCargo:(bool)forInsurance;
+-(long) currentShipPriceWithoutCargo:(BOOL)forInsurance;
 -(long) insuranceMoney;
--(bool) isNewsEvent:(int) eventFlag;
+-(BOOL) isNewsEvent:(int) eventFlag;
 -(int) latestNewsEvent;
 -(void) resetNewsEvents;
 -(void) replaceNewsEvent:(int)originalEventFlag replacementEventFlag:(int)replacementEventFlag;
 -(void) addNewsEvent:(int) eventFlag;
+
 -(NSString*)getCurrentSystemName;
 -(NSString*)getCurrentSystemSize;
 -(NSString*)getCurrentSystemTechLevel;
@@ -271,6 +293,7 @@ enum eSystemSound
 -(NSString*)getCurrentSystemPolice;
 -(NSString*)getCurrentSystemSpecalResources;
 -(NSString*)getCurrentSystemPirates;
+-(int) getCurrentSystemPirateLevel;
 
 -(NSString*)getWarpSystemName;
 -(NSString*)getWarpSystemSize;
@@ -288,143 +311,181 @@ enum eSystemSound
 -(NSUInteger)adaptTraderSkill;
 -(NSString*)currentPoliceRecord;
 -(NSString*)currentReputation;
--(bool) StartNewGame;
--(long)getSellPrice:(int)num;
--(long)getBuyPrice:(int)num;
--(long)getBuyingPrice:(int)num;
+
+-(BOOL) startNewGame;
+-(long) getSellPrice:(int)num;
+-(long) getBuyPrice:(int)num;
+-(long) getBuyingPrice:(int)num;
 -(int) filledCargoBays;
 -(int) totalCargoBays;
 -(void) buyCargo:(int)Index  Amount:(int)Amount;
--(int)getAmountToBuy:(int)Index;
--(int)getOpponentAmountToSell:(int)Index;
--(int)getAmountToSell:(int)Index;
--(void) sellCargo:(int)Index  Amount:(int)Amount Operation:(Byte)Operation ;
+-(int) getAmountToBuy:(int)Index;
+-(int) getOpponentAmountToSell:(int)Index;
+-(int) getAmountToSell:(int)Index;
+-(void) sellCargo:(int)Index  Amount:(int)Amount Operation:(Byte)Operation;
 -(Byte) getFuel;
--(void) BuyFuel:(int) Amount;
+-(void) buyFuel:(int) Amount;
 -(int) getSolarSystemX:(int)Index;
 -(int) getSolarSystemY:(int)Index;
--(bool) getSolarSystemVisited:(int)Index;
+-(BOOL) getSolarSystemVisited:(int)Index;
 -(NSString*)getSolarSystemName:(int)Index;
--(int)getCurrentSystemIndex;
--(Byte)getCurrentSystemTechLevelInt;
--(bool) wormholeExists:(int)a b:(int) b;
+-(int) getCurrentSystemIndex;
+-(Byte) getCurrentSystemTechLevelInt;
+-(BOOL) wormholeExists:(int)a b:(int) b;
 -(long) realDistance:(int)a  b:(int)b;
--(void) doWarp:(bool)viaSingularity;
--(Byte)getWormhole:(int)Index;
--(void) DeterminePrices:(Byte)SystemID;
--(long) CurrentShipPrice:(bool) ForInsurance;
+-(void) doWarp:(BOOL)viaSingularity;
+-(Byte) getWormhole:(int)Index;
+-(void) determinePrices:(Byte)SystemID;
 -(void) buyRepairs:( int) Amount;
--(int) GetFirstEmptySlot:( char) Slots Item:( int*) Item;
--(long) GetHullStrength;
+-(long) getHullStrength;
 -(long) getShipHull;
--(Byte)getCurrentShipTechLevel;
--(Byte) GetFuelTanks;
--(int)getFuelCost;
--(int)getRepairCost;
+-(Byte) getCurrentShipTechLevel;
+-(Byte) getFuelTanks;
+-(int) getFuelCost;
+-(int) getRepairCost;
 -(long) toSpend;
 
 -(NSString*)getShipName:(Byte)index;
 -(NSString*)getShipSize:(Byte)index;
--(int)getShipCargoBays:(Byte)index;
--(int)getShipRange:(Byte)index;
--(int)getShipHullStrength:(Byte)index;
--(int)getShipWeaponSlots:(Byte)index;
--(int)getShipShieldSlots:(Byte)index;
--(int)getShipGadgetSlots:(Byte)index;
--(int)getShipCrewQuarters:(Byte)index;
 -(NSString*)getShipPriceStr:(int)index;
--(int)getShipPriceInt:(int)index;
+
+-(int) getShipCargoBays:(Byte)index;
+-(int) getShipRange:(Byte)index;
+-(int) getShipHullStrength:(Byte)index;
+-(int) getShipWeaponSlots:(Byte)index;
+-(int) getShipShieldSlots:(Byte)index;
+-(int) getShipGadgetSlots:(Byte)index;
+-(int) getShipCrewQuarters:(Byte)index;
+-(int) getShipPriceInt:(int)index;
 -(void) buyShip:(int) Index ;
--(void) DetermineShipPrices;
--(Byte)getCurrentShipType;
+-(void) determineShipPrices;
+-(Byte) getCurrentShipType;
 
+-(void) travel;
+-(BOOL) isShipCloaked;
+-(int) getShipOpponentType;
+-(BOOL) attack;
+-(BOOL) flee;
+-(BOOL) ignore;
+-(BOOL) trade;
+-(BOOL) yield;
+-(BOOL) surrender;
 
--(bool)canBuyShip:(int)index;
--(void)Travel;
--(bool)isShipCloaked;
--(int)getShipOpponentType;
--(bool)attack;
--(bool)flee;
--(bool)ignore;
--(bool)trade;
--(bool)yield;
--(bool)surrender;
+-(BOOL) bribe; 
+-(BOOL) submit; 
+-(BOOL) plunder; 
+-(BOOL) interrupt; 
+-(BOOL) meet; 
+-(BOOL) board; 
+-(BOOL) drink;
+-(BOOL) bribeContinue;
+-(BOOL) submitContinue;
 
--(bool)bribe; 
--(bool)submit; 
--(bool)plunder; 
--(bool)interrupt; 
--(bool)meet; 
--(bool)board; 
--(bool)drink;
--(bool)bribeContinue;
--(bool) submitContinue;
 -(NSString*)getShipImageName:(Byte)index;
 -(NSString*)getShipDamagedImageName:(Byte)index;
 -(NSString*)getShipShieldImageName:(Byte)index;
 -(NSString*)getShipImageNameBg:(Byte)index;
 
--(NSString*) drawQuestsForm:(SystemInfoViewController*)controller;
--(NSString*) drawSpecialCargoForm;
--(NSString*) drawCurrentShipForm;
--(NSString*) getEquipmentName:(int)index;
--(NSString*)getShipEquipmentName:(int)index; // Return equipment name installed on the ship
--(int)getEquipmentPrice:(int)index;
--(int)getSellEquipmentPrice:(int)index;
--(void)buyItem:(int)index controller:(BuyEquipmentViewController*)controller;
--(void)sellEquipment:(int)index;
--(void) updateRosterWindow:(PersonellRosterViewController*)controller;
--(void) updateRosterWindow:(PersonellRosterViewController*)controller;
+-(NSString*)drawQuestsForm:(SystemInfoViewController*)controller;
+-(NSString*)drawSpecialCargoForm;
+-(NSString*)drawCurrentShipForm;
+-(NSString*)getEquipmentName:(int)index;
+-(NSString*)getShipEquipmentName:(int)index; 
+-(int) getEquipmentPrice:(int)index;
+-(int) getSellEquipmentPrice:(int)index;
+-(void) tryToBuyEquipment:(int)index controller:(BuyEquipmentViewController*)controller;
+-(void) sellEquipment:(int)index;
+-(void) updateRosterWindow:(PersonnelRosterViewController*)controller;
 -(void) fireMercenary:(int)index; 
 -(void) hireMercenaryFromRoster;
 
 -(NSString*)getSolarSystemSpecalResources:(int)index;
--(NSString*)getPriceDifference:(int)itemIndex difference:(bool)difference realPrice:(int*)realPrice maxCount:(int*)maxCount  isSmart:(int*)isSmart;
+-(NSString*)getPriceDifference:(int)itemIndex difference:(BOOL)difference realPrice:(int*)realPrice maxCount:(int*)maxCount  isSmart:(int*)isSmart;
 -(int) mercenaryMoney;
--(long) WormholeTax:(int)a b:(int) b;
+-(long) wormholeTax:(int)a b:(int) b;
 -(int) nextSystemWithinRange:(int) Current Back:(Boolean) Back;
--(void)SaveGame:(NSString*)name;
--(void)LoadGame:(NSString*)name;
--(void)ShowSaveGames:(NSMutableArray*)array name:(NSMutableArray*)name additional:(NSMutableArray*)additional;
+-(void) saveTheGame:(NSString*)name;
+-(void) loadTheGame:(NSString*)name;
+-(void) showSavedGames:(NSMutableArray*)array name:(NSMutableArray*)name additional:(NSMutableArray*)additional;
 
--(long)getShipOpponentHull;
--(long)getShipShield;
--(long)getShipOpponentShield;
--(long)getShipShieldMax;
--(long)getShipOpponentShieldMax;
--(long)getShipHullMax;
--(long)getShipOpponentHullMax;
+-(long) getShipOpponentHull;
+-(long) getShipShield;
+-(long) getShipOpponentShield;
+-(long) getShipShieldMax;
+-(long) getShipOpponentShieldMax;
+-(long) getShipHullMax;
+-(long) getShipOpponentHullMax;
 
--(bool)IsNewsExist;
--(bool)IsHireExist;
--(bool)IsSpecialExist;
--(void)payForNewsPaper:(int)sum;
--(void)FrmAlert:(NSString *)MessageId;
+-(BOOL) doesNewsExist;
+-(BOOL) doesHireExist;
+-(BOOL) doesSpecialExist;
+-(void) payForNewsPaper:(int)sum;
 
--(void)playMusic;
--(void)stopMusic;
--(void)disableMusic;
--(void)enableMusic;
--(void)playSound:(enum eSystemSound)soundType;
--(bool)isMusicEnabled;
--(void)disableSound;
--(void)enableSound;
--(bool)isSoundEnabled;
+-(void) disableMusic;
+-(void) enableMusic;
+-(BOOL) isMusicEnabled;
+-(void) disableSound;
+-(void) enableSound;
+-(BOOL) isSoundEnabled;
 
 -(NSString*)getCurrentSystemStatus;
 -(NSString*)drawNewspaperForm;
--(void)showSpecialEvent;
+-(void) showSpecialEvent;
 -(void) specialEventFormHandleEvent;
--(void)showRetiredForm;
--(void)clearHighScores;
--(void)fillHighScores:(NSMutableArray*)array;
--(bool) EndOfGame:( char) EndStatus;
--(void) initSounds;
--(void)eraseAutoSave;
--(void)restartMusic;
+-(void) showRetiredForm;
+-(void) clearHighScores;
+-(void) fillHighScores:(NSMutableArray*)array;
+-(BOOL) endOfGame:( char) EndStatus;
+
 -(NSString*) drawQuestsForm;
--(void)initGlobals;
+-(void) initGlobals;
 -(void) setInfoViewController:(SystemInfoViewController*)controller;
--(void)continuePlunder;
--(void)plunderItems:(int) index count:(int)count;
+-(void) continuePlunder;
+-(void) plunderItems:(int) index count:(int)count;
+
+-(void) eraseAutoSave;
+-(void) appendPilotLog: (NSString *)text;
+-(void) eraseSaveFile: (NSString *)fileToBeRemoved;
+-(void) updateFileNames;
+-(NSString*)allSpecialEvents;
+-(NSString*)allSystems;
+
+-(void) makeDeposit:(long) dep;
+-(void) makeWithDrawl:(long) dep;
+-(void) disableLeftHandEncounter;
+-(void) enableLeftHandEncounter;
+-(void) cheatQuantumShield;
+-(void) cheatTalbotLaser;
+-(void) cheatFuelCompactor;
+
+-(BOOL) canUpgradeShield;
+-(BOOL) canUpgradeWeapon;
+-(BOOL) canUpgradeHull;
+-(BOOL) maxShieldUpgradePrice;
+-(BOOL) maxWeaponUpgradePrice;
+-(void) pirateUpgradeHull:(int)amount cost:(int)fee;
+-(void) pirateUpgradeShield:(int)amount cost:(int)fee;
+-(void) pirateUpgradeWeapon:(int)amount cost:(int)fee;
+
+-(BOOL) isSpeechEnabled;
+-(void) enableSpeech;
+-(void) disableSpeech;
+-(void) playSpeechFile: (NSString *)filename;
+-(void) playSoundFile: (NSString *)filename;
+
+-(void) showPassengers;
+-(BOOL) okayToTransportPassengers;
+-(int) getNumOfPassengers;
+-(int) getPassengerPlanet;
+-(void) passengersUsePEP;
+-(BOOL) shipIsInfected;
+-(void) showUserNotice:(int)mode;
+-(void) cannotAffordNews;
+-(BOOL) shouldListShip:(int)index;
+-(BOOL) canBuyShip:(int)index controller:(BuyShipViewController *)controller;
+-(void) showJumpStartGames:(NSMutableArray *)array name:(NSMutableArray *)name additional:(NSMutableArray *)additional;
+-(void) loadJumpGame:(NSString *)name;
+-(void) resetVisited;
+
+
 @end

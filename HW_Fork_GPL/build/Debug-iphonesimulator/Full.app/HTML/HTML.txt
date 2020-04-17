@@ -1,8 +1,0 @@
-AppIcon.png
-Credits.html
-Credits.pdf
-Guide.html
-QuickStart.html
-QuickStart.pdf
-Tips.html
-UsersGuide.pdf
